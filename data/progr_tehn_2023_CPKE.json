@@ -57,7 +57,7 @@
 	{
 		"id": "1.1.6",
 		"question": "Kādiem mērķiem programmēšanas valodās izmanto sazarojumus?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) lai izvadītu informāciju uz ekrāna",
 			"b) lai kādas darbības atkārtotu vairākas reizes",
@@ -79,7 +79,7 @@
 	{
 		"id": "1.1.8",
 		"question": "Cik baitu atmiņā C++ un Pascal valodās aizņem char tipa mainīgais?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 2",
 			"b) 0",
@@ -134,7 +134,7 @@
 	{
 		"id": "1.1.13",
 		"question": "Kas OOP ļauj veidot jaunas klases uz jau esošo klašu bāzes?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) mantošana",
 			"b) tipu abstrakcija",
@@ -288,7 +288,7 @@
 	{
 		"id": "1.1.28",
 		"question": "Kura nav salīdzināšanas operācijas zīme programmēšanas valodās?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) >",
 			"b) <",
@@ -299,7 +299,7 @@
 	{
 		"id": "1.1.29",
 		"question": "Kuru simbolu lieto C++, C#, Delfi vai Java programmas rindas komentāram?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) //",
 			"b) #",
@@ -645,8 +645,7 @@
 			"a) OOP",
 			"b) Unity",
 			"c) Google",
-			"d) GUI",
-			""
+			"d) GUI"
 		]
 	},
 	{
@@ -863,8 +862,8 @@
 		"question": "Kurš ir pareizs apgalvojums par binārās meklēšanas koku (binary search tree)?",
 		"correct": null,
 		"answers": [
-			"a) kreisā bērna atslēga ir mazāka par paša mezgla atslēgu, bet labā– lielākā",
-			"b) kreisā bērna atslēga ir lielāka par paša mezgla atslēgu, bet labā– mazākā",
+			"a) kreisā bērna atslēga ir mazāka par paša mezgla atslēgu, bet labā - lielākā",
+			"b) kreisā bērna atslēga ir lielāka par paša mezgla atslēgu, bet labā - mazākā",
 			"c) mezglu atslēgas vērtības var atkārtoties",
 			"d) koku lieto, lai pierakstītu aritmētiskās izteiksmes"
 		]
@@ -872,7 +871,7 @@
 	{
 		"id": "1.2.21",
 		"question": "Kas neraksturo kārtošanas (sorting) metodes efektivitāti?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) sagaidāmais salīdzinājumu skaits",
 			"b) sagaidāmais pārvietojumu skaits",
@@ -1235,7 +1234,7 @@
 	{
 		"id": "2.1.21",
 		"question": "Kādās mērvienībās mēra procesora darbības ātrumu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) kilobaitos",
 			"b) sekundēs",
@@ -1456,7 +1455,7 @@
 	{
 		"id": "2.2.3",
 		"question": "Kāds ir bitu skaits IPv4 adresē?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) 4",
 			"b) 8",
@@ -1511,7 +1510,7 @@
 	{
 		"id": "2.2.8",
 		"question": "Kāds apzīmējums ir vītā pāra kabeļa savienotājam?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) BNC",
 			"b) DB-9",
@@ -2116,7 +2115,7 @@
 	{
 		"id": "3.1.30",
 		"question": " Ko nozīmē abreviatūra SQL?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Standart Query Language",
 			"b) Small Query Language",
@@ -2127,7 +2126,7 @@
 	{
 		"id": "3.1.31",
 		"question": "Ar kādu SQL operatoru var pievienot ierakstus datu bāzei?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -2138,7 +2137,7 @@
 	{
 		"id": "3.1.32",
 		"question": "Ar kādu SQL operatoru var atlasīt ierakstus no datu bāzes?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -2149,7 +2148,7 @@
 	{
 		"id": "3.1.33",
 		"question": "Ar kādu SQL operatoru var dzēst ierakstus no datu bāzes?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -2160,7 +2159,7 @@
 	{
 		"id": "3.1.34",
 		"question": "Kas ir MySQL?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) programmēšanas valoda",
 			"b) relāciju datubāzu pārvadības sistēma",
@@ -2171,7 +2170,7 @@
 	{
 		"id": "3.1.35",
 		"question": "Kura SQL komanda izveido tabulu 'tbl1'?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) CREATE tbl1 ...",
 			"b) CREATEtable tbl1 FROM db1 ...",
@@ -2193,7 +2192,7 @@
 	{
 		"id": "3.1.37",
 		"question": "Kādu lauku datu tipu SQL valodā ir ieteicams izvēlēties tālruņa numura glabāšanai?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Varchar",
 			"b) Numeric",
@@ -2776,19 +2775,18 @@
 	{
 		"id": "4.1.29",
 		"question": "Kura ir Windows OS noklusējuma interneta pārlūkprogramma?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Microsoft Edge",
 			"b) Opera",
 			"c) FireFox",
-			"d) Google Chrome",
-			""
+			"d) Google Chrome"
 		]
 	},
 	{
 		"id": "4.2.1",
 		"question": "Ko dara komanda CD CMD vidē?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) atver CD-ROM",
 			"b) dzēš darba direktoriju",
@@ -2799,7 +2797,7 @@
 	{
 		"id": "4.2.2",
 		"question": "Ar kuru komandu var izveidot jaunu direktoriju CMD vidē?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) DIR",
 			"b) CAT",
@@ -2876,7 +2874,7 @@
 	{
 		"id": "4.2.9",
 		"question": "Kura ir Backup programmas funkcija?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) defragmentācija",
 			"b) rezerves kopijas veidošana",
@@ -2908,20 +2906,19 @@
 	},
 	{
 		"id": "4.2.12",
-		"question": "Kura komanda pādevē failu CMD vidē?",
+		"question": "Kura komanda pārdevē failu CMD vidē?",
 		"correct": null,
 		"answers": [
 			"a) REN",
 			"b) RMDIR",
 			"c) TYPE",
-			"d) NAME",
-			""
+			"d) NAME"
 		]
 	},
 	{
 		"id": "4.3.1",
 		"question": "Kā atšifrējas MBR abreviatūra Linux OS?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Microsoft Boot Record",
 			"b) Microsoft Byte Record",
@@ -2932,7 +2929,7 @@
 	{
 		"id": "4.3.2",
 		"question": "Kas ir GNOME un KDE Linux OS?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) operētājsistēma",
 			"b) datorvīruss",
@@ -2954,7 +2951,7 @@
 	{
 		"id": "4.3.4",
 		"question": "Kas ir Unix?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Linux paveids",
 			"b) lietojumprogramma",
@@ -2976,7 +2973,7 @@
 	{
 		"id": "4.3.6",
 		"question": "Ko dara Linux komanda cp?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) pārvieto failu/direktorijas",
 			"b) kopē failu/direktorijas",
@@ -2998,7 +2995,7 @@
 	{
 		"id": "4.3.8",
 		"question": "Ko dara Linux komanda mv?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) pārvieto failu/direktorijas",
 			"b) kopē failu/direktorijas",
@@ -3020,7 +3017,7 @@
 	{
 		"id": "4.3.10",
 		"question": "Kurā direktorijā atrodas Linux konfigurācijas faili?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) /ect",
 			"b) /usr",
@@ -3031,7 +3028,7 @@
 	{
 		"id": "4.3.11",
 		"question": "Kā sauc Linux datņu sistēmu, ko izmanto virtuālajai atmiņai?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) SWAP",
 			"b) SWAT",
@@ -3042,7 +3039,7 @@
 	{
 		"id": "4.3.12",
 		"question": "Kurš ir UNIX/Linux komandu saskarnes interpretators?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) command.com",
 			"b) cmd.exe",
@@ -3064,7 +3061,7 @@
 	{
 		"id": "4.3.14",
 		"question": "Kurai operetājsistēmai ir noklusējuma komandu saskarnes interpretatori bash, csh, ksh vai zsh?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Windows",
 			"b) Linux",
@@ -3075,13 +3072,12 @@
 	{
 		"id": "4.3.15",
 		"question": "Kuras operētājsistēmas paveids ir Linux?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Solaris",
 			"b) Unix",
 			"c) BSD",
-			"d) GNU",
-			""
+			"d) GNU"
 		]
 	},
 	{
@@ -3131,7 +3127,7 @@
 	{
 		"id": "4.4.5",
 		"question": "Kura no nosauktajām programmatūrām ir operētājsistēma?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Symantec Antivirus",
 			"b) Mozilla Firefox",
@@ -3208,7 +3204,7 @@
 	{
 		"id": "4.4.12",
 		"question": "Kādas operētājsistēmas izmanto swap partīcijas veidu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) OpenSUSE, FreeBSD, Centos",
 			"b) Windows 7, Windows XP, Windows 10",
@@ -3241,7 +3237,7 @@
 	{
 		"id": "4.4.15",
 		"question": "Kur atrodas BIOS ?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) patstāvīgajā atmiņā (ROM)",
 			"b) uz cietā diska",
@@ -3252,7 +3248,7 @@
 	{
 		"id": "4.4.16",
 		"question": "Kura no dotajām nav atvērta koda operētājsistēma?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Linux",
 			"b) Windows",
@@ -3416,8 +3412,8 @@
 	},
 	{
 		"id": "5.0.11",
-		"question": "Kura valoda nav interpretējamā valoda? ",
-		"correct": null,
+		"question": "Kura valoda nav interpretējamā valoda?",
+		"correct": 4,
 		"answers": [
 			"a) Python",
 			"b) Ruby",
@@ -4149,18 +4145,17 @@
 			"a) #p{}",
 			"b) p{}",
 			"c) $p{}",
-			"d) .p{}",
-			""
+			"d) .p{}"
 		]
 	},
 	{
 		"id": "5.2.1",
 		"question": "Kurā HTML elementā ir jāliek JavaScript valodas skripts?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) <javascript>",
 			"b) <js>",
-			"c) <script>    ",
+			"c) <script>",
 			"d) <scripting>"
 		]
 	},
@@ -4177,8 +4172,8 @@
 	},
 	{
 		"id": "5.2.3",
-		"question": "Kā noformē vienas rindiņas komentārus JavaScrit valodā?",
-		"correct": null,
+		"question": "Kā noformē vienas rindiņas komentārus JavaScript valodā?",
+		"correct": 1,
 		"answers": [
 			"a)  // Komentārs",
 			"b) <!-- Komentārs -->",
@@ -4200,7 +4195,7 @@
 	{
 		"id": "5.2.5",
 		"question": "Kāda ir pareiza sintakse, lai pieslēgtu HTML dokumentam ārēju skriptu ar nosaukumu “mansSkripts.js”?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) <script include = \"mansSkripts.js\">",
 			"b) <script name = \"mansSkripts.js\">",
@@ -4896,8 +4891,8 @@
 		"correct": null,
 		"answers": [
 			"a) kad eksistē kāds process, ar kuru var pārbaudīt tās izpildi",
-			"b) kad katra produkta raksturiezīme apraks­tīta ar unikālu terminu",
-			"c) kad ka­trai prasībai ir tikai viena nepārprotama inter­pretāci­ja",
+			"b) kad katra produkta raksturiezīme aprakstīta ar unikālu terminu",
+			"c) kad katrai prasībai ir tikai viena nepārprotama interpretācija",
 			"d) kad ir izveidota terminoloģiskā vārdnīcā, kurā prasības nozīme ir konkretizēta"
 		]
 	},
@@ -4906,10 +4901,10 @@
 		"question": "Kā var nodrošināt to, ka programmatūras prasības ir viennozīmīgas? Norādiet nepareizo apgalvojumu!",
 		"correct": null,
 		"answers": [
-			"a) ka­trai prasībai ir jābūt tikai vienai nepārprotamai inter­pretāci­jai",
-			"b) ja lieto­tam terminam ir vairākas nozīmes, tas jāiekļauj terminoloģiskā vārdnīcā",
+			"a) katrai prasībai ir jābūt tikai vienai nepārprotamai interpretācijai",
+			"b) ja lietotam terminam ir vairākas nozīmes, tas jāiekļauj terminoloģiskā vārdnīcā",
 			"c) jāeksistē kādam processam, ar kuru var pārbaudīt prasību izpildi",
-			"d) katra produkta raksturiezīme jāapraks­ta ar unikālu terminu"
+			"d) katra produkta raksturiezīme jāapraksta ar unikālu terminu"
 		]
 	},
 	{
@@ -5102,7 +5097,7 @@
 	{
 		"id": "7.0.1",
 		"question": "Kura ir atvērtā koda programmatūra?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Microsoft Visual Basic",
 			"b) Mozilla Firefox",
@@ -5113,7 +5108,7 @@
 	{
 		"id": "7.0.2",
 		"question": "Kādu taustiņu kombināciju pēc noklusējuma izmanto Windows biroja lietojumprogrammās, lai ielīmētu iezīmēto teksta fragmentu starpliktuvē?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Ctrl+V",
 			"b) Ctrl+C",
@@ -5124,7 +5119,7 @@
 	{
 		"id": "7.0.3",
 		"question": "Kāds ir A4 lapas formāts?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) 297 x 420 mm",
 			"b) 105 x 148 mm",
@@ -5135,7 +5130,7 @@
 	{
 		"id": "7.0.4",
 		"question": "Kura no uzskaitītajām ir izklājlapu lietotne?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Autodesk AutoCAD",
 			"b) Microsoft Table",
@@ -5146,7 +5141,7 @@
 	{
 		"id": "7.0.5",
 		"question": "Kurš lietojumprogrammu veids vislabāk ir piemērots aprēķinu veikšanai?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) teksta redaktors",
 			"b) izklājlapu lietotne",
@@ -5168,7 +5163,7 @@
 	{
 		"id": "7.0.7",
 		"question": "Kura lietotne nav teksta apstrādes lietojumprogrammatūra?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Microsoft Word",
 			"b) Google Docs",
@@ -5179,7 +5174,7 @@
 	{
 		"id": "7.0.8",
 		"question": "Kura lietotne nav izklājlapu lietojumprogrammatūra?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Microsoft Excel",
 			"b) Google Sheets",
@@ -5190,7 +5185,7 @@
 	{
 		"id": "7.0.10",
 		"question": "Kuru redaktoru vai lietotni neiesaka izmantot programmas koda rakstīšanai?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Visual Studio Code",
 			"b) Notepad++",
@@ -5201,7 +5196,7 @@
 	{
 		"id": "7.0.6",
 		"question": "Kādu taustiņu kombinācija jānospiež, lai saglabātu izmaiņas lietojumprogrammās?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Alt+S",
 			"b) Ctrl+S",
@@ -5212,7 +5207,7 @@
 	{
 		"id": "7.0.7",
 		"question": "Kādu taustiņu vai to kombināciju pielieto, lai Windows operetājsistēmā iegūtu ekrāna attēla kopiju?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Print Screen",
 			"b) Window",
@@ -5268,7 +5263,7 @@
 	{
 		"id": "7.1.7",
 		"question": "Kā tiek saukti rediģējami lapas apgabali teksta redaktoros, kas atrodas lapas augšā un apakšā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) lappušu numuri (Page Number)",
 			"b) galvene un kājene (Header and Footer)",
@@ -5279,7 +5274,7 @@
 	{
 		"id": "7.1.10",
 		"question": "Ar kuru taustiņu kombināciju teksta redaktorā var atlasīt visu dokumentu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Alt+Ctrl+A",
 			"b) Ctrl+A",
@@ -5389,7 +5384,7 @@
 	{
 		"id": "7.1.31",
 		"question": "Kādi ir noklusējuma faila palašinājumi MS Word teksta dokumentiem?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) dotx",
 			"b) docx",
@@ -5422,7 +5417,7 @@
 	},
 	{
 		"id": "7.2.2",
-		"question": "Ko izpilda izklājlapu komanda Insert row ?",
+		"question": "Ko izpilda izklājlapu komanda Insert row?",
 		"correct": null,
 		"answers": [
 			"a) pievieno jaunu darba lapu",
@@ -5472,7 +5467,7 @@
 			"a) 4570",
 			"b) 4600",
 			"c) 4568,35",
-			"d) –4568,3472"
+			"d) -4568,3472"
 		]
 	},
 	{
@@ -5505,7 +5500,7 @@
 			"a) viena saskaita vērtības, otra summē vērtības",
 			"b) abas pārbauda, vai elementi ir pozitīvi",
 			"c) abas izpilda vienu un to pašu darbību",
-			"d) viena atrod maksimālo vērtību, otra – minimālo"
+			"d) viena atrod maksimālo vērtību, otra - minimālo"
 		]
 	},
 	{

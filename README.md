@@ -2,7 +2,7 @@
 
 Centralizētā profesionālā kvalifikācijas eksāmena jautājumi programmēšanas tehniķiem (2023)
 
-https://klappscheinwerfer.github.io/CPKE
+https://klappscheinwerfer.github.io/CPKE vai https://tomsgrants.com/CPKE
 
 ## Komandas
 

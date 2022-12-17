@@ -13,20 +13,20 @@
 		<form>
 			<select id="sources">
 			</select>
-			<button type="button">Iepriekšējais</button> 
-			<button type="button">Nākamais</button> 
-			<input type="checkbox" value="shuffle">
-			<label>Jaukt</label><br>
-			<p>Jautājums</p>
-			<input type="radio" id="ans_a" name="test" value="1">
-			<label for="ans_a">Atbilde A</label><br>
-			<input type="radio" id="ans_b" name="test" value="2">
-			<label for="ans_b">Atbilde B</label><br>
-			<input type="radio" id="ans_c" name="test" value="3">
-			<label for="ans_c">Atbilde C</label><br>
-			<input type="radio" id="ans_d" name="test" value="4">
-			<label for="ans_d">Atbilde D</label><br>
-			<input type="button" value="Pārbaudīt">
+			<button type="button" id="btnPrev">Iepriekšējais</button> 
+			<button type="button" id="btnNext">Nākamais</button>
+			<input type="checkbox" id="chbxShuffle">
+			<label for="chbxShuffle">Jaukt</label><br>
+			<p id="questionText">Jautājums</p>
+			<input type="radio" id="ansA" name="test" value="1">
+			<label id="ansALabel" for="ansA">Atbilde A</label><br>
+			<input type="radio" id="ansB" name="test" value="2">
+			<label id="ansBLabel" for="ansB">Atbilde B</label><br>
+			<input type="radio" id="ansC" name="test" value="3">
+			<label id="ansCLabel" for="ansC">Atbilde C</label><br>
+			<input type="radio" id="ansD" name="test" value="4">
+			<label id="ansDLabel" for="ansD">Atbilde D</label><br>
+			<input type="button" id="btnCheckAnswer" value="Pārbaudīt">
 		</form>
 		<a href="https://github.com/klappscheinwerfer/CPKE">GitHub</a>
 	</body>
