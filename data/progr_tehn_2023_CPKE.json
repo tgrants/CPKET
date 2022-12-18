@@ -1426,8 +1426,7 @@
 			"a) A tipa",
 			"b) B tipa",
 			"c) C tipa",
-			"d) D tipa",
-			""
+			"d) D tipa"
 		]
 	},
 	{
@@ -2555,7 +2554,7 @@
 	{
 		"id": "3.1.70",
 		"question": "Kura datubāzu pārvaldības sistēma atbalsta NoSQL tehnoloģiju?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) MongoDB",
 			"b) Oracle",
@@ -2566,7 +2565,7 @@
 	{
 		"id": "4.1.1",
 		"question": "Kādiem mērķiem ir paredzēta programma Windows Explorer?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) datu bāzes veidošanai",
 			"b) darbībām ar mapēm un failiem",
@@ -2577,7 +2576,7 @@
 	{
 		"id": "4.1.2",
 		"question": "Kuras ir zināmās MS Windows operētājsistēmas versijas?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Windows 6, Windows 7, Windows 98",
 			"b) Windows 7, Windows 8, Windows 10",
@@ -2588,7 +2587,7 @@
 	{
 		"id": "4.1.3",
 		"question": "Ar kādu taustiņu kombināciju MS Windows operētājsistēmā var izgriezt iezīmēto failu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) CTRL+C",
 			"b) CTRL+X",
@@ -2621,7 +2620,7 @@
 	{
 		"id": "4.1.6",
 		"question": "Kuru noklusēto failu sistēmu izmanto Windows operētājsistēmas, kuras ir bāzētas uz Windows NT versijas?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) FAT16",
 			"b) FAT32",
@@ -2654,7 +2653,7 @@
 	{
 		"id": "4.1.9",
 		"question": "Kurai operetājsistēmai komandu saskarnes interpretatoru sauc par PowerShell?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Windows",
 			"b) Linux",
@@ -2676,7 +2675,7 @@
 	{
 		"id": "4.1.14",
 		"question": "Cik garus datnes nosaukumus atbalsta OS Windows 7/8/10?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) bez ierobežojumiem",
 			"b) līdz 64 rakstzīmēm",
@@ -2698,7 +2697,7 @@
 	{
 		"id": "4.1.18",
 		"question": "Kura ir zibatmiņas standarta failu sistēma?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) NTFS",
 			"b) FAT16",
@@ -2731,7 +2730,7 @@
 	{
 		"id": "4.1.24",
 		"question": "Ar kuru no programmām Windows OS var atgriezt reģistrus iepriekšējajā stāvoklī?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Defragment",
 			"b) Winzip",
@@ -2764,7 +2763,7 @@
 	{
 		"id": "4.1.28",
 		"question": "Kura taustiņu kombinācija ļauj pāriet uz citu atvērto Windows logu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) ALT+ENTER",
 			"b) ALT+TAB",
@@ -2830,7 +2829,7 @@
 	{
 		"id": "4.2.5",
 		"question": "No kāda nosaukuma cēlies saīsinājums DOS?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) digital operating system",
 			"b) datoru operētājsistēma",
@@ -2841,7 +2840,7 @@
 	{
 		"id": "4.2.6",
 		"question": "Kas ir dzinis (driver)?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) programma, kas nodrošina ierīču darbību",
 			"b) speciāla mikroshēma",
@@ -2896,7 +2895,7 @@
 	{
 		"id": "4.2.11",
 		"question": "Kura komanda izveido failu CMD vidē?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) CD",
 			"b) COPY CON",
@@ -2907,7 +2906,7 @@
 	{
 		"id": "4.2.12",
 		"question": "Kura komanda pārdevē failu CMD vidē?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) REN",
 			"b) RMDIR",
@@ -2940,7 +2939,7 @@
 	{
 		"id": "4.3.3",
 		"question": "Kā apzīmē saknes katalogu Linux OS?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) /",
 			"b) \\",
@@ -2962,7 +2961,7 @@
 	{
 		"id": "4.3.5",
 		"question": "Kura Linux komanda maina faila īpašnieku?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) chlog",
 			"b) chmod",
@@ -2984,7 +2983,7 @@
 	{
 		"id": "4.3.7",
 		"question": "Kura LINUX komanda maina failam piekļūšanas tiesības (permissions)?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) chlog",
 			"b) chmod",
@@ -3006,7 +3005,7 @@
 	{
 		"id": "4.3.9",
 		"question": "Ko dara Linux komanda cat?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) izvada faila saturu",
 			"b) izvada direktorijas nosaukumu",
@@ -3050,7 +3049,7 @@
 	{
 		"id": "4.3.13",
 		"question": "Kura komanda Linux operētājsistēmā tiek izmantota, lai mainītu datnes grupas īpašumtiesības?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) cgrp",
 			"b) chgrp",
@@ -3083,7 +3082,7 @@
 	{
 		"id": "4.4.1",
 		"question": "Kuras operētājsistēmas paveids ir MacOS?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Linux",
 			"b) Unix",
@@ -3138,7 +3137,7 @@
 	{
 		"id": "4.4.6",
 		"question": "Kura no nosauktajām ir operētājsistēmas funkcija?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) datu pievienošana tabulā",
 			"b) atskaites veidošana",
@@ -3149,7 +3148,7 @@
 	{
 		"id": "4.4.7",
 		"question": "Kam domāta cietā diska (HDD) defragmentācijas programma ?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) lai arhivētu datus uz cietā diska",
 			"b) lai paātrinātu cietā diska darbu",
@@ -3160,7 +3159,7 @@
 	{
 		"id": "4.4.8",
 		"question": "Kas notiek ar operatīvajā atmiņā esošu informāciju, \n izslēdzot datoru?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tā saglabājas līdz nākamajai ieslēgšanai",
 			"b) tā tiek izdzēsta",
@@ -3171,7 +3170,7 @@
 	{
 		"id": "4.4.9",
 		"question": "Kura ir operētājsistēmas pamata funkcija?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) programmu testēšana",
 			"b) programmu izstrādāšana",
@@ -3182,7 +3181,7 @@
 	{
 		"id": "4.4.10",
 		"question": "Ko dara Plug and Play tehnoloģija?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) atbalsta jaunu iekārtu automātisku pievienošanu",
 			"b) konfigurē tīkla parametrus",
@@ -3440,8 +3439,7 @@
 			"a) GET",
 			"b) ACTION",
 			"c) POST",
-			"d) REQUEST",
-			""
+			"d) REQUEST"
 		]
 	},
 	{
@@ -3627,13 +3625,13 @@
 		"answers": [
 			"a) definē, ka rindkopai nav rāmīša, bet tabulas ailēm ir sarkans rāmītis",
 			"b) definē, ka rindkopai, kurai iekšā ir attēli nav rāmīša, bet tabulas ailēm, kuros iekšā ir attēli ir sarkans rāmītis",
-			"c) definē, ka attēliem rindkopā nav rāmīša, bet attēliemtabulasailēsir sarkans rāmīti",
-			"d) definē, karindkopai ir rāmītis 1 pikseļa izmērā"
+			"c) definē, ka attēliem rindkopā nav rāmīša, bet attēliem tabulas ailēs ir sarkans rāmītis",
+			"d) definē, ka rindkopai ir rāmītis 1 pikseļa izmērā"
 		]
 	},
 	{
 		"id": "5.1.18",
-		"question": "KuršHTML taga <TD> atribūts tabulāļauj apvienot pa horizontāli blakus esošās šūnas?",
+		"question": "KuršHTML taga <TD> atribūts tabulā ļauj apvienot pa horizontāli blakus esošās šūnas?",
 		"correct": null,
 		"answers": [
 			"a) cellspacing",
@@ -3644,7 +3642,7 @@
 	},
 	{
 		"id": "5.1.19",
-		"question": "Kurš HTML taga atribūtsnosaka tabulas līnijastreknumu?",
+		"question": "Kurš HTML taga atribūts nosaka tabulas līnijastreknumu?",
 		"correct": null,
 		"answers": [
 			"a) CELLPADDING",
@@ -5223,8 +5221,7 @@
 			"a) kopēt (Copy) un ielīmēt (Paste)",
 			"b) izgriest (Cut) un kopēt (Copy)",
 			"c) izgries (Cut) un ielīmēt (Paste)",
-			"d) kopēt (Copy) un atsaukt (Undo)",
-			""
+			"d) kopēt (Copy) un atsaukt (Undo)"
 		]
 	},
 	{
@@ -5400,8 +5397,7 @@
 			"a) Tab+Enter",
 			"b) Shift+Enter",
 			"c) Alt+Enter",
-			"d) Ctrl+Enter",
-			""
+			"d) Ctrl+Enter"
 		]
 	},
 	{

@@ -41,14 +41,13 @@ $(document).on("click", "#btnNext", function(){
 }); 
 
 // Check if answer is correct
-$(document).on("click", "#btnCheckAnswer", function(){ 
+$(document).on("click", "#btnCheckAnswer", function(){
+	// TODO: Check if none selected
+	clearAnswers();
+	$("#ans" + correct + "Label").addClass("correct-answer");
 	let selected = $("input[type='radio']:checked").val();
-	if (correct == selected) {
-		alert("pareizi");
-	}
-	else {
-		alert("nepareizi");
-	}
+	if (correct == selected) return;
+	$("#ans" + selected + "Label").addClass("incorrect-answer");
 }); 
 
 // Load sources for questions from sources.json
@@ -96,21 +95,26 @@ function loadSource(src) {
 
 // Load question by index
 function loadQuestion() {
+	clearAnswers();
+	$("input[type='radio']").prop('checked', false);
+
 	if ($('#chbxShuffle').is(":checked")) {
 		$("#questionText").text(data[shuffled[current]].question);
-		$("#ansALabel").text(data[shuffled[current]].answers[0]);
-		$("#ansBLabel").text(data[shuffled[current]].answers[1]);
-		$("#ansCLabel").text(data[shuffled[current]].answers[2]);
-		$("#ansDLabel").text(data[shuffled[current]].answers[3]);
+		for (let i = 0; i < 4; i++)
+			$("#ans" + (i + 1) + "Label").text(data[shuffled[current]].answers[i]);
 		correct = data[shuffled[current]].correct;
 	}
 	else {
 		$("#questionText").text(data[current].question);
-		$("#ansALabel").text(data[current].answers[0]);
-		$("#ansBLabel").text(data[current].answers[1]);
-		$("#ansCLabel").text(data[current].answers[2]);
-		$("#ansDLabel").text(data[current].answers[3]);
+		for (let i = 0; i < 4; i++)
+			$("#ans" + (i + 1) + "Label").text(data[current].answers[i]);
 		correct = data[current].correct;
+	}
+}
+
+function clearAnswers(clearRadioButtons) {
+	for (let i = 1; i <= 4; i++) {
+		$("#ans" + i + "Label").removeClass()
 	}
 }
 
