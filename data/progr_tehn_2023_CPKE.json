@@ -90,7 +90,7 @@
 	{
 		"id": "1.1.9",
 		"question": "Kas ir dinamiskie mainīgie?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) mainīgie, kuriem vieta atmiņā tiek izdalīta un atbrīvota programmas darbības laikā",
 			"b) mainīgie, kuru vērtības var mainīt programmas darbības laikā",
@@ -145,7 +145,7 @@
 	{
 		"id": "1.1.14",
 		"question": "Kuras datu struktūras neļauj apvienot zem viena nosaukuma vairākus datus?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) ieraksti",
 			"b) masīvi",
@@ -167,7 +167,7 @@
 	{
 		"id": "1.1.16",
 		"question": "Cik konstruktoru un destruktoru var būt klasei OOP valodās C++, C#, Object Pascal un JAVA?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) viens konstruktors un viens destruktors",
 			"b) viens konstruktors un vairāki destruktori",
@@ -211,7 +211,7 @@
 	{
 		"id": "1.1.21",
 		"question": "Kas ir masīvs programmēšanās valodās Pascal, JAVA, C# vai C++?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) ierobežots vienāda tipa elementu kopums",
 			"b) sakārtots dažādu tipu elementu kopums",
@@ -222,7 +222,7 @@
 	{
 		"id": "1.1.22",
 		"question": "Kurš no šiem cikliem ir cikls ar pēcnosacījumu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) while",
 			"b) repeat (vai do...while)",
@@ -266,7 +266,7 @@
 	{
 		"id": "1.1.26",
 		"question": "Kad klases metodes ir pārslogotas (overload) nepareizi?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) kad tās atšķiras tikai pēc atgriežamās vērtības tipa",
 			"b) kad tās atšķiras tikai pēc parametru tipa",
@@ -277,7 +277,7 @@
 	{
 		"id": "1.1.27",
 		"question": "Cik reizes izpildīsies šis cikls\n for (int i = 0; i <= 5; i += 3)?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 5 reizes",
 			"b) nevienu reizi",
@@ -321,7 +321,7 @@
 	{
 		"id": "1.1.31",
 		"question": "Kura no norādītām izteiksmēm nav C++, C# vai Java programmu operācija?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) a:= 5;",
 			"b) a += 5;",
@@ -354,7 +354,7 @@
 	{
 		"id": "1.1.34",
 		"question": "Kurā vietā C++/Java/C# funkcijā (metodē) var aprakstīt mainīgo?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tikai funkcijas sākumā",
 			"b) uzreiz pēc funkcijas nosaukuma",
@@ -387,7 +387,7 @@
 	{
 		"id": "1.1.37",
 		"question": "Kurš nav C++/Java/C# valodas nosacījuma operators vai operācija?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) ?",
 			"b) if",
@@ -398,7 +398,7 @@
 	{
 		"id": "1.1.38",
 		"question": "Kurš nav C++/Java/C# valodas cikla operators?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) if",
 			"b) for",
@@ -409,7 +409,7 @@
 	{
 		"id": "1.1.39",
 		"question": "Kāda būs x mainīgā vērtība, ja ir dots šāds C++/Java/C# valodas programmas fragments? int a = 4; int b = 3; double x = a/b;",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) būs kompilācijas kļūda",
 			"b) 1.333333333",
@@ -420,7 +420,7 @@
 	{
 		"id": "1.1.40",
 		"question": "Kurš nav C++/Java/C# rezervētais vārds?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) break",
 			"b) insert",
@@ -607,7 +607,7 @@
 	{
 		"id": "1.1.57",
 		"question": "Kas ir komandu virkne, kurai ir nosaukums, parametru saraksts un ko var izsaukt no dažādām programmas daļām?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) bloks",
 			"b) funkcija",
@@ -640,7 +640,7 @@
 	{
 		"id": "1.1.60",
 		"question": "Kā sauc programmas vizuālos komponentus, ar kuriem mijiedarbojas lietotājs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) OOP",
 			"b) Unity",
@@ -739,7 +739,7 @@
 	{
 		"id": "1.2.9",
 		"question": "Kāda datu struktūra ir paredzēta vienāda tipa datu glabāšanai?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) klase",
 			"b) struktūra",
@@ -1773,7 +1773,7 @@
 	{
 		"id": "2.2.32",
 		"question": "Kādu pieslēgvietu (portu) izmanto HTTP (Hypertext tranfser protocol)?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 21",
 			"b) 443",
@@ -1795,7 +1795,7 @@
 	{
 		"id": "3.1.1",
 		"question": "Kura nav datubāzu pārvaldības (vadības) sistēma?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) PHP",
 			"b) Oracle",
@@ -3478,7 +3478,7 @@
 	{
 		"id": "5.1.4",
 		"question": "Ar kādu HTML tagu var pārnest tekstu uz nākamo rindu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <break>",
 			"b) <br/>",
@@ -3489,7 +3489,7 @@
 	{
 		"id": "5.1.5",
 		"question": "Kāds HTML tags atbild par sakārtota saraksta veidošanu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <UL>…</UL>",
 			"b) <OL>…</OL>",
@@ -3500,7 +3500,7 @@
 	{
 		"id": "5.1.6",
 		"question": "Kādiem mērķiem tiek izmantots HTML tags <BLOCKQUOTE>?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) citāts",
 			"b) definīcija",
@@ -4655,7 +4655,7 @@
 	{
 		"id": "6.35",
 		"question": "Kurš no programmatūras dzīves cikla etapiem pēc statistikas ir visgarākais?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) prasību analīze",
 			"b) projektēšana",
@@ -4743,7 +4743,7 @@
 	{
 		"id": "6.43",
 		"question": "Kurš no rīkiem nodoršina versiju kontroli?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) git",
 			"b) gits",
@@ -4852,7 +4852,7 @@
 	},
 	{
 		"id": "6.53",
-		"question": "Kurš apgalvojums par pakāpenisko (inkrementālo) pieeju izstrādei nav pareizs ?",
+		"question": "Kurš apgalvojums par pakāpenisko (inkrementālo) pieeju izstrādei nav pareizs?",
 		"correct": null,
 		"answers": [
 			"a) paredz ātru produkta izveidi ar ierobežotu, bet strādājošo funkcionalitāti",
@@ -5216,11 +5216,11 @@
 	{
 		"id": "7.0.8",
 		"question": "Kādas komandas secīgi ir jāizpilda, lai biroja lietojumprogrammā dublētu tekstu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) kopēt (Copy) un ielīmēt (Paste)",
 			"b) izgriest (Cut) un kopēt (Copy)",
-			"c) izgries (Cut) un ielīmēt (Paste)",
+			"c) izgriest (Cut) un ielīmēt (Paste)",
 			"d) kopēt (Copy) un atsaukt (Undo)"
 		]
 	},
@@ -5491,7 +5491,7 @@
 	{
 		"id": "7.2.9",
 		"question": "Ar ko atšķiras izklājlapu funkcijas COUNTIF un SUMIF?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) viena saskaita vērtības, otra summē vērtības",
 			"b) abas pārbauda, vai elementi ir pozitīvi",
@@ -5513,7 +5513,7 @@
 	{
 		"id": "7.2.11",
 		"question": "Kurai šūnas adresei izklājlapās ir norādīta absolūtā adresācija?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) $B$1",
 			"b) $D3",
