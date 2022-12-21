@@ -530,7 +530,7 @@
 	{
 		"id": "1.1.50",
 		"question": "Kādam ir jābūt funkcijas atgriežamās vērtības tipam valodās C++/Java/C#, lai varētu neizmantot operatoru \"return\"?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) int",
 			"b) void",
@@ -706,7 +706,7 @@
 	{
 		"id": "1.2.6",
 		"question": "Kādā meklēšanas metodē meklējamais elements katrā iterācijā tiek salīdzināts ar vidējo apgabala elementu un meklējamais apgabals tiek samazināts uz pusi?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) turnīrameklēšanā",
 			"b) stohastiskajā meklēšanā",
@@ -717,7 +717,7 @@
 	{
 		"id": "1.2.7",
 		"question": "Kas neraksturo šķirošanas metodes efektivitāti?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) sagaidāmais salīdzinājumu skaits",
 			"b) sagaidāmais pārvietojumu skaits",
@@ -728,7 +728,7 @@
 	{
 		"id": "1.2.8",
 		"question": "Cik daudz dimensiju var būt masīvam?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) viena",
 			"b) divas",
@@ -816,7 +816,7 @@
 	{
 		"id": "1.2.16",
 		"question": "Kā sauc koka mezglu, kuram nav bērnu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) bārenis",
 			"b) lapa",
@@ -849,7 +849,7 @@
 	{
 		"id": "1.2.19",
 		"question": "Kas nav koka apstaigāšanas veids?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) pirmssakārtojums (preorder)",
 			"b) ārējais sakārtojums (outorder)",
@@ -882,7 +882,7 @@
 	{
 		"id": "1.2.22",
 		"question": "Kura kārtošanas metode tiek uzskatīta par visneeffektīvāko?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Bubble sort (burbuļa metode)",
 			"b) Shell sort (Šella metode, restītes metode)",
@@ -2884,7 +2884,7 @@
 	{
 		"id": "4.2.10",
 		"question": "Kurā direktorijā atrodas fails C:\\archive\\archive.txt?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) archive",
 			"b) C:\\",
@@ -3313,7 +3313,7 @@
 	{
 		"id": "5.0.2",
 		"question": "Kas ir tīmekļa lapas objekts, ar kura palīdzību tiek atvērts kāds cits dokuments?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tīmekļa tabula",
 			"b) hipersaite",
@@ -3324,7 +3324,7 @@
 	{
 		"id": "5.0.3",
 		"question": "Adrese, kas norāda, kur var atrast kādu konkrētu tīkla resursu ir ...\n",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tīmekļa lapa",
 			"b) hipersaite",
@@ -3335,7 +3335,7 @@
 	{
 		"id": "5.0.4",
 		"question": "Kas ir globālajam tīmeklim veidots dokuments?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) tīmekļa lapa",
 			"b) hipersaite",
@@ -3357,7 +3357,7 @@
 	{
 		"id": "5.0.6",
 		"question": "Kāda ir CERT.LV misija?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) veicināt informācijas tehnoloģiju (IT) drošību Latvijā",
 			"b) veicināt IT eksportu uz ārzemēm",
@@ -3742,7 +3742,7 @@
 	{
 		"id": "5.1.28",
 		"question": "Kurš ir komentāra tags HTML dokumentā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) </&>",
 			"b) <!-->",
@@ -3774,8 +3774,8 @@
 	},
 	{
 		"id": "5.1.31",
-		"question": "Kā CSS definēstila klasi “cent”?",
-		"correct": null,
+		"question": "Kā CSS definē stila klasi “cent”?",
+		"correct": 2,
 		"answers": [
 			"a) {cent=text-align:center}",
 			"b) .cent {text-align:center}",
@@ -3829,7 +3829,7 @@
 	},
 	{
 		"id": "5.1.36",
-		"question": "Kuru HTML taguizmanto formas veidošanai?",
+		"question": "Kuru HTML tagu izmanto formas veidošanai?",
 		"correct": null,
 		"answers": [
 			"a) <FRAMESET>",
@@ -3840,7 +3840,7 @@
 	},
 	{
 		"id": "5.1.37",
-		"question": "Kādā kodējumā HTML fails saglabāvārdusar garumzīmēm un mīkstinājuma zīmēm?",
+		"question": "Kādā kodējumā HTML fails saglabā vārdus ar garumzīmēm un mīkstinājuma zīmēm?",
 		"correct": null,
 		"answers": [
 			"a) UTF-8",
@@ -3851,7 +3851,7 @@
 	},
 	{
 		"id": "5.1.38",
-		"question": "Kur izvietoHTML tagu <link rel=\"stylesheet\" type=\"text/css\"\n href= \"noformejums.css\"/>?",
+		"question": "Kur izvieto HTML tagu <link rel=\"stylesheet\" type=\"text/css\"\n href= \"noformejums.css\"/>?",
 		"correct": null,
 		"answers": [
 			"a) starp <body></body> tagiem",
@@ -3862,7 +3862,7 @@
 	},
 	{
 		"id": "5.1.39",
-		"question": "Kāds CSSstils tiek definētstagā<link\n rel=\"stylesheet\" type=\"text/css\"\n href=\"noformejums.css\"/>\"?",
+		"question": "Kāds CSSstils tiek definēts tagā <link\n rel=\"stylesheet\" type=\"text/css\"\n href=\"noformejums.css\"/>\"?",
 		"correct": null,
 		"answers": [
 			"a) lapas iekšējais CSSstils",
@@ -3874,7 +3874,7 @@
 	{
 		"id": "5.1.40",
 		"question": "Ko HTML nozīmē CSS saīsinājums?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Customer Self-Service",
 			"b) Cascading Style Sheets",
