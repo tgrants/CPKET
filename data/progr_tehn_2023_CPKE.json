@@ -189,7 +189,7 @@
 	{
 		"id": "1.1.18",
 		"question": "Kas ir kopīgs programmēšanas valodu operatoriem for, while un repeat (vai do...while)?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) visiem jāpalielina skaitītājs par 1",
 			"b) visi ir cikla operatori",
@@ -244,7 +244,7 @@
 	{
 		"id": "1.1.24",
 		"question": "Kurš operators programmēšanas valodās Pascal, C++, C# vai Java pārtrauc cikla izpildi un nodod vadību nākamajai komandai aiz cikla?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) break",
 			"b) continue",
@@ -3984,7 +3984,7 @@
 	{
 		"id": "5.1.50",
 		"question": "Ko norāda prefiksi CSS failā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) pārlūku, kuru izmantot",
 			"b) CSS versiju",
@@ -3995,7 +3995,7 @@
 	{
 		"id": "5.1.51",
 		"question": "Kurš tags nedrīkst atrasties HTML dokumenta <head> sekcijā ?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Meta",
 			"b) Title",
@@ -4226,7 +4226,7 @@
 	{
 		"id": "5.2.8",
 		"question": "Kurš nav identifikatora (vērtību) deklarēšanas veids JavaScript valodā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) const",
 			"b) let",
