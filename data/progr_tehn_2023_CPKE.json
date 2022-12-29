@@ -2598,7 +2598,7 @@
 	{
 		"id": "4.1.4",
 		"question": "Kuru no šīm failu sistēmām neatpazīst Windows?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) NTFS",
 			"b) FAT32",
@@ -2609,7 +2609,7 @@
 	{
 		"id": "4.1.5",
 		"question": "Kā iezīmēt vairākus failus, ja tie nav izvietoti secīgi (MS Windows)?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) izmantojot taustiņu CTRL",
 			"b) izmantojot taustiņu SHIFT",
@@ -2633,8 +2633,8 @@
 		"question": "Kurš ir Windows grafiskais apvalks (čaula)?",
 		"correct": null,
 		"answers": [
-			"a) Windows Explorer ",
-			"b) PowerShell ",
+			"a) Windows Explorer",
+			"b) PowerShell",
 			"c) command.com",
 			"d) cmd.exe"
 		]
@@ -2642,7 +2642,7 @@
 	{
 		"id": "4.1.8",
 		"question": "Kurš ir Windows komandu saskarnes interpretators?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) PowerShell",
 			"b) bash",
