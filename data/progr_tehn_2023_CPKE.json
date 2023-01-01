@@ -2631,7 +2631,7 @@
 	{
 		"id": "4.1.7",
 		"question": "Kurš ir Windows grafiskais apvalks (čaula)?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Windows Explorer",
 			"b) PowerShell",
@@ -2664,7 +2664,7 @@
 	{
 		"id": "4.1.12",
 		"question": "Kuru no nosauktajām failu sistēmām atbalsta Windows 7/10 operētājsistēmas?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) EXT2",
 			"b) EXT4",
