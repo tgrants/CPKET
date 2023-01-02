@@ -1640,8 +1640,8 @@
 	},
 	{
 		"id": "2.2.20",
-		"question": "No cik slāņiem sastāv datortīklu OSI etalonmodelis ?",
-		"correct": null,
+		"question": "No cik slāņiem sastāv datortīklu OSI etalonmodelis?",
+		"correct": 3,
 		"answers": [
 			"a) 5",
 			"b) 6",
@@ -2708,7 +2708,7 @@
 	{
 		"id": "4.1.19",
 		"question": "Ko dara Windows operētājsistēma, kad nepietiek RAM atmiņas apjoma?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) pārstartējas",
 			"b) izmanto \"pagefile\" (swap)",
@@ -2851,7 +2851,7 @@
 	{
 		"id": "4.2.7",
 		"question": "Kuri ir izpildāmo failu paplašinājumi?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) BAT, DLL un COM",
 			"b) COM, EXE un DLL",
@@ -3192,7 +3192,7 @@
 	{
 		"id": "4.4.11",
 		"question": "Datora darba beidzēšanu (ShutDown) dēvē par…",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) darba seansa atjaunošanu",
 			"b) datora noguldīšanu",
@@ -3235,7 +3235,7 @@
 	},
 	{
 		"id": "4.4.15",
-		"question": "Kur atrodas BIOS ?",
+		"question": "Kur atrodas BIOS?",
 		"correct": 1,
 		"answers": [
 			"a) patstāvīgajā atmiņā (ROM)",
@@ -3258,7 +3258,7 @@
 	{
 		"id": "4.4.17",
 		"question": "Kurš programmu veids nav utilītprogramma?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) arhivatori",
 			"b) antivīrusi",
@@ -3269,7 +3269,7 @@
 	{
 		"id": "4.4.18",
 		"question": "Kas ir OS komandu interpretators, kas nodrošina saskarni lietotāja mijiedarbībai ar sistēmas funkcijām?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) draiveris",
 			"b) utilītprogramma",
@@ -3280,7 +3280,7 @@
 	{
 		"id": "4.4.19",
 		"question": "Kurš ir pareizs apgalvojums par utilītprogrammām?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tās nodrošina saskarni lietotāja mijiedarbībai ar sistēmas funkcijām",
 			"b) tās ir OS komandu interpretatori",
@@ -3965,8 +3965,8 @@
 		"correct": null,
 		"answers": [
 			"a) &",
-			"b)#",
-			"c)*",
+			"b) #",
+			"c) *",
 			"d) simbols @"
 		]
 	},
@@ -4162,7 +4162,7 @@
 		"question": "Kurā vietā HTML dokumentā ir jāievieto JavaScript valodas skripts?",
 		"correct": null,
 		"answers": [
-			"a) tikai <body>  sekcijā",
+			"a) tikai <body> sekcijā",
 			"b) tikai <head> sekcijā",
 			"c) <head> un <body> sekcijās vienlaikus",
 			"d) <head> vai <body> sekcijās pēc izvēles"
@@ -4204,7 +4204,7 @@
 	{
 		"id": "5.2.6",
 		"question": "Kā JavaScript trauksmes lodziņā (alert box) izvadīt “Sveika pasaule”?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) alertBox(\"Sveika pasaule!\");",
 			"b) alert(\"Sveika pasaule!\");",
@@ -5392,7 +5392,7 @@
 	{
 		"id": "7.1.32",
 		"question": "Kāda ir taustiņu kombinācija, lai teksta redaktoros izveidotu jaunu lappusi?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Tab+Enter",
 			"b) Shift+Enter",
