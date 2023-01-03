@@ -376,7 +376,7 @@
 	{
 		"id": "1.1.36",
 		"question": "Kā izskatīsies skaitlis 999000 zinātniskā (scientific) formā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) 1,00E+6",
 			"b) 9,99E+05",
@@ -3830,7 +3830,7 @@
 	{
 		"id": "5.1.36",
 		"question": "Kuru HTML tagu izmanto formas veidošanai?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <FRAMESET>",
 			"b) <FORM>",
@@ -3841,7 +3841,7 @@
 	{
 		"id": "5.1.37",
 		"question": "Kādā kodējumā HTML fails saglabā vārdus ar garumzīmēm un mīkstinājuma zīmēm?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) UTF-8",
 			"b) ASCII",

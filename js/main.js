@@ -97,19 +97,17 @@ function loadSource(src) {
 function loadQuestion() {
 	clearAnswers();
 	$("input[type='radio']").prop('checked', false);
+	$("#noAnswerNotice").hide();
 
-	if ($('#chbxShuffle').is(":checked")) {
-		$("#questionText").text(data[shuffled[current]].question);
-		for (let i = 0; i < 4; i++)
-			$("#ans" + (i + 1) + "Label").text(data[shuffled[current]].answers[i]);
-		correct = data[shuffled[current]].correct;
-	}
-	else {
-		$("#questionText").text(data[current].question);
-		for (let i = 0; i < 4; i++)
-			$("#ans" + (i + 1) + "Label").text(data[current].answers[i]);
-		correct = data[current].correct;
-	}
+	let question = $("#chbxShuffle").is(":checked") ? data[shuffled[current]] : data[current];
+
+	$("#questionText").text(question.question);
+	for (let i = 0; i < 4; i++)
+		$("#ans" + (i + 1) + "Label").text(question.answers[i]);
+	correct = question.correct;
+
+	// Display a notice in case there is no answer yet
+	if (question.correct == null) $("#noAnswerNotice").show();
 }
 
 function clearAnswers(clearRadioButtons) {
