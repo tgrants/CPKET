@@ -35,7 +35,7 @@
 	{
 		"id": "1.1.4",
 		"question": "Kas ir „klase”?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) programmēšanas valodas operators",
 			"b) sakārtots vienāda tipa elementu kopums",
@@ -178,7 +178,7 @@
 	{
 		"id": "1.1.17",
 		"question": "Kas ir Delphi?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) kompilators",
 			"b) kļūdu labotājs",
@@ -200,7 +200,7 @@
 	{
 		"id": "1.1.19",
 		"question": "Kuras datu struktūras realizācijai programmēšanas valodās ir paredzētas konstrukcijas struct vai record?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) rakstzīmju virknei",
 			"b) ierakstam",
@@ -255,7 +255,7 @@
 	{
 		"id": "1.1.25",
 		"question": "Kura metode izveido klases objektu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) iekļautā funkcija",
 			"b) ārējā funkcija",
@@ -563,7 +563,7 @@
 	{
 		"id": "1.1.53",
 		"question": "Kurš atslēgvārdu pāris ļauj apstrādāt izņēmumus (exceptions) C++ / Java / C# valodā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) do while",
 			"b) for do",
@@ -794,7 +794,7 @@
 	{
 		"id": "1.2.14",
 		"question": "Kurš ir pareizs apgalvojums par bināro koku?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) katram mezglam ir ne vairāk kā divi priekšteči",
 			"b) katram mezglam ir ne vairāk kā divi pēcteči",
@@ -2686,7 +2686,7 @@
 	{
 		"id": "4.1.17",
 		"question": "Kurā Windows datņu apskates (View) režīmā var redzēt katra faila izmēru?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Large Icons",
 			"b) Small Icons",
@@ -2741,7 +2741,7 @@
 	{
 		"id": "4.1.26",
 		"question": "Kura funkcija Windows 10 ļauj pārslēgties starp lietotājiem?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Switch User",
 			"b) Network Setup Wizard",
@@ -2752,7 +2752,7 @@
 	{
 		"id": "4.1.27",
 		"question": "Kura komanda izvēlēto printeri iestata par noklusējuma printeri?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Use Printer Offline",
 			"b) Set As Default Printer",
@@ -2807,7 +2807,7 @@
 	{
 		"id": "4.2.3",
 		"question": "Kurš ir pareizs ceļa nosaukums līdz failam Letters.doc?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) C:\\\\Work\\\\Letters.doc",
 			"b) C:\\Work\\Letters.doc",
@@ -2818,7 +2818,7 @@
 	{
 		"id": "4.2.4",
 		"question": "Ar kuru komandu var dzēst direktoriju CMD vidē?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) RD",
 			"b) REM",
@@ -2862,7 +2862,7 @@
 	{
 		"id": "4.2.8",
 		"question": "Kura komanda ļauj apskatīt faila saturu CMD vidē?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) REN",
 			"b) TYPE",
@@ -3093,7 +3093,7 @@
 	{
 		"id": "4.4.2",
 		"question": "Kā sauc palīgprogrammu specializēto uzdevumu, kas saistīti ar iekārtu un operētājsistēmu darbību, veikšanai?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) operetājsistēma",
 			"b) apvalks (čaula)",
@@ -3104,7 +3104,7 @@
 	{
 		"id": "4.4.3",
 		"question": "Kā sauc operētājsistēmas komandu interpretatoru, kas nodrošina saskarni lietotāja mijiedarbībai ar sistēmas funkcijām?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) operetājsistēma",
 			"b) apvalks (čaula)",
@@ -3115,7 +3115,7 @@
 	{
 		"id": "4.4.4",
 		"question": "Kas ir servisi datorā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) operētājsistēmas programmas, kas strādā fona režīmā",
 			"b) lietojumprogrammas datortīklā",
@@ -3291,7 +3291,7 @@
 	{
 		"id": "4.4.20",
 		"question": "Kurai operetājsistēmai izmanto apvalku (čaulu) Launcher iOS?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Windows",
 			"b) Linux",
