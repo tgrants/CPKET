@@ -1,0 +1,189 @@
+[
+	{
+		"id": "7.1",
+		"question": "Kura no “labās rokas” koordinātu sistēmas asīm ir galvenā ass?",
+		"correct": 3,
+		"answers": [
+			"1. X ass",
+			"2. Y ass",
+			"3. Z ass",
+			"4. R ass"
+		]
+	},
+	{
+		"id": "7.2",
+		"question": "Ja ciparu vadības darbagalda darba laikā instruments un sagatave attālinās, tad:",
+		"correct": 1,
+		"answers": [
+			"1. tā ir pozitīva kustība",
+			"2. tā ir negatīva kustība",
+			"3. tā ir griezes kustība ap x asi",
+			"4. var būt gan pozitīva, gan negatīva kustība"
+		]
+	},
+	{
+		"id": "7.3",
+		"question": "Kad izmanto koordinātu sistēmas otrās kārtas asis?",
+		"correct": 3,
+		"answers": [
+			"1. tikai ciparu vadības virpās ",
+			"2. tikai ciparu vadības frēzmašīnās",
+			"3. programmējot divu darba orgānu paralēlu pārvietojumu ",
+			"4. programmējot divu darba orgānu perpendikulāru pārvietojumu"
+		]
+	},
+	{
+		"id": "7.4",
+		"question": "No kā ir atkarīga sagataves koordinātu sākuma punkta izvēle?",
+		"correct": 3,
+		"answers": [
+			"1. no darbagalda tipa",
+			"2. no sagataves formas un izmēriem",
+			"3. no mērīšanas bāzes",
+			"4. no griezējinstrumentu daudzuma"
+		]
+	},
+	{
+		"id": "7.5",
+		"question": "Kurš no loka apstrādes pastāvīgiem cikliem  G02 vai G03 nodrošinās instrumenta pārvietojumu pulksteņa rādītāja virzienā?",
+		"correct": 1,
+		"answers": [
+			"1. G02",
+			"2. G03",
+			"3. abi cikli ir identiski un instruments pārvietosies pulksteņa rādītāja virzienā",
+			"4. pastāvīgo ciklu programmēšanā neizmanto G funkcijas"
+		]
+	},
+	{
+		"id": "7.6",
+		"question": "Kas ir ciparu vadības darbagalda “nejūtīguma zona”?",
+		"correct": 3,
+		"answers": [
+			"1. vadības programmas nesaglabāšana atmiņā",
+			"2. vadības programmas komandu fragmentu neizpilde",
+			"3. darba orgāna atpalikšana, mainot kustības virzienu",
+			"4. darba orgānu patvaļīga atgriešanās izejas stāvoklī"
+		]
+	},
+	{
+		"id": "7.7",
+		"question": "Kāds darba orgānu kustības raksturs atbilst kontūru vadības sistēmai?",
+		"correct": 2,
+		"answers": [
+			"1. pārvietojums no vienas koordinātes uz otru ar paātrinātu padevi",
+			"2. pārvietojums no vienas koordinātes uz otru ar darba gājienu",
+			"3. pārvietojums no vienas koordinātes uz otru bez apstrādes paralēli koordinātu asij",
+			"4. pārvietojums no vienas koordinātes uz otru  bez apstrādes pa taisni"
+		]
+	},
+	{
+		"id": "7.8",
+		"question": "Ja ciparu vadības darbagaldam ir vairāk par 3 koordinātu asīm, kā apzīmē otrās kārtas asis?",
+		"correct": 2,
+		"answers": [
+			"1. A; B; C;",
+			"2. U; V; W;",
+			"3. U; V; X;",
+			"4. Z; Y; X;"
+		]
+	},
+	{
+		"id": "7.9",
+		"question": "Kāpēc, apstrādājot ar ciparu vadības frēzmašīnām kontūru, vadības programmās jāizmanto instrumenta pārvietojumu pa ekvidistanti?",
+		"correct": 2,
+		"answers": [
+			"1. lai nerastos formas kļūda",
+			"2. lai nerastos izmēra kļūda",
+			"3. lai nerastos virsmas raupjuma kļūda",
+			"4. lai nerastos virsmas kontūru kļuda"
+		]
+	},
+	{
+		"id": "7.10",
+		"question": "Virpojamai detaļai rasējumā detaļas garums uzrādīts 100 mm, sagataves, kuras viena gala virsma nav jāapstrādā, garums ir 102 mm. Kādu koordinātes Z vērtību jāievada izdarot izmēra piesaisti, ja detaļas gala virsma ir koordinātu sākums?",
+		"correct": 3,
+		"answers": [
+			"0",
+			"102",
+			"2",
+			"100"
+		]
+	},
+	{
+		"id": "7.11",
+		"question": "Kādās mērvienībās ciparu vadības virpu vadības programmās uzrāda darba padevi?",
+		"correct": 4,
+		"answers": [
+			"1. mm/s",
+			"2. apgr./min",
+			"3. m/min",
+			"4. mm/apgr."
+		]
+	},
+	{
+		"id": "7.12",
+		"question": "Ciparu vadības frēzmašīnās Z ass ir vērsta…",
+		"correct": 1,
+		"answers": [
+			"1. Pret apstrādājamā materiāla virsmu",
+			"2. Sķērspadeves virzienā",
+			"3. Garenpadeves virzienā",
+			"4. Pret instrumentu magazīnu"
+		]
+	},
+	{
+		"id": "7.13",
+		"question": "Kā apzīmē pirmās kārtas koordinātu asis ciparu vadības darbagaldiem?",
+		"correct": 1,
+		"answers": [
+			"1. X; Y; Z;",
+			"2. A; B; C;",
+			"3. U; V; X;",
+			"4. K; L; M."
+		]
+	},
+	{
+		"id": "7.14",
+		"question": "Ar kādu simbolu apzīme nulli ciparu vadības darbagaldu programmā?",
+		"correct": 3,
+		"answers": [
+			"1. 0;",
+			"2. Z;",
+			"3. Ø;",
+			"4. Ϙ."
+		]
+	},
+	{
+		"id": "7.15",
+		"question": "ISO kodā ciparu vadības darbagaldā programmē:\nØ7777 (AGA);\nKo dotajā rindā nosaka Ø7777?",
+		"correct": 2,
+		"answers": [
+			"1. Programmas kārtas numuru;",
+			"2. Programma kārtas numuru darba galda atmiņā;",
+			"3. Operācijas kārtas numuru ciparu vadības darba galda programmā;",
+			"4. Programmas kārtas numuru datorā."
+		]
+	},
+	{
+		"id": "7.16",
+		"question": "ISO kodā CPV darbagaldā programmē\nØ7777 (AGA);\nKo dotajā rindā nosaka (AGA)?",
+		"correct": 1,
+		"answers": [
+			"1. Programmas nosaukumu;",
+			"2. Operācijas kārtas numuru ciparu vadības darba galda programmā;",
+			"3. Programmas kārtas numuru datorā.",
+			"4. Darba galda nosaukumu."
+		]
+	},
+	{
+		"id": "7.17",
+		"question": "ISO kodā CPV darbagaldā programmē\nØ7777 (AGA);\nKo dotajā rindā nosaka ; zīme?",
+		"correct": 4,
+		"answers": [
+			"1. Programmas nosaukumu;",
+			"2. Operācijas kārtas numuru ciparu vadības darba galda programmā;",
+			"3. Programmas kārtas numuru datorā.",
+			"4. Programmas rindas beigas."
+		]
+	}
+]
