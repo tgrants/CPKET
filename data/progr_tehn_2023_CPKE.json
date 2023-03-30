@@ -2719,7 +2719,7 @@
 	{
 		"id": "4.1.22",
 		"question": "Ar ko Windows OS var izveidot failu sistēmas nodalījumu uz diska?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Device Manager MMC",
 			"b) Disk Manager MMC",
@@ -3147,7 +3147,7 @@
 	},
 	{
 		"id": "4.4.7",
-		"question": "Kam domāta cietā diska (HDD) defragmentācijas programma ?",
+		"question": "Kam domāta cietā diska (HDD) defragmentācijas programma?",
 		"correct": 2,
 		"answers": [
 			"a) lai arhivētu datus uz cietā diska",
@@ -3158,7 +3158,7 @@
 	},
 	{
 		"id": "4.4.8",
-		"question": "Kas notiek ar operatīvajā atmiņā esošu informāciju, \n izslēdzot datoru?",
+		"question": "Kas notiek ar operatīvajā atmiņā esošu informāciju, izslēdzot datoru?",
 		"correct": 2,
 		"answers": [
 			"a) tā saglabājas līdz nākamajai ieslēgšanai",
@@ -3214,7 +3214,7 @@
 	{
 		"id": "4.4.13",
 		"question": "Kas nav sistēmas programmprodukti?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) operētājsistēmas",
 			"b) čaulas (apvālki)",
@@ -5150,7 +5150,7 @@
 	{
 		"id": "7.0.6",
 		"question": "Kurš biroja lietojumprogrammu rīks kopē formatējumu (noformējumu)?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Format Copy",
 			"b) Painter",
@@ -5227,7 +5227,7 @@
 	{
 		"id": "7.1.1",
 		"question": "Ar kuru teksta redaktoru komandu apvieno vairākas šūnas tabulā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Split Cells",
 			"b) Wrap Text",
@@ -5293,7 +5293,7 @@
 	{
 		"id": "7.1.19",
 		"question": "MS Word / Libre Office Writer programmā veidotai tabulai kolonām ir dažāds platums. Kā kolonām visātrāk uzlikt vienādu platumu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) izpildot komandu izdalītas rindas (Distribute Rows)",
 			"b) ar peli mainot kolonas platumu",
@@ -5501,7 +5501,7 @@
 	},
 	{
 		"id": "7.2.10",
-		"question": "Izklājlapas A kolonā ierakstīti pieci skaitļi. Kura ir pareizā summēšanas\n formula?",
+		"question": "Izklājlapas A kolonā ierakstīti pieci skaitļi. Kura ir pareizā summēšanas formula?",
 		"correct": null,
 		"answers": [
 			"a) A1+A2+A3+A4+A5",
@@ -5556,7 +5556,7 @@
 	},
 	{
 		"id": "7.2.15",
-		"question": "Ko lieto  izklājlapu formulās, lai šūnu adrese paliktu nemainīga, kopējot formulas?",
+		"question": "Ko lieto izklājlapu formulās, lai šūnu adrese paliktu nemainīga, kopējot formulas?",
 		"correct": null,
 		"answers": [
 			"a) lieto šūnas absolūto adresi",
@@ -5667,7 +5667,7 @@
 	{
 		"id": "7.2.28",
 		"question": "Kāda informācija ir izklājlapu šūnā, ja tās saturs ir 1,2E-9?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) simbolu rinda 1,2E-9",
 			"b) skaitlis 0,0000000012",
@@ -5689,7 +5689,7 @@
 	{
 		"id": "7.2.31",
 		"question": "Kā izklājlapās var automātiski iekrāsot sarkanas nesekmīgās atzīmes tabulā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) ar Conditional Formatting komandu",
 			"b) ar Sort komandu",
@@ -5700,7 +5700,7 @@
 	{
 		"id": "7.2.32",
 		"question": "Ar kuru izklājlapu funkciju var saskaitīt norādītā apgabala šūnas, kas satur skaitļus?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) SUM",
 			"b) SERIESSUM",
@@ -5711,7 +5711,7 @@
 	{
 		"id": "7.2.33",
 		"question": "Ar kuru izklājlapu funkciju var saskaitīt norādītā apgabala šūnas, kas nav tukšas?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) SUM",
 			"b) COUNT",
@@ -5722,7 +5722,7 @@
 	{
 		"id": "7.2.36",
 		"question": "Kurš taustiņš izklājlapās ir jānospiež un jāpatur, lai atlasītu vairākas darba lapas pēc kārtas?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Ctrl",
 			"b) Shift",
@@ -5733,7 +5733,7 @@
 	{
 		"id": "7.2.37",
 		"question": "Kurš taustiņš izklājlapās ir jānospiež un jāpatur, lai atlasītu vairākas šūnas, kas nav pēc kārtas?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Ctrl",
 			"b) Shift",
@@ -5744,7 +5744,7 @@
 	{
 		"id": "7.2.38",
 		"question": "Kurš pieraksts attēlo izklājlapu šūnas relatīvo adresi?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) $E5",
 			"b) $E$5",
@@ -5755,7 +5755,7 @@
 	{
 		"id": "7.2.39",
 		"question": "Kura adrese apzīmē izklājlapu darblapas ceturtās kolonnas un trešās rindas šūnu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 3D",
 			"b) 4C",
@@ -5766,7 +5766,7 @@
 	{
 		"id": "7.2.40",
 		"question": "Ar kādu simbolu izklājlapu formulās apzīmē kāpināšanu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) °",
 			"b) #",
