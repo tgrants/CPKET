@@ -68,7 +68,7 @@
 	{
 		"id": "1.1.7",
 		"question": "Kas programmēšanas valodās pēc noklusējuma kalpo par standarta izvades plūsmu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) RAM",
 			"b) disks",
@@ -101,7 +101,7 @@
 	{
 		"id": "1.1.10",
 		"question": "Kas ir translators?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tulkotājs no augstā līmeņa programmēšanas valodas uz zemā līmeņa valodu",
 			"b) tulkotājs no vienas mašīnas komandu valodas uz citas mašīnas valodu",
@@ -112,7 +112,7 @@
 	{
 		"id": "1.1.11",
 		"question": "Kuras bāzes klases metodes ir obligāti jāpārdefinē atvasinātajā klasē?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) statiskās",
 			"b) abstraktās",
@@ -123,7 +123,7 @@
 	{
 		"id": "1.1.12",
 		"question": "Kas ir programmēšanas valodās netipiskie vai ārkārtējie apstākļi, kas prasa īpašu apstrādi?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) izņēmumi (exception)",
 			"b) funkcijas (function)",
@@ -156,7 +156,7 @@
 	{
 		"id": "1.1.15",
 		"question": "Kuri klases atribūti pieder pašai klasei (visiem klases objektiem), nevis tikai konkrētajam objektam?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) statiskie",
 			"b) abstraktie",
@@ -233,7 +233,7 @@
 	{
 		"id": "1.1.23",
 		"question": "Kurš ir pareizs apgalvojums par if operatora nosacījuma daļu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) to var nenorādīt, ja nav else daļas",
 			"b) tas ir obligāti jānorāda",
@@ -310,7 +310,7 @@
 	{
 		"id": "1.1.30",
 		"question": "Ko JAVA / PHP / C# / C++ valodas metodēm dod atslēgvārds \"static\"?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) metodes atgriežamā vērtība kļūst nemainīga",
 			"b) metodes neveic nekādu darbību",
@@ -332,7 +332,7 @@
 	{
 		"id": "1.1.32",
 		"question": "Cik reizes izpildīsies cikls dotajā programmas fragmentā (ja c un sum ir veselā tipa mainīgie)?\n Pascal: sum:= 0; c := 5; WHILE c > 5 do Begin \n sum := sum + c; c := c + 2; end;\nC++ / C# / Java: c = 5; sum = 0; \n while (c > 5){\n sum = sum + c;c+= 2;\n}",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"0",
 			"1",
@@ -343,7 +343,7 @@
 	{
 		"id": "1.1.33",
 		"question": "Dots programmas fragments\n C++/Java/C#:void myAge( ){int age = 20;}\nPascal:procedure myAge; \n var age: integer; begin age := 20; end;\n Kas ir age?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) lokālais mainīgais",
 			"b) globālais mainīgais",
@@ -365,7 +365,7 @@
 	{
 		"id": "1.1.35",
 		"question": "Kurš ir pareizs funkcijas (metodes) „vards” apraksts (prototips) C++/Java/C# valodā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) int vards: function;",
 			"b) function vards : int;",
@@ -431,7 +431,7 @@
 	{
 		"id": "1.1.41",
 		"question": "Ko dara dotais kods, ja m ir masīvs ar 10 elementiem, bet mainīgie sm un i ir veselie?\n C++/Java/C#:\nsm = 0; i = 0; \nwhile (i < 10) {sm = sm + m[i]; i++;}\n\nPascal:\nsm := 0; i := 0; \nwhile (i < 10) begin sm := sm + m[i]; inc(i); end;",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) saskaita masīva elementu skaitu",
 			"b) nosaka i robežas",
@@ -442,7 +442,7 @@
 	{
 		"id": "1.1.42",
 		"question": "Kā sauc globālā redzamības apgabala sadalījumu, kas nodrošina nosaukumu sadursmes (name collision) neiestāšanos?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) nosaukumu telpa",
 			"b) nosaukumu apgabals",
@@ -452,19 +452,19 @@
 	},
 	{
 		"id": "1.1.43",
-		"question": "Kur apraksta funkciju /metožu parametrus?",
-		"correct": null,
+		"question": "Kur apraksta funkciju / metožu parametrus?",
+		"correct": 2,
 		"answers": [
 			"a) pirms funkcijas / metodes kā globālos mainīgos",
 			"b) pie funkcijas / metodes vārda iekavās",
-			"c) funkcijas  / metodes ķermenī, kā lokālos mainīgos",
+			"c) funkcijas / metodes ķermenī, kā lokālos mainīgos",
 			"d) jebkurā programmas vietā"
 		]
 	},
 	{
 		"id": "1.1.44",
 		"question": "Ko nodrošina atslēgas vārda this izmantošana valodās C++/Java/C#?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) piekļuvi klases sākuma adresei",
 			"b) klases atribūta izveidošanu",
@@ -475,7 +475,7 @@
 	{
 		"id": "1.1.45",
 		"question": "Tiek veidota klase MyClass. Kā var izveidot šīs klases konstruktoru C++ / Java / C# valodā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) void MyClass( ){..} / public void MyClass( ){...}",
 			"b) MyConstructor( ){…} / public MyConstructor( ) {…}",
@@ -486,7 +486,7 @@
 	{
 		"id": "1.1.46",
 		"question": "Kā izpaužas polimorfisms?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) ļauj vienu uzdevumu risināt dažādos veidos",
 			"b) apvieno datus un kodu, kas manipulē ar šiem datiem",
@@ -497,7 +497,7 @@
 	{
 		"id": "1.1.47",
 		"question": "Kas C++ / Java / C# valodās ir \"void\"?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) konstante",
 			"b) datu tips",
@@ -508,7 +508,7 @@
 	{
 		"id": "1.1.48",
 		"question": "Kas ir metode?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Funkcija, kas definēta klasē",
 			"b) Funkcija, kas izsauc klasi",
@@ -519,7 +519,7 @@
 	{
 		"id": "1.1.49",
 		"question": "Kas ir klases atribūts (lauks)?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Klases instance",
 			"b) Mainīgais, kas apraksta klases datus",
@@ -541,7 +541,7 @@
 	{
 		"id": "1.1.51",
 		"question": "Kurš C++ / Java / C# valodas operators izsauc objekta mansObjekts metodi manaMetode bez argumentiem?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) manaMetode.mansObjekts;",
 			"b) mansObjekts.manaMetode;",
@@ -552,7 +552,7 @@
 	{
 		"id": "1.1.52",
 		"question": "Kā pareizi deklarēt metodi ar nosaukumu \"manaMetode\" C++ / Java / C# valodā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) void() manaMetode",
 			"b) void manaMetode",
@@ -574,7 +574,7 @@
 	{
 		"id": "1.1.54",
 		"question": "Kurš atslēgas vārds valodās C++/Java/C# nodrošina to, ka metodi var izmantot neizveidojot klases objektu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) public",
 			"b) protected",
@@ -585,7 +585,7 @@
 	{
 		"id": "1.1.55",
 		"question": "Kurš atslēgas vārds pirms lokālā funkcijas mainīgā, nodrošina to, ka tas tiek inicializēts tikai vienu reizi un saglabā savu vērtību katrā funkcijas izsaukumā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) public",
 			"b) protected",
@@ -596,7 +596,7 @@
 	{
 		"id": "1.1.56",
 		"question": "Kas ir jāizmanto, ja projektējot OOP programmu vēlas, lai visām atvasinātajām klasēm visos mantojuma līmeņos būtu kāda kopīga realizācija?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) abstraktā klase",
 			"b) inkapsulācija",
@@ -618,7 +618,7 @@
 	{
 		"id": "1.1.58",
 		"question": "Dots programmas fragments C++ / C# /Java:\nint day = 4;\nstring name; (Java: String name;)\nswitch (day) {\ncase 1: name = \"Monday\"; break;\ncase 2: name = \"Thuesday\"; break;\n...\n_____: name = \"Invalid\";\n}\nKas jāieraksta _______ vietā, lai pabeigtu switch operatoru un norādītu, kuru operatoru pildīt, ja nav neviena izvēles varianta?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) default",
 			"b) break",
@@ -629,7 +629,7 @@
 	{
 		"id": "1.1.59",
 		"question": "Dots programmas fragments C++/Java/C#:\nint x = 0;\ntry {\n  float y = 1 / x;\n}\n_____ ...\n\nKas jāieraksta  _____ vietā, lai apstrādātu kļūdu programmā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) exception",
 			"b) handle",
@@ -651,7 +651,7 @@
 	{
 		"id": "1.2.1",
 		"question": "Pēc kādiem kritērijiem neklasificē datu struktūras?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) pēc datu savienojamības struktūrā",
 			"b) pēc struktūras mainīguma laikā",
@@ -662,7 +662,7 @@
 	{
 		"id": "1.2.2",
 		"question": "Ko glabā kopā ar elementu, ja tiek izmantots pusstatisko struktūru saistītais glabāšanas veids?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) elementa kārtas numurs",
 			"b) norāde uz nākošo elementu",
@@ -673,7 +673,7 @@
 	{
 		"id": "1.2.3",
 		"question": "No kuras vietas var dzēst elementus stekā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) no steka virsotnes",
 			"b) no steka galvas",
@@ -684,7 +684,7 @@
 	{
 		"id": "1.2.4",
 		"question": "Kā sauc datu struktūru, kurā elementu ievietošana notiek no viena gala, bet izslēgšana no otra?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) steks",
 			"b) deks",
@@ -695,7 +695,7 @@
 	{
 		"id": "1.2.5",
 		"question": "Kādas var būt virsotņu pakāpes vērtības binārajā kokā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) tikai 2",
 			"b) vairāk par 2",
@@ -750,7 +750,7 @@
 	{
 		"id": "1.2.10",
 		"question": "Kāds ir rindas elementa ievietošanas/izslēgšanas princips?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) pirmais iekšā, pēdējais ārā (FILO)",
 			"b) pēdējais iekšā, pirmais ārā (LIFO)",
@@ -761,7 +761,7 @@
 	{
 		"id": "1.2.11",
 		"question": "Kas ir \"ieraksts\"?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tikai vienāda tipa elementu kopums",
 			"b) sakārtots vienāda tipa elementu kopums",
@@ -772,7 +772,7 @@
 	{
 		"id": "1.2.12",
 		"question": "Kura datu struktūra apraksta datus un metodes?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) modulis",
 			"b) ieraksts",
@@ -783,7 +783,7 @@
 	{
 		"id": "1.2.13",
 		"question": "Kur var pievienot deka (deque) jaunu elementu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) sākumā",
 			"b) beigās",
@@ -805,7 +805,7 @@
 	{
 		"id": "1.2.15",
 		"question": "Kā sauc koka pirmo mezglu (kas ir koka pašā augšā)?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) sākums",
 			"b) galva",
@@ -827,7 +827,7 @@
 	{
 		"id": "1.2.17",
 		"question": "Kā sauc garumu garākajam ceļam no koka mezgla līdz kādai lapai?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) augstums",
 			"b) dziļums",
@@ -838,7 +838,7 @@
 	{
 		"id": "1.2.18",
 		"question": "Kā sauc datu struktūru, kurā katram mezglam var būt vairāki bērni bet tikai viens vecāks?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) saraksts",
 			"b) divkāršsaistīts saraksts",
@@ -860,7 +860,7 @@
 	{
 		"id": "1.2.20",
 		"question": "Kurš ir pareizs apgalvojums par binārās meklēšanas koku (binary search tree)?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) kreisā bērna atslēga ir mazāka par paša mezgla atslēgu, bet labā - lielākā",
 			"b) kreisā bērna atslēga ir lielāka par paša mezgla atslēgu, bet labā - mazākā",
@@ -893,7 +893,7 @@
 	{
 		"id": "1.2.23",
 		"question": "Kurā masīva kārtošanas metodē katram k. elementam vieta tiek meklēta iepriekš sakārtotajā virknē no k - 1 elementa?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Bubble sort (burbuļa metode)",
 			"b) Shell sort (Šella metode, restītes metode)",
@@ -904,7 +904,7 @@
 	{
 		"id": "1.2.24",
 		"question": "Kādā secībā notiek koka apstaigāšana ar iekšējā sakārtojuma (inorder) algoritmu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) no sākuma tiek aplūkots kreisais apakškoks, pēc tam pati virsotne un pēdējais tiek aplūkots labais apakškoks",
 			"b) no sākuma tiek aplūkota virsotne, pēc tam kreisais apakškoks, pēc tam labais apakškoks",
@@ -915,7 +915,7 @@
 	{
 		"id": "1.2.25",
 		"question": "Uz steka virsotni rāda norāde top. Kādas vērtības paliks stekā pēc elementu izņemšanas pop() operācijas, ja sākumā stekā bija šādi elementi:\ntop-> 2 -> 44 -> 4 -> 8 ?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) top -> 2 -> 4 -> 44",
 			"b) top -> 44 -> 4 -> 8",
@@ -926,18 +926,18 @@
 	{
 		"id": "1.2.26",
 		"question": "Uz steka virsotni rāda norāde top. Kā izskatīsies steks pēc operācijas push(8), ja sākumā stekā bija šādi elementi:\ntop-> 2  4  7  8  10 ?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) top -> 2 4 7 8 10",
 			"b) top -> 2 4 7 8 8 10",
 			"c) top -> 2 4 7 8 10 8",
-			"d) top -> 8 2 4 7  8 10"
+			"d) top -> 8 2 4 7 8 10"
 		]
 	},
 	{
 		"id": "1.2.27",
 		"question": "Norādiet nepareizo apgalvojumu par koku!",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) koks ir kompozīcija no mezgliem (node) un šķautnēm (edge)",
 			"b) koks ir datu struktūra",
@@ -948,18 +948,18 @@
 	{
 		"id": "1.2.28",
 		"question": "Uz rindas sākumu rāda norāde head. Kā izskatīsies rinda pēc elementu pievienošanas operācijas enQueue(8), ja sākumā rindā bija šādi elementi:\nhead-> 2  4  7  8  10 ?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) head -> 2 4 7 8 10",
 			"b) head -> 2 4 7 8 8 10",
 			"c) head -> 2 4 7 8 10 8",
-			"d) head -> 8 2 4 7  8 10"
+			"d) head -> 8 2 4 7 8 10"
 		]
 	},
 	{
 		"id": "1.2.29",
 		"question": "Kura elementu kārtošanas metode tiek realizēta rekursīvi?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Bubble Sort (burbuļa metode)",
 			"b) Shell Sort (Šella metode, restītes metode)",
@@ -970,7 +970,7 @@
 	{
 		"id": "1.2.30",
 		"question": "Kurš ir nepareizs apgalvojums par ātrās kārtošanas (Quick Sort) algoritmu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) algoritmu realizē rekursīvi",
 			"b) divi apakšmasīvi \"saplūd\" trešajā",
@@ -981,7 +981,7 @@
 	{
 		"id": "1.2.31",
 		"question": "Kurš ir nepareizs apgalvojums par dinamiskajām datu struktūrām?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tās atrodas dinamiskajā atmiņā",
 			"b) tās ir nelineāras struktūras",
@@ -992,7 +992,7 @@
 	{
 		"id": "1.2.32",
 		"question": "Kurš ir nepareizs apgalvojums par divkāršsaistītiem sarakstiem?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) katrs elements ir saistīts ar iepriekšējo - ja šādas saites nav, tad tas ir sākuma elements",
 			"b) katrs elements ir saistīts ar nākamo - ja šādas saites nav, tad tas ir pēdējais elements",
@@ -1003,7 +1003,7 @@
 	{
 		"id": "1.2.33",
 		"question": "Kurš ir nepareizs apgalvojums par algoritmu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) var būt bezgalīgs",
 			"b) var būt rekursīvs",
@@ -1014,7 +1014,7 @@
 	{
 		"id": "1.2.34",
 		"question": "Kas ir galīgo soļu virkne, kas precizē, kā sasniegt kādu rezultātu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) algoritms",
 			"b) masīvs",
@@ -1025,7 +1025,7 @@
 	{
 		"id": "1.2.35",
 		"question": "Kurš no masīva kārtošanas algoritmiem prasa kopēt masīvu starpmasīvā? ",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) burbuļa metode (Bubble Sort)",
 			"b) ātrās kārtošanas metode (Quick Sort)",
@@ -1036,7 +1036,7 @@
 	{
 		"id": "1.2.36",
 		"question": "Kurā kārtošanas metodē funkcija saņem divus sakārtotus masīvus un atgriež to sakārtoto apvienojumu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) burbuļa metode (Bubble Sort)",
 			"b) ātrās kārtošanas metode (Quick Sort)",
@@ -1045,9 +1045,9 @@
 		]
 	},
 	{
-		"id": "1.2.36",
+		"id": "1.2.37",
 		"question": "Kurš ir nepareizs apgalvojums par datu struktūru \"koks\"?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tā ir dinamiskā datu struktūra",
 			"b) tā ir binārā datu struktūra",
@@ -3302,7 +3302,7 @@
 	{
 		"id": "5.0.1",
 		"question": "Kas nav adaptīvā (jeb responsīvā) mājas lapas dizaina pamata princips?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) elastīgi elementu izkārtojumi",
 			"b) lapas objektu automātiskā pielāgošanos pārlūkprogrammas loga izmēram",
@@ -3346,7 +3346,7 @@
 	{
 		"id": "5.0.5",
 		"question": "Internet tīkla standartprotokols, kas nodrošina informācijas apmaiņu globālajā tīmeklī ir...",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) TCP",
 			"b) IP",
@@ -3368,7 +3368,7 @@
 	{
 		"id": "5.0.7",
 		"question": "Kurš apgalvojums nav pareizs par datu nosūtīšanas metodēm!",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) ACTION atribūts apraksta, kā tiks apstrādāta HTML forma",
 			"b) METHOD atribūts pārvalda datu iesniegšanas procesu",
@@ -3379,7 +3379,7 @@
 	{
 		"id": "5.0.8",
 		"question": "Kura HTTP protokola metode ir paredzēta informācijas saņemšanai no servera?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) GET",
 			"b) PUT",
@@ -3390,7 +3390,7 @@
 	{
 		"id": "5.0.9",
 		"question": "Kura HTTP protokola metode ir paredzēta informācijas nosūtīšanai uz WEB serveri?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) GET",
 			"b) PUT",
@@ -3401,7 +3401,7 @@
 	{
 		"id": "5.0.10",
 		"question": "Kurš apgalvojums par valodām JavaScript, PHP, Perl un Python ir pareizs?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) tās ir skripta valodas",
 			"b) tās ir datu bāžu pārvaldības sistēmas",
@@ -3423,7 +3423,7 @@
 	{
 		"id": "5.0.12",
 		"question": "Kuras HTTP protokola metodes pārsūtītā informācija ir redzama pārlūkprogrammas adrešu joslā? ",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) GET",
 			"b) PUT",
@@ -3434,7 +3434,7 @@
 	{
 		"id": "5.0.13",
 		"question": "Kuras HTTP protokola metodes pārsūtītā informācija nav redzama pārlūkprogrammas adrešu joslā? ",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) GET",
 			"b) ACTION",
@@ -3445,7 +3445,7 @@
 	{
 		"id": "5.1.1",
 		"question": "Kāds ir HTML atšifrējums?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Hyper Text Mail Language",
 			"b) Hyperlink Transfer Markup Language",
@@ -3456,7 +3456,7 @@
 	{
 		"id": "5.1.2",
 		"question": "Kuru no tagiem izmanto HTML dokumenta galvas daļā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <sub>",
 			"b) <title>",
@@ -3467,7 +3467,7 @@
 	{
 		"id": "5.1.3",
 		"question": "Kā uzdot HTML hipersaiti uz attēlu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) IMG SRC=\"simple.jpg\"",
 			"b) A HREF=\"simple.jpg\"",
@@ -3511,7 +3511,7 @@
 	{
 		"id": "5.1.7",
 		"question": "Uz ko norāda vienotais resursu vietrādis URL?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) uz servera adresi",
 			"b) uz abonenta adresi",
@@ -3522,7 +3522,7 @@
 	{
 		"id": "5.1.8",
 		"question": "Kas ir HTML valoda?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) strukturālā programmēšanas valoda",
 			"b) algoritmiskā valoda",
@@ -3533,7 +3533,7 @@
 	{
 		"id": "5.1.9",
 		"question": "No kā sastāv pilns HTML elements?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) no taga un atribūtiem",
 			"b) no taga, atribūtiem un elementa satura",
@@ -3544,7 +3544,7 @@
 	{
 		"id": "5.1.10",
 		"question": "Ar kādiem burtiem var ievadīt HTML kodus?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) tikai ar lielajiem burtiem",
 			"b) tikai ar mazajiem burtiem",
@@ -3554,8 +3554,8 @@
 	},
 	{
 		"id": "5.1.11",
-		"question": "Kuru no HTML tagiemizmanto tabulas rindasveidošanai?",
-		"correct": null,
+		"question": "Kuru no HTML tagiem izmanto tabulas rindas veidošanai?",
+		"correct": 1,
 		"answers": [
 			"a) <TR>",
 			"b) <TD>",
@@ -3566,7 +3566,7 @@
 	{
 		"id": "5.1.12",
 		"question": "Ko nosaka atribūts MAXLENGTH?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) ievadīšanas formas izmēru",
 			"b) izvēlņu saraksta daudzumu",
@@ -3577,18 +3577,18 @@
 	{
 		"id": "5.1.13",
 		"question": "Kurā HTML dokumenta vietā un ar kādu tagu definē CSS stilu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) dokumenta galvā, izmantojot <STYLE> tagu",
 			"b) dokumenta ķermenī, izmantojot <STYLE> tagu",
 			"c) <BODY>taga atribūtā \"css\"",
-			"d) <CSS> tagājebkurāHTMLdokumenta vietā"
+			"d) <CSS> tagā jebkurā HTML dokumenta vietā"
 		]
 	},
 	{
 		"id": "5.1.14",
 		"question": "Kuri no sekojošiem HTML tagiem ir nepāra tagi?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <HEAD>, <BODY>, <TITLE>",
 			"b) <IMG>, <BR>, <HR>",
@@ -3599,7 +3599,7 @@
 	{
 		"id": "5.1.15",
 		"question": "Ir dots attēls \"attels.jpg\" ar izmēriem: platums = 200, augstums = 100. Kāds būs redzamais izmērs attēlam pārlūkprogrammā, ja to definē ar: <IMG SRC=\"attels.jpg\" WIDTH=\"400\"/> ?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) platums = 200, augstums = 100",
 			"b) platums = 400, augstums = 100",
@@ -3610,7 +3610,7 @@
 	{
 		"id": "5.1.16",
 		"question": "Kā darbojas sekojošais CSS stila definējums:\n TD P {color: #0000FF}?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) nokrāso tekstu zilā krāsā <P> rindkopai, kas atrodas tikai<TD> ailēs",
 			"b) nokrāso tekstu zilā krāsā iekš visām <TD> ailēm kā arī iekš visām <P> rindkopām",
@@ -3620,8 +3620,8 @@
 	},
 	{
 		"id": "5.1.17",
-		"question": "Kā darbojas sekojošais CSS stila definējums?P IMG {border: 0px}\n TD IMG {border: 1px solid #FF0000}",
-		"correct": null,
+		"question": "Kā darbojas sekojošais CSS stila definējums? P IMG {border: 0px}\n TD IMG {border: 1px solid #FF0000}",
+		"correct": 3,
 		"answers": [
 			"a) definē, ka rindkopai nav rāmīša, bet tabulas ailēm ir sarkans rāmītis",
 			"b) definē, ka rindkopai, kurai iekšā ir attēli nav rāmīša, bet tabulas ailēm, kuros iekšā ir attēli ir sarkans rāmītis",
@@ -3631,8 +3631,8 @@
 	},
 	{
 		"id": "5.1.18",
-		"question": "KuršHTML taga <TD> atribūts tabulā ļauj apvienot pa horizontāli blakus esošās šūnas?",
-		"correct": null,
+		"question": "Kurš HTML taga <TD> atribūts tabulā ļauj apvienot pa horizontāli blakus esošās šūnas?",
+		"correct": 4,
 		"answers": [
 			"a) cellspacing",
 			"b) cellpadding",
@@ -3642,8 +3642,8 @@
 	},
 	{
 		"id": "5.1.19",
-		"question": "Kurš HTML taga atribūts nosaka tabulas līnijastreknumu?",
-		"correct": null,
+		"question": "Kurš HTML taga atribūts nosaka tabulas līnijas treknumu?",
+		"correct": 3,
 		"answers": [
 			"a) CELLPADDING",
 			"b) CELLSPASING",
@@ -3654,9 +3654,9 @@
 	{
 		"id": "5.1.20",
 		"question": "Kā darbojas sekojošais HTML elements: <AREA SHAPE=\"RECT\"COORDS=”70,45,210,90”>",
-		"correct": null,
+		"correct": 2,
 		"answers": [
-			"a) nosaka attēlakartes kvadrātveida fragmentu",
+			"a) nosaka attēla kartes kvadrātveida fragmentu",
 			"b) nosaka attēla kartes taisnstūra fragmentu",
 			"c) nosaka attēla kartes daudzstūra fragmentu",
 			"d) nosaka attēla kartes riņķa līnijas fragmentu"
@@ -3665,7 +3665,7 @@
 	{
 		"id": "5.1.21",
 		"question": "Kurā HTML dokumenta sadaļā \"pieslēdz\" favicon?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) dokumenta galvā, izmantojot <link> tagu",
 			"b) dokumenta ķermenī, izmantojot <link> tagu",
@@ -3676,7 +3676,7 @@
 	{
 		"id": "5.1.22",
 		"question": "Kāda ir pareiza CSS sintakse?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) selektors=\"vērtība: īpašība\"",
 			"b) selektors {īpašība: vērtība;}",
@@ -3687,7 +3687,7 @@
 	{
 		"id": "5.1.23",
 		"question": "Ko nozīmē CSS ieraksts?\nli a {color: red;}",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) visi saraksti, kuri atrodas zem hipersaitēm būs sarkanā krāsa",
 			"b) visas hipersaites būs sarkanas",
@@ -3698,7 +3698,7 @@
 	{
 		"id": "5.1.24",
 		"question": "Ko nozīmē CSS ieraksts? \ndiv#b { \n background-color:#00FF00; \n width: 100px; \n float: left;}",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) visiem blokiem ar klasi=b fons būs zaļš, platums būs 100 pikseļi un bloks būs pielīdzināts pie kreisās malas",
 			"b) visiem blokiem ar ID=b fons būs zaļš, platums būs 100 pikseļi un bloks būs pielīdzināts pie kreisās malas",
@@ -3709,7 +3709,7 @@
 	{
 		"id": "5.1.25",
 		"question": "Kāda krāsa būs parastām (neapmeklētām) hipersaitēm?\n <body bgcolor=red link=green vlink=white alink=black>",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) sarkana",
 			"b) balta",
@@ -3720,7 +3720,7 @@
 	{
 		"id": "5.1.26",
 		"question": "Kuru no HTML tagiem izmanto tabulas virsrakstu rindas veidošanai?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) <TR>",
 			"b) <TD>",
@@ -3731,7 +3731,7 @@
 	{
 		"id": "5.1.27",
 		"question": "Kādu valodu dotais HTML tags definē lapas saturam:\n <meta http-equiv=\"Content-Language\" content=\"lv\"> ?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) angļu",
 			"b) latīņu",
@@ -3753,7 +3753,7 @@
 	{
 		"id": "5.1.29",
 		"question": "Ko pilnībā nosaka dotais HTML tags:\n <table border=1 width=100% cellpadding=5>?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tabulu, kas aizņem 100% lapas",
 			"b) tabulu ar 1px robežu, 100% platumu, 5px atstarpēm līdz šūnu robežai",
@@ -3764,7 +3764,7 @@
 	{
 		"id": "5.1.30",
 		"question": "Kāds atribūts HTML dokumentu atver jaunā logā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) target=\"_top\"",
 			"b) target=\"_self\"",
@@ -3786,7 +3786,7 @@
 	{
 		"id": "5.1.32",
 		"question": "Kā HTML piesaistīt ārējo CSS stila failu \"mystyle.css\">?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <stylesheet>mystyle.css</stylesheet>",
 			"b) <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
@@ -3797,7 +3797,7 @@
 	{
 		"id": "5.1.33",
 		"question": "Kādas īpašības klasei “pel” definē dotais CSS apraksts?\n .pel {color: gray; font-size: 10px; text-align:left; }",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) pelēku fonu, izvietotu pa kreisi ar teksta fontu 10px",
 			"b) fonta izmēru 10px, tekstu izlīdzinātu pa kreisi",
@@ -3808,7 +3808,7 @@
 	{
 		"id": "5.1.34",
 		"question": "Ko HTML apzīmē ar atribūtu\"vlink\"?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) aktīvo hipersaiti (active link)",
 			"b) virtuālo hipersaiti (virtual link)",
@@ -3819,7 +3819,7 @@
 	{
 		"id": "5.1.35",
 		"question": "Kurš HTML formas taga atribūts nosaka, uz kurieni nosūtīt formas datus?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) method",
 			"b) input",
@@ -3852,7 +3852,7 @@
 	{
 		"id": "5.1.38",
 		"question": "Kur izvieto HTML tagu <link rel=\"stylesheet\" type=\"text/css\"\n href= \"noformejums.css\"/>?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) starp <body></body> tagiem",
 			"b) starp <i></i> tagiem",
@@ -3862,10 +3862,10 @@
 	},
 	{
 		"id": "5.1.39",
-		"question": "Kāds CSSstils tiek definēts tagā <link\n rel=\"stylesheet\" type=\"text/css\"\n href=\"noformejums.css\"/>\"?",
-		"correct": null,
+		"question": "Kāds CSS stils tiek definēts tagā <link\n rel=\"stylesheet\" type=\"text/css\"\n href=\"noformejums.css\"/>\"?",
+		"correct": 4,
 		"answers": [
-			"a) lapas iekšējais CSSstils",
+			"a) lapas iekšējais CSS stils",
 			"b) lapas vidējais CSS stils",
 			"c) lapas zemais CSS stils",
 			"d) lapas ārējais CSS stils"
@@ -3885,7 +3885,7 @@
 	{
 		"id": "5.1.41",
 		"question": "Kurš no HTML tagiem netiek izmantots definīciju saraksta veidošanai?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <DL>",
 			"b) <LI>",
@@ -3896,7 +3896,7 @@
 	{
 		"id": "5.1.42",
 		"question": "Kura no norādītajam nav HTML taga <UL> atribūta type vērtība?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) \"square\"",
 			"b) \"disc\"",
@@ -3907,7 +3907,7 @@
 	{
 		"id": "5.1.43",
 		"question": "Kurš no HTML tagiem ļauj izveidot sarakstu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) <LIST>",
 			"b) <SET>",
@@ -3918,10 +3918,10 @@
 	{
 		"id": "5.1.44",
 		"question": "Kā HTML <map> tagā uzdod taisnstūra elementa kordinātes?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) <area href=\"d2.html\" shape=\"rect\" coords= \"25,35,110,90\">",
-			"b) <area href=\"d2.html\" shape=\"poly\" coords= \"2, 25,35,110,90\">",
+			"b) <area href=\"d2.html\" shape=\"poly\" coords= \"2,25,35,110,90\">",
 			"c) <area href=\"d2.html\" shape=\"circle\" coords= \"25,36,15\">",
 			"d) <area href=\"d2.html\" shape=\"poly\" coords= \"25,35,114,90\">"
 		]
@@ -3929,7 +3929,7 @@
 	{
 		"id": "5.1.45",
 		"question": "Kurš CSS atribūts uzdod punktveida robežas līnijas stilu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) solid",
 			"b) double",
@@ -3940,7 +3940,7 @@
 	{
 		"id": "5.1.46",
 		"question": "Kā ar CSS uzdot fona attēlu <p> tagam?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) <p style=background-image: url(sun.jpg)>",
 			"b) <p style=background image= 'sun.jpg'>",
@@ -3951,7 +3951,7 @@
 	{
 		"id": "5.1.47",
 		"question": "Kā CSS uzdod par 20% lielāku teksta izmēru?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) font size>20%",
 			"b) font size=font size+20%",
@@ -3962,7 +3962,7 @@
 	{
 		"id": "5.1.48",
 		"question": "Kādu zīmi jāizmanto HTML speciālā simbola veidošanai?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) &",
 			"b) #",
@@ -3973,7 +3973,7 @@
 	{
 		"id": "5.1.49",
 		"question": "Kas HTML5 versijā ir \"canvas\"?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) tags",
 			"b) atribūts",
@@ -4006,7 +4006,7 @@
 	{
 		"id": "5.1.52",
 		"question": "No kurām krāsām veidojas HTML dokumenta krāsas kods heksadecimālajā pierakstā, piemēram, #CCCC55?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) purple, green, red",
 			"b) black, gray, blue",
@@ -4017,7 +4017,7 @@
 	{
 		"id": "5.1.53",
 		"question": "Kurš HTML formas tags paredzēts lietotāja informācijas ievadei vairāku rindu laukā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Input",
 			"b) Textarea",
@@ -4028,7 +4028,7 @@
 	{
 		"id": "5.1.54",
 		"question": "Kurš no nosauktajiem nav semantisks tags?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) <header>",
 			"b) <footer>",
@@ -4039,7 +4039,7 @@
 	{
 		"id": "5.1.55",
 		"question": "Kurš notikums nostrādā, kad lietotājs noklikšķina ar peles kreiso pogu uz HTML elementa?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) onchange",
 			"b) onkeydown",
@@ -4050,7 +4050,7 @@
 	{
 		"id": "5.1.56",
 		"question": "Kuri no HTML elementiem (visi) ir tabulas elementi?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) <table><header><body>",
 			"b) <table><tr><td>",
@@ -4061,7 +4061,7 @@
 	{
 		"id": "5.1.57",
 		"question": "Kuri no HTML elementiem (visi) ir saraksta elementi?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) <datalist><dd><li>",
 			"b) <br><tr><hr>",
@@ -4072,9 +4072,9 @@
 	{
 		"id": "5.1.58",
 		"question": "Kā pareizi HTML valodā izveidot teksta ievades lauku?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
-			"a) <input type=\"text\">  ",
+			"a) <input type=\"text\">",
 			"b) <textinput type=\"text\">",
 			"c) <textinput type=\"textfield\">",
 			"d) <input type=\"textfield\">"
@@ -4083,7 +4083,7 @@
 	{
 		"id": "5.1.59",
 		"question": "Kurš HTML elements definē navigācijas elementu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) <fieldset>",
 			"b) <meta>",
@@ -4094,7 +4094,7 @@
 	{
 		"id": "5.1.60",
 		"question": "Kurš HTML tags definē iekšējo stila lapu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) <script>",
 			"b) <css>",
@@ -4105,7 +4105,7 @@
 	{
 		"id": "5.1.61",
 		"question": "Kura CSS īpašība kontrolē teksta simbola lielumu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) font-size",
 			"b) text-size",
@@ -4116,7 +4116,7 @@
 	{
 		"id": "5.1.62",
 		"question": "Ar kādu simbolu CSS sintaksē piekļūst HTML elementam pēc tā identifikatora?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) !",
 			"b) #",
@@ -4127,7 +4127,7 @@
 	{
 		"id": "5.1.63",
 		"question": "Ar kādu simbolu CSS sintaksē piekļūst HTML elementiem pēc to klases?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) !",
 			"b) #",
@@ -4138,7 +4138,7 @@
 	{
 		"id": "5.1.64",
 		"question": "Kura būs pareizā sintakses, lai visiem rindkopas elementiem piešķirtu vienādu noformējumu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) #p{}",
 			"b) p{}",
@@ -4160,7 +4160,7 @@
 	{
 		"id": "5.2.2",
 		"question": "Kurā vietā HTML dokumentā ir jāievieto JavaScript valodas skripts?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tikai <body> sekcijā",
 			"b) tikai <head> sekcijā",
@@ -4182,7 +4182,7 @@
 	{
 		"id": "5.2.4",
 		"question": "Kāda ir pareiza JavaScript valodas sintakse, lai mainītu zemāk esošā HTML elementa saturu?\n\n<p id=\"demo\">Teksta paraugs.</p>",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) document.getElementById(\"demo\").innerHTML = \"Sveika pasaule!\";",
 			"b) document.getElementByName(\"p\").innerHTML = \"Sveika pasaule!\";",
@@ -4215,7 +4215,7 @@
 	{
 		"id": "5.2.7",
 		"question": "Kurš ir nepareizs apgalvojums par JavaScript valodu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tā ir Web programmēšanas valoda",
 			"b) tā tiek izpildīta servera pusē",
@@ -4237,7 +4237,7 @@
 	{
 		"id": "5.2.9",
 		"question": "Kādu vērtību JavaScript valodā pēc noklusējuma piešķir mainīgajam tā izveidošanas brīdī?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) undefined",
 			"b) 0",
@@ -4248,7 +4248,7 @@
 	{
 		"id": "5.2.10",
 		"question": "Kurā variantā netiks izveidots masīvs JavaScript valodā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) let arr = new Array();",
 			"b) let arr = [];",
@@ -4259,7 +4259,7 @@
 	{
 		"id": "5.2.11",
 		"question": "Kura JavaScript metode jāizmanto, lai piekļūtu HTML elementam pēc tā identifikatora?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) getElementById()",
 			"b) getElementsByClass()",
@@ -4270,7 +4270,7 @@
 	{
 		"id": "5.2.12",
 		"question": "Kura JavaScript metode jāizmanto laik piekļūtu HTML elementiem pēc to klases?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) getElementById()",
 			"b) getElementsByClass()",
