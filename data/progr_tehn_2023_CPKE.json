@@ -46,7 +46,7 @@
 	{
 		"id": "1.1.5",
 		"question": "Kas ir programmas mazākā izpildāmā vienība?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) operators",
 			"b) operands",
@@ -101,7 +101,7 @@
 	{
 		"id": "1.1.10",
 		"question": "Kas ir translators?",
-		"correct": 2,
+		"correct": 1,
 		"answers": [
 			"a) tulkotājs no augstā līmeņa programmēšanas valodas uz zemā līmeņa valodu",
 			"b) tulkotājs no vienas mašīnas komandu valodas uz citas mašīnas valodu",
@@ -4281,7 +4281,7 @@
 	{
 		"id": "6.1",
 		"question": "Kurus posmus ietver sevī programmatūras dzīves cikls?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) definēšana, kodēšana, uzturēšana",
 			"b) definēšana, implementēšana, labošana",
@@ -4292,7 +4292,7 @@
 	{
 		"id": "6.2",
 		"question": "Kas ir ER-diagrammas elementi?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) entītija, atribūts, relācija",
 			"b) būtība, saite, datu elements",
@@ -4303,7 +4303,7 @@
 	{
 		"id": "6.3",
 		"question": "Kas ir datu plūsmu diagrammas elementi?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) process, datu krātuve, lietotāja saskarne (aktieris), datu plūsma",
 			"b) objekts, atribūts, datu plūsma, datu plūsmas virziens",
@@ -4314,7 +4314,7 @@
 	{
 		"id": "6.4",
 		"question": "Kuras no prasībām apraksta visu programmas produkta apkārtni, kas nepieciešama, lai tas strādātu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) darbības vides",
 			"b) izstrādes ierobežojumu",
@@ -4325,7 +4325,7 @@
 	{
 		"id": "6.5",
 		"question": "Kādā secībā tiek izpildīts atkļūdošanas process?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) kļūdas atrašana, labošana, pārbaudīšana",
 			"b) kļūdas konstatēšana, lokalizēšana, novēršana",
@@ -4336,7 +4336,7 @@
 	{
 		"id": "6.6",
 		"question": "Ko parasti neizmanto melnās kastes testēšanas metodēs?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) programmas kodu",
 			"b) programmas darbības rezultātus",
@@ -4347,7 +4347,7 @@
 	{
 		"id": "6.7",
 		"question": "Kas ir atsevišķi identificējama programmas daļa, kuru var izveidot un izmantot autonomi?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) modulis",
 			"b) sistēma",
@@ -4358,7 +4358,7 @@
 	{
 		"id": "6.8",
 		"question": "Kuru no programmatūras konstruēšanas stratēģijām raksturo tas, ka sistēmas izstrādes sākumā visas sistēmas prasības nav definētas?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) lineāro stratēģiju",
 			"b) nelineāro stratēģiju",
@@ -4369,7 +4369,7 @@
 	{
 		"id": "6.9",
 		"question": "Kurš no šiem procesiem nav klasiskā programmatūras dzīves cikla posms?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) implementēšana",
 			"b) prasību analīze",
@@ -4380,7 +4380,7 @@
 	{
 		"id": "6.10",
 		"question": "Kura diagramma parāda kā mainās dati sistēmas darbības laikā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) ER diagramma",
 			"b) datu plūsmu diagramma",
@@ -4391,7 +4391,7 @@
 	{
 		"id": "6.11",
 		"question": "Kurā testēšanas pieejā apskata programmas kodu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) strukturālā (baltās kastes) testēšanā",
 			"b) funkcionālā testēšanā",
@@ -4402,7 +4402,7 @@
 	{
 		"id": "6.12",
 		"question": "Kurš no lietotāja saskarnes projektēšanas principiem pieprasa novērst lietotāja darbības, kas var izraisīt kļūdas?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) dabiskums",
 			"b) saskaņotība",
@@ -4413,7 +4413,7 @@
 	{
 		"id": "6.13",
 		"question": "Kurā no programmatūras izstrādes metodoloģijām nav vairāku konstruēšanas ciklu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) lineārā (ūdenskrituma)",
 			"b) inkrementu (soļu)",
@@ -4424,7 +4424,7 @@
 	{
 		"id": "6.14",
 		"question": "Kuras no prasībām apraksta kādu lietotāja servisu ir plānots nodrošināt sistēmā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) funkcionālās prasības",
 			"b) ekspluatācijas apstākļu prasības",
@@ -4435,7 +4435,7 @@
 	{
 		"id": "6.15",
 		"question": "Kam nav jābūt moduļa ievadkomentāros?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) programmas nosaukumam",
 			"b) programmas lietojumsfērai",
@@ -4446,7 +4446,7 @@
 	{
 		"id": "6.16",
 		"question": "Kurā programmatūras dzīves cikla posmā izstrādā prasību specifikācijas dokumentu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) prasību analīzes un definīcijas posmā",
 			"b) projektēšanas posmā",
@@ -4457,7 +4457,7 @@
 	{
 		"id": "6.17",
 		"question": "Kurš diagrammu veids ir paredzēts algoritmu aprakstam?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) blokshēma",
 			"b) ER diagramma",
@@ -4468,7 +4468,7 @@
 	{
 		"id": "6.18",
 		"question": "Kurā programmatūras izstrādes procesā izmanto komandu, zaru, nosacījumu un citus pārklājumus?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) prasību analīzē",
 			"b) atkļūdošanā",
@@ -4479,7 +4479,7 @@
 	{
 		"id": "6.19",
 		"question": "Kas ir sistēmas validācija?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) sistēmas prasību testēšana",
 			"b) pārbaude, vai izstrādes posma rezultāti nesatur kļūdas",
@@ -4490,7 +4490,7 @@
 	{
 		"id": "6.20",
 		"question": "Kurā programmatūras dzīves cikla posmā ir ieteicams sākt testēšanas plānu izstrādi?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) projektēšanā",
 			"b) implementēšanā",
@@ -4501,7 +4501,7 @@
 	{
 		"id": "6.21",
 		"question": "Kurš nav uzturēšanas posma process?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) uzlabošana",
 			"b) korekcija",
@@ -4512,7 +4512,7 @@
 	{
 		"id": "6.22",
 		"question": "Kurā programmatūras dzīves cikla posmā veic viedokļu savākšanu un identificēšanu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) prasību analīzē",
 			"b) projektēšanā",
@@ -4523,7 +4523,7 @@
 	{
 		"id": "6.23",
 		"question": "Kurā programmatūras izstrādes posmā veic atkļūdošanu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) prasību analīze",
 			"b) projektēšana",
@@ -4534,7 +4534,7 @@
 	{
 		"id": "6.24",
 		"question": "Kādai prasību grupai atbilst šī prasība: \"Sistēmai jāizvada klienta datus pēc ievadītā personas koda\"?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) funkcionālās prasības",
 			"b) prasības izstrādes procesam",
@@ -4545,7 +4545,7 @@
 	{
 		"id": "6.25",
 		"question": "Kurā programmatūras dzīves cikla posmā izstrādā programmatūras struktūru, balstoties uz prasību specifikāciju?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) sistēmas analīze",
 			"b) prasību analīze",
@@ -4556,7 +4556,7 @@
 	{
 		"id": "6.26",
 		"question": "Kurš ir nepareizs apgalvojums par iteratīvo izstrādi?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tā tiek organizēta kā darbību atkārtošana, lai uzlabotu iepriekšējā posma rezultātus",
 			"b) satur detalizētus atsevišķu darbību, rīku vai dokumentu šablonu aprakstus ",
@@ -4567,7 +4567,7 @@
 	{
 		"id": "6.27",
 		"question": "Kura ir sistēmas funkcionālā prasība?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) sistēma jāizstrādā PHP programmēšanas valodā",
 			"b) sistēmai jānodrošina jaunu preču reģistrēšana",
@@ -4578,7 +4578,7 @@
 	{
 		"id": "6.28",
 		"question": "Kura ir sistēmas nefunkcionālā prasība?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) sistēmai jāreģistrē jauns darījums",
 			"b) sistēmai jāļauj labot preces datus",
@@ -4589,7 +4589,7 @@
 	{
 		"id": "6.29",
 		"question": "Kas parasti netiek iekļauts programmatūras prasību specifikācijā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) programmatūras izstrādes metodes",
 			"b) nefunkcionālās prasības",
@@ -4600,7 +4600,7 @@
 	{
 		"id": "6.30",
 		"question": "Kurš tests programmu sistēmu testēšanā  ir labs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tests, kas pierāda, ka programma strādā korekti",
 			"b) tests, kas pilnībā notestē programmu",
@@ -4611,7 +4611,7 @@
 	{
 		"id": "6.31",
 		"question": "Kura ir pirmā darbība, kas jāveic testētājam, atrodot kļūdu programmā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) jāsastāda kļūdas ziņojums",
 			"b) jāizlabo kļūda",
@@ -4622,7 +4622,7 @@
 	{
 		"id": "6.32",
 		"question": "Kas ir priekšmetiskā joma (problēmas apgabals)?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) pasaules daļa, kuru pēta ar mērķi organizēt tās vadību",
 			"b) sistēmas darbības virziens, kas norāda attīstības stratēģiju",
@@ -4633,7 +4633,7 @@
 	{
 		"id": "6.33",
 		"question": "Kurš lietotāju saskarnes projektēšanas princips sevī ietver lietotāju kļūdu novēršanu vai labošanas iespēju?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) dabiskums",
 			"b) saskaņotība",
@@ -4644,7 +4644,7 @@
 	{
 		"id": "6.34",
 		"question": "Kurus izvēļnu veidus sauc par kustīgām izvēlnēm?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) uznirstošās un izvelkamās (pull down un pop up)",
 			"b) hierarhiskās (kokveida, tree)",
@@ -4666,7 +4666,7 @@
 	{
 		"id": "6.36",
 		"question": "Kurš nav pareizs apgalvojums par koda reorganizāciju (refaktoringu)?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tas ir programmas koda mainīšanas process",
 			"b) tas ietekmē programmas uzvedību",
@@ -4677,7 +4677,7 @@
 	{
 		"id": "6.37",
 		"question": "Kā sauc testēšanu, kuru var veikt potenciālie vai esošie klienti?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Alfa testēšana",
 			"b) Beta testēšana",
@@ -4688,7 +4688,7 @@
 	{
 		"id": "6.38",
 		"question": "Kurš no nosauktajiem visprecīzāk nosaka, kas jāiekļauj programmatūras prasību specifikācija?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) tikai nefunkcionālās prasības, par kurām izstrādātājs vienojies ar pasūtītāju",
 			"b) tikai funkcionālās un lietotāja saskarnes prasības",
@@ -4699,7 +4699,7 @@
 	{
 		"id": "6.39",
 		"question": "Kādu programmatūras izstrādes pieeju nav ieteicams izmantot, ja sākotnēji nevar precīzi nodefinēt visas prasības?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) ūdenkrituma (Waterfall)",
 			"b) prototipēšanas (Prototype)",
@@ -4710,7 +4710,7 @@
 	{
 		"id": "6.40",
 		"question": "Kura nav SCRUM izstrādes loma?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) produkta īpašnieks (Product owner)",
 			"b) SCRUM meistars (Scrum master)",
@@ -4721,7 +4721,7 @@
 	{
 		"id": "6.41",
 		"question": "Kas ir SCRUM izstrādes \"kalpojošais līderis\", kura uzdevums ir palīdzēt komandai maksimāli palielināt darba efektivitāti?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) produkta īpašnieks (Product owner)",
 			"b) SCRUM meistars (Scrum master)",
@@ -4732,7 +4732,7 @@
 	{
 		"id": "6.42",
 		"question": "Kurš ir pareizs apgalvojums par Kanban izstrādi?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) visas prasības sistēmai tiek definētas izstrādes sākumā",
 			"b) galvenā ideja ir darba procesu plūsmas vizualizācija",
@@ -4754,7 +4754,7 @@
 	{
 		"id": "6.44",
 		"question": "Kas ir paņēmienu kopums, kurš ļauj atrisināt konkrētu uzdevumu noteiktā programmatūras izstrādes etapā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) paradigma",
 			"b) stratēģija",
@@ -4765,7 +4765,7 @@
 	{
 		"id": "6.45",
 		"question": "Kas neapraksta Spējo (Agile) metodoloģiju?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) sistēmu izstrādā iteratīvi",
 			"b) pie katra etapa vēršas vienu reizi",
@@ -4776,7 +4776,7 @@
 	{
 		"id": "6.46",
 		"question": "Kurā no programmatūras izstrādes stratēģijām izstrāde notiek iteratīvi?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) lineārā stratēģijā",
 			"b) inkrementu stratēģijā",
@@ -4787,7 +4787,7 @@
 	{
 		"id": "6.47",
 		"question": "Kura ir SCRUM izstrādes loma?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) produkta īpašnieks",
 			"b) klients",
@@ -4798,7 +4798,7 @@
 	{
 		"id": "6.48",
 		"question": "Kurā datu bāžu izstrādes līmenī veido datubāzes shēmu konkrētajai DBPS?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) koncepcijas līmenī",
 			"b) loģiskajā līmenī",
@@ -4809,7 +4809,7 @@
 	{
 		"id": "6.49",
 		"question": "Kurš nav pareizs apgalvojums par datu vārdnīcām?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) parasti tās sastāda projektēšanas posmā",
 			"b) tās satur sistēmas mainīgos, tabulas laukus un citu datu struktūru aprakstu",
@@ -4820,7 +4820,7 @@
 	{
 		"id": "6.50",
 		"question": "Kurās programmatūras specifikācijas prasībās jāiekļauj nosacījums, ka sistēmas atbilde jāsaņem noteiktā laikā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) funkcionālajās",
 			"b) nefunkcionālajās",
@@ -4831,7 +4831,7 @@
 	{
 		"id": "6.51",
 		"question": "Kas nav datubāzu izstrādes līmenis?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) koncepcijas līmenis",
 			"b) projektējuma līmenis",
@@ -4842,7 +4842,7 @@
 	{
 		"id": "6.52",
 		"question": "Kas ir standarta pieraksta veids, ko izmanto, lai grafiski aprakstītu sistēmas modeli vai tā daļu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) entītija",
 			"b) shēma",
@@ -4853,7 +4853,7 @@
 	{
 		"id": "6.53",
 		"question": "Kurš apgalvojums par pakāpenisko (inkrementālo) pieeju izstrādei nav pareizs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) paredz ātru produkta izveidi ar ierobežotu, bet strādājošo funkcionalitāti",
 			"b) ļauj ātri pārbaudīt un labot hipotēzes par radīto produktu",
@@ -4864,7 +4864,7 @@
 	{
 		"id": "6.54",
 		"question": "Kurš diagrammu veids ir paredzēts datu bāzes struktūras aprakstam?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) blokshēma",
 			"b) ER diagramma",
@@ -4875,7 +4875,7 @@
 	{
 		"id": "6.55",
 		"question": "Norādiet pareizo apgalvojumu par blokshēmām!",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) tas ir grafisks veids, kā attēlot algoritma soļus",
 			"b) katrai algoritma funkcijai ir savs apzīmējums (sava figūra)",
@@ -4886,7 +4886,7 @@
 	{
 		"id": "6.56",
 		"question": "Kad programmatūras prasību var saukt par verificējamu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) kad eksistē kāds process, ar kuru var pārbaudīt tās izpildi",
 			"b) kad katra produkta raksturiezīme aprakstīta ar unikālu terminu",
@@ -4897,7 +4897,7 @@
 	{
 		"id": "6.57",
 		"question": "Kā var nodrošināt to, ka programmatūras prasības ir viennozīmīgas? Norādiet nepareizo apgalvojumu!",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) katrai prasībai ir jābūt tikai vienai nepārprotamai interpretācijai",
 			"b) ja lietotam terminam ir vairākas nozīmes, tas jāiekļauj terminoloģiskā vārdnīcā",
@@ -4908,7 +4908,7 @@
 	{
 		"id": "6.58",
 		"question": "Kā sauc testēšanu, kuru veic gala lietotājs?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Alfa tests",
 			"b) Beta tests",
@@ -4919,7 +4919,7 @@
 	{
 		"id": "6.59",
 		"question": "Kā sauc testu, ko veic atkārtoti pirms katras programmas (nodevuma) piegādes lietotājs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Alfa tests",
 			"b) Beta tests",
@@ -4930,7 +4930,7 @@
 	{
 		"id": "6.60",
 		"question": "Kā sauc dokumentu, kas ietver funkcionālās un nefunkcionālās prasības un var saturēt scenārijus vai specifiskus nosacījumus?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Datu apraksta dokuments",
 			"b) Testa plāns",
@@ -4940,8 +4940,8 @@
 	},
 	{
 		"id": "6.61",
-		"question": "Strukturēts dokuments, kas satur sistēmas funkcionālo un nefunkcionālo prasību detalizēto aprakstu \nun kalpo par pamatu tālākajai izstrādei ir...",
-		"correct": null,
+		"question": "Strukturēts dokuments, kas satur sistēmas funkcionālo un nefunkcionālo prasību detalizēto aprakstu un kalpo par pamatu tālākajai izstrādei ir...",
+		"correct": 3,
 		"answers": [
 			"a) Prasību definīcija",
 			"b) Funkcionālā specifikācija",
@@ -4952,7 +4952,7 @@
 	{
 		"id": "6.62",
 		"question": "Sistēmas attēlojums, kas parāda, kā programmatūras prasības tiks implementētas konkrētajā realizācijas vidē ir...",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Prasību definīcija",
 			"b) Funkcionālā specifikācija",
@@ -4963,7 +4963,7 @@
 	{
 		"id": "6.63",
 		"question": "Kas ir SCRUM?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) spējās metodoloģijas (Agile) metode",
 			"b) programmatūras izstrādes vide",
@@ -4974,7 +4974,7 @@
 	{
 		"id": "6.64",
 		"question": "No kā sastāv programmas vadības grafs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) no rindām un kolonām",
 			"b) no blokiem un zariem",
@@ -4985,7 +4985,7 @@
 	{
 		"id": "6.65",
 		"question": "Ar kādu mērķi sastāda programmas vadības grafu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) lai modelētu programmu",
 			"b) lai projektētu programmu",
@@ -4995,8 +4995,8 @@
 	},
 	{
 		"id": "6.66",
-		"question": "Ko programmas vadības grafā apzīmē ar virsotnēm? ",
-		"correct": null,
+		"question": "Ko programmas vadības grafā apzīmē ar virsotnēm?",
+		"correct": 2,
 		"answers": [
 			"a) funkcijas",
 			"b) komandas",
@@ -5007,7 +5007,7 @@
 	{
 		"id": "6.67",
 		"question": "Kurš apgalvojums par programmas izpildes ceļu nav pareizs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) ceļš ir operāciju virkne no programmas sākuma līdz beigām",
 			"b) visu ceļu skaits ir milzīgs, tas var būt pat bezgalīgs, ja tiek lietoti cikli",
@@ -5018,7 +5018,7 @@
 	{
 		"id": "6.68",
 		"question": "Kurš nav vadības ziņojuma veids?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) uzvedne (prompt)",
 			"b) kļūdu ziņojums (error message)",
@@ -5029,7 +5029,7 @@
 	{
 		"id": "6.69",
 		"question": "Kurā programmēšanas veidā realizācijas gaitā visa programma tiek sadalīta komponentos?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) modulārā programmēšana ",
 			"b) grafiskā programmēšana",
@@ -5051,7 +5051,7 @@
 	{
 		"id": "6.71",
 		"question": "Kurš apgalvojums par projektēšanas šabloniem (Design Patterns) nav pareizs?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) standarta risinājumus bieži sastopamajām problēmām",
 			"b) ir pilnīgi pabeigts paraugs, ko var tieši pārvērst kodā",
@@ -5062,7 +5062,7 @@
 	{
 		"id": "6.72",
 		"question": "Kuri nav detalizētās projektēšanas līdzekļi?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) grafiskie līdzekļi",
 			"b) tabulārie līdzekļi",
@@ -5073,7 +5073,7 @@
 	{
 		"id": "6.73",
 		"question": "Kurš apgalvojums par ER diagrammām nav pareizs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tiek izmantotas, lai izveidotu datubāzes shēmu vai datu modeli",
 			"b) palīdz izprast veidojamās datubāzes uzbūvi un pamatprincipus",
@@ -5084,7 +5084,7 @@
 	{
 		"id": "6.74",
 		"question": "Kuru diagrammu veidu izmanto, lai izveidotu datu bāzes shēmu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) ER diagrammu",
 			"b) datu plūsmu diagrammu",
@@ -5192,7 +5192,7 @@
 		]
 	},
 	{
-		"id": "7.0.6",
+		"id": "7.0.11",
 		"question": "Kādu taustiņu kombinācija jānospiež, lai saglabātu izmaiņas lietojumprogrammās?",
 		"correct": 2,
 		"answers": [
@@ -5203,7 +5203,7 @@
 		]
 	},
 	{
-		"id": "7.0.7",
+		"id": "7.0.12",
 		"question": "Kādu taustiņu vai to kombināciju pielieto, lai Windows operetājsistēmā iegūtu ekrāna attēla kopiju?",
 		"correct": 1,
 		"answers": [
@@ -5214,7 +5214,7 @@
 		]
 	},
 	{
-		"id": "7.0.8",
+		"id": "7.0.13",
 		"question": "Kādas komandas secīgi ir jāizpilda, lai biroja lietojumprogrammā dublētu tekstu?",
 		"correct": 1,
 		"answers": [
@@ -5238,7 +5238,7 @@
 	{
 		"id": "7.1.3",
 		"question": "Kas notiks, ja teksta dokumentam, kurā ir 1. līdz 25. lapas drukāšanas (Print) loga laukā Lappuses (Pages) uzraksta: \"12- \"?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) varēs izdrukāt no 1. līdz 12. lappusei",
 			"b) izdrukās pirmās 12 (divpadsmit) lappuses",
@@ -5249,7 +5249,7 @@
 	{
 		"id": "7.1.4",
 		"question": "Kādam nolūkam teksta redaktoros, ievadot tekstu, tiek izmantots Enter taustiņš?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) lai pārietu uz jaunu rindu",
 			"b) lai noslēgtu rindkopu",
@@ -5281,8 +5281,8 @@
 	},
 	{
 		"id": "7.1.12",
-		"question": "Kurā tekstaredaktoru dialoglogā var izvēlēties teksta pasvītrojuma stilu?",
-		"correct": null,
+		"question": "Kurā teksta redaktoru dialoglogā var izvēlēties teksta pasvītrojuma stilu?",
+		"correct": 1,
 		"answers": [
 			"a) Fonts / Teksts (Font / Text)",
 			"b) Robežu enojums (Borders and Shading)",
@@ -5304,7 +5304,7 @@
 	{
 		"id": "7.1.21",
 		"question": "Kā teksta redaktoros izdrukāt iezīmēto tekstu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) print text",
 			"b) print selection",
@@ -5315,7 +5315,7 @@
 	{
 		"id": "7.1.24",
 		"question": "Ar kādu taustiņu vai to kombināciju var pāriet no jebkuras dokumenta vietas teksta redaktoros uz tā sākumu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Ctrl+Home",
 			"b) Ctrl+End",
@@ -5325,8 +5325,8 @@
 	},
 	{
 		"id": "7.1.25",
-		"question": "Ar kādu taustiņu vai to kombināciju  var pāriet no jebkuras dokumenta vietas teksta redaktoros uz tā beigām?",
-		"correct": null,
+		"question": "Ar kādu taustiņu vai to kombināciju var pāriet no jebkuras dokumenta vietas teksta redaktoros uz tā beigām?",
+		"correct": 2,
 		"answers": [
 			"a) Ctrl+Home",
 			"b) Ctrl+End",
@@ -5336,8 +5336,8 @@
 	},
 	{
 		"id": "7.1.26",
-		"question": "Ar kādu taustiņu vai to kombināciju  var pāriet no jebkuras dokumenta vietas teksta redaktoros uz rindas beigām?",
-		"correct": null,
+		"question": "Ar kādu taustiņu vai to kombināciju var pāriet no jebkuras dokumenta vietas teksta redaktoros uz rindas beigām?",
+		"correct": 4,
 		"answers": [
 			"a) Ctrl+Home",
 			"b) Ctrl+End",
@@ -5348,7 +5348,7 @@
 	{
 		"id": "7.1.27",
 		"question": "Ar kādu taustiņu vai to kombināciju var pāriet no jebkuras dokumenta vietas teksta redaktoros uz rindas sākumu?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Ctrl+Home",
 			"b) Ctrl+End",
@@ -5359,7 +5359,7 @@
 	{
 		"id": "7.1.29",
 		"question": "Kāda taustiņu kombinācija ļauj teksta redaktoros pāriet uz jaunu rindu rindkopas ietvaros?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Alt+Insert",
 			"b) Ctrl+Insert",
@@ -5370,7 +5370,7 @@
 	{
 		"id": "7.1.30",
 		"question": "Kādas izmaiņas notiks, ja lietojumprogrammatūras tālummaiņas līdzeklī 100% vietā ieslēgs 150%?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) dokuments ekrānā tiks palielināts 1,5 reizes",
 			"b) visi burti drukājot palielināsies 1,5 reizes",
@@ -5403,7 +5403,7 @@
 	{
 		"id": "7.2.1",
 		"question": "Ko izpilda izklājlapu funkcija =COUNTIF(a1:a5; “<0”)?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) saskaita negatīvos skaitļus",
 			"b) sasummē negatīvos skaitļus",
@@ -5414,7 +5414,7 @@
 	{
 		"id": "7.2.2",
 		"question": "Ko izpilda izklājlapu komanda Insert row?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) pievieno jaunu darba lapu",
 			"b) pievieno jaunu rindu",
@@ -5425,7 +5425,7 @@
 	{
 		"id": "7.2.3",
 		"question": "Kā izklājlapās noapaļot skaitli 123456,789, lai rezultāts būtu 123457?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) = ROUND(123456,789;1)",
 			"b) = ROUND(123456,789;0)",
@@ -5436,7 +5436,7 @@
 	{
 		"id": "7.2.4",
 		"question": "Kāds ir izklājlapu šūnas A2 saturs, ja kopē A1, kurā atrodas =B1/B10?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) = B1/$B$10",
 			"b) = B2/B10",
@@ -5447,7 +5447,7 @@
 	{
 		"id": "7.2.5",
 		"question": "Kāds ir izklājlapas šūnas A2 saturs, ja kopē A1, kurā atrodas =B$1/B10?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) = B1/$B$10",
 			"b) = B2/B11",
@@ -5458,7 +5458,7 @@
 	{
 		"id": "7.2.6",
 		"question": "Kāds rezultāts ir pēc izklājlapas formulas = ROUND(4568,347; -2) izpildes?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) 4570",
 			"b) 4600",
@@ -5469,7 +5469,7 @@
 	{
 		"id": "7.2.7",
 		"question": "Kura no izklājlapu loģiskām funkcijām pārbauda vai skaitlis šūnā A1 ir lielākais no 3 skaitļiem, kas ir šūnās A1, A2, A3?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) = IF(a1<a2; IF(a1>a3; “jā”;0); 0)",
 			"b) = IF(a1>a2; IF(a1>a3; “jā”;0); 0)",
@@ -5480,7 +5480,7 @@
 	{
 		"id": "7.2.8",
 		"question": "Kāds datu formāts attēlo valūtu izklājlapu šūnā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) General",
 			"b) Date",
@@ -5502,7 +5502,7 @@
 	{
 		"id": "7.2.10",
 		"question": "Izklājlapas A kolonā ierakstīti pieci skaitļi. Kura ir pareizā summēšanas formula?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) A1+A2+A3+A4+A5",
 			"b) SUM(A1:A5)",
@@ -5524,7 +5524,7 @@
 	{
 		"id": "7.2.12",
 		"question": "Kurš izklājlapu diagrammas veids vislabāk attēlo datu attiecību procentos?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Histogramma (Column)",
 			"b) Robežlīkne (Bar)",
@@ -5535,9 +5535,9 @@
 	{
 		"id": "7.2.13",
 		"question": "Ja izklājlapu tabulas šūnā A1 ir skaitlis 1, bet šūnā B1 ir 2, tad kādu datu sēriju var iegūt pirmajā rindā, ia iezīmē abas šūnas?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
-			"a) 111111…",
+			"a) 111111...",
 			"b) 222222...",
 			"c) 121212...",
 			"d) 123456..."
@@ -5546,7 +5546,7 @@
 	{
 		"id": "7.2.14",
 		"question": "Ko var lietot izklājlapu tabulās, veidojot formulas?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) šūnu adreses, iebūvētās procedūras, iebūvētās funkcijas",
 			"b) datus, iebūvētās procedūras, iebūvētās funkcijas",
@@ -5557,7 +5557,7 @@
 	{
 		"id": "7.2.15",
 		"question": "Ko lieto izklājlapu formulās, lai šūnu adrese paliktu nemainīga, kopējot formulas?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) lieto šūnas absolūto adresi",
 			"b) lieto šūnas relatīvo adresi",
@@ -5568,7 +5568,7 @@
 	{
 		"id": "7.2.16",
 		"question": "Kā izklājlapās noapaļot skaitli 12,789, lai rezultāts būtu 12,8?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) = ROUND(12,789;1)",
 			"b) = ROUND(12,789;0)",
@@ -5579,7 +5579,7 @@
 	{
 		"id": "7.2.17",
 		"question": "Kā izklājlapās noapaļot skaitli 12,789, lai rezultāts būtu 12?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) = ROUND(12,789;0)",
 			"b) = FLOOR(12,789)",
@@ -5589,8 +5589,8 @@
 	},
 	{
 		"id": "7.2.18",
-		"question": "Kas nodrošina, lai  izklājlapu programmā teksts šūnā pats sadalītos vairākās rindās, ja kolonnas platums ir par mazu?",
-		"correct": null,
+		"question": "Kas nodrošina, lai izklājlapu programmā teksts šūnā pats sadalītos vairākās rindās, ja kolonnas platums ir par mazu?",
+		"correct": 3,
 		"answers": [
 			"a) Merge cells",
 			"b) Alignment text",
@@ -5601,18 +5601,18 @@
 	{
 		"id": "7.2.19",
 		"question": "Kurš ir izklājlapu loģiskās funkcijas IF pieraksta formāts?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) =IF(nosacījums; vērtība, ja izteikums patiess; vērtība, ja izteikums nepatiess)",
 			"b) =IF(nosacījums; vērtība, ja izteikums nepatiess; vērtība, ja izteikums patiess)",
-			"dzēsts ",
+			"dzēsts",
 			"d) =IF(vērtība, ja izteikums patiess; vērtība, ja izteikums nepatiess)"
 		]
 	},
 	{
 		"id": "7.2.20",
 		"question": "Ko izpilda izklājlapu funkcija =ROUND(SUMIF(a1:a5; “>0”);2)?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) noapaļo sasummētos pozitīvos skaitļus no dotā intervāla līdz 2 zīmēm aiz komata",
 			"b) noapaļo sasummētos pozitīvos skaitļus no dotā intervāla līdz veseliem simtiem",
@@ -5622,8 +5622,8 @@
 	},
 	{
 		"id": "7.2.21",
-		"question": "Izklājlapu šunās ir vērtības: \nA1 = 10, \nB1 = 20, \nC1 = 30, \nD1= 40. \nE1 satur formulu =SUM(A1, C1). \nKāds rezultāts būs redzams šunā E1? ",
-		"correct": null,
+		"question": "Izklājlapu šunās ir vērtības: \nA1 = 10, \nB1 = 20, \nC1 = 30, \nD1= 40. \nE1 satur formulu =SUM(A1, C1). \nKāds rezultāts būs redzams šunā E1?",
+		"correct": 1,
 		"answers": [
 			"a) 40",
 			"b) 60",
@@ -5634,7 +5634,7 @@
 	{
 		"id": "7.2.22",
 		"question": "Izklājlapu šunās ir vērtības: \nA1 = 10, \nB1 = 20, \nC1 = 30, \nD1= 40. \nE1 satur formulu =SUM(A1, C1). \nStarp kolonnu D un E ievieto kolonnu (formula tagad būs šūnā G1). Kāds rezultāts būs redzams šunā G1? ",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) 40",
 			"b) 60",
@@ -5645,7 +5645,7 @@
 	{
 		"id": "7.2.23",
 		"question": "Kā izklājlapu šūnā atrast kubsakni no -18?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) = SQRT(-18)",
 			"b) = (-18)^1/3",
@@ -5656,7 +5656,7 @@
 	{
 		"id": "7.2.25",
 		"question": "Izklājlapu šunās ir vērtības: \nA1 = 5, \nA2 = 10. \nKas būs redzams šūnā A3, ja tajā ievadīs \"A1+A1\"?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 10",
 			"b) 15",
@@ -5678,7 +5678,7 @@
 	{
 		"id": "7.2.30",
 		"question": "Kāds ir izklājlapu A2 šūnas saturs, kopējot ar kopēšanas satverrīku šūnu A1, kur atrodas datums \"21.11.2024\" (DD.MM.YYYY) ?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) 21.11.2024",
 			"b) 22.11.2024",
