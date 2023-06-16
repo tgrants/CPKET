@@ -1190,7 +1190,7 @@
 	{
 		"id": "2.1.15",
 		"question": "Kā atšifrējas abreviatūra BIOS?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Basic Input Output System",
 			"b) Basic Insert Output System",
@@ -1212,7 +1212,7 @@
 	{
 		"id": "2.1.17",
 		"question": "Ko nozīmē sistēmplates formfaktors?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) pielietotās sistēmloģikas tipu",
 			"b) kopnes skaitu uz plates",
@@ -1245,7 +1245,7 @@
 	{
 		"id": "2.1.22",
 		"question": "Cik kontaktu satur USB 2.0 savienotājs?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 2",
 			"b) 3",
@@ -1306,7 +1306,8 @@
 			"b) SCSI (Small Computer System Interface)",
 			"c) FireWire B",
 			"d) IEEE 1394"
-		]
+		],
+		"expl": "USB 2.0 - 127, SCSI - 15, FireWire B - 63, IEEE 1394 - 63"
 	},
 	{
 		"id": "2.1.29",
@@ -1377,7 +1378,7 @@
 	{
 		"id": "2.1.36",
 		"question": "Kāda ir FULL HD standarta izšķirtspēja monitoriem?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) 1680x1050",
 			"b) 1920x1080",
@@ -1399,7 +1400,7 @@
 	{
 		"id": "2.1.38",
 		"question": "Cik kontaktu satur USB 3.0 standarta savienotājs?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) 8",
 			"b) 9",
@@ -1410,7 +1411,7 @@
 	{
 		"id": "2.1.39",
 		"question": "Kāds apgaismojums tiek izmantots LED monitorā?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) dienasgaismas spuldze",
 			"b) kvēlspuldze",
@@ -1421,7 +1422,7 @@
 	{
 		"id": "2.1.40",
 		"question": "Kāda tipa pieslēgvietu (portu) izmanto USB 3.1?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) A tipa",
 			"b) B tipa",
@@ -1432,7 +1433,7 @@
 	{
 		"id": "2.2.1",
 		"question": "Kas ir datortīkla protokols?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) datu kopums",
 			"b) elektrisks signāls",
@@ -1443,7 +1444,7 @@
 	{
 		"id": "2.2.2",
 		"question": "Kurai no IP adrešu klasēm pieder IP adrese 192.168.0.1?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) A",
 			"b) B",
@@ -1465,7 +1466,7 @@
 	{
 		"id": "2.2.4",
 		"question": "Cik ir vadu pāru standarta vītā pāra kabelī UTP Cat5e?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 1 pāris",
 			"b) 2 pāri",
@@ -1476,7 +1477,7 @@
 	{
 		"id": "2.2.5",
 		"question": "Kādu datu pārraidīšanas ātrumu spēj nodrošināt \n 5. kategorijas UTP kabelis?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 10 Mbit/sec",
 			"b) 4 Mbit/sec",
@@ -1487,7 +1488,7 @@
 	{
 		"id": "2.2.6",
 		"question": "Kāds ir tīkla kartes saīsināts apzīmējums angļu valodā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) NIC",
 			"b) MAC",
@@ -1608,7 +1609,7 @@
 	{
 		"id": "2.2.17",
 		"question": "Kura no CMD komandām ļauj uzzināt interfeisa esošo konfigurāciju Windows vidē?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) ipconfig",
 			"b) netsh",
@@ -1696,7 +1697,7 @@
 	{
 		"id": "2.2.25",
 		"question": "Kurš no šiem pierakstiem atbilst MAC adresei?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) 00-80-5f-fe-14-c2",
 			"b) 0-0-f-f-1-2",
@@ -1718,7 +1719,7 @@
 	{
 		"id": "2.2.27",
 		"question": "Ko izmanto savienojumam HTTP/2 protokols?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) TCP",
 			"b) QUIC",
@@ -1806,7 +1807,7 @@
 	{
 		"id": "3.1.2",
 		"question": "Kas ir primārā atslēga datu tabulā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) pirmais lauks tabulā",
 			"b) unikāls lauks (lauki) kas identificē datu tabulas ierakstu",
@@ -1817,7 +1818,7 @@
 	{
 		"id": "3.1.3",
 		"question": "Kas ir datubāze?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) liela tabula ar sākotnējiem datiem",
 			"b) sistematizēta informācijas glabātuve",
@@ -1828,7 +1829,7 @@
 	{
 		"id": "3.1.4",
 		"question": "Vai relāciju datubāzes tabulā var būt lauki ar vienādiem nosaukumiem?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) jā, jebkurā skaitā",
 			"b) nevar",
@@ -1839,7 +1840,7 @@
 	{
 		"id": "3.1.5",
 		"question": "Kāds ir primārās atslēgas lauka uzdevums?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) izdzēsto ierakstu numuru glabāšana",
 			"b) ieraksta lauku saskaitīšana",
@@ -1850,7 +1851,7 @@
 	{
 		"id": "3.1.6",
 		"question": "Kurš ir datubāzu tabulu normalizācijas uzdevums?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) izvairīties no datu anomālijām",
 			"b) izmainīt tabulas datus",
@@ -1872,7 +1873,7 @@
 	{
 		"id": "3.1.8",
 		"question": "Kurš ir nepareizs apgalvojums par datu bāzes tabulas primāro atslēgu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) tā ir viens vai vairāki tabulas lauki, kas viennozīmīgi identificē ierakstu",
 			"b) tā var attiekties uz lauku, kur dati var atkārtoties",
@@ -1883,7 +1884,7 @@
 	{
 		"id": "3.1.9",
 		"question": "Pie kāda saišu tipa relāciju datu bāzēs starp divām tabulām ir vēlams ievietot saistošu starptabulu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) viens pret vienu",
 			"b) daudzi pret vienu",
@@ -1894,7 +1895,7 @@
 	{
 		"id": "3.1.10",
 		"question": "Kura funkcija nav standarta SQL operatora SELECT funkcija?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) count",
 			"b) max",
@@ -1905,7 +1906,7 @@
 	{
 		"id": "3.1.11",
 		"question": "Kura SQL komanda netiks izpildīta, ja tabulā 'Pers' ir lauki 'Name' un 'Surname'?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) SELECT ALL FROM Pers",
 			"b) SELECT Name, Surname FROM Pers",
@@ -1916,7 +1917,7 @@
 	{
 		"id": "3.1.12",
 		"question": "Kurš no šiem SQL operatoriem nav paredzēts darbam ar ierakstiem?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -1927,7 +1928,7 @@
 	{
 		"id": "3.1.13",
 		"question": "Kurš no SELECT operatora nosacījumiem uzdod atlases kritēriju?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) FROM",
 			"b) WHERE",
@@ -1938,7 +1939,7 @@
 	{
 		"id": "3.1.14",
 		"question": "Kurš SELECT operatora nosacījums nozīmē, ka tiks atlasītas tikai unikālās lauka vērtības?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) ALL",
 			"b) PRIMARY",
@@ -1960,7 +1961,7 @@
 	{
 		"id": "3.1.16",
 		"question": "Kurš SQL operators ļauj nomainīt tabulas lauka vērtību?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) CHANGE",
 			"b) UPDATE (SET)",
@@ -1971,7 +1972,7 @@
 	{
 		"id": "3.1.17",
 		"question": "Ko izveido dotais SQL kods: \n CREATE TABLE EMPLOYEES (EmployeeID INTEGER NOT NULL, FirstName CHAR(24)); ?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) izveido tabulu Employees ar laukiem: EmployeeID, FirstName",
 			"b) izveido tabulu FirstName, kur EmployeeID vērtība ir NOT NULL",
@@ -1982,7 +1983,7 @@
 	{
 		"id": "3.1.18",
 		"question": "Kura SQL komanda pievieno tabulā 'Employees' jaunu rindu ar visiem ieraksta lauku datiem?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) INSERT INTO Employees VALUES (11, 'Mary', 'Joedy', 2000)",
 			"b) INSERT VALUES (11, 'Mary', 'Joedy', 2000) TO Employees",
@@ -1993,29 +1994,29 @@
 	{
 		"id": "3.1.19",
 		"question": "Kā tabulas 'Klienti' laukā 'LastName' var ierakstīt vērtību 'Grey'?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
-			"a) INSERT (‘Grey’) INTO (LastName) FROM Klienti",
-			"b) INSERT INTO Klienti (LastName) VALUES (‘Grey’)",
-			"c)  INSERT VALUES (‘Grey’) INTO (LastName) FROM Klienti",
-			"d) INSERT VALUES ‘Grey’ FROM Klienti"
+			"a) INSERT (`Grey`) INTO (LastName) FROM Klienti",
+			"b) INSERT INTO Klienti (LastName) VALUES (`Grey`)",
+			"c) INSERT VALUES (`Grey`) INTO (LastName) FROM Klienti",
+			"d) INSERT VALUES `Grey` FROM Klienti"
 		]
 	},
 	{
 		"id": "3.1.20",
 		"question": "Kā SQL tabulā 'orders' katram darbiniekam, kuru identificē lauks 'emp_id', nosaka maksimālo lauka 'price' vērtību?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
-			"a) SELECT emp_id, MAX(price) AS Maxp FROM ordersGROUP BY emp_id",
-			"b) SELECT emp_id, MAX(price) AS Maxp FROM orders FORemp_id",
-			"c) SELEC emp_id, MAX(price) AS Maxp FROM ordersWHERE price > MAX",
+			"a) SELECT emp_id, MAX(price) AS Maxp FROM orders GROUP BY emp_id",
+			"b) SELECT emp_id, MAX(price) AS Maxp FROM orders FOR emp_id",
+			"c) SELEC emp_id, MAX(price) AS Maxp FROM orders WHERE price > MAX",
 			"d) SELECT MAX(price) FROM orders"
 		]
 	},
 	{
 		"id": "3.1.21",
 		"question": "Ar kuru SQL komandu var noteikt ierakstu skaitu tabulā 'Klienti'?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) SELECT NUMBER of City From Klienti",
 			"b) COUNT From Klienti",
@@ -2026,7 +2027,7 @@
 	{
 		"id": "3.1.22",
 		"question": "Kā tabulas 'sportisti' laukam 'Pers_kods' SQL izveidot unikālu indeksu 'idxp'?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) CREATE index idxp FOR Pers_kods",
 			"b) CREATE unique index idxp ON sportisti(Pers_kods)",
@@ -2037,7 +2038,7 @@
 	{
 		"id": "3.1.23",
 		"question": "Kura SQL komanda ļauj dzēst tabulu 'users'?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) DROP TABLE users",
 			"b) DROP * from TABLE users",
@@ -2048,7 +2049,7 @@
 	{
 		"id": "3.1.24",
 		"question": "Kā sauc situāciju, kad viena vai vairāku relāciju atribūtu īpašības viennozīmīgi nosaka citus atribūtus?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) asociācijas attiecība",
 			"b) funkcionālā atkarība",
@@ -2059,7 +2060,7 @@
 	{
 		"id": "3.1.25",
 		"question": "Kurā valodā uzdota lauka \"Skaits\" definīcija: \n Skaits INT?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) C++",
 			"b) Pascal",
@@ -2070,7 +2071,7 @@
 	{
 		"id": "3.1.26",
 		"question": "Kādiem mērķiem ir nepieciešams datu bāzes tabulas indekss?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) lai saskaitītu ierakstu kopējo skaitu",
 			"b) lai izveidotu datu bāzes faila kopiju uz diska",
@@ -2081,7 +2082,7 @@
 	{
 		"id": "3.1.27",
 		"question": "Ko atgriezīs šis vaicājums:\n SELECT Uzvards, Dzims_datums From Personals WHERE Dzims_datums = (SELECT max(Dzims_datums) FROM Personals)?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) visvecākā darbinieka uzvārdu un dzimšanas datumu",
 			"b) visjaunākā darbinieka uzvārdu un dzimšanas datumu",
@@ -2092,7 +2093,7 @@
 	{
 		"id": "3.1.28",
 		"question": "Kā sauc datu bāzes tabulas kolonas?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) ieraksti",
 			"b) datu kopas",
@@ -2103,7 +2104,7 @@
 	{
 		"id": "3.1.29",
 		"question": "Kā SQL nomainīt tabulas 't1' kolonas 'b' nosaukumu uz 'b1' ar tipu 'INT'?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) ALTER TABLE t1 CHANGE b b1 INT",
 			"b) CHANGE b b1 INT NOT NULL FROM TABLE t1",
@@ -2180,7 +2181,7 @@
 	{
 		"id": "3.1.36",
 		"question": "Kādu darbību veic operatora SELECT atslēgas vārds DISTINCT?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) sagrupē datus dilstošā secībā",
 			"b) izņem datus ar vērtību DISTINCT",
@@ -2201,8 +2202,8 @@
 	},
 	{
 		"id": "3.1.38",
-		"question": "Ko izvada SQL komanda: \n \"SELECT * FROM employees LIMIT 5\" ?",
-		"correct": null,
+		"question": "Ko izvada SQL komanda: \n \"SELECT * FROM employees LIMIT 5\"?",
+		"correct": 4,
 		"answers": [
 			"a) simbolus *, kuri aizpilda 5 rindas",
 			"b) visus tabulas 'employees' datus",
@@ -2213,7 +2214,7 @@
 	{
 		"id": "3.1.39",
 		"question": "Kā dotā SQL komanda sakārto datus:\n \"SELECT empno, deptno, ename, phone\n FROM employees\n ORDER BY deptno, phone DESC\" ?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) pieaugošā secībā pa 'employees' un 'empno'",
 			"b) pieaugošā secībā pa 'ename'",
@@ -2224,7 +2225,7 @@
 	{
 		"id": "3.1.40",
 		"question": "Kāda ir atbilstība starp tabulām, kuras tiek saistītas ar saiti viens-pret-daudziem?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) katram ierakstam tabulā A atbilst ne vairāk par diviem ierakstiem tabulā B, katram ierakstam tabulā B atbilst tikai viens ieraksts tabulā A",
 			"b) katram ierakstam tabulā A atbilst tikai viens ieraksts tabulā B un otrādi",
@@ -2235,7 +2236,7 @@
 	{
 		"id": "3.1.41",
 		"question": "Kas ir savstarpēji saistītu objektu kopums, kas ar pārvaldības sistēmas starpniecību organizēts tā, lai nodrošinātu ērtu informācijas apstrādi?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) lietojumprogramma",
 			"b) datu bāze",
@@ -2246,7 +2247,7 @@
 	{
 		"id": "3.1.42",
 		"question": "Kādam nolūkam tiek lietota SQL konstrukcija GROUP BY?\n Piemēram: SELECT koka_suga_id from koks GROUP BY koka_suga_id;",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) lai sakārtotu datus kolonnai koka_suga_id augošā secībā",
 			"b) lai iegūtu visas unikālās vērtības kolonnas koka_suga_id",
@@ -2256,8 +2257,8 @@
 	},
 	{
 		"id": "3.1.43",
-		"question": "Kādam nolūkam tiek lietota SQL konstrukcija ORDER BY?\n Piemēram: SELECT *from koks  ORDER BY koka_suga_id DESC;",
-		"correct": null,
+		"question": "Kādam nolūkam tiek lietota SQL konstrukcija ORDER BY?\n Piemēram: SELECT * from koks ORDER BY koka_suga_id DESC;",
+		"correct": 3,
 		"answers": [
 			"a) lai iegūtu visus datus no tabulas un simbols * būtu legāls",
 			"b) lai sakārtotu vaicājuma rezultātu pēc kolonnas koka_suga_id augošā secībā",
@@ -2268,7 +2269,7 @@
 	{
 		"id": "3.1.44",
 		"question": "Kuru SQL konstrukciju lieto, lai sakārtotu rindas pēc konkrēto lauku datiem?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) SORT BY",
 			"b) ORDER BY",
@@ -2279,7 +2280,7 @@
 	{
 		"id": "3.1.45",
 		"question": "Kuru SQL konstrukcija apvieno vairākus ierakstus pēc konkrēto lauku datiem?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) SORT BY",
 			"b) ORDER BY",
@@ -2301,7 +2302,7 @@
 	{
 		"id": "3.1.47",
 		"question": "Kādas funkcijas izmanto SQL operatora SELECT vaicājumos?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) funkcijas, kuras veic matemātiskās operācijas",
 			"b) funkcijas, kuras veic datu labošanu izpildes laikā",
@@ -2312,7 +2313,7 @@
 	{
 		"id": "3.1.48",
 		"question": "Ja 'Client' tabulā ir 5 ieraksti un Serviss tabulā ir 10 ieraksti, tad cik ierakstus parādīs, ja izpildīs SQL operatoru:\n SELECT Client.LastName, Serviss.Serv_Name FROM Client, Serviss?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) 5",
 			"b) 15",
@@ -2323,7 +2324,7 @@
 	{
 		"id": "3.1.49",
 		"question": "Tabulā 'Klients' ir lauki: Klients_ID,Vards un Uzvards. Ar kuru SQL operatoru var pievienot datus tikai laukos Vards, Uzvards?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) INSERT INTO Klients VALUES ...",
 			"b) INSERT INTO Klients (Vards, Uzvards) VALUES ...",
@@ -2334,7 +2335,7 @@
 	{
 		"id": "3.1.50",
 		"question": "Kuru SQL SELECT operatora konstrukciju jāizmanto, lai atlasītu katram skolniekam viņa vidējo atzīmi?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) DISTINCT",
 			"b) ORDER BY",
@@ -2345,7 +2346,7 @@
 	{
 		"id": "3.1.51",
 		"question": "Kādus datus atlasīs SQL operators:\n SELECT Vards FROM Klienti\nWhere Vards like 'C%';?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) klientu vārdus, kuri sākas ar burtu C",
 			"b) klientu vārdus, kuros ir burts C",
@@ -2356,7 +2357,7 @@
 	{
 		"id": "3.1.52",
 		"question": "Kādas sekas var būt tam, ja datu bāzes tabulā teksta laukam samazina lauka garumu no 30 uz 20?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) visi iepriekš ievadītie dati nemainīsies",
 			"b) ieprieš ievadītie dati netiks mainīti, bet nevarēs ievadīt datus garākus par 20 simboliem",
@@ -2367,7 +2368,7 @@
 	{
 		"id": "3.1.53",
 		"question": "Kura ir datu bāzes pārvaldības sistēma?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Microsoft Office Excel",
 			"b) MySQL Server",
@@ -2378,7 +2379,7 @@
 	{
 		"id": "3.1.54",
 		"question": "Kas ir transakcija?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) vienas vai vairāku operāciju, kuras tiek izpildītas kopīgi, kopa",
 			"b) jebkura datu izmaiņas operāciju virkne",
@@ -2389,7 +2390,7 @@
 	{
 		"id": "3.1.55",
 		"question": "Kāds papildus nosacījums pie datubāžu tabulas, kas jau ir otrajā normālformā jāievēro, lai tabula atrastos 3. normālformā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) visiem laukiem jāsatur atomārās vērtības",
 			"b) nedrīkst pastāvēt funkcionālās atkarības starp atslēgas lauku un citiem laukiem",
@@ -2400,7 +2401,7 @@
 	{
 		"id": "3.1.56",
 		"question": "Kurš nosacījums jāievēro, lai datu bāzes tabula atrastos 1. normālformā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) visi lauki satur tikai atomāras (nedalāmas) vērtības",
 			"b) katrs neatslēgas lauks pilnīgi atkarīgs no primārās atslēgas",
@@ -2411,7 +2412,7 @@
 	{
 		"id": "3.1.57",
 		"question": "Kura nav datubāzu anomālija?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) ievietošanas",
 			"b) meklēšanas",
@@ -2422,7 +2423,7 @@
 	{
 		"id": "3.1.58",
 		"question": "Kādas lauka \"balle\" vērtības tiks atlasītas no datu bāzes tabulas, ja lauks \"balle\" ir vesels skaitlis un SQL vaicājuma kritērijā Where norādīts \"balle>7 and balle<9\"?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) intervālā no 7 līdz 8",
 			"b) vienāds ar 9",
@@ -2433,7 +2434,7 @@
 	{
 		"id": "3.1.59",
 		"question": "Tabulas \"atzime\" ierakstā lauka \"Balle\" vērtība ir 4. Kāda būs šī lauka vērtība, ja tiks izpildīts SQL teikums:\nUPDATE atzime SET Balle = [Balle]+1\nWHERE Balle < 4?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) 4",
 			"b) 5",
@@ -2444,7 +2445,7 @@
 	{
 		"id": "3.1.60",
 		"question": "Kas ir DBVS?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Datu bāzu vizualizācijas sistēma",
 			"b) Datu bāzu veidošanas sistēma",
@@ -2455,7 +2456,7 @@
 	{
 		"id": "3.1.61",
 		"question": "Kāda tipa datubāzu izveidei tiek izmantota valoda SQL?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Lielo datu (Big Data)",
 			"b) Hierarhiskās (Hierarchical)",
@@ -2466,7 +2467,7 @@
 	{
 		"id": "3.1.62",
 		"question": "Kurš datubāzu tabulu atslēgu veids neeksistē?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) modulārā (modular)",
 			"b) primārā (primary)",
@@ -2477,7 +2478,7 @@
 	{
 		"id": "3.1.63",
 		"question": "Kuru datu bāzes atslēgu veido no tabulas atribūta, kas identificē citas tabulas ierakstu?\n",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) modulārā (modular)",
 			"b) primārā (primary)",
@@ -2488,7 +2489,7 @@
 	{
 		"id": "3.1.64",
 		"question": "Kurš apgalvojums par datubāzu primāro (primary) atslēgu nav pareizs?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) viennozīmīgi identificē tabulas ierakstus",
 			"b) var sastāvēt no vairāku lauku kombinācijas",
@@ -2510,7 +2511,7 @@
 	{
 		"id": "3.1.66",
 		"question": "Kurš datubāzu veids satur mehānismus attiecību izveidošanai starp tabulām, izmantojot primārās un ārējās atslēgas?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) hierarhiskās datu bāzes",
 			"b) relāciju datu bāzes",
@@ -2521,7 +2522,7 @@
 	{
 		"id": "3.1.67",
 		"question": "Kura nav datubāzu vadības sistēma?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) MongoDB",
 			"b) MariaDB",
@@ -2532,7 +2533,7 @@
 	{
 		"id": "3.1.68",
 		"question": "Kurš no datubāzes tabulas laukiem ir veselā (integer) tipa lauks?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) TelefonaNumurs",
 			"b) Stipendija",
@@ -2543,7 +2544,7 @@
 	{
 		"id": "3.1.69",
 		"question": "Dots tabulas izveides priekšraksts:\nCREATE TABLE CLIENT (\nID int UNIQUE,\nname varchar(50),\nsurname varchar(50) );\nKas notiks, ja tiks pievienots šis pirmais ieraksts:\nINSERT INTO CLIENT VALUES (null , 'Ivo', 'Liepa');",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Ieraksts tiks veiksmīgi pievienots",
 			"b) Ieraksts netiks pievienots",
@@ -3225,7 +3226,7 @@
 	{
 		"id": "4.4.14",
 		"question": "Ko dara diska diagnostikas programma, ja tā atrod bojātu apgabalu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) izlabo bojāto apgabalu",
 			"b) atzīmē to kā bojātu (BAD cluster)",
@@ -4424,7 +4425,7 @@
 	{
 		"id": "6.14",
 		"question": "Kuras no prasībām apraksta kādu lietotāja servisu ir plānots nodrošināt sistēmā?",
-		"correct": 2,
+		"correct": 1,
 		"answers": [
 			"a) funkcionālās prasības",
 			"b) ekspluatācijas apstākļu prasības",
