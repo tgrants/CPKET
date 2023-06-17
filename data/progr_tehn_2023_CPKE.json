@@ -52,7 +52,8 @@
 			"b) operands",
 			"c) teikums",
 			"d) parametrs"
-		]
+		],
+		"expl": "Vienīgi operators ir izpildāms"
 	},
 	{
 		"id": "1.1.6",
@@ -1058,7 +1059,7 @@
 	{
 		"id": "2.1.1",
 		"question": "Kas ir cietā diska (HDD) cilindri?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) celiņu kopums ar vienādiem numuriem",
 			"b) disku kopums ar vienādiem nosaukumiem",
@@ -1069,7 +1070,7 @@
 	{
 		"id": "2.1.3",
 		"question": "Kādu tehnoloģiju izmanto tintes printeros, lai paātrinātu izdruku?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) burbuļtehnoloģiju",
 			"b) pjezotehnoloģiju",
@@ -1080,7 +1081,7 @@
 	{
 		"id": "2.1.4",
 		"question": "Kas tiek uznests lāzeru printeros uz foto veltņa?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) tinte",
 			"b) papīrs",
@@ -1091,7 +1092,7 @@
 	{
 		"id": "2.1.5",
 		"question": "Ko izmanto, lai attēlu vai tekstu ievadītu datorā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) printeri",
 			"b) ploteri",
@@ -1102,7 +1103,7 @@
 	{
 		"id": "2.1.6",
 		"question": "Kādos printeros izmanto burbuļtehnoloģiju?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) adatu printeros",
 			"b) lāzeru printeros",
@@ -1113,7 +1114,7 @@
 	{
 		"id": "2.1.7",
 		"question": "Cik etapos \"Non-interlaced\" tehnoloģija veido veselo attēlu uz ekrāna?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) vienā etapā",
 			"b) divos etapos",
@@ -1124,7 +1125,7 @@
 	{
 		"id": "2.1.8",
 		"question": "Kāda ierīce paredzēta liela formāta (piem., A1 formāta) grafisku attēlu izdrukāšanai?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) adatu printeris",
 			"b) lāzerprinteris",
@@ -1135,7 +1136,7 @@
 	{
 		"id": "2.1.9",
 		"question": "Kas veido attēlu LCD-monitoros?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) luminofors",
 			"b) mirdzdiodes",
@@ -1146,7 +1147,7 @@
 	{
 		"id": "2.1.11",
 		"question": "Kāds spriegums no barošanas bloka padots pa sarkanas krāsas vadu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) -12 V",
 			"b) -5 V",
@@ -1157,7 +1158,7 @@
 	{
 		"id": "2.1.12",
 		"question": "Kāda tipa savienotājs tiek izmantots VGA/SVGA monitora pieslēgšanai?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) DB-9S",
 			"b) DB-15S (divrindu)",
@@ -1168,7 +1169,7 @@
 	{
 		"id": "2.1.13",
 		"question": "Kur BIOS saglabā informāciju?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) CPU",
 			"b) ROM",
@@ -1179,7 +1180,7 @@
 	{
 		"id": "2.1.14",
 		"question": "Kāda datu uzglabāšanas ierīce nodrošina visātrāko pieeju datiem?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) HDD",
 			"b) CD-ROM",
@@ -1201,7 +1202,7 @@
 	{
 		"id": "2.1.16",
 		"question": "Kurš no portiem ir virknes ports?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) ATA",
 			"b) SCSI",
@@ -1223,7 +1224,7 @@
 	{
 		"id": "2.1.20",
 		"question": "Kā atšifrējas abreviatūra POST?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) Power Open System Test",
 			"b) Power-On Self Test",
@@ -1256,7 +1257,7 @@
 	{
 		"id": "2.1.23",
 		"question": "Kas nav diskrētā videoadaptera sastāvdaļa?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) izejošās pieslēgvietas",
 			"b) procesors",
@@ -1267,7 +1268,7 @@
 	{
 		"id": "2.1.25",
 		"question": "Kā saīsināti tiek apzīmēta skenera izšķirtspēja?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) mm",
 			"b) rpm",
@@ -1278,7 +1279,7 @@
 	{
 		"id": "2.1.26",
 		"question": "Kādā gadījumā monitors vienlaikus ir izvades un ievades ierīce?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) ja tas ir LCD monitors",
 			"b) ja tas ir duālais monitors",
@@ -1289,7 +1290,7 @@
 	{
 		"id": "2.1.27",
 		"question": "Kuram cieto disku veidam nav kustīgu detaļu?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) SSD (Solid-State Drive)",
 			"b) IDE (Integrated Drive Electronics)",
@@ -1300,7 +1301,7 @@
 	{
 		"id": "2.1.28",
 		"question": "Pie kuras tehnoloģijas vienlaicīgi var pieslēgt visvairāk ierīču?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) USB 2.0",
 			"b) SCSI (Small Computer System Interface)",
@@ -1312,7 +1313,7 @@
 	{
 		"id": "2.1.29",
 		"question": "Kuru no šīm ierīcēm izmanto, lai savienotu vairākus datorus pie viena displeja?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) LED (light-emitting diode)",
 			"b) Router (Maršrutētājs)",
@@ -1323,7 +1324,7 @@
 	{
 		"id": "2.1.30",
 		"question": "Kādu atmiņas veidu lieto SSD?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) DRAM",
 			"b) DROM",
@@ -1334,7 +1335,7 @@
 	{
 		"id": "2.1.31",
 		"question": "Cik liels ir spriegums Eiropas tipa rozetē?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) 120±20V",
 			"b) 220±20V",
@@ -1345,7 +1346,7 @@
 	{
 		"id": "2.1.32",
 		"question": "Kāds ir USB 3.0 datu pārraides ātrums?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 480 Mb/s",
 			"b) 2 Gb/s",
@@ -1356,7 +1357,7 @@
 	{
 		"id": "2.1.34",
 		"question": "Kāda ir SSD diska priekšrocība salīdzinot ar HDD?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) zemākas izmaksas",
 			"b) lielāks datu pārraides ātrums",
@@ -1367,7 +1368,7 @@
 	{
 		"id": "2.1.35",
 		"question": "Kuri printeri izmanto speciālo papīru drukāšanai?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) tintes printeri",
 			"b) lāzerprinteri",
@@ -1389,7 +1390,7 @@
 	{
 		"id": "2.1.37",
 		"question": "Kurš ir cieto disku virknes interfeiss?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) SCSI",
 			"b) PATA",
@@ -1499,7 +1500,7 @@
 	{
 		"id": "2.2.7",
 		"question": "Kāds ir neekranētā vītā pāra kabeļa saīsināts apzīmējums angļu valodā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) UTP",
 			"b) STP",
@@ -1521,7 +1522,7 @@
 	{
 		"id": "2.2.9",
 		"question": "Kas katrai tīkla kartei ir unikāls?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) MAC adrese",
 			"b) IP adrese",
@@ -1532,7 +1533,7 @@
 	{
 		"id": "2.2.10",
 		"question": "Kas ir SMTP, FTP, HTTP, POP?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) dažādas Web lapu programmēšanas valodas",
 			"b) dažādi interneta protokoli",
@@ -1664,7 +1665,7 @@
 	{
 		"id": "2.2.22",
 		"question": "Kuru IEEE standartu izmanto Wi-Fi tīkliem?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) IEEE 802.5",
 			"b) IEEE 802.3",
@@ -1675,7 +1676,7 @@
 	{
 		"id": "2.2.23",
 		"question": "Kurš ir apzīmējums koncentratoram datortīklā?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) router",
 			"b) bridge",
@@ -1686,7 +1687,7 @@
 	{
 		"id": "2.2.24",
 		"question": "Cik kontaktu satur RJ-45 savienotājs?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) 2",
 			"b) 4",
@@ -1708,7 +1709,7 @@
 	{
 		"id": "2.2.26",
 		"question": "Kāpēc UTP tīkla kabelim vadi ir savīti?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) lai mazinātu elektromagnētiskā lauka ietekmi",
 			"b) lai nodrošinātu vada izturību",
@@ -1730,7 +1731,7 @@
 	{
 		"id": "2.2.28",
 		"question": "Kurš nav datortīkla augstākā līmeņa domēns?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) exe",
 			"b) com",
@@ -1763,7 +1764,7 @@
 	{
 		"id": "2.2.31",
 		"question": "Kāda būtiskāka atšķirība starp 2,4Ghz un 5Ghz bezvada tīklu?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) 2,4Ghz lēnāks, bet ar lielāku bezvada diapazonu",
 			"b) 5Ghz lēnāks, bet ar mazāku bezvada diapazonu",
