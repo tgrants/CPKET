@@ -1059,7 +1059,7 @@
 	{
 		"id": "2.1.1",
 		"question": "Kas ir cietā diska (HDD) cilindri?",
-		"correct": 4,
+		"correct": 1,
 		"answers": [
 			"a) celiņu kopums ar vienādiem numuriem",
 			"b) disku kopums ar vienādiem nosaukumiem",
@@ -1257,7 +1257,7 @@
 	{
 		"id": "2.1.23",
 		"question": "Kas nav diskrētā videoadaptera sastāvdaļa?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) izejošās pieslēgvietas",
 			"b) procesors",
@@ -1544,7 +1544,7 @@
 	{
 		"id": "2.2.11",
 		"question": "Kas veic tīkla segmentāciju vadoties pēc MAC adresēm?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) komutators (switch)",
 			"b) maršrutētājs (router)",
@@ -1555,7 +1555,7 @@
 	{
 		"id": "2.2.12",
 		"question": "Kādi ir datortīklu topoloģijas pamatveidi?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) maģistrāle, koks, gredzens",
 			"b) maģistrāle, zvaigzne, koks",
@@ -1566,7 +1566,7 @@
 	{
 		"id": "2.2.13",
 		"question": "Kas ir tīkla kartes MAC adrese?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) unikāla adrese, kuru piešķir DHCP serveris",
 			"b) unikāls identifikācijas numurs, kuru iebūvē kartē ražotājs",
@@ -1577,7 +1577,7 @@
 	{
 		"id": "2.2.14",
 		"question": "Kā tiek apzīmēti bezvadu tīkla standarti?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) ISO 9660, TCO 99",
 			"b) 802.11a, 801.11b, 802.11g",
@@ -1588,7 +1588,7 @@
 	{
 		"id": "2.2.15",
 		"question": "Kurš ir pamatprotokols Internet tīklam?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) NetBEUI",
 			"b) TCP/IP",
@@ -1599,7 +1599,7 @@
 	{
 		"id": "2.2.16",
 		"question": "Kāds ir viens no datu traucējumiem pārraides gaitā?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) liels datu apjoms",
 			"b) pakešu sadursme",
@@ -1621,7 +1621,7 @@
 	{
 		"id": "2.2.18",
 		"question": "Ko nozīmē burtu salikums NAT datortīklam?",
-		"correct": null,
+		"correct": 3,
 		"answers": [
 			"a) Network Administrator Transfer",
 			"b) New Admin Ticket",
@@ -1632,7 +1632,7 @@
 	{
 		"id": "2.2.19",
 		"question": "Kādus tīklus nosaka \n IEEE 802.3 standarts?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) Ethernet",
 			"b) Fiber Optic",
@@ -1654,7 +1654,7 @@
 	{
 		"id": "2.2.21",
 		"question": "Ar kuru CMD komandu var uzzināt datu paketes maršrutu uz citu datoru tīklā?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) tracert",
 			"b) ipconfig",
@@ -1742,7 +1742,7 @@
 	{
 		"id": "2.2.29",
 		"question": " Ko nozīmē abreviatūra DNS?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) Double Numeration System",
 			"b) Data Naming System",
@@ -1753,7 +1753,7 @@
 	{
 		"id": "2.2.30",
 		"question": "Kurš no nosauktajiem ir WEB pasta protokols?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) IPX/SPX",
 			"b) TCP/IP",
@@ -1764,7 +1764,7 @@
 	{
 		"id": "2.2.31",
 		"question": "Kāda būtiskāka atšķirība starp 2,4Ghz un 5Ghz bezvada tīklu?",
-		"correct": 4,
+		"correct": 1,
 		"answers": [
 			"a) 2,4Ghz lēnāks, bet ar lielāku bezvada diapazonu",
 			"b) 5Ghz lēnāks, bet ar mazāku bezvada diapazonu",
@@ -1786,7 +1786,7 @@
 	{
 		"id": "2.2.34",
 		"question": "Kurš tīmekļa protokols ļauj sazināties starp pārlūkprogrammu un attālo serveri?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) TCP/IP",
 			"b) HTTP",
@@ -1863,7 +1863,7 @@
 	{
 		"id": "3.1.7",
 		"question": "Kādēļ DBPS formās izmanto funkcijas?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) lai veiktu dažādus aprēķinus ar tabulas lauka vērtībām",
 			"b) lai izmainītu formas izskatu",
@@ -2501,7 +2501,7 @@
 	{
 		"id": "3.1.65",
 		"question": "Kurš apgalvojums par datu bāzes transakciju nav pareizs?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) ir viens vai vairāki SQL operatori, kas tiek izpildīti kā vienota loģisku darbību secība",
 			"b) ir nedalāma darbība, tā ir jāveic kā viena vienība",
@@ -5042,7 +5042,7 @@
 	{
 		"id": "6.70",
 		"question": "Kas ir atsevišķa identificējama programmas daļa, kuru var autonomi izveidot un izmantot, lai atvieglotu programmu sastādīšanu?",
-		"correct": null,
+		"correct": 2,
 		"answers": [
 			"a) funkcija",
 			"b) modulis",
