@@ -17,7 +17,7 @@ def get_count(show_no_answer):
 		if i["correct"] != None:
 			answers += 1
 		elif show_no_answer:
-			print(i["question"])
+			print("{} {}".format(i["id"], i["question"]))
 
 	print("{} / {}".format(answers, questions))
 

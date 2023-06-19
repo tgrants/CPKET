@@ -101,6 +101,7 @@ function loadQuestion() {
 
 	let question = $("#chbxShuffle").is(":checked") ? data[shuffled[current]] : data[current];
 
+	$("#questionId").text(question.id);
 	$("#questionText").text(question.question);
 	for (let i = 0; i < 4; i++)
 		$("#ans" + (i + 1) + "Label").text(question.answers[i]);
