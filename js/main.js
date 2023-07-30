@@ -21,27 +21,27 @@ $(document).on("change", "#chbxShuffle", function() {
 });
 
 // Previous question
-$(document).on("click", "#btnPrev", function(){
+$(document).on("click", "#btnPrev", function() {
+	console.log(current);
+	console.log(shuffled[current]);
 	if (current > 0) {
 		current--;
 		loadQuestion();
-	} else {
-		// TODO: disable button
 	}
 }); 
 
 // Next question
-$(document).on("click", "#btnNext", function(){
-	if (current < Object.keys(data).length) {
+$(document).on("click", "#btnNext", function() {
+	console.log(current);
+	console.log(shuffled[current]);
+	if (current < Object.keys(data).length - 1) {
 		current++;
 		loadQuestion();
-	} else {
-		// TODO: disable button
 	}
 }); 
 
 // Check if answer is correct
-$(document).on("click", "#btnCheckAnswer", function(){
+$(document).on("click", "#btnCheckAnswer", function() {
 	// TODO: Check if none selected
 	clearAnswers();
 	$("#ans" + correct + "Label").addClass("correct-answer");
@@ -99,7 +99,15 @@ function loadQuestion() {
 	$("input[type='radio']").prop('checked', false);
 	$("#noAnswerNotice").hide();
 
-	let question = $("#chbxShuffle").is(":checked") ? data[shuffled[current]] : data[current];
+	let question = $("#chbxShuffle").is(":checked") ? data[shuffled[current] - 1] : data[current];
+
+	// Enable or disable prev question button
+	if (current == 0) $("#btnPrev").prop("disabled", true);
+	else $("#btnPrev").prop("disabled", false);
+
+	// Enable or disable next question button
+	if (current == Object.keys(data).length - 1) $("#btnNext").prop("disabled", true);
+	else $("#btnNext").prop("disabled", false);
 
 	$("#questionText").text(question.question);
 	for (let i = 0; i < 4; i++)
@@ -112,7 +120,7 @@ function loadQuestion() {
 
 function clearAnswers(clearRadioButtons) {
 	for (let i = 1; i <= 4; i++) {
-		$("#ans" + i + "Label").removeClass()
+		$("#ans" + i + "Label").removeClass();
 	}
 }
 

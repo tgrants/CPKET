@@ -29,6 +29,14 @@ footer {
 	padding: 27px 20px;
 }
 
+footer > nav > ul {
+	list-style-type: none;
+	display: flex;
+	column-gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
 #content {
 	flex: 1 0 auto;
 	padding: 30px 15px;

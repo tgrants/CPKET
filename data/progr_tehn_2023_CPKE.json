@@ -4470,7 +4470,7 @@
 	{
 		"id": "6.18",
 		"question": "Kurā programmatūras izstrādes procesā izmanto komandu, zaru, nosacījumu un citus pārklājumus?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) prasību analīzē",
 			"b) atkļūdošanā",
