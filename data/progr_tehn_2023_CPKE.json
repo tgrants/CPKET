@@ -1257,7 +1257,7 @@
 	{
 		"id": "2.1.23",
 		"question": "Kas nav diskrētā videoadaptera sastāvdaļa?",
-		"correct": 4,
+		"correct": 2,
 		"answers": [
 			"a) izejošās pieslēgvietas",
 			"b) procesors",
@@ -1555,7 +1555,7 @@
 	{
 		"id": "2.2.12",
 		"question": "Kādi ir datortīklu topoloģijas pamatveidi?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) maģistrāle, koks, gredzens",
 			"b) maģistrāle, zvaigzne, koks",
@@ -1863,7 +1863,7 @@
 	{
 		"id": "3.1.7",
 		"question": "Kādēļ DBPS formās izmanto funkcijas?",
-		"correct": 4,
+		"correct": 1,
 		"answers": [
 			"a) lai veiktu dažādus aprēķinus ar tabulas lauka vērtībām",
 			"b) lai izmainītu formas izskatu",
@@ -1951,7 +1951,7 @@
 	{
 		"id": "3.1.15",
 		"question": "Starp kādiem laukiem datu bāzē var izveidot saiti?",
-		"correct": null,
+		"correct": 1,
 		"answers": [
 			"a) laukiem ar vienādu datu tipu un garumu",
 			"b) visiem laukiem",
@@ -2105,7 +2105,7 @@
 	{
 		"id": "3.1.29",
 		"question": "Kā SQL nomainīt tabulas 't1' kolonas 'b' nosaukumu uz 'b1' ar tipu 'INT'?",
-		"correct": 3,
+		"correct": 1,
 		"answers": [
 			"a) ALTER TABLE t1 CHANGE b b1 INT",
 			"b) CHANGE b b1 INT NOT NULL FROM TABLE t1",
@@ -2292,7 +2292,7 @@
 	{
 		"id": "3.1.46",
 		"question": "Kādu darbību veic SQL relācijas tips INNER JOIN?",
-		"correct": null,
+		"correct": 4,
 		"answers": [
 			"a) apvieno divas tabulas vienā",
 			"b) izveido saites starp tabulām pēc visām vērtībām",
@@ -2501,7 +2501,7 @@
 	{
 		"id": "3.1.65",
 		"question": "Kurš apgalvojums par datu bāzes transakciju nav pareizs?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) ir viens vai vairāki SQL operatori, kas tiek izpildīti kā vienota loģisku darbību secība",
 			"b) ir nedalāma darbība, tā ir jāveic kā viena vienība",
@@ -2853,13 +2853,14 @@
 	{
 		"id": "4.2.7",
 		"question": "Kuri ir izpildāmo failu paplašinājumi?",
-		"correct": 4,
+		"correct": 3,
 		"answers": [
 			"a) BAT, DLL un COM",
 			"b) COM, EXE un DLL",
 			"c) BAT, EXE un COM",
 			"d) EXE, COM un RUN"
-		]
+		],
+		"note": "Novecojis jautajums"
 	},
 	{
 		"id": "4.2.8",

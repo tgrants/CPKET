@@ -109,6 +109,7 @@ function loadQuestion() {
 	if (current == Object.keys(data).length - 1) $("#btnNext").prop("disabled", true);
 	else $("#btnNext").prop("disabled", false);
 
+	$("#questionId").text(question.id);
 	$("#questionText").text(question.question);
 	for (let i = 0; i < 4; i++)
 		$("#ans" + (i + 1) + "Label").text(question.answers[i]);
