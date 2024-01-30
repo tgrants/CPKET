@@ -28,7 +28,7 @@ $(document).on("click", "#btnPrev", function() {
 		current--;
 		loadQuestion();
 	}
-}); 
+});
 
 // Next question
 $(document).on("click", "#btnNext", function() {
@@ -38,17 +38,16 @@ $(document).on("click", "#btnNext", function() {
 		current++;
 		loadQuestion();
 	}
-}); 
+});
 
 // Check if answer is correct
 $(document).on("click", "#btnCheckAnswer", function() {
-	// TODO: Check if none selected
 	clearAnswers();
 	$("#ans" + correct + "Label").addClass("correct-answer");
 	let selected = $("input[type='radio']:checked").val();
 	if (correct == selected) return;
 	$("#ans" + selected + "Label").addClass("incorrect-answer");
-}); 
+});
 
 // Load sources for questions from sources.json
 function loadSourceList() {
@@ -98,6 +97,7 @@ function loadQuestion() {
 	clearAnswers();
 	$("input[type='radio']").prop('checked', false);
 	$("#noAnswerNotice").hide();
+	$("#questionImg").remove();
 
 	let question = $("#chbxShuffle").is(":checked") ? data[shuffled[current] - 1] : data[current];
 
@@ -109,8 +109,22 @@ function loadQuestion() {
 	if (current == Object.keys(data).length - 1) $("#btnNext").prop("disabled", true);
 	else $("#btnNext").prop("disabled", false);
 
+	// Add question id and text
+	$("#qid").val(question.id);
 	$("#questionId").text(question.id);
 	$("#questionText").text(question.question);
+
+	// Add question image, if exists
+	if (question.image != null) {
+		let img = document.createElement("img");
+		img.setAttribute("id", "questionImg");
+		img.setAttribute("src", question.image);
+		img.setAttribute("alt", "Jautājums " + question.id);
+		let title = document.getElementById("questionTitle");
+		title.parentNode.insertBefore(img, title.nextSibling);
+	}
+
+	// Add choices
 	for (let i = 0; i < 4; i++)
 		$("#ans" + (i + 1) + "Label").text(question.answers[i]);
 	correct = question.correct;

@@ -1,6 +1,6 @@
 ---
 name: "Funkcionalitātes pievienošana"
-about: "Ierosināt jaunas funkcionalitātes pievienošana"
+about: "Ierosināt jaunas funkcionalitātes pievienošanu."
 title: ""
 labels: "Type: Feature"
 assignees:

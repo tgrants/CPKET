@@ -1,5 +1,53 @@
 [
 	{
+		"id": "1.3",
+		"question": "Kurā no norādītajiem rasējuma varianta attēliem pareizi izmantota kvadrāta zīme?",
+		"image": "https://i.ibb.co/HTysQgc/1-3.png",
+		"correct": 3,
+		"answers": [
+			"1. A",
+			"2. B",
+			"3. C",
+			"4. D"
+		]
+	},
+	{
+		"id": "1.6",
+		"question": "Kurā no dotajiem attēliem izmēri ir izlikti neatbilstoši standarta noteikumiem?",
+		"image": "https://i.ibb.co/BrXn3Lq/1-6.png",
+		"correct": 1,
+		"answers": [
+			"1. A un B",
+			"2. A un C",
+			"3. C un D",
+			"3. C un D"
+		]
+	},
+	{
+		"id": "1.8",
+		"question": "Detaļai dotajā rasējumā taisnstūrainā rieva...",
+		"image": "https://i.ibb.co/5vZNQHD/1-8.png",
+		"correct": 1,
+		"answers": [
+			"1. Ir caurejošā",
+			"2. Nav caurejošā",
+			"3. Nav caurejošā, bet apaļā",
+			"4. Nav caurejošā, bet ķīlveida"
+		]
+	},
+	{
+		"id": "1.10",
+		"question": "Ko nozīmē apzīmējums B-B dotajā rasējumā?",
+		"image": "https://i.ibb.co/cx0M4Ny/1-10.png",
+		"correct": 2,
+		"answers": [
+			"1. Skats no otras detaļas puses",
+			"2. Šķēlums pagriezts",
+			"3. Skata attēlojums",
+			"4. Skats izvērsts"
+		]
+	},
+	{
 		"id": "7.1",
 		"question": "Kura no “labās rokas” koordinātu sistēmas asīm ir galvenā ass?",
 		"correct": 3,
@@ -45,7 +93,7 @@
 	},
 	{
 		"id": "7.5",
-		"question": "Kurš no loka apstrādes pastāvīgiem cikliem  G02 vai G03 nodrošinās instrumenta pārvietojumu pulksteņa rādītāja virzienā?",
+		"question": "Kurš no loka apstrādes pastāvīgiem cikliem G02 vai G03 nodrošinās instrumenta pārvietojumu pulksteņa rādītāja virzienā?",
 		"correct": 1,
 		"answers": [
 			"1. G02",
