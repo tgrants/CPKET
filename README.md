@@ -7,9 +7,9 @@
 	* Profesionālā kvalifikācija "mašīnbūves tehniķis"
 		* 2023 (daļa jautājumu)
 
-Testi pieejami https://klappscheinwerfer.github.io/CET vai https://tomsgrants.com/CET
+Testi pieejami https://tomsgrants.com/CET vai https://tgrants.github.io/CET
 
-Skaidrojumi atbildēm: [Wiki](https://github.com/klappscheinwerfer/CET/wiki)
+Skaidrojumi atbildēm: [Wiki](https://github.com/tgrants/CET/wiki)
 
 ## Komandas / rīki
 

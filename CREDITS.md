@@ -1,6 +1,6 @@
 ## Kods
 
-* klappscheinwerfer
+* tgrants
 
 ## Atbildes
 
@@ -11,9 +11,9 @@
 * AigarsReinholds
 * gull28
 * HikaruRM
-* klappscheinwerfer
 * majikdev
 * nito112233
+* tgrants
 
 ## Wiki
 
@@ -21,4 +21,4 @@
 
 #### 2023
 
-* klappscheinwerfer
+* tgrants
