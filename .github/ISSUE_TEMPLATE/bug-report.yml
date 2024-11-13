@@ -1,0 +1,27 @@
+name: 🐛 Problēmziņojums
+description: Ziņot par kļūdu
+labels: [Bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problēmas apraksts
+      description: Skaidrs un kodolīgs problēmas apraksts.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproducēšana
+      description: Soļi, kas jāveic, lai kļūdu atkārtotu, ja piemērojams.
+    validations:
+      required: false
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Cita informācija
+      description: Papildus konteksts vai informācija.
+    validations:
+      required: false
