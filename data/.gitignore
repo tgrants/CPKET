@@ -1,2 +1,5 @@
 # Extensions
 *.csv
+
+# Processed data
+data-*.json

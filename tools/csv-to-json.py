@@ -7,10 +7,11 @@ import sys
 
 def csv_to_json(csvFilePath, jsonFilePath):
 	jsonArray = []
-	  
-	with open(csvFilePath, encoding='utf-8') as csvf: 
+
+	with open(csvFilePath, encoding='utf-8-sig') as csvf:
 		csvReader = csv.DictReader(csvf)
 		for row in csvReader:
+			row = {key: value for key, value in row.items() if key != "" and key != None} # Remove empty keys
 			if row["Uzdevuma numurs"] != "" and row["Atbilžu variants"] != "":
 				row["id"] = row.pop("Uzdevuma numurs")
 				row["question"] = row.pop("Uzdevums")
@@ -20,7 +21,6 @@ def csv_to_json(csvFilePath, jsonFilePath):
 			else:
 				if len(jsonArray) == 0: continue
 				jsonArray[-1]["answers"].append(row["Atbilžu variants"])
-				pass
 
 	with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
 		jsonString = json.dumps(jsonArray, indent='\t', ensure_ascii=False)
