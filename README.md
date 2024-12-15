@@ -1,6 +1,6 @@
 # CET
 
-Centralizēto un profesionālās kvalifikācijas eksāmenu jautājumi un to pareizās atbildes.
+Centralizēto un profesionālās kvalifikācijas eksāmenu testa daļas jautājumi un to pareizās atbildes.
 
 Testi pieejami https://tomsgrants.com/CET vai https://tgrants.github.io/CET
 
@@ -12,6 +12,7 @@ Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CET/wiki).
 * Centralizētie profesionālās kvalifikācijas eksāmeni (CPKE)
 	* Profesionālā kvalifikācija "programmēšanas tehniķis"
 		* 2023
+		* 2025
 	* Profesionālā kvalifikācija "mašīnbūves tehniķis"
 		* 2023 (daļa jautājumu)
 
