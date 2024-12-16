@@ -1,6 +1,6 @@
 # CET
 
-Centralizēto un profesionālās kvalifikācijas eksāmenu testa daļas jautājumi un to pareizās atbildes.
+Centralizēto un profesionālās kvalifikācijas eksāmenu testu daļu jautājumi un to pareizās atbildes.
 
 Testi pieejami https://tomsgrants.com/CET vai https://tgrants.github.io/CET
 
