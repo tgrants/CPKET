@@ -2,7 +2,7 @@
 	{
 		"id": "1.1.1",
 		"question": "Kādam mērķim programmēšanas valodās izmanto ciklus?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) lai izvadītu informāciju uz ekrāna",
 			"b) lai kādas darbības atkārtotu vairākas reizes",
@@ -13,7 +13,7 @@
 	{
 		"id": "1.1.2",
 		"question": "Kas ir viendimensiju masīva elementa indekss?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) masīva elementa vērtība",
 			"b) masīva elementa numurs",
@@ -24,7 +24,7 @@
 	{
 		"id": "1.1.3",
 		"question": "Kā izpaužas rekursija?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) apakšprogramma izsauc pati sevi",
 			"b) apakšprogramma izsauc apakšprogrammu, kas uzrakstīta augstāk",
@@ -35,7 +35,7 @@
 	{
 		"id": "1.1.4",
 		"question": "Kas ir \"klase\"?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) programmēšanas valodas operators",
 			"b) sakārtots vienāda tipa elementu kopums",
@@ -46,7 +46,7 @@
 	{
 		"id": "1.1.5",
 		"question": "Kas ir programmas mazākā izpildāmā vienība?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) operators",
 			"b) operands",
@@ -57,7 +57,7 @@
 	{
 		"id": "1.1.6",
 		"question": "Kādiem mērķiem programmēšanas valodās izmanto sazarojumus?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) lai izvadītu informāciju uz ekrāna",
 			"b) lai kādas darbības atkārtotu vairākas reizes",
@@ -68,7 +68,7 @@
 	{
 		"id": "1.1.7",
 		"question": "Kas programmēšanas valodās pēc noklusējuma kalpo par standarta izvades plūsmu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) RAM",
 			"b) disks",
@@ -79,7 +79,7 @@
 	{
 		"id": "1.1.8",
 		"question": "Cik baitu atmiņā C++ un Pascal valodās aizņem char tipa mainīgais?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 2",
 			"b) 0",
@@ -90,7 +90,7 @@
 	{
 		"id": "1.1.9",
 		"question": "Kas ir dinamiskie mainīgie?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) mainīgie, kuriem vieta atmiņā tiek izdalīta un atbrīvota programmas darbības laikā",
 			"b) mainīgie, kuru vērtības var mainīt programmas darbības laikā",
@@ -101,7 +101,7 @@
 	{
 		"id": "1.1.10",
 		"question": "Kas ir translators?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) tulkotājs no augstā līmeņa programmēšanas valodas uz zemā līmeņa valodu",
 			"b) tulkotājs no vienas mašīnas komandu valodas uz citas mašīnas valodu",
@@ -112,7 +112,7 @@
 	{
 		"id": "1.1.11",
 		"question": "Kuras bāzes klases metodes ir obligāti jāpārdefinē atvasinātajā klasē?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) statiskās",
 			"b) abstraktās",
@@ -123,7 +123,7 @@
 	{
 		"id": "1.1.12",
 		"question": "Kas programmēšanas valodās ir netipiskie vai ārkārtējie apstākļi, kas prasa īpašu apstrādi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) izņēmumi (exception)",
 			"b) funkcijas (function)",
@@ -134,7 +134,7 @@
 	{
 		"id": "1.1.13",
 		"question": "Kas OOP ļauj veidot jaunas klases uz jau esošo klašu bāzes?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) mantošana",
 			"b) tipu abstrakcija",
@@ -145,7 +145,7 @@
 	{
 		"id": "1.1.14",
 		"question": "Kuras datu struktūras neļauj apvienot zem viena nosaukuma vairākus datus?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ieraksti",
 			"b) masīvi",
@@ -156,7 +156,7 @@
 	{
 		"id": "1.1.15",
 		"question": "Kuri klases atribūti pieder pašai klasei (visiem klases objektiem), nevis tikai konkrētajam objektam?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) statiskie",
 			"b) abstraktie",
@@ -167,7 +167,7 @@
 	{
 		"id": "1.1.16",
 		"question": "Cik konstruktoru un destruktoru var būt klasei OOP valodās C++, C#, Object Pascal un JAVA?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) viens konstruktors un viens destruktors",
 			"b) viens konstruktors un vairāki destruktori",
@@ -178,7 +178,7 @@
 	{
 		"id": "1.1.17",
 		"question": "Norādiet nepareizo apgalvojumu par klases konstruktoru (valodas C++/Java/C#)!",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) tā nosaukums sakrīt ar klases nosaukumu",
 			"b) tas tiek izsaukts objekta izveides brīdī",
@@ -189,7 +189,7 @@
 	{
 		"id": "1.1.18",
 		"question": "Kas ir kopīgs programmēšanas valodu operatoriem for, while un repeat (vai do...while)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) visiem jāpalielina skaitītājs par 1",
 			"b) visi ir cikla operatori",
@@ -200,7 +200,7 @@
 	{
 		"id": "1.1.19",
 		"question": "Kuras datu struktūras realizācijai programmēšanas valodās ir paredzētas konstrukcijas struct vai record?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) rakstzīmju virknei",
 			"b) ierakstam",
@@ -211,7 +211,7 @@
 	{
 		"id": "1.1.20",
 		"question": "Kas ir ir atsevišķa komanda kodā, kas veic noteiktu darbību?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) operators",
 			"b) izteiksme",
@@ -222,7 +222,7 @@
 	{
 		"id": "1.1.21",
 		"question": "Kas ir masīvs programmēšanas valodās Pascal, JAVA, C# vai C++?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) ierobežots vienāda tipa elementu kopums",
 			"b) sakārtots dažādu tipu elementu kopums",
@@ -233,7 +233,7 @@
 	{
 		"id": "1.1.22",
 		"question": "Kurš no šiem cikliem ir cikls ar pēcnosacījumu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) while",
 			"b) repeat (vai do...while)",
@@ -244,7 +244,7 @@
 	{
 		"id": "1.1.23",
 		"question": "Kurš ir pareizs apgalvojums par if operatora nosacījuma daļu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) to var nenorādīt, ja nav else daļas",
 			"b) tā ir obligāti jānorāda",
@@ -255,7 +255,7 @@
 	{
 		"id": "1.1.24",
 		"question": "Kurš operators programmēšanas valodās Pascal, C++, C# vai Java pārtrauc cikla izpildi un nodod vadību nākamajai komandai aiz cikla?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) break",
 			"b) continue",
@@ -266,7 +266,7 @@
 	{
 		"id": "1.1.25",
 		"question": "Kura metode tiek izsaukta, izveidojot klases objektu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) iekļautā funkcija",
 			"b) ārējā funkcija",
@@ -277,7 +277,7 @@
 	{
 		"id": "1.1.26",
 		"question": "Kad klases metodes ir pārslogotas (overload) nepareizi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) kad tās atšķiras tikai pēc atgriežamās vērtības tipa",
 			"b) kad tās atšķiras tikai pēc parametru tipa",
@@ -288,7 +288,7 @@
 	{
 		"id": "1.1.27",
 		"question": "Cik reizes izpildīsies šis cikls\n for (int i = 0; i <= 5; i += 3)?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 5 reizes",
 			"b) nevienu reizi",
@@ -299,7 +299,7 @@
 	{
 		"id": "1.1.28",
 		"question": "Kura nav salīdzināšanas operācijas zīme programmēšanas valodās?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) >",
 			"b) <",
@@ -310,7 +310,7 @@
 	{
 		"id": "1.1.29",
 		"question": "Kuru simbolu lieto C++, C#, Delfi vai Java programmas rindas komentāram?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) //",
 			"b) #",
@@ -321,7 +321,7 @@
 	{
 		"id": "1.1.30",
 		"question": "Ko JAVA / PHP / C# / C++ valodas metodēm dod atslēgvārds \"static\"?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) metodes atgriežamā vērtība kļūst nemainīga",
 			"b) metodes neveic nekādu darbību",
@@ -332,7 +332,7 @@
 	{
 		"id": "1.1.31",
 		"question": "Kura no norādītām izteiksmēm nav C++/ C# / Java programmu operācija?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) a:= 5;",
 			"b) a += 5;",
@@ -343,7 +343,7 @@
 	{
 		"id": "1.1.32",
 		"question": "Cik reizes izpildīsies cikls dotajā programmas fragmentā (ja c un sum ir veselā tipa mainīgie)?\n Pascal: sum:= 0; c := 5; WHILE c > 5 do Begin \n sum := sum + c; c := c + 2; end;\nC++ / C# / Java: c = 5; sum = 0; \n while (c > 5){\n sum = sum + c;c+= 2;\n}",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"0",
 			"1",
@@ -354,7 +354,7 @@
 	{
 		"id": "1.1.33",
 		"question": "Dots programmas fragments\n C++/Java/C#:void myAge( ){int age = 20;}\nPascal:procedure myAge; \n var age: integer; begin age := 20; end;\n Kas ir age?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) lokālais mainīgais",
 			"b) globālais mainīgais",
@@ -365,7 +365,7 @@
 	{
 		"id": "1.1.34",
 		"question": "Kurā vietā C++/Java/C# funkcijā (metodē) var aprakstīt mainīgo?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tikai funkcijas sākumā",
 			"b) uzreiz pēc funkcijas nosaukuma",
@@ -376,7 +376,7 @@
 	{
 		"id": "1.1.35",
 		"question": "Kurš ir pareizs funkcijas (metodes) „vards” apraksts (prototips) C++/Java/C# valodā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) int vards: function;",
 			"b) function vards : int;",
@@ -387,7 +387,7 @@
 	{
 		"id": "1.1.36",
 		"question": "Kā izskatīsies skaitlis 999000 zinātniskā (scientific) formā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 1,00E+6",
 			"b) 9,99E+05",
@@ -398,7 +398,7 @@
 	{
 		"id": "1.1.37",
 		"question": "Kurš nav C++/Java/C# valodas nosacījuma operators vai operācija?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ?",
 			"b) if",
@@ -409,7 +409,7 @@
 	{
 		"id": "1.1.38",
 		"question": "Kurš nav C++/Java/C# valodas cikla operators?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) if",
 			"b) for",
@@ -420,7 +420,7 @@
 	{
 		"id": "1.1.39",
 		"question": "Kāda būs x mainīgā vērtība, ja ir dots šāds C++/Java/C# valodas programmas fragments? int a = 4; int b = 3; double x = a/b;",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) būs kompilācijas kļūda",
 			"b) 1.333333333",
@@ -431,7 +431,7 @@
 	{
 		"id": "1.1.40",
 		"question": "Kurš nav C++/Java/C# rezervētais vārds?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) break",
 			"b) insert",
@@ -442,7 +442,7 @@
 	{
 		"id": "1.1.41",
 		"question": "Ko dara dotais kods, ja m ir masīvs ar 10 elementiem, bet mainīgie sm un i ir veselie?\n C++/Java/C#:\nsm = 0; i = 0; \nwhile (i < 10) {sm = sm + m[i]; i++;}\n\nPascal:\nsm := 0; i := 0; \nwhile (i < 10) begin sm := sm + m[i]; inc(i); end;",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) saskaita masīva elementu skaitu",
 			"b) nosaka i robežas",
@@ -453,7 +453,7 @@
 	{
 		"id": "1.1.42",
 		"question": "Kā sauc globālā redzamības apgabala sadalījumu, kas nodrošina nosaukumu sadursmes (name collision) neiestāšanos?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) nosaukumu telpa",
 			"b) nosaukumu apgabals",
@@ -464,7 +464,7 @@
 	{
 		"id": "1.1.43",
 		"question": "Kur apraksta funkciju /metožu parametrus?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) pirms funkcijas / metodes kā globālos mainīgos",
 			"b) pie funkcijas / metodes vārda iekavās",
@@ -475,7 +475,7 @@
 	{
 		"id": "1.1.44",
 		"question": "Ko nodrošina atslēgas vārda this izmantošana valodās C++/Java/C#?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) piekļuvi klases sākuma adresei",
 			"b) klases atribūta izveidošanu",
@@ -486,7 +486,7 @@
 	{
 		"id": "1.1.45",
 		"question": "Tiek veidota klase MyClass. Kā var izveidot šīs klases konstruktoru C++ / Java / C# valodā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) void MyClass( ){..} / public void MyClass( ){...}",
 			"b) MyConstructor( ){…} / public MyConstructor( ) {…}",
@@ -497,7 +497,7 @@
 	{
 		"id": "1.1.46",
 		"question": "Kā izpaužas polimorfisms?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) ļauj vienu uzdevumu risināt dažādos veidos",
 			"b) apvieno datus un kodu, kas manipulē ar šiem datiem",
@@ -508,7 +508,7 @@
 	{
 		"id": "1.1.47",
 		"question": "Kas C++ / Java / C# valodās ir \"void\"?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) konstante",
 			"b) datu tips",
@@ -519,7 +519,7 @@
 	{
 		"id": "1.1.48",
 		"question": "Kas objektu orientētajā programmēšanā ir metode?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) funkcija, kas definēta klasē",
 			"b) funkcija, kas izsauc klasi",
@@ -530,7 +530,7 @@
 	{
 		"id": "1.1.49",
 		"question": "Kas ir klases atribūts (lauks)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) klases instance",
 			"b) mainīgais, kas apraksta klases datus",
@@ -541,7 +541,7 @@
 	{
 		"id": "1.1.50",
 		"question": "Kādam ir jābūt funkcijas atgriežamās vērtības tipam valodās C++/Java/C#, lai varētu neizmantot operatoru \"return\"?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) int",
 			"b) void",
@@ -552,7 +552,7 @@
 	{
 		"id": "1.1.51",
 		"question": "Kurš C++ / Java / C# valodas operators izsauc objekta mansObjekts metodi manaMetode bez argumentiem?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) manaMetode.mansObjekts;",
 			"b) mansObjekts.manaMetode;",
@@ -563,7 +563,7 @@
 	{
 		"id": "1.1.52",
 		"question": "Kā pareizi deklarēt metodi ar nosaukumu \"manaMetode\" C++ / Java / C# valodā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) void() manaMetode",
 			"b) void manaMetode",
@@ -574,7 +574,7 @@
 	{
 		"id": "1.1.53",
 		"question": "Kurš atslēgvārdu pāris ļauj apstrādāt izņēmumus (exceptions) C++ / Java / C# valodā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) do while",
 			"b) for do",
@@ -585,7 +585,7 @@
 	{
 		"id": "1.1.54",
 		"question": "Kurš atslēgas vārds valodās C++/Java/C# nodrošina to, ka metodi var izmantot neizveidojot klases objektu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) public",
 			"b) protected",
@@ -596,7 +596,7 @@
 	{
 		"id": "1.1.55",
 		"question": "Kurš atslēgas vārds pirms lokālā funkcijas mainīgā, nodrošina to, ka tas tiek inicializēts tikai vienu reizi un saglabā savu vērtību katrā funkcijas izsaukumā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) public",
 			"b) protected",
@@ -607,7 +607,7 @@
 	{
 		"id": "1.1.56",
 		"question": "Kas ir jāizmanto, ja projektējot OOP programmu vēlas, lai visām atvasinātajām klasēm visos mantojuma līmeņos būtu kāda kopīga realizācija?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) abstraktā klase",
 			"b) inkapsulācija",
@@ -618,7 +618,7 @@
 	{
 		"id": "1.1.57",
 		"question": "Kas ir komandu virkne, kurai ir nosaukums, parametru saraksts un ko var izsaukt no dažādām programmas daļām?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) bloks",
 			"b) funkcija",
@@ -629,7 +629,7 @@
 	{
 		"id": "1.1.58",
 		"question": "Dots programmas fragments C++ / C# /Java:\nint day = 4;\nstring name; (Java: String name;)\nswitch (day) {\ncase 1: name = \"Monday\"; break;\ncase 2: name = \"Thuesday\"; break;\n...\n_____: name = \"Invalid\";\n}\nKas jāieraksta _______ vietā, lai pabeigtu switch operatoru un norādītu, kuru operatoru pildīt, ja nav neviena izvēles varianta?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) default",
 			"b) break",
@@ -640,7 +640,7 @@
 	{
 		"id": "1.1.59",
 		"question": "Dots programmas fragments C++/Java/C#:\nint x = 0;\ntry {\n  float y = 1 / x;\n}\n_____ ...\n\nKas jāieraksta  _____ vietā, lai apstrādātu kļūdu programmā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) exception",
 			"b) handle",
@@ -651,7 +651,7 @@
 	{
 		"id": "1.1.60",
 		"question": "Kā sauc programmas vizuālos komponentus, ar kuriem mijiedarbojas lietotājs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) OOP",
 			"b) Unity",
@@ -662,7 +662,7 @@
 	{
 		"id": "1.1.61",
 		"question": "Kā pareizi pārdefinēt (override) bāzes klases metodi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) atstājot to pašu signatūru (prototipa sintaksi), bet piešķirot citu funkcionalitāti",
 			"b) atstājot to pašu funkcionalitāti, bet pierakstot citu signatūru (prototipa sintaksi)",
@@ -673,7 +673,7 @@
 	{
 		"id": "1.1.62",
 		"question": "Kas ir \"if\" programmēšanas valodās?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) operators ",
 			"b) izteiksme",
@@ -684,7 +684,7 @@
 	{
 		"id": "1.1.63",
 		"question": "Kurš no programmēšanas terminiem nav citu terminu sinonims? ",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) priekšraksts (statement)",
 			"b) operators (operator)",
@@ -695,7 +695,7 @@
 	{
 		"id": "1.1.64",
 		"question": "Kā C++ / C# / Java valodā var piešķirt mainīgajam m mazāko no divu mainīgo a un b vērtībām?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) m == ( a < b ) ? a : b;",
 			"b) m = ( a < b ) ? a : b;",
@@ -706,7 +706,7 @@
 	{
 		"id": "1.1.65",
 		"question": " C++ / Java / C# valodā ir klase Skola, kurā ir definēts viens konstruktors ar vienu int tipa parametru. \nKā izveidot šīs klases objektu, nododot konstruktoram vērtību 123? ",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) new Skola(int 123)",
 			"b) new Skola(123)",
@@ -717,7 +717,7 @@
 	{
 		"id": "1.1.66",
 		"question": "Kurš operators programmēšanas valodās Pascal, C++, Python, C# vai Java pārtrauc cikla iterācijas izpildi un turpina ar nākamo cikla iterāciju?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) break",
 			"b) continue",
@@ -728,7 +728,7 @@
 	{
 		"id": "1.1.67",
 		"question": "Kā C++ / C# / Java valodā pierakstīt operatoru, kurš masīvā int[ ][ ] myNumbers = { {1, 2, 3, 4}, {5, 6, 7, 8} } izmaina vērtību 2 uz 0?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) myNumbers[ 1 ][ 2 ] = 0;",
 			"b) myNumbers[ 0 ][ 2 ] = 0;",
@@ -739,7 +739,7 @@
 	{
 		"id": "1.1.68",
 		"question": "Kādas būs veselo mainīgo a, b un c vērtības pēc dotā C++ /C# / Java / Python programmas fragmenta izpildes? \n a = 6; b = 15; c = 4; \n a = b / a; b = b % a; c = b % c;",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) a = 2, b = 3, c = 3",
 			"b) a = 3, b = 0, c = 3",
@@ -750,7 +750,7 @@
 	{
 		"id": "1.1.69",
 		"question": "Kā sauc objektorientētās programmēšanas mehānismu, kurš apvieno datus un kodu, kas manipulē ar šiem datiem, kā arī aizsargā datus un metodes no ārējās iejaukšanās vai nepareizās izmantošanas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) abstrakcija (abstraction)",
 			"b) iekapsulēšana (inkapsulācija, encapsulation)",
@@ -761,7 +761,7 @@
 	{
 		"id": "1.1.70",
 		"question": "Kā izlabot kļūdu C++ / Java / C# kodā, ja vienā klasē mēģina pārslogot (overload) divas metodes?\nfloat twoNumbers(float a, float b) {... }\n float twoNumbers(float a1, float b1) { ...}",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) izmainīt parametru tipus",
 			"b) izmainīt parametru vārdus",
@@ -772,7 +772,7 @@
 	{
 		"id": "1.1.71",
 		"question": "Kā notiek atvasinātās klases objekta izveidošana?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) tiek izsaukts tikai bāzes klases konstruktors",
 			"b) tiek izsaukts tikai atvasinātās klases konstruktors",
@@ -783,7 +783,7 @@
 	{
 		"id": "1.1.72",
 		"question": "Kas programmas kodā tiek saukts par metodi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) tikai apakšprogramma, kas pieder klasei vai klases instancei",
 			"b) jebkura apakšprogramma, kurai ir savs vārds un kas atgriež vērtību",
@@ -794,7 +794,7 @@
 	{
 		"id": "1.1.73",
 		"question": "Kā programmēšanā sauc failu vai komponentu, kas satur kodu, ko var izmantot, lai organizētu funkcijas, klases un datus?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) serveris",
 			"b) arhīvs",
@@ -805,7 +805,7 @@
 	{
 		"id": "1.1.74",
 		"question": "Ir aprakstīta C++ / Java / C#  funkcija \nvoid setNumber(int Id). Kas šajā funkcijā ir \"int Id\"?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) atribūts",
 			"b) vērtība",
@@ -816,7 +816,7 @@
 	{
 		"id": "1.1.75",
 		"question": "Ko nozīmē izsaukt funkciju?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) aprakstīt to",
 			"b) uzrakstīt tās prototipu",
@@ -827,7 +827,7 @@
 	{
 		"id": "1.1.76",
 		"question": "Kā valodās C++ / Java / C# / Python var izsaukt funkciju, ja ir definēts veselā tipa mainīgais x = 5?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) x = x + 5;",
 			"b) while ( x < 7 ) x ++;",
@@ -838,7 +838,7 @@
 	{
 		"id": "1.1.77",
 		"question": "Kā valodās C++ / Java / C# / Python var izsaukt funkciju \"myFunction\" bez parametriem, ja ir definēts veselā tipa mainīgais x = 5?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) x = myFunction(  );",
 			"b) x = myFunction;",
@@ -849,7 +849,7 @@
 	{
 		"id": "1.1.78",
 		"question": "Kā valodās C++/Java/C#  var izsaukt funkciju myFunction, ja tā ir aprakstīta ar vienu int parametru un atgriež int vērtību un ir definēti int x = 5, y= 10?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) y = myFunction( x );",
 			"b) y = myFunction( int x );",
@@ -860,7 +860,7 @@
 	{
 		"id": "1.1.79",
 		"question": "Kā valodās C++/Java/C#  var aprakstīt funkciju myFunction (pierakstīt tās prototipu) ar vienu int parametru un atgriežāmās vērtības tipu float?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) int myFunction( float x ) { return x; }",
 			"b) int myFunction( float x );",
@@ -871,7 +871,7 @@
 	{
 		"id": "1.1.80",
 		"question": "Kā valodās C++/Java/C#  var izsaukt funkciju myFunction() ar vienu int parametru un atgriežāmās vērtības tipu float, ja ir definēts int x = 5?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) float myFunction( int x ) { return 0; }",
 			"b) float myFunction( int x );",
@@ -882,7 +882,7 @@
 	{
 		"id": "1.1.81",
 		"question": "Kas ir secīgu priekšrakstu virkne, kas atrodas vienā hierarhijas līmenī?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) programma",
 			"b) funkcija",
@@ -893,7 +893,7 @@
 	{
 		"id": "1.1.82",
 		"question": "Kas jādefinē valodā C#/ C++/ Java / Python pirms tiek veidots objekts?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) funkcija",
 			"b) klase",
@@ -904,7 +904,7 @@
 	{
 		"id": "1.1.83",
 		"question": "Kā sauc mainīgā vai cita programmēšanas elementa vārdu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) atribūts",
 			"b) identifikators",
@@ -915,7 +915,7 @@
 	{
 		"id": "1.1.84",
 		"question": "Kā sauc programmēšanas struktūru, kurā apraksta datu kopumu un to uzvedību?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) funkcija",
 			"b) objekts",
@@ -926,7 +926,7 @@
 	{
 		"id": "1.1.85",
 		"question": "Kā sauc programmēšanas valodas rezervētos vārdus?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) funkcijas",
 			"b) mainīgie",
@@ -937,7 +937,7 @@
 	{
 		"id": "1.1.86",
 		"question": "Kas nosaka operatora izpildes secību izteiksmē?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) prioritāte",
 			"b) darbība",
@@ -948,7 +948,7 @@
 	{
 		"id": "1.2.1",
 		"question": "Pēc kādiem kritērijiem neklasificē datu struktūras?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) pēc datu savienojamības struktūrā",
 			"b) pēc struktūras mainīguma laikā",
@@ -959,7 +959,7 @@
 	{
 		"id": "1.2.2",
 		"question": "Ko glabā kopā ar elementu, ja tiek izmantots pusstatisko struktūru saistītais glabāšanas veids?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) elementa kārtas numurs",
 			"b) norāde uz nākošo elementu",
@@ -970,7 +970,7 @@
 	{
 		"id": "1.2.3",
 		"question": "No kuras vietas var dzēst elementus stekā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) no steka virsotnes",
 			"b) no steka galvas",
@@ -981,7 +981,7 @@
 	{
 		"id": "1.2.4",
 		"question": "Kā sauc datu struktūru, kurā elementu ievietošana notiek no viena gala, bet izslēgšana no otra?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) steks",
 			"b) deks",
@@ -992,7 +992,7 @@
 	{
 		"id": "1.2.5",
 		"question": "Kādas var būt virsotņu pakāpes vērtības binārajā kokā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tikai 2",
 			"b) vairāk par 2",
@@ -1003,7 +1003,7 @@
 	{
 		"id": "1.2.6",
 		"question": "Kādā meklēšanas metodē meklējamais elements katrā iterācijā tiek salīdzināts ar vidējo apgabala elementu un meklējamais apgabals tiek samazināts uz pusi?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) turnīra meklēšanā",
 			"b) stohastiskajā meklēšanā",
@@ -1014,7 +1014,7 @@
 	{
 		"id": "1.2.7",
 		"question": "Kas neraksturo šķirošanas metodes efektivitāti?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) sagaidāmais salīdzinājumu skaits",
 			"b) sagaidāmais pārvietojumu skaits",
@@ -1025,7 +1025,7 @@
 	{
 		"id": "1.2.8",
 		"question": "Cik daudz dimensiju var būt masīvam?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) viena",
 			"b) divas",
@@ -1036,7 +1036,7 @@
 	{
 		"id": "1.2.9",
 		"question": "Kāda datu struktūra ir paredzēta vienāda tipa datu glabāšanai?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) klase",
 			"b) struktūra",
@@ -1047,7 +1047,7 @@
 	{
 		"id": "1.2.10",
 		"question": "Kāds ir rindas elementa ievietošanas/izslēgšanas princips?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) pirmais iekšā, pēdējais ārā (FILO)",
 			"b) pēdējais iekšā, pirmais ārā (LIFO)",
@@ -1058,7 +1058,7 @@
 	{
 		"id": "1.2.11",
 		"question": "Kas ir \"ieraksts\"?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tikai vienāda tipa elementu kopums",
 			"b) sakārtots vienāda tipa elementu kopums",
@@ -1069,7 +1069,7 @@
 	{
 		"id": "1.2.12",
 		"question": "Kura datu struktūra apraksta datus un metodes?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) modulis",
 			"b) ieraksts",
@@ -1080,7 +1080,7 @@
 	{
 		"id": "1.2.13",
 		"question": "Kur var pievienot deka (deque) jaunu elementu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) sākumā",
 			"b) beigās",
@@ -1091,7 +1091,7 @@
 	{
 		"id": "1.2.14",
 		"question": "Kurš ir pareizs apgalvojums par bināro koku?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) katram mezglam ir ne vairāk kā divi priekšteči",
 			"b) katram mezglam ir ne vairāk kā divi pēcteči",
@@ -1102,7 +1102,7 @@
 	{
 		"id": "1.2.15",
 		"question": "Kā sauc koka pirmo mezglu (kas ir koka pašā augšā)?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) sākums",
 			"b) galva",
@@ -1113,7 +1113,7 @@
 	{
 		"id": "1.2.16",
 		"question": "Kā sauc koka mezglu, kuram nav bērnu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) bārenis",
 			"b) lapa",
@@ -1124,7 +1124,7 @@
 	{
 		"id": "1.2.17",
 		"question": "Kā sauc garumu garākajam ceļam no koka mezgla līdz kādai lapai?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) augstums",
 			"b) dziļums",
@@ -1135,7 +1135,7 @@
 	{
 		"id": "1.2.18",
 		"question": "Kā sauc datu struktūru, kurā katram mezglam var būt vairāki bērni bet tikai viens vecāks?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) saraksts",
 			"b) divkāršsaistīts saraksts",
@@ -1146,7 +1146,7 @@
 	{
 		"id": "1.2.19",
 		"question": "Kas nav koka apstaigāšanas veids?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) pirmssakārtojums (preorder)",
 			"b) ārējais sakārtojums (outorder)",
@@ -1157,7 +1157,7 @@
 	{
 		"id": "1.2.20",
 		"question": "Kurš ir pareizs apgalvojums par binārās meklēšanas koku (binary search tree)?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) kreisā bērna atslēga ir mazāka par paša mezgla atslēgu, bet labā– lielākā",
 			"b) kreisā bērna atslēga ir lielāka par paša mezgla atslēgu, bet labā– mazākā",
@@ -1168,7 +1168,7 @@
 	{
 		"id": "1.2.21",
 		"question": "Kas neraksturo kārtošanas (sorting) metodes efektivitāti?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) sagaidāmais salīdzinājumu skaits",
 			"b) sagaidāmais pārvietojumu skaits",
@@ -1179,7 +1179,7 @@
 	{
 		"id": "1.2.22",
 		"question": "Kura kārtošanas metode tiek uzskatīta par visneeffektīvāko?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Bubble sort (burbuļa metode)",
 			"b) Shell sort (Šella metode, restītes metode)",
@@ -1190,7 +1190,7 @@
 	{
 		"id": "1.2.23",
 		"question": "Kurā masīva kārtošanas metodē katram k. elementam vieta tiek meklēta iepriekš sakārtotajā virknē no k - 1 elementa?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Bubble sort (burbuļa metode)",
 			"b) Shell sort (Šella metode, restītes metode)",
@@ -1201,7 +1201,7 @@
 	{
 		"id": "1.2.24",
 		"question": "Kādā secībā notiek koka apstaigāšana ar iekšējā sakārtojuma (inorder) algoritmu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) no sākuma tiek aplūkots kreisais apakškoks, pēc tam virsotne un tad labais apakškoks",
 			"b) no sākuma tiek aplūkota virsotne, pēc tam kreisais apakškoks, pēc tam labais apakškoks",
@@ -1212,7 +1212,7 @@
 	{
 		"id": "1.2.25",
 		"question": "Uz steka virsotni rāda norāde top. Kādas vērtības paliks stekā pēc elementu izņemšanas pop() operācijas, ja sākumā stekā bija šādi elementi:\ntop-> 2 -> 44 -> 4 -> 8 ?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) top -> 2 -> 4 -> 44",
 			"b) top -> 44 -> 4 -> 8",
@@ -1223,7 +1223,7 @@
 	{
 		"id": "1.2.26",
 		"question": "Uz steka virsotni rāda norāde top. Kā izskatīsies steks pēc operācijas push(8), ja sākumā stekā bija šādi elementi:\ntop-> 2  4  7  8  10 ?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) top -> 2 4 7 8 10",
 			"b) top -> 2 4 7 8 8 10",
@@ -1234,7 +1234,7 @@
 	{
 		"id": "1.2.27",
 		"question": "Norādiet nepareizo apgalvojumu par koku!",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) koks ir kompozīcija no mezgliem (node) un šķautnēm (edge)",
 			"b) koks ir datu struktūra",
@@ -1245,7 +1245,7 @@
 	{
 		"id": "1.2.28",
 		"question": "Uz rindas sākumu rāda norāde head. Kā izskatīsies rinda pēc elementu pievienošanas operācijas enQueue(8), ja sākumā rindā bija šādi elementi:\nhead-> 2  4  7  8  10 ?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) head -> 2 4 7 8 10",
 			"b) head -> 2 4 7 8 8 10",
@@ -1256,7 +1256,7 @@
 	{
 		"id": "1.2.29",
 		"question": "Kura elementu kārtošanas metode tiek realizēta rekursīvi?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Bubble Sort (burbuļa metode)",
 			"b) Shell Sort (Šella metode, restītes metode)",
@@ -1267,7 +1267,7 @@
 	{
 		"id": "1.2.30",
 		"question": "Kurš ir nepareizs apgalvojums par ātrās kārtošanas (Quick Sort) algoritmu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) algoritmu realizē rekursīvi",
 			"b) divi apakšmasīvi \"saplūd\" trešajā",
@@ -1278,7 +1278,7 @@
 	{
 		"id": "1.2.31",
 		"question": "Kurš ir nepareizs apgalvojums par dinamiskajām datu struktūrām?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tās atrodas dinamiskajā atmiņā",
 			"b) tās ir nelineāras struktūras",
@@ -1289,7 +1289,7 @@
 	{
 		"id": "1.2.32",
 		"question": "Kurš ir nepareizs apgalvojums par divkāršsaistītiem sarakstiem?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) katrs elements ir saistīts ar iepriekšējo - ja šādas saites nav, tad tas ir sākuma elements",
 			"b) katrs elements ir saistīts ar nākamo - ja šādas saites nav, tad tas ir pēdējais elements",
@@ -1300,7 +1300,7 @@
 	{
 		"id": "1.2.33",
 		"question": "Kurš ir nepareizs apgalvojums par algoritmu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) var būt bezgalīgs",
 			"b) var būt rekursīvs",
@@ -1311,7 +1311,7 @@
 	{
 		"id": "1.2.34",
 		"question": "Kas ir galīgo soļu virkne, kas precizē, kā sasniegt kādu rezultātu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) algoritms",
 			"b) masīvs",
@@ -1322,7 +1322,7 @@
 	{
 		"id": "1.2.35",
 		"question": "Kurš no masīva kārtošanas algoritmiem prasa kopēt masīvu starpmasīvā? ",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) burbuļa metode (Bubble Sort)",
 			"b) ātrās kārtošanas metode (Quick Sort)",
@@ -1333,7 +1333,7 @@
 	{
 		"id": "1.2.36",
 		"question": "Kurā kārtošanas metodē funkcija saņem divus sakārtotus masīvus un atgriež to sakārtoto apvienojumu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) burbuļa metode (Bubble Sort)",
 			"b) ātrās kārtošanas metode (Quick Sort)",
@@ -1344,7 +1344,7 @@
 	{
 		"id": "1.2.36",
 		"question": "Kurš ir nepareizs apgalvojums par datu struktūru \"koks\"?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tā ir dinamiskā datu struktūra",
 			"b) tā ir binārā datu struktūra",
@@ -1355,7 +1355,7 @@
 	{
 		"id": "1.2.37",
 		"question": "Kurā atmiņas apgabalā glabājās dinamiskie mainīgie?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) stekā (stack)",
 			"b) kaudzē (heap)",
@@ -1366,7 +1366,7 @@
 	{
 		"id": "1.2.38",
 		"question": "Kurā atmiņas apgabalā glabājās lokālie mainīgie?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) stekā (stack)",
 			"b) kaudzē (heap)",
@@ -1377,7 +1377,7 @@
 	{
 		"id": "1.2.39",
 		"question": "Kurā atmiņas apgabalā glabājās globālie mainīgie?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) stekā (stack)",
 			"b) kaudzē (heap)",
@@ -1388,7 +1388,7 @@
 	{
 		"id": "2.1.1",
 		"question": "Kas ir cietā diska (HDD) cilindri?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) celiņu kopums ar vienādiem numuriem",
 			"b) disku kopums ar vienādiem nosaukumiem",
@@ -1399,7 +1399,7 @@
 	{
 		"id": "2.1.2",
 		"question": "Kāds ir USB Type-C datu pārraides ātrums?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 480 Mb/s",
 			"b) 2 Gb/s",
@@ -1410,7 +1410,7 @@
 	{
 		"id": "2.1.3",
 		"question": "Kādu tehnoloģiju izmanto tintes printeros, lai paātrinātu izdruku?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) burbuļtehnoloģiju",
 			"b) pjezotehnoloģiju",
@@ -1421,7 +1421,7 @@
 	{
 		"id": "2.1.4",
 		"question": "Kas tiek uznests lāzeru printeros uz foto veltņa?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) tinte",
 			"b) papīrs",
@@ -1432,7 +1432,7 @@
 	{
 		"id": "2.1.5",
 		"question": "Ko izmanto, lai attēlu vai tekstu ievadītu datorā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) printeri",
 			"b) ploteri",
@@ -1443,7 +1443,7 @@
 	{
 		"id": "2.1.6",
 		"question": "Kādos printeros izmanto burbuļtehnoloģiju?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) adatu printeros",
 			"b) lāzeru printeros",
@@ -1454,7 +1454,7 @@
 	{
 		"id": "2.1.7",
 		"question": "Cik etapos \"Non-interlaced\" tehnoloģija veido veselo attēlu uz ekrāna?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) vienā etapā",
 			"b) divos etapos",
@@ -1465,7 +1465,7 @@
 	{
 		"id": "2.1.8",
 		"question": "Kāda ierīce paredzēta liela formāta (piem., A1 formāta) grafisku attēlu izdrukāšanai?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) adatu printeris",
 			"b) lāzerprinteris",
@@ -1476,7 +1476,7 @@
 	{
 		"id": "2.1.9",
 		"question": "Kas veido attēlu LCD-monitoros?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) luminofors",
 			"b) mirdzdiodes",
@@ -1487,7 +1487,7 @@
 	{
 		"id": "2.1.10",
 		"question": "Kura ir mobilo iekārtu standarta pieslēgvieta Eiropas Savienībā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) USB 2.0",
 			"b) Micro USB",
@@ -1498,7 +1498,7 @@
 	{
 		"id": "2.1.11",
 		"question": "Kāds spriegums no barošanas bloka padots pa sarkanas krāsas vadu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) -12 V",
 			"b) -5 V",
@@ -1509,7 +1509,7 @@
 	{
 		"id": "2.1.12",
 		"question": "Kāda tipa savienotājs tiek izmantots VGA/SVGA monitora pieslēgšanai?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) DB-9S",
 			"b) DB-15S (divrindu)",
@@ -1520,7 +1520,7 @@
 	{
 		"id": "2.1.13",
 		"question": "Kur BIOS saglabā informāciju?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) CPU",
 			"b) ROM",
@@ -1531,7 +1531,7 @@
 	{
 		"id": "2.1.14",
 		"question": "Kāda datu uzglabāšanas ierīce nodrošina visātrāko pieeju datiem?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) HDD",
 			"b) CD-ROM",
@@ -1542,7 +1542,7 @@
 	{
 		"id": "2.1.15",
 		"question": "Kā atšifrējas abreviatūra BIOS?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Basic Input Output System",
 			"b) Basic Insert Output System",
@@ -1553,7 +1553,7 @@
 	{
 		"id": "2.1.16",
 		"question": "Kurš no portiem ir virknes ports?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ATA",
 			"b) SCSI",
@@ -1564,7 +1564,7 @@
 	{
 		"id": "2.1.17",
 		"question": "Ko nozīmē sistēmplates formfaktors?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) pielietotās sistēmloģikas tipu",
 			"b) kopnes skaitu uz plates",
@@ -1575,7 +1575,7 @@
 	{
 		"id": "2.1.18",
 		"question": "Kāda ir centrālā procesora (CPU) galvenā funkcija datorā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) datorā izmantoto datu un failu glabāšana",
 			"b) instrukciju apstrāde un programmatūras izpilde",
@@ -1586,7 +1586,7 @@
 	{
 		"id": "2.1.19",
 		"question": "Kura ierīce datorā ir atbildīga par spēļu un multivides grafikas apstrādi?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) centrālais procesors (CPU)",
 			"b) brīvpiekļuves atmiņa (RAM)",
@@ -1597,7 +1597,7 @@
 	{
 		"id": "2.1.20",
 		"question": "Kā atšifrējas abreviatūra POST?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Power Open System Test",
 			"b) Power-On Self Test",
@@ -1608,7 +1608,7 @@
 	{
 		"id": "2.1.21",
 		"question": "Kādās mērvienībās mēra procesora darbības ātrumu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) kilobaitos",
 			"b) sekundēs",
@@ -1619,7 +1619,7 @@
 	{
 		"id": "2.1.22",
 		"question": "Cik kontaktu satur USB 2.0 savienotājs?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 2",
 			"b) 3",
@@ -1630,7 +1630,7 @@
 	{
 		"id": "2.1.23",
 		"question": "Kas nav diskrētā videoadaptera sastāvdaļa?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) izejošās pieslēgvietas",
 			"b) procesors",
@@ -1641,7 +1641,7 @@
 	{
 		"id": "2.1.25",
 		"question": "Kā saīsināti tiek apzīmēta skenera izšķirtspēja?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) mm",
 			"b) rpm",
@@ -1652,7 +1652,7 @@
 	{
 		"id": "2.1.26",
 		"question": "Kādā gadījumā monitors vienlaikus ir izvades un ievades ierīce?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ja tas ir LCD monitors",
 			"b) ja tas ir duālais monitors",
@@ -1663,7 +1663,7 @@
 	{
 		"id": "2.1.27",
 		"question": "Kuram cieto disku veidam nav kustīgu detaļu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) SSD (Solid-State Drive)",
 			"b) IDE (Integrated Drive Electronics)",
@@ -1674,7 +1674,7 @@
 	{
 		"id": "2.1.28",
 		"question": "Pie kuras tehnoloģijas vienlaicīgi var pieslēgt visvairāk ierīču?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) USB 2.0",
 			"b) SCSI (Small Computer System Interface)",
@@ -1685,7 +1685,7 @@
 	{
 		"id": "2.1.29",
 		"question": "Kuru no šīm ierīcēm izmanto, lai savienotu vairākus datorus pie viena displeja?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) LED (light-emitting diode)",
 			"b) Router (Maršrutētājs)",
@@ -1696,7 +1696,7 @@
 	{
 		"id": "2.1.30",
 		"question": "Kādu atmiņas veidu lieto SSD?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) DRAM",
 			"b) DROM",
@@ -1707,7 +1707,7 @@
 	{
 		"id": "2.1.31",
 		"question": "Cik liels ir spriegums Eiropas tipa rozetē?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 120±20V",
 			"b) 220±20V",
@@ -1718,7 +1718,7 @@
 	{
 		"id": "2.1.32",
 		"question": "Kāds ir USB 3.0 datu pārraides ātrums?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 480 Mb/s",
 			"b) 2 Gb/s",
@@ -1729,7 +1729,7 @@
 	{
 		"id": "2.1.34",
 		"question": "Kāda ir SSD diska priekšrocība salīdzinot ar HDD?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) zemākas izmaksas",
 			"b) lielāks datu pārraides ātrums",
@@ -1740,7 +1740,7 @@
 	{
 		"id": "2.1.35",
 		"question": "Kuri printeri izmanto speciālo papīru drukāšanai?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tintes printeri",
 			"b) lāzerprinteri",
@@ -1751,7 +1751,7 @@
 	{
 		"id": "2.1.36",
 		"question": "Kāda ir FULL HD standarta izšķirtspēja monitoriem?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 1680x1050",
 			"b) 1920x1080",
@@ -1762,7 +1762,7 @@
 	{
 		"id": "2.1.37",
 		"question": "Kurš ir cieto disku virknes interfeiss?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) SCSI",
 			"b) PATA",
@@ -1773,7 +1773,7 @@
 	{
 		"id": "2.1.38",
 		"question": "Cik kontaktu satur USB 3.0 standarta savienotājs?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 8",
 			"b) 9",
@@ -1784,7 +1784,7 @@
 	{
 		"id": "2.1.39",
 		"question": "Kas LED monitorā tiek izmantots apgaismojumam?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) dienasgaismas spuldze",
 			"b) kvēlspuldze",
@@ -1795,7 +1795,7 @@
 	{
 		"id": "2.1.40",
 		"question": "Kāda tipa pieslēgvietu (portu) izmanto USB 3.1?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) A tipa",
 			"b) B tipa",
@@ -1806,7 +1806,7 @@
 	{
 		"id": "2.2.1",
 		"question": "Kas ir datortīkla protokols?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) datu kopums",
 			"b) elektrisks signāls",
@@ -1817,7 +1817,7 @@
 	{
 		"id": "2.2.2",
 		"question": "Kurai no IP adrešu klasēm pieder IP adrese 192.168.0.1?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) A",
 			"b) B",
@@ -1828,7 +1828,7 @@
 	{
 		"id": "2.2.3",
 		"question": "Kāds ir bitu skaits IPv4 adresē?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) 4",
 			"b) 8",
@@ -1839,7 +1839,7 @@
 	{
 		"id": "2.2.4",
 		"question": "Cik ir vadu pāru standarta vītā pāra kabelī UTP Cat5e?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 1 pāris",
 			"b) 2 pāri",
@@ -1850,7 +1850,7 @@
 	{
 		"id": "2.2.5",
 		"question": "Kādu maksimālu datu pārraidīšanas ātrumu spēj nodrošināt 5. kategorijas UTP kabelis?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 10 Mbit/sec",
 			"b) 4 Mbit/sec",
@@ -1861,7 +1861,7 @@
 	{
 		"id": "2.2.6",
 		"question": "Kāds ir tīkla kartes saīsināts apzīmējums angļu valodā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) NIC",
 			"b) MAC",
@@ -1872,7 +1872,7 @@
 	{
 		"id": "2.2.7",
 		"question": "Kāds ir neekranētā vītā pāra kabeļa saīsināts apzīmējums angļu valodā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) UTP",
 			"b) STP",
@@ -1883,7 +1883,7 @@
 	{
 		"id": "2.2.8",
 		"question": "Kāds apzīmējums ir vītā pāra kabeļa savienotājam?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) BNC",
 			"b) DB-9",
@@ -1894,7 +1894,7 @@
 	{
 		"id": "2.2.9",
 		"question": "Kāds raksturlielums katrai tīkla kartei ir unikāls?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) MAC adrese",
 			"b) IP adrese",
@@ -1905,7 +1905,7 @@
 	{
 		"id": "2.2.10",
 		"question": "Kas ir SMTP, FTP, HTTP, POP?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) dažādas Web lapu programmēšanas valodas",
 			"b) dažādi interneta protokoli",
@@ -1916,7 +1916,7 @@
 	{
 		"id": "2.2.11",
 		"question": "Kas veic tīkla segmentāciju vadoties pēc MAC adresēm?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) komutators (switch)",
 			"b) maršrutētājs (router)",
@@ -1927,7 +1927,7 @@
 	{
 		"id": "2.2.12",
 		"question": "Kādi ir datortīklu topoloģijas pamatveidi?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) maģistrāle, koks, gredzens",
 			"b) maģistrāle, zvaigzne, koks",
@@ -1938,7 +1938,7 @@
 	{
 		"id": "2.2.13",
 		"question": "Kas ir tīkla kartes MAC adrese?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) unikāla adrese, kuru piešķir DHCP serveris",
 			"b) unikāls identifikācijas numurs, kuru iebūvē kartē ražotājs",
@@ -1949,7 +1949,7 @@
 	{
 		"id": "2.2.14",
 		"question": "Kā tiek apzīmēti bezvadu tīkla standarti?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) ISO 9660, TCO 99",
 			"b) 802.11a, 802.11b, 802.11g",
@@ -1960,7 +1960,7 @@
 	{
 		"id": "2.2.15",
 		"question": "Kurš ir pamatprotokols Internet tīklam?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) NetBEUI",
 			"b) TCP/IP",
@@ -1971,7 +1971,7 @@
 	{
 		"id": "2.2.16",
 		"question": "Kāds ir viens no datu traucējumiem pārraides gaitā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) liels datu apjoms",
 			"b) pakešu sadursme",
@@ -1982,7 +1982,7 @@
 	{
 		"id": "2.2.17",
 		"question": "Kura no CMD komandām ļauj uzzināt esošā tīkla konfigurāciju Windows vidē?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) ipconfig",
 			"b) netsh",
@@ -1993,7 +1993,7 @@
 	{
 		"id": "2.2.18",
 		"question": "Ko nozīmē burtu salikums NAT datortīklam?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Network Administrator Transfer",
 			"b) New Admin Ticket",
@@ -2004,7 +2004,7 @@
 	{
 		"id": "2.2.19",
 		"question": "Kādus tīklus nosaka \n IEEE 802.3 standarts?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Ethernet",
 			"b) Fiber Optic",
@@ -2015,7 +2015,7 @@
 	{
 		"id": "2.2.20",
 		"question": "No cik slāņiem sastāv datortīklu OSI etalonmodelis ?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 5",
 			"b) 6",
@@ -2026,7 +2026,7 @@
 	{
 		"id": "2.2.21",
 		"question": "Ar kuru CMD komandu var uzzināt datu paketes maršrutu uz citu datoru tīklā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) tracert",
 			"b) ipconfig",
@@ -2037,7 +2037,7 @@
 	{
 		"id": "2.2.22",
 		"question": "Kuru IEEE standartu izmanto Wi-Fi tīkliem?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) IEEE 802.5",
 			"b) IEEE 802.3",
@@ -2048,7 +2048,7 @@
 	{
 		"id": "2.2.23",
 		"question": "Kas ir datorsistēma, kas nodrošina klientu pieprasījumu apstrādi un nosūta tiem atbildes?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) resursdators (host)",
 			"b) domēns (domain)",
@@ -2059,7 +2059,7 @@
 	{
 		"id": "2.2.24",
 		"question": "Cik kontaktu satur RJ-45 savienotājs?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 2",
 			"b) 4",
@@ -2070,7 +2070,7 @@
 	{
 		"id": "2.2.25",
 		"question": "Kurš no šiem pierakstiem atbilst MAC adresei?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) 00-80-5f-fe-14-c2",
 			"b) 0-0-f-f-1-2",
@@ -2081,7 +2081,7 @@
 	{
 		"id": "2.2.26",
 		"question": "Kāpēc UTP tīkla kabelim vadi ir savīti?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) lai mazinātu elektromagnētiskā lauka ietekmi",
 			"b) lai nodrošinātu vada izturību",
@@ -2092,7 +2092,7 @@
 	{
 		"id": "2.2.27",
 		"question": "Ko izmanto savienojumam HTTP/2 protokols?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) TCP",
 			"b) QUIC",
@@ -2103,7 +2103,7 @@
 	{
 		"id": "2.2.28",
 		"question": "Kurš nav datortīkla augstākā līmeņa domēns?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) exe",
 			"b) com",
@@ -2114,7 +2114,7 @@
 	{
 		"id": "2.2.29",
 		"question": " Ko nozīmē abreviatūra DNS?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Double Numeration System",
 			"b) Data Naming System",
@@ -2125,7 +2125,7 @@
 	{
 		"id": "2.2.30",
 		"question": "Kurš no nosauktajiem ir WEB pasta protokols?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) IPX/SPX",
 			"b) TCP/IP",
@@ -2136,7 +2136,7 @@
 	{
 		"id": "2.2.31",
 		"question": "Kāda būtiskāka atšķirība starp 2,4Ghz un 5Ghz bezvada tīklu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) 2,4Ghz lēnāks, bet ar lielāku bezvada diapazonu",
 			"b) 5Ghz lēnāks, bet ar mazāku bezvada diapazonu",
@@ -2147,7 +2147,7 @@
 	{
 		"id": "2.2.32",
 		"question": "Kādu pieslēgvietu (portu) izmanto HTTP (Hypertext tranfser protocol)?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 21",
 			"b) 443",
@@ -2158,7 +2158,7 @@
 	{
 		"id": "2.2.33",
 		"question": "Kas ir datoru tīkla centrālais vai vadošais dators, kas sniedz nepieciešamos pakalpojumus citiem šā tīkla datoriem vai termināļiem?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) resursdators (host)",
 			"b) domēns (domain)",
@@ -2169,7 +2169,7 @@
 	{
 		"id": "2.2.34",
 		"question": "Kurš tīmekļa protokols ļauj sazināties starp pārlūkprogrammu un attālo serveri?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) TCP/IP",
 			"b) HTTP",
@@ -2180,7 +2180,7 @@
 	{
 		"id": "2.2.35",
 		"question": "Kurā iestādē Latvijā jāgriežās kiberuzbrukuma gadījumā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) CERT.LV",
 			"b) Delfi.lv",
@@ -2191,7 +2191,7 @@
 	{
 		"id": "2.2.36",
 		"question": "Kāda ir CERT.LV misija?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) veicināt informācijas tehnoloģiju (IT) drošību Latvijā",
 			"b) veicināt IT eksportu uz ārzemēm",
@@ -2202,7 +2202,7 @@
 	{
 		"id": "2.2.37",
 		"question": "Ar ko atšķiras IPv4 un IPv6 protokoli?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) IPv4 adresē ir pieļauts izmantot heksadecimālos skaitļus, bet IPv6 nē",
 			"b) IPv4 adresē ir pieļauts izmantot burtus, bet IPv6 nē",
@@ -2213,7 +2213,7 @@
 	{
 		"id": "2.2.38",
 		"question": "Kas nav tīkla aparatūras ierīce?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) maršrutētājs",
 			"b) komutators",
@@ -2224,7 +2224,7 @@
 	{
 		"id": "2.2.39",
 		"question": "Kādu pamatuzdevumu datortīklu drošībā spēlē ugunsmūris (firewall)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) aizsardzība pret vīrusiem",
 			"b) datu plūsmas filtrēšana",
@@ -2235,7 +2235,7 @@
 	{
 		"id": "2.2.40",
 		"question": "Kas kontrolē ienākošo un izejošo tīkla trafiku, pamatojoties uz konkrētiem drošības noteikumiem?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tīkla karte",
 			"b) ugunsmūris",
@@ -2246,7 +2246,7 @@
 	{
 		"id": "3.1.1",
 		"question": "Kura nav datubāzu pārvaldības (vadības) sistēma?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) PHP",
 			"b) Oracle",
@@ -2257,7 +2257,7 @@
 	{
 		"id": "3.1.2",
 		"question": "Kas ir primārā atslēga datu tabulā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) pirmais lauks tabulā",
 			"b) unikāls lauks (lauki),  kas identificē datu tabulas ierakstu",
@@ -2268,7 +2268,7 @@
 	{
 		"id": "3.1.2",
 		"question": "Kas ir datubāze?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) liela tabula ar sākotnējiem datiem",
 			"b) sistematizēta informācijas glabātuve",
@@ -2279,7 +2279,7 @@
 	{
 		"id": "3.1.3",
 		"question": "Vai relāciju datubāzes tabulā var būt lauki ar vienādiem nosaukumiem?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) jā, jebkurā skaitā",
 			"b) nevar",
@@ -2290,7 +2290,7 @@
 	{
 		"id": "3.1.3",
 		"question": "Kāds ir primārās atslēgas lauka uzdevums?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) izdzēsto ierakstu numuru glabāšana",
 			"b) ieraksta lauku saskaitīšana",
@@ -2301,7 +2301,7 @@
 	{
 		"id": "3.1.4",
 		"question": "Kurš ir datubāzu tabulu normalizācijas uzdevums?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) izvairīties no datu anomālijām",
 			"b) izmainīt tabulas datus",
@@ -2312,7 +2312,7 @@
 	{
 		"id": "3.1.4",
 		"question": "Kas ir ārējā atslēga  (foreign key) datubāzes tabulā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) lauks, kas unikāli identificē katru ierakstu tabulā",
 			"b) lauks, kas norāda uz citu tabulu un izveido saiti starp tabulām",
@@ -2323,7 +2323,7 @@
 	{
 		"id": "3.1.5",
 		"question": "Kurš ir nepareizs apgalvojums par datu bāzes tabulas primāro atslēgu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tā ir viens vai vairāki tabulas lauki, kas viennozīmīgi identificē ierakstu",
 			"b) tā var attiekties uz lauku, kur dati var atkārtoties",
@@ -2334,7 +2334,7 @@
 	{
 		"id": "3.1.5",
 		"question": "Pie kāda saišu tipa relāciju datu bāzēs starp divām tabulām ir vēlams ievietot saistošu starptabulu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) viens pret vienu",
 			"b) daudzi pret vienu",
@@ -2345,7 +2345,7 @@
 	{
 		"id": "3.1.6",
 		"question": "Starp kādiem laukiem datu bāzē var izveidot saiti?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) laukiem ar vienādu datu tipu un garumu",
 			"b) visiem laukiem",
@@ -2356,7 +2356,7 @@
 	{
 		"id": "3.1.6",
 		"question": "Kā sauc situāciju, kad viena vai vairāku relāciju atribūtu īpašības viennozīmīgi nosaka citus atribūtus?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) asociācijas attiecība",
 			"b) funkcionālā atkarība",
@@ -2367,7 +2367,7 @@
 	{
 		"id": "3.1.7",
 		"question": "Kādiem mērķiem ir nepieciešams datu bāzes tabulas indekss?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) lai saskaitītu ierakstu kopējo skaitu",
 			"b) lai izveidotu datu bāzes faila kopiju uz diska",
@@ -2378,7 +2378,7 @@
 	{
 		"id": "3.1.7",
 		"question": "Kā sauc datubāzes tabulas kolonas?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) ieraksti",
 			"b) datu kopas",
@@ -2389,7 +2389,7 @@
 	{
 		"id": "3.1.8",
 		"question": "Kāda ir atbilstība starp tabulām, kuras tiek saistītas ar saiti viens-pret-daudziem?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) katram ierakstam tabulā A atbilst ne vairāk par diviem ierakstiem tabulā B, katram ierakstam tabulā B atbilst tikai viens ieraksts tabulā A",
 			"b) katram ierakstam tabulā A atbilst tikai viens ieraksts tabulā B un otrādi",
@@ -2400,7 +2400,7 @@
 	{
 		"id": "3.1.8",
 		"question": "Kas ir savstarpēji saistītu objektu kopums, kas ar pārvaldības sistēmas starpniecību organizēts tā, lai nodrošinātu ērtu informācijas apstrādi?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) lietojumprogramma",
 			"b) datu bāze",
@@ -2411,7 +2411,7 @@
 	{
 		"id": "3.1.9",
 		"question": "Kādas sekas var būt tam, ja datu bāzes tabulā teksta laukam samazina lauka garumu no 30 uz 20?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) visi iepriekš ievadītie dati nemainīsies",
 			"b) iepriekš ievadītie dati netiks mainīti, bet nevarēs ievadīt datus garākus par 20 simboliem",
@@ -2422,7 +2422,7 @@
 	{
 		"id": "3.1.9",
 		"question": "Kura ir datu bāzes pārvaldības sistēma?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Microsoft Office Excel",
 			"b) MySQL Server",
@@ -2433,7 +2433,7 @@
 	{
 		"id": "3.1.10",
 		"question": "Kas ir transakcija?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) operāciju, kuras tiek izpildītas kopīgi, kopa",
 			"b) jebkura datu izmaiņas operāciju virkne",
@@ -2444,7 +2444,7 @@
 	{
 		"id": "3.1.10",
 		"question": "Kāds papildus nosacījums pie datubāžu tabulas, kas jau ir otrajā normālformā jāievēro, lai tabula atrastos 3. normālformā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) visiem laukiem jāsatur atomārās vērtības",
 			"b) nedrīkst pastāvēt funkcionālās atkarības starp atslēgas lauku un citiem laukiem",
@@ -2455,7 +2455,7 @@
 	{
 		"id": "3.1.11",
 		"question": "Kurš nosacījums jāievēro, lai datu bāzes tabula atrastos 1. normālformā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) visi lauki satur tikai atomāras (nedalāmas) vērtības",
 			"b) katrs neatslēgas lauks pilnīgi atkarīgs no primārās atslēgas",
@@ -2466,7 +2466,7 @@
 	{
 		"id": "3.1.11",
 		"question": "Kura nav datubāzu anomālija?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) ievietošanas",
 			"b) meklēšanas",
@@ -2477,7 +2477,7 @@
 	{
 		"id": "3.1.12",
 		"question": "Kas ir DBVS?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Datu bāzu vizualizācijas sistēma",
 			"b) Datu bāzu veidošanas sistēma",
@@ -2488,7 +2488,7 @@
 	{
 		"id": "3.1.12",
 		"question": "Kurš datubāzu tabulu atslēgu veids neeksistē?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) modulārā (modular)",
 			"b) primārā (primary)",
@@ -2499,7 +2499,7 @@
 	{
 		"id": "3.1.13",
 		"question": "Kuru datu bāzes atslēgu veido no tabulas atribūta, kas identificē citas tabulas ierakstu?\n",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) modulārā (modular)",
 			"b) primārā (primary)",
@@ -2510,7 +2510,7 @@
 	{
 		"id": "3.1.13",
 		"question": "Kurš apgalvojums par datubāzu primāro (primary) atslēgu nav pareizs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) viennozīmīgi identificē tabulas ierakstus",
 			"b) var sastāvēt no vairāku lauku kombinācijas",
@@ -2521,7 +2521,7 @@
 	{
 		"id": "3.1.14",
 		"question": "Kurš apgalvojums par datu bāzes transakciju nav pareizs?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) ir viens vai vairāki SQL operatori, kas tiek izpildīti kā vienota loģisku darbību secība",
 			"b) ir nedalāma darbība, tā ir jāveic kā viena vienība",
@@ -2532,7 +2532,7 @@
 	{
 		"id": "3.1.15",
 		"question": "Kurš datubāzu veids satur mehānismus attiecību izveidošanai starp tabulām, izmantojot primārās un ārējās atslēgas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) hierarhiskās datu bāzes",
 			"b) relāciju datu bāzes",
@@ -2543,7 +2543,7 @@
 	{
 		"id": "3.1.16",
 		"question": "Kura nav datubāzu vadības sistēma?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) MongoDB",
 			"b) MariaDB",
@@ -2554,7 +2554,7 @@
 	{
 		"id": "3.1.17",
 		"question": "Kurš no datubāzes tabulas laukiem ir veselā (integer) tipa lauks?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) TelefonaNumurs",
 			"b) Stipendija",
@@ -2565,7 +2565,7 @@
 	{
 		"id": "3.1.18",
 		"question": "Kura datubāzu pārvaldības sistēma atbalsta NoSQL tehnoloģiju?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) MongoDB",
 			"b) Oracle",
@@ -2576,7 +2576,7 @@
 	{
 		"id": "3.1.19",
 		"question": "Kurš datu bāzu tabulu lauku atslēgas veids neeksistē?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) primārā (primary)",
 			"b) sekundārā (secondary)",
@@ -2587,7 +2587,7 @@
 	{
 		"id": "3.1.20",
 		"question": "Kas ir darbība, kas satur vienu vai vairākus datubāzes vaicājumus un kas tiek izpildīta kā viens vesels (vai nu izpilda visus kopas vaicājumus, vai nu, ja kaut kas nav izpildīts, tad atceļ arī iepriekšējos)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) pieprasījums ",
 			"b) transakcija",
@@ -2598,7 +2598,7 @@
 	{
 		"id": "3.1.21",
 		"question": "Ar kuru terminu datu bāzes izstrādes un pārvaldības jomā apzīmē kāda konkrēta lauka (atribūta) nozīmīgo vērtību kopu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) domēns",
 			"d) pieprasījums",
@@ -2609,7 +2609,7 @@
 	{
 		"id": "3.2.1",
 		"question": "Kura funkcija nav standarta SQL operatora SELECT funkcija?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) count",
 			"b) max",
@@ -2620,7 +2620,7 @@
 	{
 		"id": "3.2.2",
 		"question": "Kura SQL komanda netiks izpildīta, ja tabulā 'Pers' ir lauki 'Name' un 'Surname'?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) SELECT ALL FROM Pers",
 			"b) SELECT Name, Surname FROM Pers",
@@ -2631,7 +2631,7 @@
 	{
 		"id": "3.2.3",
 		"question": "Kurš no šiem SQL operatoriem nav paredzēts darbam ar ierakstiem?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -2642,7 +2642,7 @@
 	{
 		"id": "3.2.4",
 		"question": "Kurš no SELECT operatora nosacījumiem uzdod atlases kritēriju?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) FROM",
 			"b) WHERE",
@@ -2653,7 +2653,7 @@
 	{
 		"id": "3.2.5",
 		"question": "Kurš SELECT operatora nosacījums nozīmē, ka tiks atlasītas tikai unikālās lauka vērtības?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) ALL",
 			"b) PRIMARY",
@@ -2664,7 +2664,7 @@
 	{
 		"id": "3.2.6",
 		"question": "Kurš SQL operators ļauj nomainīt tabulas lauka vērtību?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) CHANGE",
 			"b) UPDATE (SET)",
@@ -2675,7 +2675,7 @@
 	{
 		"id": "3.2.7",
 		"question": "Ko izveido dotais SQL kods: \n CREATE TABLE EMPLOYEES (EmployeeID INTEGER NOT NULL, FirstName CHAR(24)); ?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) izveido tabulu Employees ar laukiem: EmployeeID, FirstName",
 			"b) izveido tabulu FirstName, kur EmployeeID vērtība ir NOT NULL",
@@ -2686,7 +2686,7 @@
 	{
 		"id": "3.2.8",
 		"question": "Kura SQL komanda pievieno tabulā 'Employees' jaunu rindu ar visiem ieraksta lauku datiem?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) INSERT INTO Employees VALUES (11, 'Mary', 'Joedy', 2000)",
 			"b) INSERT VALUES (11, 'Mary', 'Joedy', 2000) TO Employees",
@@ -2697,7 +2697,7 @@
 	{
 		"id": "3.2.9",
 		"question": "Kā tabulas 'Klienti' laukā 'LastName' var ierakstīt vērtību 'Grey'?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) INSERT (‘Grey’) INTO (LastName) FROM Klienti",
 			"b) INSERT INTO Klienti (LastName) VALUES (‘Grey’)",
@@ -2708,7 +2708,7 @@
 	{
 		"id": "3.2.10",
 		"question": "Kā SQL tabulā 'orders' katram darbiniekam, kuru identificē lauks 'emp_id', nosaka maksimālo lauka 'price' vērtību?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) SELECT emp_id, MAX(price) AS Maxp FROM orders GROUP BY emp_id",
 			"b) SELECT emp_id, MAX(price) AS Maxp FROM orders FOR emp_id",
@@ -2719,7 +2719,7 @@
 	{
 		"id": "3.2.11",
 		"question": "Ar kuru SQL komandu var noteikt ierakstu skaitu tabulā 'Klienti'?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) SELECT NUMBER of City From Klienti",
 			"b) COUNT From Klienti",
@@ -2730,7 +2730,7 @@
 	{
 		"id": "3.2.12",
 		"question": "Kā tabulas 'sportisti' laukam 'Pers_kods' SQL izveidot unikālu indeksu 'idxp'?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) CREATE index idxp FOR Pers_kods",
 			"b) CREATE unique index idxp ON sportisti(Pers_kods)",
@@ -2741,7 +2741,7 @@
 	{
 		"id": "3.2.13",
 		"question": "Kura SQL komanda ļauj dzēst tabulu 'users'?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) DROP TABLE users",
 			"b) DROP * from TABLE users",
@@ -2752,7 +2752,7 @@
 	{
 		"id": "3.2.14",
 		"question": "Kurā valodā uzdota lauka \"Skaits\" definīcija: \n Skaits INT?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) C++",
 			"b) Pascal",
@@ -2763,7 +2763,7 @@
 	{
 		"id": "3.2.15",
 		"question": "Ko atgriezīs šis vaicājums:\n SELECT Uzvards, Dzims_datums From Personals WHERE Dzims_datums = (SELECT max(Dzims_datums) FROM Personals)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) visvecākā darbinieka uzvārdu un dzimšanas datumu",
 			"b) visjaunākā darbinieka uzvārdu un dzimšanas datumu",
@@ -2774,7 +2774,7 @@
 	{
 		"id": "3.2.16",
 		"question": "Kā SQL nomainīt tabulas 't1' kolonas 'b' nosaukumu uz 'b1' ar tipu 'INT'?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) ALTER TABLE t1 CHANGE b b1 INT",
 			"b) CHANGE b b1 INT NOT NULL FROM TABLE t1",
@@ -2785,7 +2785,7 @@
 	{
 		"id": "3.2.17",
 		"question": " Ko nozīmē abreviatūra SQL?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Standart Query Language",
 			"b) Small Query Language",
@@ -2796,7 +2796,7 @@
 	{
 		"id": "3.2.18",
 		"question": "Ar kādu SQL operatoru var pievienot ierakstus datu bāzei?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -2807,7 +2807,7 @@
 	{
 		"id": "3.2.19",
 		"question": "Ar kādu SQL operatoru var atlasīt ierakstus no datu bāzes?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -2818,7 +2818,7 @@
 	{
 		"id": "3.2.20",
 		"question": "Ar kādu SQL operatoru var dzēst ierakstus no datu bāzes?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) INSERT",
 			"b) DELETE",
@@ -2829,7 +2829,7 @@
 	{
 		"id": "3.2.21",
 		"question": "Kas ir MySQL?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) programmēšanas valoda",
 			"b) relāciju datubāzu pārvadības sistēma",
@@ -2840,7 +2840,7 @@
 	{
 		"id": "3.2.22",
 		"question": "Kura SQL komanda izveido tabulu 'tbl1'?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) CREATE tbl1 ...",
 			"b) CREATEtable tbl1 FROM db1 ...",
@@ -2851,7 +2851,7 @@
 	{
 		"id": "3.2.23",
 		"question": "Kādu darbību veic operatora SELECT atslēgas vārds DISTINCT?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) sagrupē datus dilstošā secībā",
 			"b) izņem datus ar vērtību DISTINCT",
@@ -2862,7 +2862,7 @@
 	{
 		"id": "3.2.24",
 		"question": "Kādu lauku datu tipu SQL valodā ir ieteicams izvēlēties tālruņa numura glabāšanai?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Varchar",
 			"b) Numeric",
@@ -2873,7 +2873,7 @@
 	{
 		"id": "3.2.25",
 		"question": "Ko izvada SQL komanda: \n \"SELECT * FROM employees LIMIT 5\" ?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) simbolus *, kuri aizpilda 5 rindas",
 			"b) visus tabulas 'employees' datus",
@@ -2884,7 +2884,7 @@
 	{
 		"id": "3.2.26",
 		"question": "Kā dotā SQL komanda sakārto datus:\n \"SELECT empno, deptno, ename, phone\n FROM employees\n ORDER BY deptno, phone DESC\" ?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) pieaugošā secībā pa 'employees' un 'empno'",
 			"b) pieaugošā secībā pa 'ename'",
@@ -2895,7 +2895,7 @@
 	{
 		"id": "3.2.27",
 		"question": "Kādam nolūkam tiek lietota SQL konstrukcija GROUP BY?\n Piemēram: SELECT koka_suga_id from koks GROUP BY koka_suga_id;",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) lai sakārtotu datus kolonnai koka_suga_id augošā secībā",
 			"b) lai iegūtu visas unikālās vērtības kolonnas koka_suga_id",
@@ -2906,7 +2906,7 @@
 	{
 		"id": "3.2.28",
 		"question": "Kādam nolūkam tiek lietota SQL konstrukcija ORDER BY?\n Piemēram: SELECT *from koks  ORDER BY koka_suga_id DESC;",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) lai iegūtu visus datus no tabulas un simbols * būtu legāls",
 			"b) lai sakārtotu vaicājuma rezultātu pēc kolonnas koka_suga_id augošā secībā",
@@ -2917,7 +2917,7 @@
 	{
 		"id": "3.2.29",
 		"question": "Kuru SQL konstrukciju lieto, lai sakārtotu rindas pēc konkrēto lauku datiem?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) SORT BY",
 			"b) ORDER BY",
@@ -2928,7 +2928,7 @@
 	{
 		"id": "3.2.30",
 		"question": "Kuru SQL konstrukcija apvieno vairākus ierakstus pēc konkrēto lauku datiem?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) SORT BY",
 			"b) ORDER BY",
@@ -2939,7 +2939,7 @@
 	{
 		"id": "3.2.31",
 		"question": "Kādu darbību veic SQL relācijas tips INNER JOIN?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) apvieno divas tabulas vienā",
 			"b) izveido saites starp tabulām pēc visām vērtībām",
@@ -2950,7 +2950,7 @@
 	{
 		"id": "3.2.32",
 		"question": "Kādas funkcijas izmanto SQL operatora SELECT vaicājumos?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) funkcijas, kuras veic matemātiskās operācijas",
 			"b) funkcijas, kuras veic datu labošanu izpildes laikā",
@@ -2961,7 +2961,7 @@
 	{
 		"id": "3.2.33",
 		"question": "Ja 'Client' tabulā ir 5 ieraksti un Serviss tabulā ir 10 ieraksti, tad cik ierakstus parādīs, ja izpildīs SQL operatoru:\n SELECT Client.LastName, Serviss.Serv_Name FROM Client, Serviss?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 5",
 			"b) 15",
@@ -2972,7 +2972,7 @@
 	{
 		"id": "3.2.34",
 		"question": "Tabulā 'Klients' ir lauki: Klients_ID,Vards un Uzvards. Ar kuru SQL operatoru var pievienot datus tikai laukos Vards, Uzvards?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) INSERT INTO Klients VALUES ...",
 			"b) INSERT INTO Klients (Vards, Uzvards) VALUES ...",
@@ -2983,7 +2983,7 @@
 	{
 		"id": "3.2.35",
 		"question": "Kuru SQL SELECT operatora konstrukciju jāizmanto, lai atlasītu katram skolniekam viņa vidējo atzīmi?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) DISTINCT",
 			"b) ORDER BY",
@@ -2994,7 +2994,7 @@
 	{
 		"id": "3.2.36",
 		"question": "Kādus datus atlasīs SQL operators:\n SELECT Vards FROM Klienti\nWhere Vards like 'C%';?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) klientu vārdus, kuri sākas ar burtu C",
 			"b) klientu vārdus, kuros ir burts C",
@@ -3005,7 +3005,7 @@
 	{
 		"id": "3.2.37",
 		"question": "Kādas lauka \"balle\" vērtības tiks atlasītas no datu bāzes tabulas, ja lauks \"balle\" ir vesels skaitlis un SQL vaicājuma kritērijā Where norādīts \"balle>7 and balle<9\"?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) intervālā no 7 līdz 8",
 			"b) vienāds ar 9",
@@ -3016,7 +3016,7 @@
 	{
 		"id": "3.2.38",
 		"question": "Tabulas \"atzime\" ierakstā lauka \"Balle\" vērtība ir 4. Kāda būs šī lauka vērtība, ja tiks izpildīts SQL teikums:\nUPDATE atzime SET Balle = [Balle]+1\nWHERE Balle < 4?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) 4",
 			"b) 5",
@@ -3027,7 +3027,7 @@
 	{
 		"id": "3.2.39",
 		"question": "Kāda tipa datubāzu izveidei tiek izmantota valoda SQL?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Lielo datu (Big Data)",
 			"b) Hierarhiskās (Hierarchical)",
@@ -3038,7 +3038,7 @@
 	{
 		"id": "3.2.40",
 		"question": "Dots tabulas izveides priekšraksts:\nCREATE TABLE CLIENT (\nID int UNIQUE,\nname varchar(50),\nsurname varchar(50) );\nKas notiks, ja tiks pievienots šis pirmais ieraksts:\nINSERT INTO CLIENT VALUES (null , 'Ivo', 'Liepa');",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Ieraksts tiks veiksmīgi pievienots",
 			"b) Ieraksts netiks pievienots",
@@ -3049,7 +3049,7 @@
 	{
 		"id": "3.2.41",
 		"question": "Kāda ir SQL komandas ALTER TABLE funkcija?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) izveidot jaunu tabulu datu bāzē",
 			"b) veikt datu atlasi no tabulas",
@@ -3060,7 +3060,7 @@
 	{
 		"id": "3.2.42",
 		"question": "Kurš nav SQL datu manipulācijas valodas (DML) operators?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) SELECT",
 			"b) ADD",
@@ -3071,7 +3071,7 @@
 	{
 		"id": "4.1.1",
 		"question": "Kādiem mērķiem ir paredzēta programma Windows Explorer?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) datu bāzes veidošanai",
 			"b) darbībām ar mapēm un failiem",
@@ -3082,7 +3082,7 @@
 	{
 		"id": "4.1.2",
 		"question": "Kuras ir zināmās MS Windows operētājsistēmas versijas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Windows 6, Windows 7, Windows 98",
 			"b) Windows 7, Windows 8, Windows 10",
@@ -3093,7 +3093,7 @@
 	{
 		"id": "4.1.3",
 		"question": "Ar kādu taustiņu kombināciju MS Windows operētājsistēmā var izgriezt iezīmēto failu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) CTRL+C",
 			"b) CTRL+X",
@@ -3104,7 +3104,7 @@
 	{
 		"id": "4.1.4",
 		"question": "Kuru no šīm failu sistēmām neatpazīst Windows?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) NTFS",
 			"b) FAT32",
@@ -3115,7 +3115,7 @@
 	{
 		"id": "4.1.5",
 		"question": "Kā iezīmēt vairākus failus, ja tie nav izvietoti secīgi (MS Windows)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) izmantojot taustiņu CTRL",
 			"b) izmantojot taustiņu SHIFT",
@@ -3126,7 +3126,7 @@
 	{
 		"id": "4.1.6",
 		"question": "Kuru noklusēto failu sistēmu izmanto Windows operētājsistēmas, kuras ir bāzētas uz Windows NT versijas?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) FAT16",
 			"b) FAT32",
@@ -3137,7 +3137,7 @@
 	{
 		"id": "4.1.7",
 		"question": "Kurš ir Windows grafiskais apvalks (čaula)?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Windows Explorer ",
 			"b) PowerShell ",
@@ -3148,7 +3148,7 @@
 	{
 		"id": "4.1.8",
 		"question": "Kurš ir Windows komandu saskarnes interpretators?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) PowerShell",
 			"b) bash",
@@ -3159,7 +3159,7 @@
 	{
 		"id": "4.1.9",
 		"question": "Kurai operetājsistēmai komandu saskarnes interpretatoru sauc par PowerShell?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Windows",
 			"b) Linux",
@@ -3170,7 +3170,7 @@
 	{
 		"id": "4.1.12",
 		"question": "Kuru no nosauktajām failu sistēmām atbalsta Windows 10/11 operētājsistēmas?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) EXT2",
 			"b) EXT4",
@@ -3181,7 +3181,7 @@
 	{
 		"id": "4.1.15",
 		"question": "Kura Windows datņu meklēšanas standartrīku papildus iespēja (advanced options) neeksistē?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) file contents",
 			"b) system files",
@@ -3192,7 +3192,7 @@
 	{
 		"id": "4.1.17",
 		"question": "Kurā Windows datņu apskates (View) režīmā var redzēt katra faila izmēru?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Large Icons",
 			"b) Small Icons",
@@ -3203,7 +3203,7 @@
 	{
 		"id": "4.1.18",
 		"question": "Kura ir zibatmiņas standarta failu sistēma?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) NTFS",
 			"b) FAT16",
@@ -3214,7 +3214,7 @@
 	{
 		"id": "4.1.19",
 		"question": "Ko dara Windows operētājsistēma, kad nepietiek RAM atmiņas apjoma?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) pārstartējas",
 			"b) izmanto \"pagefile\" (swap)",
@@ -3225,7 +3225,7 @@
 	{
 		"id": "4.1.22",
 		"question": "Ar ko Windows OS var izveidot failu sistēmas nodalījumu uz diska?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Device Manager MMC",
 			"b) Disk Manager MMC",
@@ -3236,7 +3236,7 @@
 	{
 		"id": "4.1.24",
 		"question": "Ar kuru no programmām Windows OS var atgriezt reģistrus iepriekšējajā stāvoklī?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Defragment",
 			"b) Winzip",
@@ -3247,7 +3247,7 @@
 	{
 		"id": "4.1.26",
 		"question": "Kura funkcija Windows 10 ļauj pārslēgties starp lietotājiem?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Switch User",
 			"b) Network Setup Wizard",
@@ -3258,7 +3258,7 @@
 	{
 		"id": "4.1.27",
 		"question": "Kura komanda izvēlēto printeri iestata par noklusējuma printeri?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Use Printer Offline",
 			"b) Set As Default Printer",
@@ -3269,7 +3269,7 @@
 	{
 		"id": "4.1.28",
 		"question": "Kura taustiņu kombinācija ļauj pāriet uz citu atvērto Windows logu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) ALT+ENTER",
 			"b) ALT+TAB",
@@ -3280,7 +3280,7 @@
 	{
 		"id": "4.1.29",
 		"question": "Kura ir Windows OS noklusējuma interneta pārlūkprogramma?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Microsoft Edge",
 			"b) Opera",
@@ -3291,7 +3291,7 @@
 	{
 		"id": "4.2.1",
 		"question": "Ko dara komanda CD CMD vidē?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) atver CD-ROM",
 			"b) dzēš darba direktoriju",
@@ -3302,7 +3302,7 @@
 	{
 		"id": "4.2.2",
 		"question": "Ar kuru komandu var izveidot jaunu direktoriju CMD vidē?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) DIR",
 			"b) CAT",
@@ -3313,7 +3313,7 @@
 	{
 		"id": "4.2.3",
 		"question": "Kurš ir pareizs ceļa nosaukums līdz failam Letters.doc?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) C:\\\\Work\\\\Letters.doc",
 			"b) C:\\Work\\Letters.doc",
@@ -3324,7 +3324,7 @@
 	{
 		"id": "4.2.4",
 		"question": "Ar kuru komandu var dzēst direktoriju CMD vidē?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) RD",
 			"b) REM",
@@ -3335,7 +3335,7 @@
 	{
 		"id": "4.2.5",
 		"question": "No kāda nosaukuma cēlies saīsinājums DOS?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) digital operating system",
 			"b) datoru operētājsistēma",
@@ -3346,7 +3346,7 @@
 	{
 		"id": "4.2.6",
 		"question": "Kas ir dzinis (utilīte, driver)?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) programma, kas nodrošina ierīču darbību",
 			"b) speciāla mikroshēma",
@@ -3357,7 +3357,7 @@
 	{
 		"id": "4.2.7",
 		"question": "Kuri ir izpildāmo failu paplašinājumi?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) BAT, DLL un COM",
 			"b) COM, EXE un DLL",
@@ -3368,7 +3368,7 @@
 	{
 		"id": "4.2.8",
 		"question": "Kura komanda ļauj apskatīt faila saturu CMD vidē?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) REN",
 			"b) TYPE",
@@ -3379,7 +3379,7 @@
 	{
 		"id": "4.2.9",
 		"question": "Kura ir Backup programmas funkcija?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) defragmentācija",
 			"b) rezerves kopijas veidošana",
@@ -3390,7 +3390,7 @@
 	{
 		"id": "4.2.10",
 		"question": "Kurā direktorijā atrodas fails C:\\archive\\archive.txt?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) archive",
 			"b) C:\\",
@@ -3401,7 +3401,7 @@
 	{
 		"id": "4.2.11",
 		"question": "Kura komanda izveido failu CMD vidē?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) CD",
 			"b) COPY CON",
@@ -3412,7 +3412,7 @@
 	{
 		"id": "4.2.12",
 		"question": "Kura komanda pārdēvē failu (maina nosaukumu) CMD vidē?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) REN",
 			"b) RMDIR",
@@ -3423,7 +3423,7 @@
 	{
 		"id": "4.2.13",
 		"question": "Ko nesatur Windows grafiskais apvalks Windows Explorer?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) darba virsmu (Desktop)",
 			"b) sākuma izvēlni (Start Menu)",
@@ -3434,7 +3434,7 @@
 	{
 		"id": "4.3.1",
 		"question": "Kā atšifrējas MBR abreviatūra Linux OS?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Microsoft Boot Record",
 			"b) Microsoft Byte Record",
@@ -3445,7 +3445,7 @@
 	{
 		"id": "4.3.2",
 		"question": "Kas ir GNOME un KDE Linux OS?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) operētājsistēma",
 			"b) datorvīruss",
@@ -3456,7 +3456,7 @@
 	{
 		"id": "4.3.3",
 		"question": "Kā apzīmē saknes katalogu Linux OS?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) /",
 			"b) \\",
@@ -3467,7 +3467,7 @@
 	{
 		"id": "4.3.4",
 		"question": "Kas ir Unix?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Linux paveids",
 			"b) lietojumprogramma",
@@ -3478,7 +3478,7 @@
 	{
 		"id": "4.3.5",
 		"question": "Kura Linux komanda maina faila īpašnieku?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) chlog",
 			"b) chmod",
@@ -3489,7 +3489,7 @@
 	{
 		"id": "4.3.6",
 		"question": "Ko dara Linux komanda cp?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) pārvieto failu/direktorijas",
 			"b) kopē failu/direktorijas",
@@ -3500,7 +3500,7 @@
 	{
 		"id": "4.3.7",
 		"question": "Kura LINUX komanda maina failam piekļūšanas tiesības (permissions)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) chlog",
 			"b) chmod",
@@ -3511,7 +3511,7 @@
 	{
 		"id": "4.3.8",
 		"question": "Ko dara Linux komanda mv?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) pārvieto failu/direktorijas",
 			"b) kopē failu/direktorijas",
@@ -3522,7 +3522,7 @@
 	{
 		"id": "4.3.9",
 		"question": "Ko dara Linux komanda cat?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) izvada faila saturu",
 			"b) izvada direktorijas nosaukumu",
@@ -3533,7 +3533,7 @@
 	{
 		"id": "4.3.10",
 		"question": "Kurā direktorijā atrodas Linux konfigurācijas faili?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) /ect",
 			"b) /usr",
@@ -3544,7 +3544,7 @@
 	{
 		"id": "4.3.11",
 		"question": "Kā sauc Linux datņu sistēmu, ko izmanto virtuālajai atmiņai?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) SWAP",
 			"b) SWAT",
@@ -3555,7 +3555,7 @@
 	{
 		"id": "4.3.12",
 		"question": "Kurš ir UNIX/Linux komandu saskarnes interpretators?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) command.com",
 			"b) cmd.exe",
@@ -3566,7 +3566,7 @@
 	{
 		"id": "4.3.13",
 		"question": "Kura komanda Linux operētājsistēmā tiek izmantota, lai mainītu datnes grupas īpašumtiesības?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) cgrp",
 			"b) chgrp",
@@ -3577,7 +3577,7 @@
 	{
 		"id": "4.3.15",
 		"question": "Kuras operētājsistēmas paveids ir Linux?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Solaris",
 			"b) Unix",
@@ -3588,7 +3588,7 @@
 	{
 		"id": "4.4.1",
 		"question": "Kuras operētājsistēmas paveids ir MacOS?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Linux",
 			"b) Unix",
@@ -3599,7 +3599,7 @@
 	{
 		"id": "4.4.2",
 		"question": "Kā sauc palīgprogrammu specializēto uzdevumu, kas saistīti ar iekārtu un operētājsistēmu darbību, veikšanai?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) operetājsistēma",
 			"b) apvalks (čaula)",
@@ -3610,7 +3610,7 @@
 	{
 		"id": "4.4.3",
 		"question": "Kā sauc operētājsistēmas komandu interpretatoru, kas nodrošina saskarni lietotāja mijiedarbībai ar sistēmas funkcijām?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) operētājsistēma",
 			"b) apvalks (čaula)",
@@ -3621,7 +3621,7 @@
 	{
 		"id": "4.4.4",
 		"question": "Kas ir servisi datorā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) programmas, kas strādā fona režīmā",
 			"b) lietojumprogrammas datortīklā",
@@ -3632,7 +3632,7 @@
 	{
 		"id": "4.4.5",
 		"question": "Kura no nosauktajām programmatūrām ir operētājsistēma?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Symantec Antivirus",
 			"b) Mozilla Firefox",
@@ -3643,7 +3643,7 @@
 	{
 		"id": "4.4.6",
 		"question": "Kura no nosauktajām ir operētājsistēmas funkcija?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) datu pievienošana tabulā",
 			"b) atskaites veidošana",
@@ -3654,7 +3654,7 @@
 	{
 		"id": "4.4.7",
 		"question": "Kam paredzēta cietā diska (HDD) defragmentācijas programma ?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) lai arhivētu datus uz cietā diska",
 			"b) lai paātrinātu cietā diska darbu",
@@ -3665,7 +3665,7 @@
 	{
 		"id": "4.4.8",
 		"question": "Kas notiek ar operatīvajā atmiņā esošu informāciju, \n izslēdzot datoru?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tā saglabājas līdz nākamajai ieslēgšanai",
 			"b) tā tiek izdzēsta",
@@ -3676,7 +3676,7 @@
 	{
 		"id": "4.4.9",
 		"question": "Kura ir operētājsistēmas pamata funkcija?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) programmu testēšana",
 			"b) programmu izstrādāšana",
@@ -3687,7 +3687,7 @@
 	{
 		"id": "4.4.10",
 		"question": "Ko dara Plug and Play tehnoloģija?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) atbalsta jaunu iekārtu automātisku pievienošanu",
 			"b) konfigurē tīkla parametrus",
@@ -3698,7 +3698,7 @@
 	{
 		"id": "4.4.11",
 		"question": "Datora darba beidzēšanu (ShutDown) dēvē par…",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) darba seansa atjaunošanu",
 			"b) datora noguldīšanu",
@@ -3709,7 +3709,7 @@
 	{
 		"id": "4.4.12",
 		"question": "Kādas operētājsistēmas izmanto swap partīcijas veidu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) OpenSUSE, FreeBSD, Centos",
 			"b) Windows 7, Windows XP, Windows 10",
@@ -3720,7 +3720,7 @@
 	{
 		"id": "4.4.13",
 		"question": "Kas nav sistēmas programmprodukti?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) operētājsistēmas",
 			"b) čaulas (apvālki)",
@@ -3731,7 +3731,7 @@
 	{
 		"id": "4.4.14",
 		"question": "Ko dara diska diagnostikas programma, ja tā atrod bojātu apgabalu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) izlabo bojāto apgabalu",
 			"b) atzīmē to kā bojātu (BAD cluster)",
@@ -3742,7 +3742,7 @@
 	{
 		"id": "4.4.15",
 		"question": "Kur atrodas BIOS ?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) patstāvīgajā atmiņā (ROM)",
 			"b) uz cietā diska",
@@ -3753,7 +3753,7 @@
 	{
 		"id": "4.4.16",
 		"question": "Kura no dotajām nav atvērta koda operētājsistēma?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Linux",
 			"b) Windows",
@@ -3764,7 +3764,7 @@
 	{
 		"id": "4.4.17",
 		"question": "Kurš programmu veids nav utilītprogramma (dzinis, driver)?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) arhivatori",
 			"b) antivīrusi",
@@ -3775,7 +3775,7 @@
 	{
 		"id": "4.4.18",
 		"question": "Kas ir OS komandu interpretators, kas nodrošina saskarni lietotāja mijiedarbībai ar sistēmas funkcijām?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) draiveris",
 			"b) utilītprogramma",
@@ -3786,7 +3786,7 @@
 	{
 		"id": "4.4.19",
 		"question": "Kurš ir pareizs apgalvojums par utilītprogrammām (dzinis, driver)?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tās nodrošina saskarni lietotāja mijiedarbībai ar sistēmas funkcijām",
 			"b) tās ir OS komandu interpretatori",
@@ -3797,7 +3797,7 @@
 	{
 		"id": "4.4.20",
 		"question": "Kura operētājsistēma ir balstīta uz atvērtā pirmkoda (open-source) kodu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Windows",
 			"b) macOS",
@@ -3808,7 +3808,7 @@
 	{
 		"id": "4.4.21",
 		"question": "Kāds ir virtuālās atmiņas galvenais uzdevums operētājsistēmā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) palielināt datora ātrumu, samazinot procesora slodzi",
 			"b) nodrošināt, ka programmas vienmēr strādā tieši fiziskajā atmiņā",
@@ -3819,7 +3819,7 @@
 	{
 		"id": "4.4.22",
 		"question": "Ar ko atšķiras Linux un Windows operētājsistēmas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Linux, atšķirībā no Windows, neatbalsta tīkla savienojumu",
 			"b) Linux ir bezmaksas un atvērtā koda OS, savukārt Windows ir maksas un slēgtā koda OS",
@@ -3830,7 +3830,7 @@
 	{
 		"id": "4.4.23",
 		"question": "Kas nav virtuālās atmiņas uzdevums?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) nodrošināt atsevišķas adrešu telpas katrai programmai",
 			"b) palielināt datora grafiskās apstrādes jaudu",
@@ -3841,7 +3841,7 @@
 	{
 		"id": "5.0.1",
 		"question": "Kas nav adaptīvā (jeb responsīvā) mājas lapas dizaina pamata princips?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) elastīgi elementu izkārtojumi",
 			"b) lapas objektu automātiskā pielāgošanos pārlūkprogrammas loga izmēram",
@@ -3852,7 +3852,7 @@
 	{
 		"id": "5.0.2",
 		"question": "Kas ir tīmekļa lapas objekts, ar kura palīdzību tiek atvērts kāds cits dokuments?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tīmekļa tabula",
 			"b) hipersaite",
@@ -3863,7 +3863,7 @@
 	{
 		"id": "5.0.3",
 		"question": "Adrese, kas norāda, kur var atrast kādu konkrētu tīkla resursu ir ...\n",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tīmekļa lapa",
 			"b) hipersaite",
@@ -3874,7 +3874,7 @@
 	{
 		"id": "5.0.4",
 		"question": "Kas ir globālajam tīmeklim veidots dokuments?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) tīmekļa lapa",
 			"b) hipersaite",
@@ -3885,7 +3885,7 @@
 	{
 		"id": "5.0.5",
 		"question": "Internet tīkla standartprotokols, kas nodrošina informācijas apmaiņu globālajā tīmeklī ir...",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) TCP",
 			"b) IP",
@@ -3896,7 +3896,7 @@
 	{
 		"id": "5.0.6",
 		"question": "Kurš atribūts norāda, kā formas dati tiks nosūtīti uz serveri?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) METHOD",
 			"b) TYPE",
@@ -3907,7 +3907,7 @@
 	{
 		"id": "5.0.7",
 		"question": "Kurš apgalvojums par formas datu nosūtīšanas metodēm nav pareizs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ACTION atribūts apraksta, kā tiks apstrādāta HTML forma",
 			"b) METHOD atribūts pārvalda datu iesniegšanas procesu",
@@ -3918,7 +3918,7 @@
 	{
 		"id": "5.0.8",
 		"question": "Kura HTTP protokola metode ir paredzēta informācijas saņemšanai no servera?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) GET",
 			"b) PUT",
@@ -3929,7 +3929,7 @@
 	{
 		"id": "5.0.9",
 		"question": "Kura HTTP protokola metode ir paredzēta informācijas nosūtīšanai uz WEB serveri?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) GET",
 			"b) PUT",
@@ -3940,7 +3940,7 @@
 	{
 		"id": "5.0.10",
 		"question": "Kurš apgalvojums par valodām JavaScript, PHP, Perl un Python ir pareizs?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) tās ir skripta valodas",
 			"b) tās ir datubāžu pārvaldības sistēmas",
@@ -3951,7 +3951,7 @@
 	{
 		"id": "5.0.11",
 		"question": "Kura valoda nav interpretējamā valoda? ",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Python",
 			"b) Ruby",
@@ -3962,7 +3962,7 @@
 	{
 		"id": "5.0.12",
 		"question": "Kuras HTTP protokola metodes pārsūtītā informācija ir redzama pārlūkprogrammas adrešu joslā? ",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) GET",
 			"b) PUT",
@@ -3973,7 +3973,7 @@
 	{
 		"id": "5.0.13",
 		"question": "Kuras HTTP protokola metodes pārsūtītā informācija nav redzama pārlūkprogrammas adrešu joslā? ",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) GET",
 			"b) ACTION",
@@ -3984,7 +3984,7 @@
 	{
 		"id": "5.1.1",
 		"question": "Kāds ir HTML atšifrējums?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Hyper Text Mail Language",
 			"b) Hyperlink Transfer Markup Language",
@@ -3995,7 +3995,7 @@
 	{
 		"id": "5.1.2",
 		"question": "Kuru no tagiem izmanto HTML dokumenta galvas daļā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <sub>",
 			"b) <title>",
@@ -4006,7 +4006,7 @@
 	{
 		"id": "5.1.3",
 		"question": "Kā uzdot HTML hipersaiti uz attēlu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) IMG SRC=\"simple.jpg\"",
 			"b) A HREF=\"simple.jpg\"",
@@ -4017,7 +4017,7 @@
 	{
 		"id": "5.1.4",
 		"question": "Ar kādu HTML tagu var pārnest tekstu uz nākamo rindu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <break>",
 			"b) <br/>",
@@ -4028,7 +4028,7 @@
 	{
 		"id": "5.1.5",
 		"question": "Kāds HTML tags atbild par sakārtota saraksta veidošanu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <UL>…</UL>",
 			"b) <OL>…</OL>",
@@ -4039,7 +4039,7 @@
 	{
 		"id": "5.1.6",
 		"question": "Kādiem mērķiem tiek izmantots HTML tags <BLOCKQUOTE>?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) citāts",
 			"b) definīcija",
@@ -4050,7 +4050,7 @@
 	{
 		"id": "5.1.7",
 		"question": "Uz ko norāda vienotais resursu vietrādis URL?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) uz servera adresi",
 			"b) uz abonenta adresi",
@@ -4061,7 +4061,7 @@
 	{
 		"id": "5.1.8",
 		"question": "Kas ir HTML valoda?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) strukturālā programmēšanas valoda",
 			"b) algoritmiskā valoda",
@@ -4072,7 +4072,7 @@
 	{
 		"id": "5.1.9",
 		"question": "No kā sastāv pilns HTML elements?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) no taga un atribūtiem",
 			"b) no taga, atribūtiem un elementa satura",
@@ -4083,7 +4083,7 @@
 	{
 		"id": "5.1.10",
 		"question": "Ar kādiem burtiem var ievadīt HTML kodus?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) tikai ar lielajiem burtiem",
 			"b) tikai ar mazajiem burtiem",
@@ -4094,7 +4094,7 @@
 	{
 		"id": "5.1.11",
 		"question": "Kuru no HTML tagiem izmanto tabulas rindas veidošanai?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) <TR>",
 			"b) <TD>",
@@ -4105,7 +4105,7 @@
 	{
 		"id": "5.1.12",
 		"question": "Ko nosaka atribūts MAXLENGTH?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) ievadīšanas formas izmēru",
 			"b) izvēlņu saraksta daudzumu",
@@ -4116,7 +4116,7 @@
 	{
 		"id": "5.1.13",
 		"question": "Kurā HTML dokumenta vietā un ar kādu tagu definē CSS stilu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) dokumenta galvā, izmantojot <STYLE> tagu",
 			"b) <HEAD> taga atribūtā \"css\"",
@@ -4127,7 +4127,7 @@
 	{
 		"id": "5.1.14",
 		"question": "Kuri no dotajiem HTML tagiem ir nepāra tagi?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <HEAD>, <BODY>, <TITLE>",
 			"b) <IMG>, <BR>, <HR>",
@@ -4138,7 +4138,7 @@
 	{
 		"id": "5.1.15",
 		"question": "Ir dots attēls \"attels.jpg\" ar izmēriem: platums = 200, augstums = 100. Kāda izmēra attēls tiks izveidots pārlūkprogrammā, ja to definē ar: <IMG SRC=\"attels.jpg\" WIDTH=\"400\"/> ?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) platums = 200, augstums = 100",
 			"b) platums = 400, augstums = 100",
@@ -4149,7 +4149,7 @@
 	{
 		"id": "5.1.16",
 		"question": "Kā darbojas dotais CSS stila definējums:\n TD P {color: #0000FF}?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) nokrāso tekstu zilā krāsā <P> rindkopai, kas atrodas tikai<TD> ailēs",
 			"b) nokrāso tekstu zilā krāsā iekš visām <TD> ailēm kā arī iekš visām <P> rindkopām",
@@ -4160,7 +4160,7 @@
 	{
 		"id": "5.1.17",
 		"question": "Kā darbojas sekojošais CSS stila definējums? P IMG {border: 0px}\n TD IMG {border: 1px solid #FF0000}",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) definē, ka rindkopai nav rāmīša, bet tabulas ailēm ir sarkans rāmītis",
 			"b) definē, ka rindkopai, kurai iekšā ir attēli nav rāmīša, bet tabulas ailēm, kuros iekšā ir attēli ir sarkans rāmītis",
@@ -4171,7 +4171,7 @@
 	{
 		"id": "5.1.18",
 		"question": "Kurš HTML taga <TD> atribūts tabulā ļauj apvienot pa horizontāli blakus esošās šūnas?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) cellspacing",
 			"b) cellpadding",
@@ -4182,7 +4182,7 @@
 	{
 		"id": "5.1.19",
 		"question": "Kurš HTML taga atribūts nosaka tabulas līnijas treknumu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) CELLPADDING",
 			"b) CELLSPASING",
@@ -4193,7 +4193,7 @@
 	{
 		"id": "5.1.20",
 		"question": "Kā darbojas sekojošais HTML elements: <AREA SHAPE=\"RECT\" COORDS=”70,45,210,90”>",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) nosaka attēlakartes kvadrātveida fragmentu",
 			"b) nosaka attēla kartes taisnstūra fragmentu",
@@ -4204,7 +4204,7 @@
 	{
 		"id": "5.1.21",
 		"question": "Kurā HTML dokumenta sadaļā norāda ikonu, kas ir saistīta ar apmeklēto lapu (favicon)?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) dokumenta galvā, izmantojot <link> tagu",
 			"b) dokumenta ķermenī, izmantojot <link> tagu",
@@ -4215,7 +4215,7 @@
 	{
 		"id": "5.1.22",
 		"question": "Kāda ir pareiza CSS sintakse?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) selektors=\"vērtība: īpašība\"",
 			"b) selektors {īpašība: vērtība;}",
@@ -4226,7 +4226,7 @@
 	{
 		"id": "5.1.23",
 		"question": "Ko nozīmē dotais CSS ieraksts?\nli a {color: red;}",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) visi saraksti zem hipersaitēm būs sarkanā krāsa",
 			"b) visas hipersaites būs sarkanas",
@@ -4237,7 +4237,7 @@
 	{
 		"id": "5.1.24",
 		"question": "Ko nozīmē CSS ieraksts? \ndiv#b { \n background-color:#00FF00; \n width: 100px; \n float: left;}",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) visiem blokiem ar klasi=b fons būs zaļš, platums būs 100 pikseļi un bloks būs pielīdzināts pie kreisās malas",
 			"b) visiem blokiem ar ID=b fons būs zaļš, platums būs 100 pikseļi un bloks būs pielīdzināts pie kreisās malas",
@@ -4248,7 +4248,7 @@
 	{
 		"id": "5.1.25",
 		"question": "Kāda krāsa būs parastām (neapmeklētām) hipersaitēm, ja definēts tags <body bgcolor=\"red\" link=\"green\" vlink=\"white\" alink=\"black\">?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) sarkana",
 			"b) balta",
@@ -4259,7 +4259,7 @@
 	{
 		"id": "5.1.26",
 		"question": "Kuru no HTML tagiem izmanto tabulas šunas veidošanai ar virsraksta noformējumu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) <TR>",
 			"b) <TD>",
@@ -4270,7 +4270,7 @@
 	{
 		"id": "5.1.27",
 		"question": "Kādu valodu lapas saturam definē dotais HTML tags:\n <meta http-equiv=\"Content-Language\" content=\"lv\"> ?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) angļu",
 			"b) latīņu",
@@ -4281,7 +4281,7 @@
 	{
 		"id": "5.1.28",
 		"question": "Kurš ir komentāra tags HTML dokumentā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) </&>",
 			"b) <!-->",
@@ -4292,7 +4292,7 @@
 	{
 		"id": "5.1.29",
 		"question": "Ko pilnībā nosaka dotais HTML tags:\n <table border=\"1\" width=\"100%\" cellpadding=\"5\">?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tabulu, kas aizņem 100% lapas",
 			"b)  tabulu ar 1px robežu, 100% platumu, 5 px atstarpe starp šūnu saturu un to ietvariem",
@@ -4303,7 +4303,7 @@
 	{
 		"id": "5.1.30",
 		"question": "Kāds atribūts HTML dokumentu atver jaunā logā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) target=\"_top\"",
 			"b) target=\"_self\"",
@@ -4314,7 +4314,7 @@
 	{
 		"id": "5.1.31",
 		"question": "Kā CSS definē stila klasi \"cent\"?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) {cent=text-align:center}",
 			"b) .cent {text-align:center}",
@@ -4325,7 +4325,7 @@
 	{
 		"id": "5.1.32",
 		"question": "Kā HTML piesaistīt ārējo CSS stila failu \"mystyle.css\">?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <stylesheet>mystyle.css</stylesheet>",
 			"b) <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
@@ -4336,7 +4336,7 @@
 	{
 		"id": "5.1.33",
 		"question": "Kādas īpašības klasei “pel” definē dotais CSS apraksts?\n .pel {color: gray; font-size: 10px; text-align:left; }",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) pelēku fonu, izvietotu pa kreisi ar teksta fontu 10px",
 			"b) fonta izmēru 10px, tekstu izlīdzinātu pa kreisi",
@@ -4347,7 +4347,7 @@
 	{
 		"id": "5.1.34",
 		"question": "Ko HTML apzīmē ar atribūtu \"vlink\"?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) aktīvo hipersaiti (active link)",
 			"b) virtuālo hipersaiti (virtual link)",
@@ -4358,7 +4358,7 @@
 	{
 		"id": "5.1.35",
 		"question": "Kurš HTML formas taga atribūts nosaka, uz kurieni nosūtīt formas datus?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) method",
 			"b) input",
@@ -4369,7 +4369,7 @@
 	{
 		"id": "5.1.36",
 		"question": "Kuru HTML tagu izmanto formas veidošanai?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <FRAMESET>",
 			"b) <FORM>",
@@ -4380,7 +4380,7 @@
 	{
 		"id": "5.1.37",
 		"question": "Kādā kodējumā HTML fails saglabāvārdusar garumzīmēm un mīkstinājuma zīmēm?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) UTF-8",
 			"b) ASCII",
@@ -4391,7 +4391,7 @@
 	{
 		"id": "5.1.38",
 		"question": "Kur izvietoHTML tagu <link rel=\"stylesheet\" type=\"text/css\"\n href= \"noformejums.css\"/>?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) starp <body></body> tagiem",
 			"b) starp <i></i> tagiem",
@@ -4402,7 +4402,7 @@
 	{
 		"id": "5.1.39",
 		"question": "Kāds CSS stils tiek definētstagā<link\n rel=\"stylesheet\" type=\"text/css\"\n href=\"noformejums.css\"/>\"?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) lapas iekšējais CSS stils",
 			"b) lapas vidējais CSS stils",
@@ -4413,7 +4413,7 @@
 	{
 		"id": "5.1.40",
 		"question": "Ko HTML nozīmē CSS saīsinājums?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Customer Self-Service",
 			"b) Cascading Style Sheets",
@@ -4424,7 +4424,7 @@
 	{
 		"id": "5.1.41",
 		"question": "Kurš no HTML tagiem netiek izmantots definīciju saraksta veidošanai?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <DL>",
 			"b) <LI>",
@@ -4435,7 +4435,7 @@
 	{
 		"id": "5.1.42",
 		"question": "Kura no norādītajam nav nenumurētā saraksta (UL)  taga <LI> tipa (type) atribūta vērtība?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) \"square\"",
 			"b) \"disc\"",
@@ -4446,7 +4446,7 @@
 	{
 		"id": "5.1.43",
 		"question": "Kurš no HTML tagiem ļauj izveidot sarakstu, kuram saraksta punktus veido ar tagu <DT>?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) <LIST>",
 			"b) <SET>",
@@ -4457,7 +4457,7 @@
 	{
 		"id": "5.1.44",
 		"question": "Kā HTML <map> tagā uzdod taisnstūra elementa kordinātes?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) <area href=\"d2.html\" shape=\"rect\" coords= \"25,35,110,90\">",
 			"b) <area href=\"d2.html\" shape=\"poly\" coords= \"2, 25,35,110,90\">",
@@ -4468,7 +4468,7 @@
 	{
 		"id": "5.1.45",
 		"question": "Kurš CSS atribūts uzdod punktveida robežas līnijas stilu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) solid",
 			"b) double",
@@ -4479,7 +4479,7 @@
 	{
 		"id": "5.1.46",
 		"question": "Kā ar CSS uzdot fona attēlu <p> tagam?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) <p style=\"background-image: url('sun.jpg')\">",
 			"b) <p style=\"background image= 'sun.jpg'\">",
@@ -4490,7 +4490,7 @@
 	{
 		"id": "5.1.47",
 		"question": "Kā CSS uzdod par 20% lielāku teksta izmēru?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) font size>20%",
 			"b) font size=font size+20%",
@@ -4501,7 +4501,7 @@
 	{
 		"id": "5.1.48",
 		"question": "Kādu zīmi jāizmanto HTML speciālā simbola veidošanai?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) &",
 			"b)#",
@@ -4512,7 +4512,7 @@
 	{
 		"id": "5.1.49",
 		"question": "Kas HTML5 versijā ir \"canvas\"?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) tags",
 			"b) atribūts",
@@ -4523,7 +4523,7 @@
 	{
 		"id": "5.1.50",
 		"question": "Ko norāda prefiksi CSS failā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) pārlūku, kuru izmantot",
 			"b) CSS versiju",
@@ -4534,7 +4534,7 @@
 	{
 		"id": "5.1.51",
 		"question": "Kurš tags nedrīkst atrasties HTML dokumenta <head> sekcijā ?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Meta",
 			"b) Title",
@@ -4545,7 +4545,7 @@
 	{
 		"id": "5.1.52",
 		"question": "No kurām krāsām veidojas HTML dokumenta krāsas kods heksadecimālajā pierakstā, piemēram, #CCCC55?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) purple, green, red",
 			"b) black, gray, blue",
@@ -4556,7 +4556,7 @@
 	{
 		"id": "5.1.53",
 		"question": "Kurš HTML formas tags paredzēts lietotāja informācijas ievadei vairāku rindu laukā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Input",
 			"b) Textarea",
@@ -4567,7 +4567,7 @@
 	{
 		"id": "5.1.54",
 		"question": "Kurš no nosauktajiem nav semantisks tags?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) <header>",
 			"b) <footer>",
@@ -4578,7 +4578,7 @@
 	{
 		"id": "5.1.55",
 		"question": "Kurš notikums nostrādā, kad lietotājs noklikšķina ar peles kreiso pogu uz HTML elementa?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) onchange",
 			"b) onkeydown",
@@ -4589,7 +4589,7 @@
 	{
 		"id": "5.1.56",
 		"question": "Kuri no HTML elementiem (visi) ir tabulas elementi?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) <table><header><body>",
 			"b) <table><tr><td>",
@@ -4600,7 +4600,7 @@
 	{
 		"id": "5.1.57",
 		"question": "Kuri no HTML elementiem (visi) ir saraksta elementi?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) <datalist><dd><li>",
 			"b) <br><tr><hr>",
@@ -4611,7 +4611,7 @@
 	{
 		"id": "5.1.58",
 		"question": "Kā pareizi HTML valodā izveidot teksta ievades lauku?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) <input type=\"text\">  ",
 			"b) <textinput type=\"text\">",
@@ -4622,7 +4622,7 @@
 	{
 		"id": "5.1.59",
 		"question": "Kurš HTML elements definē navigācijas elementu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) <fieldset>",
 			"b) <meta>",
@@ -4633,7 +4633,7 @@
 	{
 		"id": "5.1.60",
 		"question": "Kurš HTML tags definē iekšējo stila lapu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) <script>",
 			"b) <css>",
@@ -4644,7 +4644,7 @@
 	{
 		"id": "5.1.61",
 		"question": "Kura CSS īpašība kontrolē teksta simbola lielumu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) font-size",
 			"b) text-size",
@@ -4655,7 +4655,7 @@
 	{
 		"id": "5.1.62",
 		"question": "Ar kādu simbolu CSS sintaksē piekļūst HTML elementam pēc tā identifikatora?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) !",
 			"b) #",
@@ -4666,7 +4666,7 @@
 	{
 		"id": "5.1.63",
 		"question": "Ar kādu simbolu CSS sintaksē piekļūst HTML elementiem pēc to klases?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) !",
 			"b) #",
@@ -4677,7 +4677,7 @@
 	{
 		"id": "5.1.64",
 		"question": "Kura būs pareizā sintakses, lai visiem rindkopas elementiem piešķirtu vienādu noformējumu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) #p{}",
 			"b) p{}",
@@ -4688,7 +4688,7 @@
 	{
 		"id": "5.1.65",
 		"question": "Kura CSS atribūtu vērtība ļauj paslēpt elementu, neizdzēšot to?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) display: none;",
 			"b) visibility: hidden;",
@@ -4699,7 +4699,7 @@
 	{
 		"id": "5.1.66",
 		"question": "Kurš HTML elements tiek izmantots, lai apzīmētu interaktīvas tīmekļa lietotnes daļu, kur lietotāji var ievadīt informāciju?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) <body>",
 			"b) <section>",
@@ -4710,7 +4710,7 @@
 	{
 		"id": "5.2.1",
 		"question": "Kurā HTML elementā ir jāliek JavaScript valodas skripts?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) <javascript>",
 			"b) <js>",
@@ -4721,7 +4721,7 @@
 	{
 		"id": "5.2.2",
 		"question": "Kurā vietā HTML dokumentā ir jāievieto JavaScript valodas skripts?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tikai <body> sekcijā",
 			"b) tikai <head> sekcijā",
@@ -4732,7 +4732,7 @@
 	{
 		"id": "5.2.3",
 		"question": "Kā noformē vienas rindiņas komentārus JavaScrit valodā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a)  // Komentārs",
 			"b) <!-- Komentārs -->",
@@ -4743,7 +4743,7 @@
 	{
 		"id": "5.2.4",
 		"question": "Kāda ir pareiza JavaScript valodas sintakse, lai mainītu zemāk esošā HTML elementa saturu?\n\n<p id=\"demo\">Teksta paraugs.</p>",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) document.getElementById(\"demo\").innerHTML = \"Sveika pasaule!\";",
 			"b) document.getElementByName(\"p\").innerHTML = \"Sveika pasaule!\";",
@@ -4754,7 +4754,7 @@
 	{
 		"id": "5.2.5",
 		"question": "Kāda ir pareiza sintakse, lai pieslēgtu HTML dokumentam ārēju skriptu ar nosaukumu \"mansSkripts.js\"?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) <script include = \"mansSkripts.js\">",
 			"b) <script name = \"mansSkripts.js\">",
@@ -4765,7 +4765,7 @@
 	{
 		"id": "5.2.6",
 		"question": "Kā JavaScript trauksmes lodziņā (alert box) izvadīt \"Sveika pasaule\"?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) alertBox(\"Sveika pasaule!\");",
 			"b) alert(\"Sveika pasaule!\");",
@@ -4776,7 +4776,7 @@
 	{
 		"id": "5.2.7",
 		"question": "Kurš ir nepareizs apgalvojums par JavaScript valodu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tā ir Web programmēšanas valoda",
 			"b) tā tiek izpildīta servera pusē",
@@ -4787,7 +4787,7 @@
 	{
 		"id": "5.2.8",
 		"question": "Kurš nav identifikatora (vērtību) deklarēšanas veids JavaScript valodā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) const",
 			"b) let",
@@ -4798,7 +4798,7 @@
 	{
 		"id": "5.2.9",
 		"question": "Kādu vērtību JavaScript valodā pēc noklusējuma piešķir mainīgajam tā izveidošanas brīdī?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) undefined",
 			"b) 0",
@@ -4809,7 +4809,7 @@
 	{
 		"id": "5.2.10",
 		"question": "Kurā variantā netiks izveidots masīvs JavaScript valodā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) let arr = new Array();",
 			"b) let arr = [];",
@@ -4820,7 +4820,7 @@
 	{
 		"id": "5.2.11",
 		"question": "Kura JavaScript metode jāizmanto, lai piekļūtu HTML elementam pēc tā identifikatora?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) getElementById()",
 			"b) getElementsByClass()",
@@ -4831,7 +4831,7 @@
 	{
 		"id": "5.2.12",
 		"question": "Kura JavaScript metode jāizmanto laik piekļūtu HTML elementiem pēc to klases?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) getElementById()",
 			"b) getElementsByClass()",
@@ -4842,7 +4842,7 @@
 	{
 		"id": "5.2.13",
 		"question": "Kura JavaScript īpašiba nosaka, vai noteikts objekts ir atslēgts un nevar apstrādāt notikumus?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) isUnactiv",
 			"b) isClosed",
@@ -4853,7 +4853,7 @@
 	{
 		"id": "6.1.1",
 		"question": "Kas ir ER-diagrammas elementi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) entītija, atribūts, relācija",
 			"b) būtība, saite, datu elements",
@@ -4864,7 +4864,7 @@
 	{
 		"id": "6.1.2",
 		"question": "Kas ir datu plūsmu diagrammas elementi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) process, datu krātuve, lietotāja saskarne (aktieris), datu plūsma",
 			"b) objekts, atribūts, datu plūsma, datu plūsmas virziens",
@@ -4875,7 +4875,7 @@
 	{
 		"id": "6.1.3",
 		"question": "Kas ir atsevišķi identificējama programmas daļa, kuru var izveidot un izmantot autonomi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) modulis",
 			"b) sistēma",
@@ -4886,7 +4886,7 @@
 	{
 		"id": "6.1.4",
 		"question": "Kura diagramma parāda, kā mainās dati sistēmas darbības laikā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) ER diagramma",
 			"b) datu plūsmu diagramma",
@@ -4897,7 +4897,7 @@
 	{
 		"id": "6.1.5",
 		"question": "Kurš no lietotāja saskarnes projektēšanas principiem pieprasa novērst lietotāja darbības, kas var izraisīt kļūdas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) dabiskums",
 			"b) saskaņotība",
@@ -4908,7 +4908,7 @@
 	{
 		"id": "6.1.6",
 		"question": "Kurš diagrammu veids ir paredzēts algoritmu aprakstam?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) blokshēma",
 			"b) ER diagramma",
@@ -4919,7 +4919,7 @@
 	{
 		"id": "6.1.7",
 		"question": "Kurā programmatūras dzīves cikla posmā izstrādā programmatūras struktūru, balstoties uz prasību specifikāciju?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) sistēmas analīze",
 			"b) prasību analīze",
@@ -4930,7 +4930,7 @@
 	{
 		"id": "6.1.8",
 		"question": "Kurš lietotāju saskarnes projektēšanas princips sevī ietver lietotāju kļūdu novēršanu vai labošanas iespēju?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) dabiskums",
 			"b) saskaņotība",
@@ -4941,7 +4941,7 @@
 	{
 		"id": "6.1.9",
 		"question": "Kurš nav pareizs apgalvojums par datu vārdnīcām?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) parasti tās sastāda projektēšanas posmā",
 			"b) tās satur sistēmas mainīgos, tabulas laukus un citu datu struktūru aprakstu",
@@ -4952,7 +4952,7 @@
 	{
 		"id": "6.1.10",
 		"question": "Kas ir standarta pieraksta veids, ko izmanto, lai grafiski aprakstītu sistēmas modeli vai tā daļu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) entītija",
 			"b) shēma",
@@ -4963,7 +4963,7 @@
 	{
 		"id": "6.1.11",
 		"question": "Kurš diagrammu veids ir paredzēts datu bāzes struktūras aprakstam?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) blokshēma",
 			"b) ER diagramma",
@@ -4974,7 +4974,7 @@
 	{
 		"id": "6.1.12",
 		"question": "Norādiet pareizo apgalvojumu par blokshēmām!",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) tas ir grafisks veids, kā attēlot algoritma soļus",
 			"b) katrai algoritma funkcijai ir savs apzīmējums (sava figūra)",
@@ -4985,7 +4985,7 @@
 	{
 		"id": "6.1.13",
 		"question": "Sistēmas attēlojums, kas parāda, kā programmatūras prasības tiks implementētas konkrētajā realizācijas vidē ir...",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Prasību definīcija",
 			"b) Funkcionālā specifikācija",
@@ -4996,7 +4996,7 @@
 	{
 		"id": "6.1.14",
 		"question": "Kurš apgalvojums par projektēšanas šabloniem (Design Patterns) nav pareizs?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) standarta risinājumus bieži sastopamajām problēmām",
 			"b) ir pilnīgi pabeigts paraugs, ko var tieši pārvērst kodā",
@@ -5007,7 +5007,7 @@
 	{
 		"id": "6.1.15",
 		"question": "Kuri nav detalizētās projektēšanas līdzekļi?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) grafiskie līdzekļi",
 			"b) tabulārie līdzekļi",
@@ -5018,7 +5018,7 @@
 	{
 		"id": "6.1.16",
 		"question": "Kurš apgalvojums par ER diagrammām nav pareizs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tiek izmantotas, lai izveidotu datubāzes shēmu vai datu modeli",
 			"b) palīdz izprast veidojamās datubāzes uzbūvi un pamatprincipus",
@@ -5029,7 +5029,7 @@
 	{
 		"id": "6.1.17",
 		"question": "Kuru diagrammu veidu izmanto, lai izveidotu datu bāzes shēmu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) ER diagrammu",
 			"b) datu plūsmu diagrammu",
@@ -5040,7 +5040,7 @@
 	{
 		"id": "6.1.18",
 		"question": "Kurš algoritma blokshēmas elements parāda algoritma sazarojumu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) process (taisnstūris)",
 			"b) lēmums (rombs)",
@@ -5051,7 +5051,7 @@
 	{
 		"id": "6.1.19",
 		"question": "Kurš nav standarta blokshēmas elements?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) taisnstūris (attēlo procesu)",
 			"b) rombs (attēlo sazarojumu)",
@@ -5062,7 +5062,7 @@
 	{
 		"id": "6.1.20",
 		"question": "Kurš no apgalvojumiem par blokshēmām ir patiess?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tās tiek izmantotas tikai programmēšanā",
 			"b) tās attēlo darbību secību, izmantojot grafiskos simbolus",
@@ -5073,7 +5073,7 @@
 	{
 		"id": "6.1.21",
 		"question": "Kāds skats uz sistēmas projektējumu neeksistē?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) strukturālais sistēmas modelis",
 			"b) funkcionālais sistēmas modelis",
@@ -5084,7 +5084,7 @@
 	{
 		"id": "6.1.22",
 		"question": "Kurš skats uz sistēmas projektējumu atspoguļo programmatūras vai sistēmas statisko struktūru un\nattēlo komponentu hierarhiju un savienojumu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) strukturālais sistēmas modelis",
 			"b) funkcionālais sistēmas modelis",
@@ -5095,7 +5095,7 @@
 	{
 		"id": "6.1.23",
 		"question": "Kuram skatam uz sistēmas projektējumu pieder datu plūsmu diagrammas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) strukturālam sistēmas modelim",
 			"b) funkcionālam sistēmas modelim",
@@ -5106,7 +5106,7 @@
 	{
 		"id": "6.1.24",
 		"question": "Kurš skats uz sistēmas projektējumu apraksta izmaiņas, kas notiek ar objektu stāvokļiem un attiecībām sistēmas darbības laikā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) strukturālais sistēmas modelis",
 			"b) funkcionālais sistēmas modelis",
@@ -5117,7 +5117,7 @@
 	{
 		"id": "6.1.25",
 		"question": "Kurš skats uz sistēmas projektējumu grafiski apraksta datu izmaiņas sistēmā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) strukturālais sistēmas modelis",
 			"b) funkcionālais sistēmas modelis",
@@ -5128,7 +5128,7 @@
 	{
 		"id": "6.2.1",
 		"question": "Ko parasti neizmanto melnās kastes testēšanas metodēs?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) programmas kodu",
 			"b) programmas darbības rezultātus",
@@ -5139,7 +5139,7 @@
 	{
 		"id": "6.2.2",
 		"question": "Kurā testēšanas pieejā apskata programmas kodu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) baltās kastes testēšanā",
 			"b) funkcionālā testēšanā",
@@ -5150,7 +5150,7 @@
 	{
 		"id": "6.2.3",
 		"question": "Kurā programmatūras izstrādes procesā izmanto komandu, zaru, nosacījumu un citus pārklājumus?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) prasību analīzē",
 			"b) atkļūdošanā",
@@ -5161,7 +5161,7 @@
 	{
 		"id": "6.2.4",
 		"question": "Kas ir sistēmas validācija?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) sistēmas prasību testēšana",
 			"b) pārbaude, vai izstrādes posma rezultāti nesatur kļūdas",
@@ -5172,7 +5172,7 @@
 	{
 		"id": "6.2.5",
 		"question": "Kurā programmatūras dzīves cikla posmā ir ieteicams sākt testēšanas plānu izstrādi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) projektēšanā",
 			"b) implementēšanā",
@@ -5183,7 +5183,7 @@
 	{
 		"id": "6.2.6",
 		"question": "Kurš tests programmu sistēmu testēšanā  ir labs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tests, kas pierāda, ka programma strādā korekti",
 			"b) tests, kas pilnībā notestē programmu",
@@ -5194,7 +5194,7 @@
 	{
 		"id": "6.2.7",
 		"question": "Kura ir pirmā darbība, kas jāveic testētājam, atrodot kļūdu programmā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) jāsastāda kļūdas ziņojums",
 			"b) jāizlabo kļūda",
@@ -5205,7 +5205,7 @@
 	{
 		"id": "6.2.8",
 		"question": "Kā sauc testēšanu, kuru var veikt potenciālie vai esošie klienti?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Alfa testēšana",
 			"b) Beta testēšana",
@@ -5216,7 +5216,7 @@
 	{
 		"id": "6.2.9",
 		"question": "Kā sauc testēšanu, kuru veic gala lietotājs?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Alfa testēšana",
 			"b) Gamma testēšana",
@@ -5227,7 +5227,7 @@
 	{
 		"id": "6.2.10",
 		"question": "Kā sauc testu, ko veic atkārtoti pirms katras programmas (nodevuma) versijas vai izmaiņas piegādes lietotājs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Alfa tests",
 			"b) Beta tests",
@@ -5238,7 +5238,7 @@
 	{
 		"id": "6.2.11",
 		"question": "No kā sastāv programmas vadības grafs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) no rindām un kolonām",
 			"b) no blokiem un zariem",
@@ -5249,7 +5249,7 @@
 	{
 		"id": "6.2.12",
 		"question": "Ar kādu mērķi sastāda programmas vadības grafu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) lai modelētu programmu",
 			"b) lai projektētu programmu",
@@ -5260,7 +5260,7 @@
 	{
 		"id": "6.2.13",
 		"question": "Ko programmas vadības grafā apzīmē ar virsotnēm? ",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) funkcijas",
 			"b) komandas",
@@ -5271,7 +5271,7 @@
 	{
 		"id": "6.2.14",
 		"question": "Kurā testēšanas līmenī pārbauda funkcionalitāti un meklē defektus programmas daļās, kuras ir pieejamas un kuras var pārbaudīt atsevišķi?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) vienību (komponentu) testēšana (Unit Testing)",
 			"b) integrācijas testēšana (Integration Testing) ",
@@ -5282,7 +5282,7 @@
 	{
 		"id": "6.2.15",
 		"question": "Kuru vienību testēšanas pieeju raksturo automatizētu testu sagatavošana pirms programmatūras faktiskās kodēšanas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) integrācijas testēšana (Integration Testing) ",
 			"b) testu virzīta izstrāde (Test Driven Development)",
@@ -5293,7 +5293,7 @@
 	{
 		"id": "6.2.16",
 		"question": "Kuram testēšanas veidam parasti neizmanto automatizēto testēšanu? ",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) regresa testēšana (regression)",
 			"b) slodzes testēšana (load)",
@@ -5304,7 +5304,7 @@
 	{
 		"id": "6.2.17",
 		"question": "Kurš pārbaudes veids testē programmatūras produkta spēju turpināt darboties ilgākā laika periodā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) regresa testēšana (regression)",
 			"b) slodzes testēšana (load)",
@@ -5315,7 +5315,7 @@
 	{
 		"id": "6.2.18",
 		"question": "Kas ir programmatūras pārbaudes veids, kas tiek veikts pirms katra laidiena piegādes lietotājam, lai atklātu kļūdas jau pārbaudītajās koda daļās?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) regresa testēšana (regression)",
 			"b) slodzes testēšana (load)",
@@ -5326,7 +5326,7 @@
 	{
 		"id": "6.2.19",
 		"question": "Kura no nosauktajām testēšanām  ir jāveic pēdējā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) pieņemšanas (Acceptance testing)",
 			"b) vienības testēšana (Unit Testing)",
@@ -5337,7 +5337,7 @@
 	{
 		"id": "6.2.20",
 		"question": "Kurā testēšanas pieejā nav nepieciešams apskatīt programmas kodu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) baltās kastes testēšanā",
 			"b) pelēkās kastes testēšanā",
@@ -5348,7 +5348,7 @@
 	{
 		"id": "6.2.21",
 		"question": "Ar kādām pieļaujāmām robežvērtībām veic vecuma testēšanu, ja sistēmā ir paredzēts, ka baltās tiesības var iegūt no 16 gadiem un no 18 gadiem var likt eksāmenu, lai iegūtu tiesības?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) 0 16 18",
 			"b) 16 17 18",
@@ -5359,7 +5359,7 @@
 	{
 		"id": "6.2.22",
 		"question": "Kurš ir nepareizs apgalvojums par testēšanu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) testēšanas uzdevums ir atrast problēmas programmā",
 			"b) problēmas atrašanas uzdevums ir to izlabošanā",
@@ -5370,7 +5370,7 @@
 	{
 		"id": "6.2.23",
 		"question": "Kāds ir testēšanas uzdevums?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) pierādīt programmas korektumu",
 			"b) pilnībā notestēt programmu",
@@ -5381,7 +5381,7 @@
 	{
 		"id": "6.2.24",
 		"question": "Kāds nav testēšanas uzdevums?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) atrast defektus sistēmā",
 			"b) novērtēt, vai sistēmu var lietot reālajos apstākļos",
@@ -5392,7 +5392,7 @@
 	{
 		"id": "6.2.25",
 		"question": "Kas nav testēšanas līmenis?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) vienību (unit) testēšana",
 			"b) integrācijas testēšana",
@@ -5403,7 +5403,7 @@
 	{
 		"id": "6.2.26",
 		"question": "Kas nav testēšanas metode?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) baltās kastes testēšana",
 			"b) krāsainās kastes testēšana",
@@ -5414,7 +5414,7 @@
 	{
 		"id": "6.2.27",
 		"question": "Kas ir darbību algoritms uzrakstītas programmas testēšanai?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) testpiemērs (Test Case)",
 			"b) verifikācija",
@@ -5425,7 +5425,7 @@
 	{
 		"id": "6.2.28",
 		"question": "Kurš ir nepareizs apgalvojums par funkcionālo testēšanu?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ietver visu funkciju pārbaudi",
 			"b) izmanto dažādas ievades, lai pārbaudītu rezultātus",
@@ -5436,7 +5436,7 @@
 	{
 		"id": "6.2.29",
 		"question": "Kas ir process, kas atbild par testu izveidi un izpildi, defektu atrašanu un dokumentēšanu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) kvalitātes nodrošināšana (Quality Assurance)",
 			"b) kvalitātes kontrole (Quality Control)",
@@ -5447,7 +5447,7 @@
 	{
 		"id": "6.2.30",
 		"question": "Kas nav obligāti jāiekļauj testētāja sastādītajā problēmu ziņojumā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ziņojuma numurs",
 			"b) problēmas reprodukcija",
@@ -5458,7 +5458,7 @@
 	{
 		"id": "6.2.31",
 		"question": "Kas testētāja sastādītajā problēmu ziņojumā ir soļu apraksts kļūdas atkārtošanai?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) problēmas stāvoklis",
 			"b) problēmas reprodukcija",
@@ -5469,7 +5469,7 @@
 	{
 		"id": "6.3.1",
 		"question": "Kurus posmus ietver sevī programmatūras dzīves cikls?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) definēšana, kodēšana, uzturēšana",
 			"b) definēšana, implementēšana, labošana",
@@ -5480,7 +5480,7 @@
 	{
 		"id": "6.3.2",
 		"question": "Kuras no prasībām apraksta visu programmas produkta apkārtni, kas nepieciešama, lai tas strādātu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) darbības vides",
 			"b) izstrādes ierobežojumu",
@@ -5491,7 +5491,7 @@
 	{
 		"id": "6.3.3",
 		"question": "Kādā secībā tiek izpildīts atkļūdošanas process?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) kļūdas atrašana, labošana, pārbaudīšana",
 			"b) kļūdas konstatēšana, lokalizēšana, novēršana",
@@ -5502,7 +5502,7 @@
 	{
 		"id": "6.3.4",
 		"question": "Kuru no programmatūras konstruēšanas stratēģijām raksturo tas, ka sistēmas izstrādes sākumā visas sistēmas prasības nav definētas?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) lineāro stratēģiju",
 			"b) nelineāro stratēģiju",
@@ -5513,7 +5513,7 @@
 	{
 		"id": "6.3.5",
 		"question": "Kurš no šiem procesiem nav klasiskā programmatūras dzīves cikla posms?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) implementēšana",
 			"b) prasību analīze",
@@ -5524,7 +5524,7 @@
 	{
 		"id": "6.3.6",
 		"question": "Kurā no programmatūras izstrādes metodoloģijām nav vairāku konstruēšanas ciklu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) lineārā (ūdenskrituma)",
 			"b) inkrementu (soļu)",
@@ -5535,7 +5535,7 @@
 	{
 		"id": "6.3.7",
 		"question": "Kuras no prasībām apraksta kādu lietotāja servisu ir plānots nodrošināt sistēmā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) funkcionālās prasības",
 			"b) ekspluatācijas apstākļu prasības",
@@ -5546,7 +5546,7 @@
 	{
 		"id": "6.3.8",
 		"question": "Kam nav jābūt moduļa ievadkomentāros?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) programmas nosaukumam",
 			"b) programmas lietojumsfērai",
@@ -5557,7 +5557,7 @@
 	{
 		"id": "6.3.9",
 		"question": "Kurā programmatūras dzīves cikla posmā izstrādā prasību specifikācijas dokumentu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) prasību analīzes un definīcijas posmā",
 			"b) projektēšanas posmā",
@@ -5568,7 +5568,7 @@
 	{
 		"id": "6.3.10",
 		"question": "Kurš nav uzturēšanas posma process?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) uzlabošana",
 			"b) korekcija",
@@ -5579,7 +5579,7 @@
 	{
 		"id": "6.3.11",
 		"question": "Kurā programmatūras klasiskā dzīves cikla posmā veic ieinteresēto personu viedokļu savākšanu un identificēšanu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) prasību analīzē",
 			"b) projektēšanā",
@@ -5590,7 +5590,7 @@
 	{
 		"id": "6.3.12",
 		"question": "Kurā programmatūras izstrādes procesā neveic atkļūdošanu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) prasību ievākšanā",
 			"b) uzturēšanā",
@@ -5601,7 +5601,7 @@
 	{
 		"id": "6.3.13",
 		"question": "Kādai prasību grupai atbilst nosacījums: \"Sistēmai jāizvada klienta datus pēc ievadītā personas koda\"?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) funkcionālās prasības",
 			"b) prasības izstrādes procesam",
@@ -5612,7 +5612,7 @@
 	{
 		"id": "6.3.14",
 		"question": "Kurš ir nepareizs apgalvojums par iteratīvo izstrādi?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tā tiek organizēta kā darbību atkārtošana, lai uzlabotu iepriekšējā posma rezultātus",
 			"b) satur detalizētus atsevišķu darbību, rīku vai dokumentu šablonu aprakstus ",
@@ -5623,7 +5623,7 @@
 	{
 		"id": "6.3.15",
 		"question": "Kura ir sistēmas funkcionālā prasība?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) sistēma jāizstrādā PHP programmēšanas valodā",
 			"b) sistēmai jānodrošina jaunu preču reģistrēšana",
@@ -5634,7 +5634,7 @@
 	{
 		"id": "6.3.16",
 		"question": "Kura ir sistēmas nefunkcionālā prasība?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) sistēmai jāreģistrē jauns darījums",
 			"b) sistēmai jāļauj labot preces datus",
@@ -5645,7 +5645,7 @@
 	{
 		"id": "6.3.17",
 		"question": "Kas parasti netiek iekļauts programmatūras prasību specifikācijā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) programmatūras izstrādes metodes",
 			"b) nefunkcionālās prasības",
@@ -5656,7 +5656,7 @@
 	{
 		"id": "6.3.18",
 		"question": "Kas ir priekšmetiskā joma (problēmas apgabals)?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) pasaules daļa, kuru pēta ar mērķi organizēt tās vadību",
 			"b) sistēmas darbības virziens, kas norāda attīstības stratēģiju",
@@ -5667,7 +5667,7 @@
 	{
 		"id": "6.3.19",
 		"question": "Kurus izvēļņu veidus sauc par kustīgām izvēlnēm?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) uznirstošās un izvelkamās (pull down un pop up)",
 			"b) hierarhiskās (kokveida, tree)",
@@ -5678,7 +5678,7 @@
 	{
 		"id": "6.3.20",
 		"question": "Kurš no programmatūras dzīves cikla etapiem pēc statistikas ir visgarākais?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) prasību analīze",
 			"b) projektēšana",
@@ -5689,7 +5689,7 @@
 	{
 		"id": "6.3.21",
 		"question": "Kurš nav pareizs apgalvojums par koda reorganizāciju (refaktoringu)?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) tas ir programmas koda mainīšanas process",
 			"b) tas ietekmē programmas uzvedību",
@@ -5700,7 +5700,7 @@
 	{
 		"id": "6.3.22",
 		"question": "Kurš no nosauktajiem visprecīzāk nosaka, kas jāiekļauj programmatūras prasību specifikācija?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) tikai nefunkcionālās prasības, par kurām izstrādātājs vienojies ar pasūtītāju",
 			"b) tikai funkcionālās un lietotāja saskarnes prasības",
@@ -5711,7 +5711,7 @@
 	{
 		"id": "6.3.23",
 		"question": "Kādu programmatūras izstrādes pieeju nav ieteicams izmantot, ja sākotnēji nevar precīzi nodefinēt visas prasības?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) ūdenskrituma (Waterfall)",
 			"b) prototipēšanas (Prototype)",
@@ -5722,7 +5722,7 @@
 	{
 		"id": "6.3.24",
 		"question": "Kura nav SCRUM izstrādes loma?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) produkta īpašnieks (Product owner)",
 			"b) SCRUM meistars (Scrum master)",
@@ -5733,7 +5733,7 @@
 	{
 		"id": "6.3.25",
 		"question": "Kas ir SCRUM izstrādes \"kalpojošais līderis\", kura uzdevums ir palīdzēt komandai maksimāli palielināt darba efektivitāti?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) produkta īpašnieks (Product owner)",
 			"b) SCRUM meistars (Scrum master)",
@@ -5744,7 +5744,7 @@
 	{
 		"id": "6.3.26",
 		"question": "Kurš ir pareizs apgalvojums par Kanban izstrādi?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) visas prasības sistēmai tiek definētas izstrādes sākumā",
 			"b) galvenā ideja ir darba procesu plūsmas vizualizācija",
@@ -5755,7 +5755,7 @@
 	{
 		"id": "6.3.27",
 		"question": "Kurš no rīkiem nodoršina versiju kontroli?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) git",
 			"b) gits",
@@ -5766,7 +5766,7 @@
 	{
 		"id": "6.3.28",
 		"question": "Kas ir paņēmienu kopums, kurš ļauj atrisināt konkrētu uzdevumu noteiktā programmatūras izstrādes etapā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) paradigma",
 			"b) stratēģija",
@@ -5777,7 +5777,7 @@
 	{
 		"id": "6.3.29",
 		"question": "Kas neapraksta Spējo (Agile) metodoloģiju?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) sistēmu izstrādā iteratīvi",
 			"b) pie katra etapa vēršas vienu reizi",
@@ -5788,7 +5788,7 @@
 	{
 		"id": "6.3.30",
 		"question": "Kurā no programmatūras izstrādes stratēģijām izstrāde notiek iteratīvi?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) lineārā stratēģijā",
 			"b) inkrementu stratēģijā",
@@ -5799,7 +5799,7 @@
 	{
 		"id": "6.3.31",
 		"question": "Kura ir SCRUM izstrādes loma?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) produkta īpašnieks",
 			"b) klients",
@@ -5810,7 +5810,7 @@
 	{
 		"id": "6.3.32",
 		"question": "Kurā datu bāžu izstrādes līmenī veido datubāzes shēmu konkrētajai DBPS?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) koncepcijas līmenī",
 			"b) loģiskajā līmenī",
@@ -5821,7 +5821,7 @@
 	{
 		"id": "6.3.33",
 		"question": "Kurās programmatūras specifikācijas prasībās jāiekļauj nosacījums, ka sistēmas atbilde jāsaņem noteiktā laikā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) funkcionālajās",
 			"b) nefunkcionālajās",
@@ -5832,7 +5832,7 @@
 	{
 		"id": "6.3.34",
 		"question": "Kas nav datubāzu izstrādes līmenis?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) koncepcijas līmenis",
 			"b) projektējuma līmenis",
@@ -5843,7 +5843,7 @@
 	{
 		"id": "6.3.35",
 		"question": "Kurš apgalvojums par pakāpenisko (inkrementālo) pieeju izstrādei nav pareizs ?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) paredz ātru produkta izveidi ar ierobežotu, bet strādājošo funkcionalitāti",
 			"b) ļauj ātri pārbaudīt un labot hipotēzes par radīto produktu",
@@ -5854,7 +5854,7 @@
 	{
 		"id": "6.3.36",
 		"question": "Kad programmatūras prasību var saukt par verificējamu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) kad eksistē kāds process, ar kuru var pārbaudīt tās izpildi",
 			"b) kad katra produkta raksturiezīme aprakstīta ar unikālu terminu",
@@ -5865,7 +5865,7 @@
 	{
 		"id": "6.3.37",
 		"question": "Kā var nodrošināt to, ka programmatūras prasības ir viennozīmīgas? Norādiet nepareizo apgalvojumu!",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) katrai prasībai ir jābūt tikai vienai nepārprotamai interpretācijai",
 			"b) ja lietotam terminam ir vairākas nozīmes, tas jāiekļauj terminoloģiskā vārdnīcā",
@@ -5876,7 +5876,7 @@
 	{
 		"id": "6.3.38",
 		"question": "Kā sauc dokumentu, kas ietver funkcionālās un nefunkcionālās prasības un var saturēt scenārijus vai specifiskus nosacījumus?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Datu apraksta dokuments",
 			"b) Testa plāns",
@@ -5887,7 +5887,7 @@
 	{
 		"id": "6.3.39",
 		"question": "Strukturēts dokuments, kas satur sistēmas funkcionālo un nefunkcionālo prasību detalizēto aprakstu \nun kalpo par pamatu tālākajai izstrādei ir...",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Prasību definīcija",
 			"b) Funkcionālā specifikācija",
@@ -5898,7 +5898,7 @@
 	{
 		"id": "6.3.40",
 		"question": "Kas ir SCRUM?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) spējās metodoloģijas (Agile) metode",
 			"b) programmatūras izstrādes vide",
@@ -5909,7 +5909,7 @@
 	{
 		"id": "6.3.41",
 		"question": "Kurš apgalvojums par programmas izpildes ceļu nav pareizs?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) ceļš ir operāciju virkne no programmas sākuma līdz beigām",
 			"b) visu ceļu skaits ir milzīgs, tas var būt pat bezgalīgs, ja tiek lietoti cikli",
@@ -5920,7 +5920,7 @@
 	{
 		"id": "6.3.42",
 		"question": "Kurš nav vadības ziņojuma veids?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) uzvedne (prompt)",
 			"b) kļūdu ziņojums (error message)",
@@ -5931,7 +5931,7 @@
 	{
 		"id": "6.3.43",
 		"question": "Kurā programmēšanas veidā realizācijas gaitā visa programma tiek sadalīta komponentos?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) modulārā programmēšana ",
 			"b) grafiskā programmēšana",
@@ -5942,7 +5942,7 @@
 	{
 		"id": "6.3.44",
 		"question": "Kas nav modelēšanas pamata uzdevums?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) analizēt esošo vai vēlamo sistēmu",
 			"b) noteikt sistēmas struktūru",
@@ -5953,7 +5953,7 @@
 	{
 		"id": "6.3.45",
 		"question": "Kas ir strādājošs programmu produkts, kas realizē tikai sistēmas atsevišķas funkcijas un ārējās saskarnes?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) prototips",
 			"b) modulis",
@@ -5964,7 +5964,7 @@
 	{
 		"id": "6.3.46",
 		"question": "Kurš ir pareizs apgalvojums par implementēšanu uz augšu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) sākumā kodē programmas galveno moduli",
 			"b) zemāko līmeņu moduļu vietā sākumā izmanto aizbāžņus",
@@ -5975,7 +5975,7 @@
 	{
 		"id": "6.3.47",
 		"question": "Kādi programmatūras rīki palīdz izstrādātāju komandām pārvaldīt koda izmaiņas laika gaitā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) atkļūdošanas rīki",
 			"b) versiju kontroles sistēmas",
@@ -5986,7 +5986,7 @@
 	{
 		"id": "6.3.48",
 		"question": "Kas veic programmu atkļūdošanu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) tikai testētāji",
 			"b) gala lietotāji",
@@ -5997,7 +5997,7 @@
 	{
 		"id": "6.3.49",
 		"question": "Kas ir jāizdara programmētājam, pirms nodot programmas vienību testētājam? ",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) atkļūdot programmas vienību",
 			"b) uzrakstīt programmas vienības dokumentāciju",
@@ -6008,7 +6008,7 @@
 	{
 		"id": "6.3.50",
 		"question": "Kas parasti neveic sistēmu verifikāciju?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) kvalitātes nodrošināšanas (QA) speciālisti ",
 			"b) testētāji",
@@ -6019,7 +6019,7 @@
 	{
 		"id": "6.3.51",
 		"question": "Norādiet nepareizo apgalvojumu par atkļūdošanu!",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) tā notiek visos izstrādes posmos",
 			"b) tā ir visaktīvāka implementēšanas un testēšanas posmā",
@@ -6030,7 +6030,7 @@
 	{
 		"id": "6.3.52",
 		"question": "Kurā procesā programmatūras izstrādes beigās pārliecinās, ka izstrādātā sistēma atbilst lietotāja vajadzībām?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) atkļūdošanā",
 			"b) testēšanā",
@@ -6041,7 +6041,7 @@
 	{
 		"id": "6.3.53",
 		"question": "Kas parasti neveic sistēmu validāciju?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) kvalitātes nodrošināšanas (QA) speciālisti ",
 			"b) testētāji",
@@ -6052,7 +6052,7 @@
 	{
 		"id": "7.0.1",
 		"question": "Kura ir atvērtā koda programmatūra?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Microsoft Visual Basic",
 			"b) Mozilla Firefox",
@@ -6063,7 +6063,7 @@
 	{
 		"id": "7.0.2",
 		"question": "Kādu taustiņu kombināciju pēc noklusējuma izmanto Windows biroja lietojumprogrammās, lai ielīmētu iezīmēto teksta fragmentu starpliktuvē?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Ctrl+V",
 			"b) Ctrl+C",
@@ -6074,7 +6074,7 @@
 	{
 		"id": "7.0.3",
 		"question": "Kāds ir A4 lapas formāts?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) 297 x 420 mm",
 			"b) 105 x 148 mm",
@@ -6085,7 +6085,7 @@
 	{
 		"id": "7.0.4",
 		"question": "Kura no dotajām ir izklājlapu lietotne?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Autodesk AutoCAD",
 			"b) Microsoft Table",
@@ -6096,7 +6096,7 @@
 	{
 		"id": "7.0.5",
 		"question": "Kurš lietojumprogrammu veids vislabāk ir piemērots aprēķinu veikšanai?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) teksta redaktors",
 			"b) izklājlapu lietotne",
@@ -6107,7 +6107,7 @@
 	{
 		"id": "7.0.6",
 		"question": "Kurš biroja lietojumprogrammu rīks kopē formatējumu (noformējumu)?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Format Copy",
 			"b) Painter",
@@ -6118,7 +6118,7 @@
 	{
 		"id": "7.0.7",
 		"question": "Kura lietotne nav teksta apstrādes lietojumprogrammatūra?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Microsoft Word",
 			"b) Google Docs",
@@ -6129,7 +6129,7 @@
 	{
 		"id": "7.0.8",
 		"question": "Kura lietotne nav izklājlapu lietojumprogrammatūra?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Microsoft Excel",
 			"b) Google Sheets",
@@ -6140,7 +6140,7 @@
 	{
 		"id": "7.0.10",
 		"question": "Kuru redaktoru vai lietotni neiesaka izmantot programmas koda rakstīšanai?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Visual Studio Code",
 			"b) Notepad++",
@@ -6151,7 +6151,7 @@
 	{
 		"id": "7.0.11",
 		"question": "Kādu taustiņu kombinācija jānospiež, lai saglabātu izmaiņas lietojumprogrammās?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Alt+S",
 			"b) Ctrl+S",
@@ -6162,7 +6162,7 @@
 	{
 		"id": "7.0.12",
 		"question": "Kādu taustiņu vai to kombināciju pielieto, lai Windows operētājsistēmā iegūtu ekrāna attēla kopiju?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Print Screen",
 			"b) Window",
@@ -6173,7 +6173,7 @@
 	{
 		"id": "7.0.13",
 		"question": "Kādas komandas secīgi ir jāizpilda, lai biroja lietojumprogrammā dublētu tekstu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) kopēt (Copy) un ielīmēt (Paste)",
 			"b) izgriest (Cut) un kopēt (Copy)",
@@ -6184,7 +6184,7 @@
 	{
 		"id": "7.1.1",
 		"question": "Ar kuru teksta redaktoru komandu apvieno vairākas šūnas tabulā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Split Cells",
 			"b) Wrap Text",
@@ -6195,7 +6195,7 @@
 	{
 		"id": "7.1.2",
 		"question": "Kāda ir galvenā šūnu dalīšanas (Split Cells) funkcija teksta redaktoros?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) vienas šūnas sadalīšana vairākās šūnās",
 			"b) vairāku šūnu apvienošana vienā",
@@ -6206,7 +6206,7 @@
 	{
 		"id": "7.1.3",
 		"question": "Kas notiks, ja teksta dokumentam, kurā ir 1. līdz 25. lapas drukāšanas (Print) loga laukā Lappuses (Pages) uzraksta: \"12- \"?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) varēs izdrukāt no 1. līdz 12. lappusei",
 			"b) izdrukās pirmās 12 (divpadsmit) lappuses",
@@ -6217,7 +6217,7 @@
 	{
 		"id": "7.1.4",
 		"question": "Kādam nolūkam teksta redaktoros, ievadot tekstu, tiek izmantots Enter taustiņš?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) lai pārietu uz jaunu rindu",
 			"b) lai noslēgtu rindkopu",
@@ -6228,7 +6228,7 @@
 	{
 		"id": "7.1.5",
 		"question": "Kas notiek ar tekstu \"abc\", kas bija teksta redaktora tabulas šunā, ja šai šūnai pielieto šūnu dalīšanas (Split Cells) funkciju, sadalot to uz trijām? ",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) teksts tiek izdzēsts no visām šūnām",
 			"b) teksts tiek pārkopēts visās šūnās",
@@ -6239,7 +6239,7 @@
 	{
 		"id": "7.1.6",
 		"question": "Kas notiek ar tekstu šunās, ja teksta redaktorā tabulā ir trīs šunas pēc kārtas vienā rindā un tās saplūdina kopā (Merge Cells)?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) viss teksts tiek izdzēsts",
 			"b) visu šūnu teksts secīgi tiek saplūdināts",
@@ -6250,7 +6250,7 @@
 	{
 		"id": "7.1.7",
 		"question": "Kā tiek saukti rediģējami lapas apgabali teksta redaktoros, kas atrodas lapas augšā un apakšā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) lappušu numuri (Page Number)",
 			"b) galvene un kājene (Header and Footer)",
@@ -6261,7 +6261,7 @@
 	{
 		"id": "7.1.10",
 		"question": "Ar kuru taustiņu kombināciju teksta redaktorā var atlasīt visu dokumentu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Alt+Ctrl+A",
 			"b) Ctrl+A",
@@ -6272,7 +6272,7 @@
 	{
 		"id": "7.1.12",
 		"question": "Kurā tekstaredaktoru dialoglogā var izvēlēties teksta pasvītrojuma stilu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Fonts / Teksts (Font / Text)",
 			"b) Robežu enojums (Borders and Shading)",
@@ -6283,7 +6283,7 @@
 	{
 		"id": "7.1.19",
 		"question": "MS Word / Libre Office Writer programmā veidotai tabulai kolonām ir dažāds platums. Kā kolonām visātrāk uzlikt vienādu platumu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) izpildot komandu izdalītas rindas (Distribute Rows)",
 			"b) ar peli mainot kolonas platumu",
@@ -6294,7 +6294,7 @@
 	{
 		"id": "7.1.21",
 		"question": "Kā teksta redaktoros izdrukāt iezīmēto tekstu?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) print text",
 			"b) print selection",
@@ -6305,7 +6305,7 @@
 	{
 		"id": "7.1.24",
 		"question": "Ar kādu taustiņu vai to kombināciju var pāriet no jebkuras dokumenta vietas teksta redaktoros uz tā sākumu?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Ctrl+Home",
 			"b) Ctrl+End",
@@ -6316,7 +6316,7 @@
 	{
 		"id": "7.1.25",
 		"question": "Ar kādu taustiņu vai to kombināciju  var pāriet no jebkuras dokumenta vietas teksta redaktoros uz tā beigām?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Ctrl+Home",
 			"b) Ctrl+End",
@@ -6327,7 +6327,7 @@
 	{
 		"id": "7.1.27",
 		"question": "Ar kādu taustiņu vai to kombināciju var pāriet no jebkuras dokumenta vietas teksta redaktoros uz rindas sākumu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Ctrl+Home",
 			"b) Ctrl+End",
@@ -6338,7 +6338,7 @@
 	{
 		"id": "7.1.29",
 		"question": "Kāda taustiņu kombinācija ļauj teksta redaktoros pāriet uz jaunu rindu rindkopas ietvaros?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Alt+Insert",
 			"b) Ctrl+Insert",
@@ -6349,7 +6349,7 @@
 	{
 		"id": "7.1.30",
 		"question": "Kādas izmaiņas notiks, ja lietojumprogrammatūras tālummaiņas līdzeklī 100% vietā ieslēgs 150%?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) dokuments ekrānā tiks palielināts 1,5 reizes",
 			"b) visi burti drukājot palielināsies 1,5 reizes",
@@ -6360,7 +6360,7 @@
 	{
 		"id": "7.1.31",
 		"question": "Kādi ir noklusējuma faila paplašinājumi MS Word teksta dokumentiem?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) dotx",
 			"b) docx",
@@ -6371,7 +6371,7 @@
 	{
 		"id": "7.1.32",
 		"question": "Kāda ir taustiņu kombinācija, lai teksta redaktoros izveidotu jaunu lappusi?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Tab+Enter",
 			"b) Shift+Enter",
@@ -6382,7 +6382,7 @@
 	{
 		"id": "7.2.1",
 		"question": "Ko izpilda izklājlapu funkcija =COUNTIF(a1:a5; “<0”)?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) saskaita negatīvos skaitļus",
 			"b) sasummē negatīvos skaitļus",
@@ -6393,7 +6393,7 @@
 	{
 		"id": "7.2.2",
 		"question": "Ko izpilda izklājlapu komanda Insert row ?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) pievieno jaunu darba lapu",
 			"b) pievieno jaunu rindu",
@@ -6404,7 +6404,7 @@
 	{
 		"id": "7.2.3",
 		"question": "Kā izklājlapās noapaļot skaitli 123456,789, lai rezultāts būtu 123457?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) = ROUND(123456,789;1)",
 			"b) = ROUND(123456,789;0)",
@@ -6415,7 +6415,7 @@
 	{
 		"id": "7.2.4",
 		"question": "Kāds ir izklājlapu šūnas A2 saturs, ja kopē A1, kurā atrodas =B1/B10?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) = B1/$B$10",
 			"b) = B2/B10",
@@ -6426,7 +6426,7 @@
 	{
 		"id": "7.2.5",
 		"question": "Kāds ir izklājlapas šūnas A2 saturs, ja kopē A1, kurā atrodas =B$1/B10?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) = B1/$B$10",
 			"b) = B2/B11",
@@ -6437,7 +6437,7 @@
 	{
 		"id": "7.2.6",
 		"question": "Kāds rezultāts ir pēc izklājlapas formulas = ROUND(4568,347; -2) izpildes?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 4570",
 			"b) 4600",
@@ -6448,7 +6448,7 @@
 	{
 		"id": "7.2.7",
 		"question": "Kura no izklājlapu loģiskām funkcijām pārbauda vai skaitlis šūnā A1 ir lielākais no 3 skaitļiem, kas ir šūnās A1, A2, A3?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) = IF(a1<a2; IF(a1>a3; “jā”;0); 0)",
 			"b) = IF(a1>a2; IF(a1>a3; “jā”;0); 0)",
@@ -6459,7 +6459,7 @@
 	{
 		"id": "7.2.8",
 		"question": "Kāds datu formāts attēlo valūtu izklājlapu šūnā?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) General",
 			"b) Date",
@@ -6470,7 +6470,7 @@
 	{
 		"id": "7.2.9",
 		"question": "Ar ko atšķiras izklājlapu funkcijas COUNTIF un SUMIF?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) viena saskaita vērtības, otra summē vērtības",
 			"b) abas pārbauda, vai elementi ir pozitīvi",
@@ -6481,7 +6481,7 @@
 	{
 		"id": "7.2.10",
 		"question": "Izklājlapas A kolonā ierakstīti pieci skaitļi. Kura ir pareizā summēšanas\n formula?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) A1+A2+A3+A4+A5",
 			"b) SUM(A1:A5)",
@@ -6492,7 +6492,7 @@
 	{
 		"id": "7.2.11",
 		"question": "Kurai šūnas adresei izklājlapās ir norādīta absolūtā adresācija?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) $B$1",
 			"b) $D3",
@@ -6503,7 +6503,7 @@
 	{
 		"id": "7.2.12",
 		"question": "Kurš izklājlapu diagrammas veids vislabāk attēlo datu attiecību procentos?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) Histogramma (Column)",
 			"b) Robežlīkne (Bar)",
@@ -6514,7 +6514,7 @@
 	{
 		"id": "7.2.13",
 		"question": "Ja izklājlapu tabulas šūnā A1 ir skaitlis 1, bet šūnā B1 ir 2, tad kādu datu sēriju var iegūt pirmajā rindā, ia iezīmē abas šūnas?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) 111111…",
 			"b) 222222...",
@@ -6525,7 +6525,7 @@
 	{
 		"id": "7.2.14",
 		"question": "Ko var lietot izklājlapu tabulās, veidojot formulas?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) šūnu adreses, iebūvētās procedūras, iebūvētās funkcijas",
 			"b) datus, iebūvētās procedūras, iebūvētās funkcijas",
@@ -6536,7 +6536,7 @@
 	{
 		"id": "7.2.15",
 		"question": "Ko lieto  izklājlapu formulās, lai šūnu adrese paliktu nemainīga, kopējot formulas?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) lieto šūnas absolūto adresi",
 			"b) lieto šūnas relatīvo adresi",
@@ -6547,7 +6547,7 @@
 	{
 		"id": "7.2.16",
 		"question": "Kā izklājlapās noapaļot skaitli 12,789, lai rezultāts būtu 12,8?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) = ROUND(12,789;1)",
 			"b) = ROUND(12,789;0)",
@@ -6558,7 +6558,7 @@
 	{
 		"id": "7.2.17",
 		"question": "Kā izklājlapās noapaļot skaitli 12,789, lai rezultāts būtu 12?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) = ROUND(12,789;0)",
 			"b) = FLOOR(12,789)",
@@ -6569,7 +6569,7 @@
 	{
 		"id": "7.2.18",
 		"question": "Kas nodrošina, lai  izklājlapu programmā teksts šūnā pats sadalītos vairākās rindās, ja kolonas platums ir par mazu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) Merge cells",
 			"b) Alignment text",
@@ -6580,7 +6580,7 @@
 	{
 		"id": "7.2.19",
 		"question": "Kurš ir izklājlapu loģiskās funkcijas IF pieraksta formāts?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) =IF(nosacījums; vērtība, ja izteikums patiess; vērtība, ja izteikums nepatiess)",
 			"b) =IF(nosacījums; vērtība, ja izteikums nepatiess; vērtība, ja izteikums patiess)",
@@ -6591,7 +6591,7 @@
 	{
 		"id": "7.2.20",
 		"question": "Ko izpilda izklājlapu funkcija =ROUND(SUMIF(a1:a5; “>0”);2)?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) noapaļo sasummētos pozitīvos skaitļus no dotā intervāla līdz 2 zīmēm aiz komata",
 			"b) noapaļo sasummētos pozitīvos skaitļus no dotā intervāla līdz veseliem simtiem",
@@ -6602,7 +6602,7 @@
 	{
 		"id": "7.2.21",
 		"question": "Izklājlapu šunās ir vērtības: \nA1 = 10, \nB1 = 20, \nC1 = 30, \nD1= 40. \nE1 satur formulu =SUM(A1, C1). \nKāds rezultāts būs redzams šunā E1? ",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 40",
 			"b) 60",
@@ -6613,7 +6613,7 @@
 	{
 		"id": "7.2.22",
 		"question": "Izklājlapu šunās ir vērtības: \nA1 = 10, \nB1 = 20, \nC1 = 30, \nD1= 40. \nE1 satur formulu =SUM(A1, C1). \nStarp kolonu D un E ievieto kolonu (formula tagad būs šūnā G1). Kāds rezultāts būs redzams šunā G1? ",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 40",
 			"b) 60",
@@ -6624,7 +6624,7 @@
 	{
 		"id": "7.2.23",
 		"question": "Kā izklājlapu šūnā atrast kubsakni no -18?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) = SQRT(-18)",
 			"b) = (-18)^1/3",
@@ -6635,7 +6635,7 @@
 	{
 		"id": "7.2.24",
 		"question": "Kas notiek ar tekstu šunās, ja izklājlapā vienā rindā ir trīs šunas pēc kārtas, kas satur tekstu, un tās saplūdina kopā, apstiprinot to pēc brīdinājuma?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) viss teksts tiek izdzēsts",
 			"b) visu šūnu teksts secīgi tiek saplūdināts jaunajā šunā",
@@ -6646,7 +6646,7 @@
 	{
 		"id": "7.2.25",
 		"question": "Izklājlapu šunās ir vērtības: \nA1 = 5, \nA2 = 10. \nKas būs redzams šūnā A3, ja tajā ievadīs \"A1+A1\"?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 10",
 			"b) 15",
@@ -6657,7 +6657,7 @@
 	{
 		"id": "7.2.28",
 		"question": "Kāda informācija ir izklājlapu šūnā, ja tās saturs ir 1,2E-9?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) simbolu rinda 1,2E-9",
 			"b) skaitlis 0,0000000012",
@@ -6668,7 +6668,7 @@
 	{
 		"id": "7.2.30",
 		"question": "Kāds ir izklājlapu A2 šūnas saturs, kopējot ar kopēšanas satverrīku šūnu A1, kur atrodas datums \"21.11.2024\" (DD.MM.YYYY) ?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) 21.11.2024",
 			"b) 22.11.2024",
@@ -6679,7 +6679,7 @@
 	{
 		"id": "7.2.31",
 		"question": "Kā izklājlapās var automātiski iekrāsot sarkanas nesekmīgās atzīmes tabulā?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) ar Conditional Formatting komandu",
 			"b) ar Sort komandu",
@@ -6690,7 +6690,7 @@
 	{
 		"id": "7.2.32",
 		"question": "Ar kuru izklājlapu funkciju var saskaitīt norādītā apgabala šūnas, kas satur skaitļus?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) SUM",
 			"b) SERIESSUM",
@@ -6701,7 +6701,7 @@
 	{
 		"id": "7.2.33",
 		"question": "Ar kuru izklājlapu funkciju var saskaitīt norādītā apgabala šūnas, kas nav tukšas?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) SUM",
 			"b) COUNT",
@@ -6712,7 +6712,7 @@
 	{
 		"id": "7.2.34",
 		"question": "Ar kuru izklājlapu funkciju tiek iegūts skaitlisko vērtību skaits datu kopā?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) SUM",
 			"b) COUNT",
@@ -6723,7 +6723,7 @@
 	{
 		"id": "7.2.36",
 		"question": "Kurš taustiņš izklājlapās ir jānospiež un jāpatur, lai atlasītu vairākas darba lapas pēc kārtas?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Ctrl",
 			"b) Shift",
@@ -6734,7 +6734,7 @@
 	{
 		"id": "7.2.37",
 		"question": "Kurš taustiņš izklājlapās ir jānospiež un jāpatur, lai atlasītu vairākas šūnas, kas nav pēc kārtas?",
-		"correct": 0,
+		"correct": 1,
 		"answers": [
 			"a) Ctrl",
 			"b) Shift",
@@ -6745,7 +6745,7 @@
 	{
 		"id": "7.2.38",
 		"question": "Kurš pieraksts attēlo izklājlapu šūnas relatīvo adresi?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) $E5",
 			"b) $E$5",
@@ -6756,7 +6756,7 @@
 	{
 		"id": "7.2.39",
 		"question": "Kura adrese apzīmē izklājlapu darblapas ceturtās kolonas un trešās rindas šūnu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 3D",
 			"b) 4C",
@@ -6767,7 +6767,7 @@
 	{
 		"id": "7.2.40",
 		"question": "Ar kādu simbolu izklājlapu formulās apzīmē kāpināšanu?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) °",
 			"b) #",
