@@ -1,0 +1,19 @@
+name: 🚀 Funkcionalitātes pievienošanas ziņojums
+description: Ierosināt jaunas funkcionalitātes pievienošanu.
+labels: [Feature]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Apraksti trūkstošo funkcionalitāti
+      description: Īss un kodolīgs vēlamās funkcionalitātes apraksts.
+    validations:
+      required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Cita informācija
+      description: Papildus konteksts vai informācija.
+    validations:
+      required: false

@@ -1,0 +1,19 @@
+name: ✍️ Satura labojums
+description: Ierosināt satura maiņu, piemēram, citu pareizo atbildi.
+labels: [Content]
+body:
+  - type: textarea
+    id: edit
+    attributes:
+      label: Labojums
+      description: Labojuma saturs un lokācija.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Iemesls
+      description: Skaidrojums un cita informācija.
+    validations:
+      required: true
