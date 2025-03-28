@@ -4,15 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>CET</title>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/main.js" defer></script>
 		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<header>
 			<h1>Centralizēto Eksāmenu Testi</h1>
 		</header>
-		<div id="content">
+		<main id="content">
 			<form id="questionForm">
 				<select id="sources"></select>
 				<button type="button" id="btnPrev">Iepriekšējais</button> 
@@ -31,7 +30,7 @@
 				<input type="button" id="btnCheckAnswer" value="Pārbaudīt">
 				<p id="noAnswerNotice">Šim jautājumam vēl nav pievienota pareizā atbilde</p>
 			</form>
-		</div>
+		</main>
 		<footer>
 			<nav>
 				<ul>
@@ -39,7 +38,7 @@
 					<li><a href="https://github.com/tgrants/CET/wiki">Wiki</a></li>
 				</ul>
 			</nav>
-			<p>Copyright &copy; <span id="year"></span> CET<p>
+			<p>&copy; 2022-<span id="year"></span> Toms Grants<p>
 		</footer>
 	</body>
 </html>
