@@ -13,11 +13,10 @@ body {
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
 	background-color: #f4f4f4;
-	color: #333;
 }
 
 header {
-	background-color: #333;
+	background-color: #292929;
 	color: #fff;
 	display: flex;
 	flex-direction: row;
@@ -30,7 +29,7 @@ footer {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-color: #333;
+	background-color: #292929;
 	color: #fff;
 	padding: 27px 20px;
 }
@@ -44,7 +43,7 @@ footer > nav > ul {
 }
 
 a {
-	color: #8e40ff;
+	color: #E8AAFF;
 }
 
 img {
