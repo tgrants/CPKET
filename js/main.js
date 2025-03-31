@@ -3,27 +3,27 @@ let shuffled = null;
 let current = 0;
 let correct = null;
 
-$(document).ready(() => {
+document.addEventListener("DOMContentLoaded", function() {
 	loadSourceList();
 
 	// Set copyright notice year
-	$("#year").text(new Date().getFullYear());
+	document.querySelector("#year").textContent = new Date().getFullYear();
 });
 
 // Open source on select change
-$(document).on("change", "#sources", function() {
+document.querySelector("#sources").addEventListener("change", function() {
 	loadSource(this.value);
 });
 
 // Reload question if shuffle setting is changed
-$(document).on("change", "#chbxShuffle", function() {
+document.querySelector("#chbxShuffle").addEventListener("change", function() {
 	loadQuestion();
 });
 
 // Previous question
-$(document).on("click", "#btnPrev", function() {
-	console.log(current);
-	console.log(shuffled[current]);
+document.querySelector("#btnPrev").addEventListener("click", function() {
+	// console.log(current);
+	// console.log(shuffled[current]);
 	if (current > 0) {
 		current--;
 		loadQuestion();
@@ -31,9 +31,9 @@ $(document).on("click", "#btnPrev", function() {
 });
 
 // Next question
-$(document).on("click", "#btnNext", function() {
-	console.log(current);
-	console.log(shuffled[current]);
+document.querySelector("#btnNext").addEventListener("click", function() {
+	// console.log(current);
+	// console.log(shuffled[current]);
 	if (current < Object.keys(data).length - 1) {
 		current++;
 		loadQuestion();
@@ -41,7 +41,7 @@ $(document).on("click", "#btnNext", function() {
 });
 
 // Check if answer is correct
-$(document).on("click", "#btnCheckAnswer", function() {
+document.querySelector("#btnCheckAnswer").addEventListener("click", function() {
 	clearAnswers();
 	$("#ans" + correct + "Label").addClass("correct-answer");
 	let selected = $("input[type='radio']:checked").val();
@@ -51,91 +51,106 @@ $(document).on("click", "#btnCheckAnswer", function() {
 
 // Load sources for questions from sources.json
 function loadSourceList() {
-	$.ajax({
-		url: "data/sources.json",
-		success: (result) => {
-			// Populate select
-			$.each(result, function(i, item) {
-				$("<option />", {
-					value: item.path,
-					text: item.name
-				}).appendTo("#sources");
-			});
+	fetch("data/sources.json")
+	.then(response => {
+		if (!response.ok) {
+			throw new Error("Could not load sources.json");
+		}
+		return response.json();
+	})
+	.then(result => {
+		const sourcesSelect = document.querySelector("#sources");
 
-			// Select and load first
-			$("#sources").val($("#sources option:first").val());
-			loadSource($("#sources").val());
+		// Populate select
+		result.forEach(item => {
+			const option = document.createElement("option");
+			option.value = item.path;
+			option.textContent = item.name;
+			sourcesSelect.appendChild(option);
+		});
 
-			return true;
-		},
-		error: () => { console.error("Could not load sources.json"); return false; }
-	});
+		// Select and load first
+		sourcesSelect.value = sourcesSelect.options[0].value;
+		loadSource(sourcesSelect.value);
+	})
+	.catch(error => console.error(error));
 }
 
 // Load selected source
 function loadSource(src) {
-	$.ajax({
-		url: src,
-		success: (result) => {
-			data = result;
-			current = 0;
+	fetch(src)
+	.then(response => {
+		if (!response.ok) {
+			throw new Error("Could not load " + src);
+		}
+		return response.json();
+	})
+	.then(result => {
+		data = result;
+		current = 0;
 
-			// Create array with the same length as questions, shuffle it
-			shuffled = Array.from({length: Object.keys(result).length}, (_, i) => i + 1)
-			shuffleArray(shuffled);
+		// Create array with the same length as questions, shuffle it
+		shuffled = Array.from({length: Object.keys(result).length}, (_, i) => i + 1)
+		shuffleArray(shuffled);
 
-			loadQuestion();
-
-			return true;
-		},
-		error: () => { console.error("Could not load " + src); return false; }
-	});
+		loadQuestion();
+	})
+	.catch(error => console.error(error));
 }
 
 // Load question by index
 function loadQuestion() {
 	clearAnswers();
-	$("input[type='radio']").prop('checked', false);
-	$("#noAnswerNotice").hide();
-	$("#questionImg").remove();
+	
+	// Uncheck all radio inputs
+	document.querySelectorAll("input[type='radio']").forEach(input => input.checked = false);
 
-	let question = $("#chbxShuffle").is(":checked") ? data[shuffled[current] - 1] : data[current];
+	// Hide the "no answer" notice
+	document.querySelector("#noAnswerNotice").style.display = "none";
 
-	// Enable or disable prev question button
-	if (current == 0) $("#btnPrev").prop("disabled", true);
-	else $("#btnPrev").prop("disabled", false);
+	// Remove the question image if it exists
+	let questionImg = document.querySelector("#questionImg");
+	if (questionImg) questionImg.remove();
+
+	let question = document.querySelector("#chbxShuffle").checked ? data[shuffled[current] - 1] : data[current];
+
+	// Enable or disable previous question button
+	document.querySelector("#btnPrev").disabled = (current === 0);
 
 	// Enable or disable next question button
-	if (current == Object.keys(data).length - 1) $("#btnNext").prop("disabled", true);
-	else $("#btnNext").prop("disabled", false);
+	document.querySelector("#btnNext").disabled = (current === Object.keys(data).length - 1);
 
-	// Add question id and text
-	$("#qid").val(question.id);
-	$("#questionId").text(question.id);
-	$("#questionText").text(question.question);
+	// Set question ID and text
+	document.querySelector("#questionId").textContent = question.id;
+	document.querySelector("#questionText").textContent = question.question;
 
-	// Add question image, if exists
+	// Add question image if it exists
 	if (question.image != null) {
 		let img = document.createElement("img");
-		img.setAttribute("id", "questionImg");
-		img.setAttribute("src", question.image);
-		img.setAttribute("alt", "Jautājums " + question.id);
-		let title = document.getElementById("questionTitle");
+		img.id = "questionImg";
+		img.src = question.image;
+		img.alt = "Jautājums " + question.id;
+
+		let title = document.querySelector("#questionTitle");
 		title.parentNode.insertBefore(img, title.nextSibling);
 	}
 
 	// Add choices
-	for (let i = 0; i < 4; i++)
-		$("#ans" + (i + 1) + "Label").text(question.answers[i]);
+	for (let i = 0; i < 4; i++) {
+		document.querySelector("#ans" + (i + 1) + "Label").textContent = question.answers[i];
+	}
+
 	correct = question.correct;
 
 	// Display a notice in case there is no answer yet
-	if (question.correct == null) $("#noAnswerNotice").show();
+	if (question.correct == null) {
+		document.querySelector("#noAnswerNotice").show();
+	}
 }
 
 function clearAnswers(clearRadioButtons) {
 	for (let i = 1; i <= 4; i++) {
-		$("#ans" + i + "Label").removeClass();
+		document.querySelector("#ans" + i + "Label").className = "";
 	}
 }
 
