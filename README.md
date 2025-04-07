@@ -8,8 +8,7 @@ Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CET/wiki).
 
 ## Saturs
 
-* Centralizētie eksāmeni
-* Centralizētie profesionālās kvalifikācijas eksāmeni (CPKE)
+* CPKE jautājumi un pareizās atbildes
 	* Profesionālā kvalifikācija "programmēšanas tehniķis"
 		* 2023
 		* 2025
@@ -18,8 +17,9 @@ Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CET/wiki).
 
 ## Satura pievienošana un citi uzlabojumi
 
-Jebkāda veida uzlabojumi ir vienmēr gaidīti.
+Jebkāda veida ierosinājumi un uzlabojumi ir vienmēr gaidīti.
 Pirms izmaiņu veikšanas, svarīgi iepazīties ar [ieguldījumu vadlīnijām](CONTRIBUTING.md).
+Neskaidrību gadījumā iespējams sazināties ar projekta uzturētājiem.
 
 ## Komandas un rīki
 
@@ -30,5 +30,5 @@ Pirms izmaiņu veikšanas, svarīgi iepazīties ar [ieguldījumu vadlīnijām](C
 
 ## Licence
 
-Šis projekts licencēts ar MIT licenci (skat. `LICENSE`).
-Projekta autori uzskaitīti datnē `CREDITS.md`.
+Šis projekts licencēts ar MIT licenci (skat. [`LICENSE`](LICENSE)).
+Projekta autori uzskaitīti datnē [`CREDITS.md`](CREDITS.md).

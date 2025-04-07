@@ -43,10 +43,10 @@ document.querySelector("#btnNext").addEventListener("click", function() {
 // Check if answer is correct
 document.querySelector("#btnCheckAnswer").addEventListener("click", function() {
 	clearAnswers();
-	$("#ans" + correct + "Label").addClass("correct-answer");
-	let selected = $("input[type='radio']:checked").val();
+	document.querySelector("#ans" + correct + "Label").classList.add("correct-answer");
+	let selected = document.querySelector("input[type='radio']:checked")?.value;
 	if (correct == selected) return;
-	$("#ans" + selected + "Label").addClass("incorrect-answer");
+	document.querySelector("#ans" + selected + "Label").classList.add("incorrect-answer");
 });
 
 // Load sources for questions from sources.json
