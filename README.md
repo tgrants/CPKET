@@ -6,6 +6,11 @@ Testi pieejami https://tomsgrants.com/CET vai https://tgrants.github.io/CET
 
 Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CET/wiki).
 
+> [!NOTE]
+>
+> Repozitorijs tiks pārsaukts uz CPKET.
+> Visas saites uz repozitoriju tiks mainītas.
+
 ## Saturs
 
 * CPKE jautājumi un pareizās atbildes
@@ -30,5 +35,6 @@ Neskaidrību gadījumā iespējams sazināties ar projekta uzturētājiem.
 
 ## Licence
 
-Šis projekts licencēts ar MIT licenci (skat. [`LICENSE`](LICENSE)).
-Projekta autori uzskaitīti datnē [`CREDITS.md`](CREDITS.md).
+Šis projekts licencēts ar [MIT licenci](https://lv.wikipedia.org/wiki/MIT_licence).
+Plašāka informācija pieejama [LICENSE](LICENSE) datnē.
+Projekta autori uzskaitīti [CREDITS.md](CREDITS.md).

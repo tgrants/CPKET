@@ -148,7 +148,7 @@ function loadQuestion() {
 	}
 }
 
-function clearAnswers(clearRadioButtons) {
+function clearAnswers() {
 	for (let i = 1; i <= 4; i++) {
 		document.querySelector("#ans" + i + "Label").className = "";
 	}

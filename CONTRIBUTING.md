@@ -68,6 +68,8 @@ Jautājumu saraksts sastāv no atslēgu-vērtību pāriem:
 - **id** - jautājuma identifikators
 	- Sastāv no skatļiem, kas atdalīti ar punktiem, piem. 1.1.1
 - **question** - jautājuma teksts
+- **image** - saite uz jautājuma attēlu
+	- Nav obligāts
 - **correct** - pareizās atbildes indekss
 	- Sāk skaitīt no 1
 - **anwers** - atbližu sarakts

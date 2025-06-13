@@ -1,5 +1,14 @@
 [
-	{"name": "CPKE Programmēšanas tehniķiem 2023", "path": "data/progr_tehn_2023_CPKE.json"},
-	{"name": "CPKE Programmēšanas tehniķiem 2025", "path": "data/progr_tehn_2025_CPKE.json"},
-	{"name": "CPKE Mašīnbūves tehniķiem", "path": "data/masinbuves_tehnikis_CPKE.json"}
+	{
+		"name": "CPKE Programmēšanas tehniķiem 2023",
+		"path": "data/progr_tehn_2023_CPKE.json"
+	},
+	{
+		"name": "CPKE Programmēšanas tehniķiem 2025",
+		"path": "data/progr_tehn_2025_CPKE.json"
+	},
+	{
+		"name": "CPKE Mašīnbūves tehniķiem",
+		"path": "data/masinbuves_tehnikis_CPKE.json"
+	}
 ]
