@@ -32,6 +32,7 @@ Neskaidrību gadījumā iespējams sazināties ar projekta uzturētājiem.
 * Pārveidot datus no csv uz json formātu `python3 tools/csv-to-json.py ./data/jautajumi.csv ./data/data.json`
 * Iegūt jautājumu skaitu `python3 tools/get-count.py`
 	* Ar opciju `-s` iespējams apskatīt neatbildētos jautājumus `python3 tools/get-count.py -s`
+* Salīdzināt atbildes divu testu vienādiem jautājumiem `python3 tools/compare.py file1 file2`
 
 ## Licence
 
