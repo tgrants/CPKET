@@ -31,11 +31,11 @@ Pirms ziņojumu izveides vēlams pārskatīt esošos, lai novērstu duplikātus.
 ### PR (*Pull request*) process
 
 - Izveido savu zaru (*fork*) šim repozitorijam
-	- Klikšķini uz **Fork** pogas [šī repozitorija lapas](https://github.com/tgrants/CET) kreisajā augšējā stūrī
+	- Klikšķini uz **Fork** pogas [šī repozitorija lapas](https://github.com/tgrants/CPKET) kreisajā augšējā stūrī
 	- Šī darbība izveidos repozitorija kopiju zem Jūsu GitHub konta
 - Klonē repozitoriju no **sava *fork***
-	- `git clone https://github.com/tgrants/CET.git`
-	- `cd CET`
+	- `git clone https://github.com/tgrants/CPKET.git`
+	- `cd CPKET`
 - Izveido zaru savām izmaiņām
 	- `git checkout -b feature/feature-name`
 - Veic izmaiņas
