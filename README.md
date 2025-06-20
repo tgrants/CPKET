@@ -1,24 +1,23 @@
-# CET
+# CPKET
 
-Centralizēto un profesionālās kvalifikācijas eksāmenu testu daļu jautājumi un to pareizās atbildes.
+Centralizēto profesionālās kvalifikācijas eksāmenu testu daļu jautājumi un to pareizās atbildes. 
 
-Testi pieejami https://tomsgrants.com/CET vai https://tgrants.github.io/CET
+Testi pieejami https://tomsgrants.com/CPKET vai https://tgrants.github.io/CPKET
 
-Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CET/wiki).
+Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CPKET/wiki).
 
 > [!NOTE]
 >
-> Repozitorijs tiks pārsaukts uz CPKET.
-> Visas saites uz repozitoriju tiks mainītas.
+> Projekts tika pārsaukts no CET uz CPKET.
+> Lūgums atjaunināt visas saites uz repozitoriju.
 
 ## Saturs
 
-* CPKE jautājumi un pareizās atbildes
-	* Profesionālā kvalifikācija "programmēšanas tehniķis"
-		* 2023
-		* 2025
-	* Profesionālā kvalifikācija "mašīnbūves tehniķis"
-		* 2023 (daļa jautājumu)
+* Profesionālā kvalifikācija "programmēšanas tehniķis"
+	* 2023
+	* 2025
+* Profesionālā kvalifikācija "mašīnbūves tehniķis"
+	* 2023 (daļa jautājumu)
 
 ## Satura pievienošana un citi uzlabojumi
 
