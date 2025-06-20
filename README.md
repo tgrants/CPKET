@@ -1,6 +1,6 @@
 # CPKET
 
-Centralizēto un profesionālās kvalifikācijas eksāmenu testu daļu jautājumi un to pareizās atbildes.
+Centralizēto profesionālās kvalifikācijas eksāmenu testu daļu jautājumi un to pareizās atbildes. 
 
 Testi pieejami https://tomsgrants.com/CPKET vai https://tgrants.github.io/CPKET
 
@@ -13,12 +13,11 @@ Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CPKET/wiki).
 
 ## Saturs
 
-* CPKE jautājumi un pareizās atbildes
-	* Profesionālā kvalifikācija "programmēšanas tehniķis"
-		* 2023
-		* 2025
-	* Profesionālā kvalifikācija "mašīnbūves tehniķis"
-		* 2023 (daļa jautājumu)
+* Profesionālā kvalifikācija "programmēšanas tehniķis"
+	* 2023
+	* 2025
+* Profesionālā kvalifikācija "mašīnbūves tehniķis"
+	* 2023 (daļa jautājumu)
 
 ## Satura pievienošana un citi uzlabojumi
 
