@@ -1,8 +1,18 @@
-# This script converts csv files to json
+#! /usr/bin/env python3
+"""
+This script converts test question csv files to json.
+
+(c) Toms Grants, MIT License
+https://github.com/tgrants/CPKET
+
+Command-line Arguments:
+	-h, --help: Displays a list of all commands
+"""
 
 import csv
 import json
 import sys
+from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 
 def csv_to_json(csvFilePath, jsonFilePath):

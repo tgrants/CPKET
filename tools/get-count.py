@@ -1,8 +1,18 @@
-# Counts how many questions already have an answer
-# Option -s shows questions with no answers
+#! /usr/bin/env python3
+"""
+This script counts how many questions already have an answer.
+
+(c) Toms Grants, MIT License
+https://github.com/tgrants/CPKET
+
+Command-line Arguments:
+	-h, --help: Displays a list of all commands
+	-s: Shows questions with no answers
+"""
 
 import json
 import sys
+from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 
 def get_count(show_no_answer):

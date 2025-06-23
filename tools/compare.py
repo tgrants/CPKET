@@ -84,4 +84,9 @@ for filepath in args.files:
 for key, value in questions.items():
 	if len(value) <= 1: continue # Skip questions without differences
 	print(f"Q '{str(key).replace("\n", " ")}'")
+	match value:
+		case DiffType.ID:
+			pass
+		case DiffType.CORRECT:
+			pass
 	print()
