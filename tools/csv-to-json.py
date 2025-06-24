@@ -11,7 +11,6 @@ Command-line Arguments:
 
 import csv
 import json
-import sys
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 
@@ -37,5 +36,18 @@ def csv_to_json(csvFilePath, jsonFilePath):
 		jsonf.write(jsonString)
 
 
-if __name__ == '__main__':
-	csv_to_json(sys.argv[1], sys.argv[2])
+# Parse and validate arguments
+parser = ArgumentParser(
+	formatter_class = RawDescriptionHelpFormatter
+)
+parser.add_argument(
+	"files",
+	nargs = "+",
+	help = "Paths to the input files",
+)
+args = parser.parse_args()
+if len(args.files) != 2:
+	parser.error("Exactly two file paths are required.")
+
+# Convert test question csv to json
+csv_to_json(args.files[0], args.files[1])

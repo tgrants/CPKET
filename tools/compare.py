@@ -76,6 +76,7 @@ for filepath in args.files:
 						diff = DiffType.ID
 					elif (args.compare_correct and existing_question["correct"] != x["correct"]):
 						diff = DiffType.CORRECT
+					questions[key][0] = (questions[key][0][0], questions[key][0][1], diff)
 					questions[key].append((filepath, x, diff))
 			else:
 				questions[key] = [(filepath, x, None)]
@@ -83,10 +84,18 @@ for filepath in args.files:
 # Print results
 for key, value in questions.items():
 	if len(value) <= 1: continue # Skip questions without differences
-	print(f"Q '{str(key).replace("\n", " ")}'")
-	match value:
-		case DiffType.ID:
-			pass
-		case DiffType.CORRECT:
-			pass
-	print()
+	diffs = []
+	for i in range(0, len(value)):
+		abspath = Path(value[i][0]).resolve()
+		hlink = hyperlink(label=i, path=abspath)
+		match value[i][2]:
+			case DiffType.ID:
+				diffs.append(f"{i} id:{value[i][1]["id"]}")
+			case DiffType.CORRECT:
+				corr_ans_id = value[i][1]["correct"]
+				corr_ans_tx = value[i][1]["answers"][corr_ans_id - 1]
+				diffs.append(f"{hlink} correct: {corr_ans_id} answer_text: {corr_ans_tx}")
+	if len(diffs) > 0:
+		print(f"Q '{str(key).replace("\n", " ")}'")
+		for d in diffs: print(d)
+		print()

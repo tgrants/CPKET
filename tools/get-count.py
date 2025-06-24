@@ -7,31 +7,43 @@ https://github.com/tgrants/CPKET
 
 Command-line Arguments:
 	-h, --help: Displays a list of all commands
-	-s: Shows questions with no answers
+	-s, --show-no-answer: Shows questions with no answers
 """
 
 import json
-import sys
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 
-def get_count(show_no_answer):
-	f = open("data/progr_tehn_2023_CPKE.json")
-	data = json.load(f)
+# Parse and validate arguments
+parser = ArgumentParser(
+	formatter_class = RawDescriptionHelpFormatter
+)
+parser.add_argument(
+	"file",
+	help = "Path to the input file",
+)
+parser.add_argument(
+	'-s', '--show-no-answer',
+	action='store_true',
+	help = "Show questions with no answers",
+)
+args = parser.parse_args()
 
-	answers = 0
-	questions = 0
 
-	for i in data:
-		questions += 1
-		if i["correct"] != None:
-			answers += 1
-		elif show_no_answer:
-			print("{} {}".format(i["id"], i["question"]))
+# Count questions with answers
+f = open(args.file)
+data = json.load(f)
 
-	print("{} / {}".format(answers, questions))
+answers = 0
+questions = 0
 
-	f.close()
+for i in data:
+	questions += 1
+	if i["correct"] != None:
+		answers += 1
+	elif args.show_no_answer:
+		print("{} {}".format(i["id"], i["question"]))
 
-if __name__ == '__main__':
-	get_count('-s' in sys.argv)
+print("{} / {}".format(answers, questions))
+
+f.close()
