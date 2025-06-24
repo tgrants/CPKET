@@ -696,7 +696,7 @@
 	{
 		"id": "1.2.5",
 		"question": "Kādas var būt virsotņu pakāpes vērtības binārajā kokā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) tikai 2",
 			"b) vairāk par 2",
@@ -2214,8 +2214,8 @@
 	},
 	{
 		"id": "3.1.39",
-		"question": "Kā dotā SQL komanda sakārto datus:\n \"SELECT empno, deptno, ename, phone\n FROM employees\n ORDER BY deptno, phone DESC\" ?",
-		"correct": 4,
+		"question": "Kā dotā SQL komanda sakārto datus:\n \"SELECT empno, deptno, ename, phone\n FROM employees\n ORDER BY deptno, phone DESC\"?",
+		"correct": 3,
 		"answers": [
 			"a) pieaugošā secībā pa 'employees' un 'empno'",
 			"b) pieaugošā secībā pa 'ename'",
@@ -3536,7 +3536,7 @@
 	{
 		"id": "5.1.9",
 		"question": "No kā sastāv pilns HTML elements?",
-		"correct": 4,
+		"correct": 2,
 		"answers": [
 			"a) no taga un atribūtiem",
 			"b) no taga, atribūtiem un elementa satura",
@@ -3580,7 +3580,7 @@
 	{
 		"id": "5.1.13",
 		"question": "Kurā HTML dokumenta vietā un ar kādu tagu definē CSS stilu?",
-		"correct": 2,
+		"correct": 1,
 		"answers": [
 			"a) dokumenta galvā, izmantojot <STYLE> tagu",
 			"b) dokumenta ķermenī, izmantojot <STYLE> tagu",
@@ -4251,12 +4251,12 @@
 	{
 		"id": "5.2.10",
 		"question": "Kurā variantā netiks izveidots masīvs JavaScript valodā?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) let arr = new Array();",
 			"b) let arr = [];",
 			"c) let arr;",
-			"d) let arr[]; "
+			"d) let arr[];"
 		]
 	},
 	{

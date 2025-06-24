@@ -1091,7 +1091,7 @@
 	{
 		"id": "1.2.14",
 		"question": "Kurš ir pareizs apgalvojums par bināro koku?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) katram mezglam ir ne vairāk kā divi priekšteči",
 			"b) katram mezglam ir ne vairāk kā divi pēcteči",
@@ -1751,7 +1751,7 @@
 	{
 		"id": "2.1.36",
 		"question": "Kāda ir FULL HD standarta izšķirtspēja monitoriem?",
-		"correct": 3,
+		"correct": 2,
 		"answers": [
 			"a) 1680x1050",
 			"b) 1920x1080",
@@ -2883,7 +2883,7 @@
 	},
 	{
 		"id": "3.2.26",
-		"question": "Kā dotā SQL komanda sakārto datus:\n \"SELECT empno, deptno, ename, phone\n FROM employees\n ORDER BY deptno, phone DESC\" ?",
+		"question": "Kā dotā SQL komanda sakārto datus:\n \"SELECT empno, deptno, ename, phone\n FROM employees\n ORDER BY deptno, phone DESC\"?",
 		"correct": 3,
 		"answers": [
 			"a) pieaugošā secībā pa 'employees' un 'empno'",
@@ -2961,7 +2961,7 @@
 	{
 		"id": "3.2.33",
 		"question": "Ja 'Client' tabulā ir 5 ieraksti un Serviss tabulā ir 10 ieraksti, tad cik ierakstus parādīs, ja izpildīs SQL operatoru:\n SELECT Client.LastName, Serviss.Serv_Name FROM Client, Serviss?",
-		"correct": 2,
+		"correct": 4,
 		"answers": [
 			"a) 5",
 			"b) 15",
@@ -3005,7 +3005,7 @@
 	{
 		"id": "3.2.37",
 		"question": "Kādas lauka \"balle\" vērtības tiks atlasītas no datu bāzes tabulas, ja lauks \"balle\" ir vesels skaitlis un SQL vaicājuma kritērijā Where norādīts \"balle>7 and balle<9\"?",
-		"correct": 1,
+		"correct": 3,
 		"answers": [
 			"a) intervālā no 7 līdz 8",
 			"b) vienāds ar 9",
@@ -3115,7 +3115,7 @@
 	{
 		"id": "4.1.5",
 		"question": "Kā iezīmēt vairākus failus, ja tie nav izvietoti secīgi (MS Windows)?",
-		"correct": 2,
+		"correct": 1,
 		"answers": [
 			"a) izmantojot taustiņu CTRL",
 			"b) izmantojot taustiņu SHIFT",
@@ -3456,7 +3456,7 @@
 	{
 		"id": "4.3.3",
 		"question": "Kā apzīmē saknes katalogu Linux OS?",
-		"correct": 3,
+		"correct": 1,
 		"answers": [
 			"a) /",
 			"b) \\",
@@ -4814,7 +4814,7 @@
 			"a) let arr = new Array();",
 			"b) let arr = [];",
 			"c) let arr;",
-			"d) let arr[]; "
+			"d) let arr[];"
 		]
 	},
 	{
@@ -4897,7 +4897,7 @@
 	{
 		"id": "6.1.5",
 		"question": "Kurš no lietotāja saskarnes projektēšanas principiem pieprasa novērst lietotāja darbības, kas var izraisīt kļūdas?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) dabiskums",
 			"b) saskaņotība",
@@ -5909,7 +5909,7 @@
 	{
 		"id": "6.3.41",
 		"question": "Kurš apgalvojums par programmas izpildes ceļu nav pareizs?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) ceļš ir operāciju virkne no programmas sākuma līdz beigām",
 			"b) visu ceļu skaits ir milzīgs, tas var būt pat bezgalīgs, ja tiek lietoti cikli",
@@ -6063,7 +6063,7 @@
 	{
 		"id": "7.0.2",
 		"question": "Kādu taustiņu kombināciju pēc noklusējuma izmanto Windows biroja lietojumprogrammās, lai ielīmētu iezīmēto teksta fragmentu starpliktuvē?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) Ctrl+V",
 			"b) Ctrl+C",
@@ -6415,7 +6415,7 @@
 	{
 		"id": "7.2.4",
 		"question": "Kāds ir izklājlapu šūnas A2 saturs, ja kopē A1, kurā atrodas =B1/B10?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) = B1/$B$10",
 			"b) = B2/B10",
@@ -6558,7 +6558,7 @@
 	{
 		"id": "7.2.17",
 		"question": "Kā izklājlapās noapaļot skaitli 12,789, lai rezultāts būtu 12?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) = ROUND(12,789;0)",
 			"b) = FLOOR(12,789)",
@@ -6624,7 +6624,7 @@
 	{
 		"id": "7.2.23",
 		"question": "Kā izklājlapu šūnā atrast kubsakni no -18?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) = SQRT(-18)",
 			"b) = (-18)^1/3",
@@ -6646,7 +6646,7 @@
 	{
 		"id": "7.2.25",
 		"question": "Izklājlapu šunās ir vērtības: \nA1 = 5, \nA2 = 10. \nKas būs redzams šūnā A3, ja tajā ievadīs \"A1+A1\"?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) 10",
 			"b) 15",
@@ -6668,7 +6668,7 @@
 	{
 		"id": "7.2.30",
 		"question": "Kāds ir izklājlapu A2 šūnas saturs, kopējot ar kopēšanas satverrīku šūnu A1, kur atrodas datums \"21.11.2024\" (DD.MM.YYYY) ?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) 21.11.2024",
 			"b) 22.11.2024",
@@ -6690,7 +6690,7 @@
 	{
 		"id": "7.2.32",
 		"question": "Ar kuru izklājlapu funkciju var saskaitīt norādītā apgabala šūnas, kas satur skaitļus?",
-		"correct": 1,
+		"correct": 3,
 		"answers": [
 			"a) SUM",
 			"b) SERIESSUM",
