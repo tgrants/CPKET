@@ -83,6 +83,10 @@ h2 {
 	flex-direction: column;
 }
 
+#answerContainer input {
+	margin-right: 0.3em;
+}
+
 .correct-answer,
 .incorrect-answer {
 	border-radius: 4px;
