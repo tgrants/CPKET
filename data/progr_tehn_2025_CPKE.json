@@ -497,7 +497,7 @@
 	{
 		"id": "1.1.46",
 		"question": "Kā izpaužas polimorfisms?",
-		"correct": 1,
+		"correct": 4,
 		"answers": [
 			"a) ļauj vienu uzdevumu risināt dažādos veidos",
 			"b) apvieno datus un kodu, kas manipulē ar šiem datiem",
@@ -1223,7 +1223,7 @@
 	{
 		"id": "1.2.26",
 		"question": "Uz steka virsotni rāda norāde top. Kā izskatīsies steks pēc operācijas push(8), ja sākumā stekā bija šādi elementi:\ntop-> 2  4  7  8  10 ?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) top -> 2 4 7 8 10",
 			"b) top -> 2 4 7 8 8 10",
@@ -1509,7 +1509,7 @@
 	{
 		"id": "2.1.12",
 		"question": "Kāda tipa savienotājs tiek izmantots VGA/SVGA monitora pieslēgšanai?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) DB-9S",
 			"b) DB-15S (divrindu)",
@@ -1927,7 +1927,7 @@
 	{
 		"id": "2.2.12",
 		"question": "Kādi ir datortīklu topoloģijas pamatveidi?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) maģistrāle, koks, gredzens",
 			"b) maģistrāle, zvaigzne, koks",
@@ -2125,7 +2125,7 @@
 	{
 		"id": "2.2.30",
 		"question": "Kurš no nosauktajiem ir WEB pasta protokols?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) IPX/SPX",
 			"b) TCP/IP",
@@ -3139,7 +3139,7 @@
 		"question": "Kurš ir Windows grafiskais apvalks (čaula)?",
 		"correct": 1,
 		"answers": [
-			"a) Windows Explorer ",
+			"a) Windows Explorer",
 			"b) PowerShell ",
 			"c) command.com",
 			"d) cmd.exe"
@@ -4533,7 +4533,7 @@
 	},
 	{
 		"id": "5.1.51",
-		"question": "Kurš tags nedrīkst atrasties HTML dokumenta <head> sekcijā ?",
+		"question": "Kurš tags nedrīkst atrasties HTML dokumenta <head> sekcijā?",
 		"correct": 4,
 		"answers": [
 			"a) Meta",
@@ -4941,7 +4941,7 @@
 	{
 		"id": "6.1.9",
 		"question": "Kurš nav pareizs apgalvojums par datu vārdnīcām?",
-		"correct": 1,
+		"correct": 4,
 		"answers": [
 			"a) parasti tās sastāda projektēšanas posmā",
 			"b) tās satur sistēmas mainīgos, tabulas laukus un citu datu struktūru aprakstu",
@@ -5007,7 +5007,7 @@
 	{
 		"id": "6.1.15",
 		"question": "Kuri nav detalizētās projektēšanas līdzekļi?",
-		"correct": 2,
+		"correct": 4,
 		"answers": [
 			"a) grafiskie līdzekļi",
 			"b) tabulārie līdzekļi",
@@ -5161,7 +5161,7 @@
 	{
 		"id": "6.2.4",
 		"question": "Kas ir sistēmas validācija?",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) sistēmas prasību testēšana",
 			"b) pārbaude, vai izstrādes posma rezultāti nesatur kļūdas",
@@ -5810,7 +5810,7 @@
 	{
 		"id": "6.3.32",
 		"question": "Kurā datu bāžu izstrādes līmenī veido datubāzes shēmu konkrētajai DBPS?",
-		"correct": 2,
+		"correct": 3,
 		"answers": [
 			"a) koncepcijas līmenī",
 			"b) loģiskajā līmenī",
@@ -5865,7 +5865,7 @@
 	{
 		"id": "6.3.37",
 		"question": "Kā var nodrošināt to, ka programmatūras prasības ir viennozīmīgas? Norādiet nepareizo apgalvojumu!",
-		"correct": 3,
+		"correct": 4,
 		"answers": [
 			"a) katrai prasībai ir jābūt tikai vienai nepārprotamai interpretācijai",
 			"b) ja lietotam terminam ir vairākas nozīmes, tas jāiekļauj terminoloģiskā vārdnīcā",

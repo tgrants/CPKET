@@ -493,7 +493,10 @@
 			"b) apvieno datus un kodu, kas manipulē ar šiem datiem",
 			"c) aizsargā datus un metodes no ārējās iejaukšanās vai nepareizās izmantošanas",
 			"d) ļauj vienu vārdu izmantot vairāku līdzīgu, bet tehniski atšķirīgu uzdevumu risināšanai"
-		]
+		],
+		"expl": {
+			"text": "A - programmēšanas elastība (pārāk plaša definīcija polimorfismam); B un C - enkapsulācija; D - polimorfisms"
+		}
 	},
 	{
 		"id": "1.1.47",
@@ -933,7 +936,13 @@
 			"b) top -> 2 4 7 8 8 10",
 			"c) top -> 2 4 7 8 10 8",
 			"d) top -> 8 2 4 7 8 10"
-		]
+		],
+		"expl" : {
+			"text": "8 kļūst par jauno virsotni, tāpēc uz to norādīs 'top'",
+			"sources": [
+				"https://www.cs.usfca.edu/~galles/visualization/SimpleStack.html"
+			]
+		}
 	},
 	{
 		"id": "1.2.27",
@@ -1164,7 +1173,8 @@
 			"b) DB-15S (divrindu)",
 			"c) DB-15S (trīsrindu)",
 			"d) DB-25S"
-		]
+		],
+		"expl":"https://en.wikipedia.org/wiki/D-subminiature#Variants"
 	},
 	{
 		"id": "2.1.13",
@@ -1257,13 +1267,21 @@
 	{
 		"id": "2.1.23",
 		"question": "Kas nav diskrētā videoadaptera sastāvdaļa?",
-		"correct": 2,
+		"correct": 4,
 		"answers": [
 			"a) izejošās pieslēgvietas",
 			"b) procesors",
 			"c) atmiņa",
 			"d) kešatmiņa"
-		]
+		],
+		"expl": {
+			"text": "Videokartes komponentes: grafiskais procesors, atmiņa (VRAM), izejošās pieslēgvietas. Modernās videokartes arī satur kešatmiņu.",
+			"sources": [
+				"https://en.wikipedia.org/wiki/Graphics_card",
+				"https://docs.nvidia.com/gameworks/content/developertools/desktop/analysis/report/cudaexperiments/kernellevel/memorystatisticscaches.htm",
+				"https://www.arccompute.io/arc-blog/gpu-101-memory-hierarchy"
+			]
+		}
 	},
 	{
 		"id": "2.1.25",
@@ -1301,7 +1319,7 @@
 	{
 		"id": "2.1.28",
 		"question": "Pie kuras tehnoloģijas vienlaicīgi var pieslēgt visvairāk ierīču?",
-		"correct": 1,
+		"correct": 2,
 		"answers": [
 			"a) USB 2.0",
 			"b) SCSI (Small Computer System Interface)",
@@ -1561,7 +1579,12 @@
 			"b) maģistrāle, zvaigzne, koks",
 			"c) maģistrāle, zvaigzne, gredzens",
 			"d) koks, zvaigzne, gredzens"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://lv.wikipedia.org/wiki/T%C4%ABkla_topolo%C4%A3ija"
+			]
+		}
 	},
 	{
 		"id": "2.2.13",
@@ -1649,7 +1672,12 @@
 			"b) 6",
 			"c) 7",
 			"d) 8"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://en.wikipedia.org/wiki/OSI_model"
+			]
+		}
 	},
 	{
 		"id": "2.2.21",
@@ -1759,7 +1787,10 @@
 			"b) TCP/IP",
 			"c) POP 3",
 			"d) IMAP"
-		]
+		],
+		"expl": {
+			"text": "IPX/SPX - sakaru protokols, TCP/IP - interneta protokolu kopums. Gan POP3, gan IMAP ir elektroniskā pasta protokoli, bet neviens no tiem nav caur WEB (vispasaules tīmeklis, HTTP). IMAP ir modernāks protokols."
+		}
 	},
 	{
 		"id": "2.2.31",
@@ -1781,7 +1812,13 @@
 			"b) 443",
 			"c) 80",
 			"d) 22"
-		]
+		],
+		"expl": {
+			"text": "21 - FTP, 443 - HTTPS, 80 - HTTP, 22 - SSH.",
+			"sources": [
+				"https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"
+			]
+		}
 	},
 	{
 		"id": "2.2.34",
@@ -2551,7 +2588,12 @@
 			"b) Ieraksts netiks pievienots",
 			"c) Tiks iedots paziņojums par kļūdu",
 			"d) Ieraksts tiks pievienots pēc kļūdas paziņojuma"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://www.cockroachlabs.com/docs/stable/unique.html"
+			]
+		}
 	},
 	{
 		"id": "3.1.70",
@@ -2606,7 +2648,13 @@
 			"b) FAT32",
 			"c) FAT16",
 			"d) WFS"
-		]
+		],
+		"expl": {
+			"text": "WFS nepastāv. NTFS un FAT atpazīst Windows.",
+			"sources": [
+				"https://en.wikipedia.org/wiki/List_of_file_systems"
+			]
+		}
 	},
 	{
 		"id": "4.1.5",
@@ -2617,7 +2665,10 @@
 			"b) izmantojot taustiņu SHIFT",
 			"c) izmantojot taustiņu ENTER",
 			"d) izmantojot taustiņu ALT"
-		]
+		],
+		"expl": {
+			"text": "Secīgiem failiem jāizmanto SHIFT, nesecīgiem - CTRL"
+		}
 	},
 	{
 		"id": "4.1.6",
@@ -2628,7 +2679,8 @@
 			"b) FAT32",
 			"c) NTFS",
 			"d) EXT4"
-		]
+		],
+		"expl": "NT - New Technology, NTFS - NT File System. https://en.wikipedia.org/wiki/NTFS"
 	},
 	{
 		"id": "4.1.7",
@@ -2639,7 +2691,14 @@
 			"b) PowerShell",
 			"c) command.com",
 			"d) cmd.exe"
-		]
+		],
+		"expl": {
+			"text": "Windows grafiskais apvalks ir Windows shell, kas neparādās pareizajās atbildēs. Windows explorer ir Windows komponente, kas spēj pārlūkot shell namespace. Windows explorer ir nosaukums programmai File explorer pirms Windows 8.",
+			"sources": [
+				"https://en.wikipedia.org/wiki/Windows_shell",
+				"https://en.wikipedia.org/wiki/File_Explorer"
+			]
+		}
 	},
 	{
 		"id": "4.1.8",
@@ -2661,7 +2720,11 @@
 			"b) Linux",
 			"c) Unix",
 			"d) Solaris"
-		]
+		],
+		"expl": {
+			"text": "PowerShell pieejams arī macOS un Linux.",
+			"sources": "https://en.wikipedia.org/wiki/PowerShell"
+		}
 	},
 	{
 		"id": "4.1.12",
@@ -2716,7 +2779,12 @@
 			"b) izmanto \"pagefile\" (swap)",
 			"c) gaida lietotāja komandu",
 			"d) aizver programmu"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://en.wikipedia.org/wiki/Memory_paging#Microsoft_Windows"
+			]
+		}
 	},
 	{
 		"id": "4.1.22",
@@ -2793,7 +2861,12 @@
 			"b) dzēš darba direktoriju",
 			"c) aizver CD-ROM",
 			"d) maina darba direktoriju"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://en.wikipedia.org/wiki/Cd_(command)"
+			]
+		}
 	},
 	{
 		"id": "4.2.2",
@@ -2860,7 +2933,16 @@
 			"c) BAT, EXE un COM",
 			"d) EXE, COM un RUN"
 		],
-		"note": "Novecojis jautajums"
+		"expl": {
+			"text": "bat - satur komandas, ko izpilda komandu saskarnes interpretators. com - DOS izpildāmie faili. dll - dynamic-link library. exe - Windows, DOS un OS/2 izpildāmie faili. run - Izpildāmie faili, kas tiek izmantoti programmu instalācijai Linux.",
+			"sources": [
+				"https://en.wikipedia.org/wiki/Batch_file",
+				"https://en.wikipedia.org/wiki/COM_file",
+				"https://en.wikipedia.org/wiki/Dynamic-link_library",
+				"https://en.wikipedia.org/wiki/.exe",
+				"https://fileinfo.com/extension/run"
+			]
+		}
 	},
 	{
 		"id": "4.2.8",
@@ -2871,7 +2953,12 @@
 			"b) TYPE",
 			"c) DIR",
 			"d) TEXT"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://superuser.com/questions/256651/how-to-echo-contents-of-file-in-a-dos-windows-command-prompt"
+			]
+		}
 	},
 	{
 		"id": "4.2.9",
@@ -2904,7 +2991,12 @@
 			"b) COPY CON",
 			"c) COPY",
 			"d) CON"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://www.computerhope.com/jargon/c/copycon.htm"
+			]
+		}
 	},
 	{
 		"id": "4.2.12",
@@ -3201,7 +3293,12 @@
 			"b) datora noguldīšanu",
 			"c) datora izslēgšanu",
 			"d) darba seansa turpināšanu"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://profizgl.lu.lv/mod/book/view.php?id=20116&chapterid=5183"
+			]
+		}
 	},
 	{
 		"id": "4.4.12",
@@ -3217,7 +3314,7 @@
 	{
 		"id": "4.4.13",
 		"question": "Kas nav sistēmas programmprodukti?",
-		"correct": 1,
+		"correct": 4,
 		"answers": [
 			"a) operētājsistēmas",
 			"b) čaulas (apvālki)",
@@ -3267,7 +3364,12 @@
 			"b) antivīrusi",
 			"c) defragmentatori",
 			"d) apvalki (čaulas)"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://lv.wikipedia.org/wiki/Util%C4%ABtprogramma"
+			]
+		}
 	},
 	{
 		"id": "4.4.18",
@@ -3300,7 +3402,12 @@
 			"b) Linux",
 			"c) Android",
 			"d) iOs"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://iodroid.net/en/launcher-ios-16"
+			]
+		}
 	},
 	{
 		"id": "5.0.1",
@@ -3366,7 +3473,12 @@
 			"b) veicināt IT eksportu uz ārzemēm",
 			"c) veicināt robotikas tehnoloģiju attīstību Latvijā",
 			"d) veicnāt IT prodoktu pārdošanu Latvijā"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://cert.lv/lv/par-mums"
+			]
+		}
 	},
 	{
 		"id": "5.0.7",
@@ -3509,7 +3621,12 @@
 			"b) definīcija",
 			"c) skrejošā rinda",
 			"d) tabulas šūna"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://www.w3schools.com/tags/tag_blockquote.asp"
+			]
+		}
 	},
 	{
 		"id": "5.1.7",
@@ -3751,7 +3868,12 @@
 			"b) <!-->",
 			"c) { }",
 			"d) <...>"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://www.w3schools.com/html/html_comments.asp"
+			]
+		}
 	},
 	{
 		"id": "5.1.29",
@@ -3850,7 +3972,12 @@
 			"b) ASCII",
 			"c) SS9",
 			"d) ANSI"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://en.wikipedia.org/wiki/UTF-8"
+			]
+		}
 	},
 	{
 		"id": "5.1.38",
@@ -3987,17 +4114,18 @@
 	{
 		"id": "5.1.50",
 		"question": "Ko norāda prefiksi CSS failā?",
-		"correct": 4,
+		"correct": 1,
 		"answers": [
 			"a) pārlūku, kuru izmantot",
 			"b) CSS versiju",
 			"c) HTML versiju",
 			"d) HTML elementu"
-		]
+		],
+		"expl": "CSS nav iespējams norādīt versiju. HTML versiju nodrāda HTML datnē. HTML elementu norāda selektors."
 	},
 	{
 		"id": "5.1.51",
-		"question": "Kurš tags nedrīkst atrasties HTML dokumenta <head> sekcijā ?",
+		"question": "Kurš tags nedrīkst atrasties HTML dokumenta <head> sekcijā?",
 		"correct": 4,
 		"answers": [
 			"a) Meta",
@@ -4213,7 +4341,12 @@
 			"b) alert(\"Sveika pasaule!\");",
 			"c) msgBox(\"Sveika pasaule!\");",
 			"d) msg(\"Sveika pasaule!\");"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://www.w3schools.com/jsref/met_win_alert.asp"
+			]
+		}
 	},
 	{
 		"id": "5.2.7",
@@ -4818,7 +4951,10 @@
 			"b) tās satur sistēmas mainīgos, tabulas laukus un citu datu struktūru aprakstu",
 			"c) tajās norāda datu struktūru tipus, diapazonus, aprakstus un ierobežojumus",
 			"d) to mērķis ir izskaidrot izmantotos saīsinājumus, abreviatūras un akronīmus"
-		]
+		],
+		"expl": {
+			"text": "Visticamāk domāts 'ir pareizs'. D ir patiess, bet pārējie - aplami."
+		}
 	},
 	{
 		"id": "6.50",
@@ -5071,7 +5207,12 @@
 			"b) tabulārie līdzekļi",
 			"c) valodas (pseidokoda) līdzekļi",
 			"d) notācijas līdzekļi"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://www.slideserve.com/nikki/software-engineering"
+			]
+		}
 	},
 	{
 		"id": "6.73",
@@ -5159,7 +5300,12 @@
 			"b) Painter",
 			"c) Format Painter",
 			"d) Copy"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://support.microsoft.com/en-us/office/video-copy-formatting-b8bd64c0-a698-4177-a890-5645d6c50aa9"
+			]
+		}
 	},
 	{
 		"id": "7.0.7",
@@ -5401,7 +5547,12 @@
 			"b) Shift+Enter",
 			"c) Alt+Enter",
 			"d) Ctrl+Enter"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://support.microsoft.com/en-us/topic/keyboard-shortcut-to-insert-a-page-break-in-word-096294eb-3d02-69f5-b38d-0241332e1748"
+			]
+		}
 	},
 	{
 		"id": "7.2.1",
@@ -5522,7 +5673,12 @@
 			"b) $D3",
 			"c) AA1",
 			"d) 2$C"
-		]
+		],
+		"expl": {
+			"sources": [
+				"https://www.uzdevumi.lv/p/informatika/7-klase/excel-2010-10525/re-07134b36-7ecf-4079-9dc9-a56636d7f810"
+			]
+		}
 	},
 	{
 		"id": "7.2.12",

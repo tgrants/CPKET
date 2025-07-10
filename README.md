@@ -1,10 +1,10 @@
 # CPKET
 
-Centralizēto profesionālās kvalifikācijas eksāmenu testu daļu jautājumi un to pareizās atbildes. 
+Questions, correct answers, and explanations for the test sections of the Latvian centralized professional qualification exams.
+
+Centralizēto profesionālās kvalifikācijas eksāmenu testu daļu jautājumi, pareizās atbildes un to skaidrojumi.
 
 Testi pieejami https://tomsgrants.com/CPKET vai https://tgrants.github.io/CPKET
-
-Skaidrojumi atbildēm [pieejami šeit](https://github.com/tgrants/CPKET/wiki).
 
 > [!NOTE]
 >
