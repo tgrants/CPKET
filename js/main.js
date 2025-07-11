@@ -1,7 +1,9 @@
 let data = null;
 let shuffled = null;
-let current = 0;
-let correct = null;
+let current = 0; // Index of the current question
+let correct = null; // Ordinal number of the correct answer
+
+const answerContainer = document.querySelector("#answerContainer");
 
 document.addEventListener("DOMContentLoaded", function() {
 	loadSourceList();
@@ -45,7 +47,7 @@ document.querySelector("#btnCheckAnswer").addEventListener("click", function() {
 	clearAnswers();
 	document.querySelector("#ans" + correct + "Label").classList.add("correct-answer");
 	let selected = document.querySelector("input[type='radio']:checked")?.value;
-	if (correct == selected) return;
+	if (selected == null || correct == selected) return;
 	document.querySelector("#ans" + selected + "Label").classList.add("incorrect-answer");
 });
 
@@ -99,9 +101,7 @@ function loadSource(src) {
 }
 
 // Load question by index
-function loadQuestion() {
-	clearAnswers();
-	
+function loadQuestion() {	
 	// Uncheck all radio inputs
 	document.querySelectorAll("input[type='radio']").forEach(input => input.checked = false);
 
@@ -135,10 +135,29 @@ function loadQuestion() {
 		title.parentNode.insertBefore(img, title.nextSibling);
 	}
 
+	// Remove previous choices
+	answerContainer.textContent = "";
+
 	// Add choices
-	for (let i = 0; i < 4; i++) {
-		document.querySelector("#ans" + (i + 1) + "Label").textContent = question.answers[i];
-	}
+	question.answers.forEach(function(answerText, index) {
+		const answerItem = document.createElement("div");
+
+		const ansInput = document.createElement("input");
+		ansInput.type = "radio";
+		ansInput.id = `ans${index + 1}`;
+		ansInput.name = "test";
+		ansInput.value = index + 1;
+		answerItem.appendChild(ansInput)
+
+		const ansLabel = document.createElement("label");
+		ansLabel.id = `ans${index + 1}Label`;
+		ansLabel.classList.add("ansLabel");
+		ansLabel.htmlFor = `ans${index + 1}`;
+		ansLabel.textContent = answerText;
+		answerItem.appendChild(ansLabel)
+
+		answerContainer.appendChild(answerItem)
+	});
 
 	correct = question.correct;
 
@@ -148,10 +167,9 @@ function loadQuestion() {
 	}
 }
 
+// Remove classes marking correct and incorrect answers
 function clearAnswers() {
-	for (let i = 1; i <= 4; i++) {
-		document.querySelector("#ans" + i + "Label").className = "";
-	}
+	document.querySelectorAll(".ansLabel").className = "";
 }
 
 // Durstenfeld shuffle
