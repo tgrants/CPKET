@@ -53,7 +53,9 @@
 			"c) teikums",
 			"d) parametrs"
 		],
-		"expl": "Vienīgi operators ir izpildāms"
+		"expl": {
+			"text": "Vienīgi operators ir izpildāms"
+		}
 	},
 	{
 		"id": "1.1.6",
@@ -495,7 +497,7 @@
 			"d) ļauj vienu vārdu izmantot vairāku līdzīgu, bet tehniski atšķirīgu uzdevumu risināšanai"
 		],
 		"expl": {
-			"text": "A - programmēšanas elastība (pārāk plaša definīcija polimorfismam); B un C - enkapsulācija; D - polimorfisms"
+			"text": "A - programmēšanas elastība (pārāk plaša definīcija polimorfismam);\nB un C - enkapsulācija;\nD - polimorfisms"
 		}
 	},
 	{
@@ -937,10 +939,13 @@
 			"c) top -> 2 4 7 8 10 8",
 			"d) top -> 8 2 4 7 8 10"
 		],
-		"expl" : {
+		"expl": {
 			"text": "8 kļūst par jauno virsotni, tāpēc uz to norādīs 'top'",
 			"sources": [
-				"https://www.cs.usfca.edu/~galles/visualization/SimpleStack.html"
+				{
+					"url": "https://www.cs.usfca.edu/~galles/visualization/SimpleStack.html",
+					"text" : "Rīks steka vizualizācijai"
+				}
 			]
 		}
 	},
@@ -1174,7 +1179,9 @@
 			"c) DB-15S (trīsrindu)",
 			"d) DB-25S"
 		],
-		"expl":"https://en.wikipedia.org/wiki/D-subminiature#Variants"
+		"expl": {
+			"text": "https://en.wikipedia.org/wiki/D-subminiature#Variants"
+		}
 	},
 	{
 		"id": "2.1.13",
@@ -1326,7 +1333,9 @@
 			"c) FireWire B",
 			"d) IEEE 1394"
 		],
-		"expl": "USB 2.0 - 127, SCSI - 15, FireWire B - 63, IEEE 1394 - 63"
+		"expl": {
+			"text": "USB 2.0 - 127, SCSI - 15, FireWire B - 63, IEEE 1394 - 63"
+		}
 	},
 	{
 		"id": "2.1.29",
@@ -2680,7 +2689,9 @@
 			"c) NTFS",
 			"d) EXT4"
 		],
-		"expl": "NT - New Technology, NTFS - NT File System. https://en.wikipedia.org/wiki/NTFS"
+		"expl": {
+			"text": "NT - New Technology, NTFS - NT File System. https://en.wikipedia.org/wiki/NTFS"
+		}
 	},
 	{
 		"id": "4.1.7",
@@ -2723,7 +2734,9 @@
 		],
 		"expl": {
 			"text": "PowerShell pieejams arī macOS un Linux.",
-			"sources": "https://en.wikipedia.org/wiki/PowerShell"
+			"sources": [
+				"https://en.wikipedia.org/wiki/PowerShell"
+			]
 		}
 	},
 	{
@@ -4121,7 +4134,9 @@
 			"c) HTML versiju",
 			"d) HTML elementu"
 		],
-		"expl": "CSS nav iespējams norādīt versiju. HTML versiju nodrāda HTML datnē. HTML elementu norāda selektors."
+		"expl": {
+			"text": "CSS nav iespējams norādīt versiju. HTML versiju nodrāda HTML datnē. HTML elementu norāda selektors."
+		}
 	},
 	{
 		"id": "5.1.51",

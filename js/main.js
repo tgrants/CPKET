@@ -1,7 +1,7 @@
 let data = null;
 let shuffled = null;
 let current = 0;
-let correct = null;
+let question = null;
 
 document.addEventListener("DOMContentLoaded", function() {
 	loadSourceList();
@@ -43,9 +43,12 @@ document.querySelector("#btnNext").addEventListener("click", function() {
 // Check if answer is correct
 document.querySelector("#btnCheckAnswer").addEventListener("click", function() {
 	clearAnswers();
-	document.querySelector("#ans" + correct + "Label").classList.add("correct-answer");
+	if (question.expl != null) {
+		document.querySelector("#explanation").style.display = "block";
+	}
+	document.querySelector("#ans" + question.correct + "Label").classList.add("correct-answer");
 	let selected = document.querySelector("input[type='radio']:checked")?.value;
-	if (correct == selected) return;
+	if (question.correct == selected || isNaN(selected)) return;
 	document.querySelector("#ans" + selected + "Label").classList.add("incorrect-answer");
 });
 
@@ -108,11 +111,15 @@ function loadQuestion() {
 	// Hide the "no answer" notice
 	document.querySelector("#noAnswerNotice").style.display = "none";
 
+	// Hide answer explanation
+	document.querySelector("#explanation").style.display = "none";
+	document.querySelector("#explanation").innerText = "";
+
 	// Remove the question image if it exists
 	let questionImg = document.querySelector("#questionImg");
 	if (questionImg) questionImg.remove();
 
-	let question = document.querySelector("#chbxShuffle").checked ? data[shuffled[current] - 1] : data[current];
+	question = document.querySelector("#chbxShuffle").checked ? data[shuffled[current] - 1] : data[current];
 
 	// Enable or disable previous question button
 	document.querySelector("#btnPrev").disabled = (current === 0);
@@ -140,11 +147,40 @@ function loadQuestion() {
 		document.querySelector("#ans" + (i + 1) + "Label").textContent = question.answers[i];
 	}
 
-	correct = question.correct;
-
 	// Display a notice in case there is no answer yet
 	if (question.correct == null) {
-		document.querySelector("#noAnswerNotice").show();
+		document.querySelector("#noAnswerNotice").style.display = "block";
+	}
+
+	// Add explanation if it exists
+	if (question.expl) {
+		let expl = document.querySelector("#explanation");
+		if (question.expl.text) {
+			let txt = document.createElement("p");
+			txt.innerText = question.expl.text;
+			expl.appendChild(txt);
+		}
+		if (question.expl.sources) {
+			let list = document.createElement("ul");
+			question.expl.sources.forEach(item => {
+				let listItem = document.createElement("li");
+
+				let srcLink = document.createElement("a");
+				srcLink.innerText = typeof item === "string" ? item : item.text;
+				srcLink.setAttribute("href", typeof item === "string" ? item : item.url)
+				listItem.appendChild(srcLink);
+
+				if (item.arch) {
+					let archLink = document.createElement("a");
+					archLink.setAttribute("href", item.arch)
+					archLink.innerText("(Arhīvs)");
+					listItem.appendChild(archLink);
+				}
+
+				list.appendChild(listItem)
+			});
+			expl.appendChild(list);
+		}
 	}
 }
 
