@@ -42,7 +42,9 @@ document.querySelector("#btnNext").addEventListener("click", function() {
 
 // Check if answer is correct
 document.querySelector("#btnCheckAnswer").addEventListener("click", function() {
-	clearAnswers();
+	// Remove classes marking correct and incorrect answers
+	document.querySelectorAll(".ansLabel").className = "";
+
 	if (question.expl != null) {
 		document.querySelector("#explanation").style.display = "block";
 	}
@@ -102,9 +104,7 @@ function loadSource(src) {
 }
 
 // Load question by index
-function loadQuestion() {
-	clearAnswers();
-	
+function loadQuestion() {	
 	// Uncheck all radio inputs
 	document.querySelectorAll("input[type='radio']").forEach(input => input.checked = false);
 
@@ -142,10 +142,29 @@ function loadQuestion() {
 		title.parentNode.insertBefore(img, title.nextSibling);
 	}
 
+	// Remove previous choices
+	answerContainer.textContent = "";
+
 	// Add choices
-	for (let i = 0; i < 4; i++) {
-		document.querySelector("#ans" + (i + 1) + "Label").textContent = question.answers[i];
-	}
+	question.answers.forEach(function(answerText, index) {
+		const answerItem = document.createElement("div");
+
+		const ansInput = document.createElement("input");
+		ansInput.type = "radio";
+		ansInput.id = `ans${index + 1}`;
+		ansInput.name = "test";
+		ansInput.value = index + 1;
+		answerItem.appendChild(ansInput)
+
+		const ansLabel = document.createElement("label");
+		ansLabel.id = `ans${index + 1}Label`;
+		ansLabel.classList.add("ansLabel");
+		ansLabel.htmlFor = `ans${index + 1}`;
+		ansLabel.textContent = answerText;
+		answerItem.appendChild(ansLabel)
+
+		answerContainer.appendChild(answerItem)
+	});
 
 	// Display a notice in case there is no answer yet
 	if (question.correct == null) {
@@ -185,12 +204,6 @@ function loadQuestion() {
 			});
 			expl.appendChild(list);
 		}
-	}
-}
-
-function clearAnswers() {
-	for (let i = 1; i <= 4; i++) {
-		document.querySelector("#ans" + i + "Label").className = "";
 	}
 }
 
