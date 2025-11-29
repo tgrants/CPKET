@@ -15,6 +15,7 @@ Mēs izmantojam vienkāršu zaru struktūru:
 - **izmaiņu zari**: Jaunas funkcionalitātes pievienošana vai labojumi būtu jāveic atsevišķos zaros.
 
 #### Zaru nosaukumi
+
 - **Uzlabojumi** feature/short-description (piemēram, feature/correct-solution-explanations)
 - **Labojumi** fix/short-description (piemēram, fix/json-formatting)
 
@@ -41,6 +42,11 @@ Pirms ziņojumu izveides vēlams pārskatīt esošos, lai novērstu duplikātus.
 - Veic izmaiņas
 	- `git add .`
 	- `git commit -m "Description of the change"`
+- Testē
+	- Tīmekļa vietni ar lokālo serveri
+	- Ja veic izmaiņas atbildēs, pārbaudi
+		- sakritību ar citiem testiem (`tools/compare.py`)
+		- iesniegto atbilžu skaitu (`tools/get-count.py`)
 - Pievieno veiktās izmaiņas savam repozitorijam
 	- `git push origin feature/your-feature-name`
 - Kad viss gatavs, izveido *pull request*
@@ -64,12 +70,28 @@ Iespējams pievienot arī ārējos avotus.
 
 ### Jautājumu un atbilžu formāts
 
-Jautājumu saraksts sastāv no atslēgu-vērtību pāriem:
-- **id** - jautājuma identifikators
-	- Sastāv no skatļiem, kas atdalīti ar punktiem, piem. 1.1.1
-- **question** - jautājuma teksts
-- **image** - saite uz jautājuma attēlu
-	- Nav obligāts
-- **correct** - pareizās atbildes indekss
-	- Sāk skaitīt no 1
-- **anwers** - atbližu sarakts
+```json
+{
+	"id": "0.0.0", // Jautājuma identifikators, sastāv no skatļiem, kas atdalīti ar punktiem
+	"question": "Kas ir pirmais alfabēta burts?", // Jautājuma tekts
+	"image": "https://i.ibb.co/j4LksjH/simplex-spin.gif", // Jautājuma attēls, nav obligāts
+	"correct": 3, // Pareizās atbildes indekss, sāk skaitīt no 1, nav obligāts
+	"answers": [ // Atbilžu sarakts
+		"a) B",
+		"b) C",
+		"c) A",
+		"d) D"
+	],
+	"expl": { // Pareizās atbildes skaidrojums, nav obligāts
+		"text": "A ir pirmais burts vārdā 'alfabēts'", // Skaidrojuma teksts, nav obligāts
+		"sources": [ // Skaidrojuma avoti, nav obligāti
+			{ // Avots var būt objekts ar parametriem
+				"url": "https://en.wikipedia.org/wiki/Alphabet", // Hipersaites adrese
+				"arch": "https://web.archive.org/web/20250615113434/https://en.wikipedia.org/wiki/Alphabet", // Arhīva adrese, nav obligāta
+				"text": "Alfabēts - Wikipedia" // Hipersaites tekts
+			},
+			"https://lv.wikipedia.org/wiki/Alfab%C4%93ts" // Avots var būt simbolu virkne
+		]
+	}
+}
+```
