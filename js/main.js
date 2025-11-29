@@ -166,14 +166,18 @@ function loadQuestion() {
 				let listItem = document.createElement("li");
 
 				let srcLink = document.createElement("a");
-				srcLink.innerText = typeof item === "string" ? item : item.text;
+				if (typeof item === "string") {
+					srcLink.innerText = item;
+				} else {
+					srcLink.innerText = item.text ? item.text : item.url;
+				}
 				srcLink.setAttribute("href", typeof item === "string" ? item : item.url)
 				listItem.appendChild(srcLink);
 
 				if (item.arch) {
 					let archLink = document.createElement("a");
 					archLink.setAttribute("href", item.arch)
-					archLink.innerText("(Arhīvs)");
+					archLink.innerText = " (Arhīvs)";
 					listItem.appendChild(archLink);
 				}
 

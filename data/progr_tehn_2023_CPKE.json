@@ -1684,7 +1684,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://en.wikipedia.org/wiki/OSI_model"
+				{
+					"url": "https://en.wikipedia.org/wiki/OSI_model",
+					"arch": "https://web.archive.org/web/20230102162229/https://en.wikipedia.org/wiki/OSI_model"
+				}
 			]
 		}
 	},
@@ -2676,7 +2679,13 @@
 			"d) izmantojot taustiņu ALT"
 		],
 		"expl": {
-			"text": "Secīgiem failiem jāizmanto SHIFT, nesecīgiem - CTRL"
+			"text": "Secīgiem failiem jāizmanto SHIFT, nesecīgiem - CTRL",
+			"sources": [
+				{
+					"url": "https://www.lifewire.com/select-multiple-files-in-windows-5217221",
+					"arch": "https://web.archive.org/web/20221229213818/https://www.lifewire.com/select-multiple-files-in-windows-5217221"
+				}
+			]
 		}
 	},
 	{
@@ -2690,7 +2699,13 @@
 			"d) EXT4"
 		],
 		"expl": {
-			"text": "NT - New Technology, NTFS - NT File System. https://en.wikipedia.org/wiki/NTFS"
+			"text": "NT - New Technology, NTFS - NT File System",
+			"sources": [
+				{
+					"url": "https://en.wikipedia.org/wiki/NTFS",
+					"arch": "https://web.archive.org/web/20221218085901/https://en.wikipedia.org/wiki/NTFS"
+				}
+			]
 		}
 	},
 	{
@@ -2706,8 +2721,14 @@
 		"expl": {
 			"text": "Windows grafiskais apvalks ir Windows shell, kas neparādās pareizajās atbildēs. Windows explorer ir Windows komponente, kas spēj pārlūkot shell namespace. Windows explorer ir nosaukums programmai File explorer pirms Windows 8.",
 			"sources": [
-				"https://en.wikipedia.org/wiki/Windows_shell",
-				"https://en.wikipedia.org/wiki/File_Explorer"
+				{
+					"url": "https://en.wikipedia.org/wiki/Windows_shell",
+					"arch": "https://web.archive.org/web/20230101214651/https://en.wikipedia.org/wiki/Windows_shell"
+				},
+				{
+					"url": "https://en.wikipedia.org/wiki/File_Explorer",
+					"arch": "https://web.archive.org/web/20230101215500/https://en.wikipedia.org/wiki/File_Explorer"
+				}
 			]
 		}
 	},
@@ -2735,7 +2756,10 @@
 		"expl": {
 			"text": "PowerShell pieejams arī macOS un Linux.",
 			"sources": [
-				"https://en.wikipedia.org/wiki/PowerShell"
+				{
+					"url": "https://en.wikipedia.org/wiki/PowerShell",
+					"arch": "https://web.archive.org/web/20221229215010/https://en.wikipedia.org/wiki/PowerShell"
+				}
 			]
 		}
 	},
@@ -2795,7 +2819,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://en.wikipedia.org/wiki/Memory_paging#Microsoft_Windows"
+				{
+					"url": "https://en.wikipedia.org/wiki/Memory_paging#Microsoft_Windows",
+					"arch": "https://web.archive.org/web/20230102160402/https://en.wikipedia.org/wiki/Memory_paging#Microsoft_Windows"
+				}
 			]
 		}
 	},
@@ -2947,7 +2974,7 @@
 			"d) EXE, COM un RUN"
 		],
 		"expl": {
-			"text": "bat - satur komandas, ko izpilda komandu saskarnes interpretators. com - DOS izpildāmie faili. dll - dynamic-link library. exe - Windows, DOS un OS/2 izpildāmie faili. run - Izpildāmie faili, kas tiek izmantoti programmu instalācijai Linux.",
+			"text": "bat - satur komandas, ko izpilda komandu saskarnes interpretators;\ncom - DOS izpildāmie faili;\ndll - dynamic-link library;\nexe - Windows, DOS un OS/2 izpildāmie faili;\nrun - Izpildāmie faili, kas tiek izmantoti programmu instalācijai Linux.",
 			"sources": [
 				"https://en.wikipedia.org/wiki/Batch_file",
 				"https://en.wikipedia.org/wiki/COM_file",
@@ -2969,7 +2996,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://superuser.com/questions/256651/how-to-echo-contents-of-file-in-a-dos-windows-command-prompt"
+				{
+					"url": "https://superuser.com/questions/256651/how-to-echo-contents-of-file-in-a-dos-windows-command-prompt",
+					"arch": "https://web.archive.org/web/20230215012903/https://superuser.com/questions/256651/how-to-echo-contents-of-file-in-a-dos-windows-command-prompt"
+				}
 			]
 		}
 	},
@@ -3007,7 +3037,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://www.computerhope.com/jargon/c/copycon.htm"
+				{
+					"url": "https://www.computerhope.com/jargon/c/copycon.htm",
+					"arch": "https://web.archive.org/web/20221217202239/https://www.computerhope.com/jargon/c/copycon.htm"
+				}
 			]
 		}
 	},
@@ -3309,7 +3342,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://profizgl.lu.lv/mod/book/view.php?id=20116&chapterid=5183"
+				{
+					"url": "https://profizgl.lu.lv/mod/book/view.php?id=20116&chapterid=5183",
+					"arch": "https://web.archive.org/web/20230102152748/https://profizgl.lu.lv/mod/book/view.php?id=20116&chapterid=5183"
+				}
 			]
 		}
 	},
@@ -3380,7 +3416,14 @@
 		],
 		"expl": {
 			"sources": [
-				"https://lv.wikipedia.org/wiki/Util%C4%ABtprogramma"
+				{
+					"url": "https://lv.wikipedia.org/wiki/Util%C4%ABtprogramma",
+					"arch": "https://web.archive.org/web/20230102150643/https://lv.wikipedia.org/wiki/Util%C4%ABtprogramma"
+				},
+				{
+					"url": "https://en.wikipedia.org/wiki/Utility_software",
+					"arch": "https://web.archive.org/web/20230102150923/https://en.wikipedia.org/wiki/Utility_software"
+				}				
 			]
 		}
 	},
@@ -3418,7 +3461,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://iodroid.net/en/launcher-ios-16"
+				{
+					"url": "https://iodroid.net/en/launcher-ios-16",
+					"arch": "https://web.archive.org/web/20230105183049/https://iodroid.net/en/launcher-ios-16"
+				}
 			]
 		}
 	},
@@ -3489,7 +3535,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://cert.lv/lv/par-mums"
+				{
+					"url": "https://cert.lv/lv/par-mums",
+					"arch": "https://web.archive.org/web/20230105190746/https://cert.lv/lv/par-mums"
+				}
 			]
 		}
 	},
@@ -3637,7 +3686,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://www.w3schools.com/tags/tag_blockquote.asp"
+				{
+					"url": "https://www.w3schools.com/tags/tag_blockquote.asp",
+					"arch": "https://web.archive.org/web/20221218111334/https://www.w3schools.com/tags/tag_blockquote.asp"
+				}
 			]
 		}
 	},
@@ -3884,7 +3936,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://www.w3schools.com/html/html_comments.asp"
+				{
+					"url": "https://www.w3schools.com/html/html_comments.asp",
+					"arch": "https://web.archive.org/web/20221221201612/https://www.w3schools.com/html/html_comments.asp"
+				}
 			]
 		}
 	},
@@ -3988,7 +4043,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://en.wikipedia.org/wiki/UTF-8"
+				{
+					"url": "https://en.wikipedia.org/wiki/UTF-8",
+					"arch": "https://web.archive.org/web/20230103214007/https://en.wikipedia.org/wiki/UTF-8"
+				}
 			]
 		}
 	},
@@ -4359,7 +4417,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://www.w3schools.com/jsref/met_win_alert.asp"
+				{
+					"url": "https://www.w3schools.com/jsref/met_win_alert.asp",
+					"arch": "https://web.archive.org/web/20230102161020/https://www.w3schools.com/jsref/met_win_alert.asp"
+				}
 			]
 		}
 	},
@@ -5318,7 +5379,11 @@
 		],
 		"expl": {
 			"sources": [
-				"https://support.microsoft.com/en-us/office/video-copy-formatting-b8bd64c0-a698-4177-a890-5645d6c50aa9"
+				{
+					"url": "https://support.microsoft.com/en-us/office/video-copy-formatting-b8bd64c0-a698-4177-a890-5645d6c50aa9",
+					"arch": "https://web.archive.org/web/20230330184358/https://support.microsoft.com/en-us/office/video-copy-formatting-b8bd64c0-a698-4177-a890-5645d6c50aa9"
+				}
+				
 			]
 		}
 	},
@@ -5565,7 +5630,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://support.microsoft.com/en-us/topic/keyboard-shortcut-to-insert-a-page-break-in-word-096294eb-3d02-69f5-b38d-0241332e1748"
+				{
+					"url": "https://support.microsoft.com/en-us/topic/keyboard-shortcut-to-insert-a-page-break-in-word-096294eb-3d02-69f5-b38d-0241332e1748",
+					"arch": "https://web.archive.org/web/20230102161600/https://support.microsoft.com/en-us/topic/keyboard-shortcut-to-insert-a-page-break-in-word-096294eb-3d02-69f5-b38d-0241332e1748"
+				}
 			]
 		}
 	},
@@ -5691,7 +5759,10 @@
 		],
 		"expl": {
 			"sources": [
-				"https://www.uzdevumi.lv/p/informatika/7-klase/excel-2010-10525/re-07134b36-7ecf-4079-9dc9-a56636d7f810"
+				{
+					"url": "https://www.uzdevumi.lv/p/informatika/7-klase/excel-2010-10525/re-07134b36-7ecf-4079-9dc9-a56636d7f810",
+					"arch": "https://web.archive.org/web/20221220213748/https://www.uzdevumi.lv/p/informatika/7-klase/excel-2010-10525/re-07134b36-7ecf-4079-9dc9-a56636d7f810"
+				}
 			]
 		}
 	},
