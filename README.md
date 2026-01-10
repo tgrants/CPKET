@@ -4,11 +4,12 @@ Questions, correct answers, and explanations for the test sections of the Latvia
 
 Centralizēto profesionālās kvalifikācijas eksāmenu testu daļu jautājumi, pareizās atbildes un to skaidrojumi.
 
-Testi pieejami https://tomsgrants.com/CPKET vai https://tgrants.github.io/CPKET
+Testi pieejami https://tgrants.github.io/CPKET.
 
 > [!NOTE]
 >
 > Projekts tika pārsaukts no CET uz CPKET.
+> Nākotnē tīmekļa vietne nebūs pieejama caur https://tomsgrants.com/CPKET.
 > Lūgums atjaunināt visas saites uz repozitoriju.
 
 ## Saturs

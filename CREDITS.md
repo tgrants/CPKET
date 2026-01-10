@@ -24,11 +24,3 @@
 
 * [j-rainers](https://github.com/j-rainers)
 * tgrants
-
-## Wiki
-
-### Programmēšanas tehniķis
-
-#### 2023
-
-* tgrants

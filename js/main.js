@@ -3,11 +3,11 @@ let shuffled = null;
 let current = 0;
 let question = null;
 
+const answerContainer = document.querySelector("#answerContainer");
+
+// Initialize
 document.addEventListener("DOMContentLoaded", function() {
 	loadSourceList();
-
-	// Set copyright notice year
-	document.querySelector("#year").textContent = new Date().getFullYear();
 });
 
 // Open source on select change
