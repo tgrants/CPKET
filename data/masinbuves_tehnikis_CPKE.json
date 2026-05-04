@@ -2,7 +2,7 @@
 	{
 		"id": "1.3",
 		"question": "Kurā no norādītajiem rasējuma varianta attēliem pareizi izmantota kvadrāta zīme?",
-		"image": "https://i.ibb.co/HTysQgc/1-3.png",
+		"image": "https://cdn.lejupla.de/cpket/mt/1_3.png",
 		"correct": 3,
 		"answers": [
 			"1. A",
@@ -14,7 +14,7 @@
 	{
 		"id": "1.6",
 		"question": "Kurā no dotajiem attēliem izmēri ir izlikti neatbilstoši standarta noteikumiem?",
-		"image": "https://i.ibb.co/BrXn3Lq/1-6.png",
+		"image": "https://cdn.lejupla.de/cpket/mt/1_6.png",
 		"correct": 1,
 		"answers": [
 			"1. A un B",
@@ -26,7 +26,7 @@
 	{
 		"id": "1.8",
 		"question": "Detaļai dotajā rasējumā taisnstūrainā rieva...",
-		"image": "https://i.ibb.co/5vZNQHD/1-8.png",
+		"image": "https://cdn.lejupla.de/cpket/mt/1_8.png",
 		"correct": 1,
 		"answers": [
 			"1. Ir caurejošā",
@@ -38,7 +38,7 @@
 	{
 		"id": "1.10",
 		"question": "Ko nozīmē apzīmējums B-B dotajā rasējumā?",
-		"image": "https://i.ibb.co/cx0M4Ny/1-10.png",
+		"image": "https://cdn.lejupla.de/cpket/mt/1_10.png",
 		"correct": 2,
 		"answers": [
 			"1. Skats no otras detaļas puses",
@@ -232,6 +232,251 @@
 			"2. Operācijas kārtas numuru ciparu vadības darba galda programmā;",
 			"3. Programmas kārtas numuru datorā.",
 			"4. Programmas rindas beigas."
+		]
+	},
+	{
+		"id": "10.1",
+		"question": "Kurš no mezgliem ietilpst gaisa gatavošanas modulī?",
+		"correct": 4,
+		"answers": [
+			"1. Pneimatisks motors",
+			"2. Pneimatisks cilindrs",
+			"3. Pneimatiskais pedālis",
+			"4. Redukcijas vārsts"
+		]
+	},
+	{
+		"id": "10.2",
+		"question": "Kondensāts gaisa sistēmā veidojas ...",
+		"correct": 1,
+		"answers": [
+			"1. Siltam gaisam atdziestot",
+			"2. Saspiestam gaisam pie 10 Bar",
+			"3. Nepareiza gāzu maisījuma dēļ",
+			"4. Nepareizi noregulēta spiediena regulatora dēļ"
+		]
+	},
+	{
+		"id": "10.3",
+		"question": "Kas ir vakuums sistēmā attiecībā pret atmosfēras spiedienu?",
+		"correct": 4,
+		"answers": [
+			"1. Gaisa un gāzu pozitīvs spiediens",
+			"2. Gaisa un gāzu starpības spiediens",
+			"3. Gaisa diferenciālais spiediens",
+			"4. Gaisa un gāzu negatīvs spiediens"
+		]
+	},
+	{
+		"id": "10.4",
+		"question": "Kurā no minētajiem vienādojumiem dota pareiza attiecība?",
+		"correct": 1,
+		"answers": [
+			"1. 1,03 MPa = 10 Bar",
+			"2. 103 KPa = 0,1 Bar",
+			"3. 10 Bar = 1,03 MBar",
+			"4. 15 Atm = 14 Bar"
+		]
+	},
+	{
+		"id": "10.5",
+		"question": "Kāda nozīme ir pneimatiskajai droselei?",
+		"correct": 2,
+		"answers": [
+			"1. Palielina spiedienu",
+			"2. Samazina plūsmas ātrumu",
+			"3. Uzskaita svārstības spiedienā",
+			"4. Regulē sistēmas spiedienu"
+		]
+	},
+	{
+		"id": "10.6",
+		"question": "Kas ir gaisa akumulators?",
+		"correct": 2,
+		"answers": [
+			"1. Strāvas uzkrājējs sistēmā",
+			"2. Spiediena stabilizētājs gaisa sistēmā",
+			"3. Liekās enerģijas uzkrājējs sistēmā",
+			"4. Papildu gaisa saražotājs"
+		]
+	},
+	{
+		"id": "10.7",
+		"question": "Kurš no dotajiem apgalvojumiem par vienāda diametra un gājiena pneimatiskiem un hidraulikajiem cilindriem ir patiess?",
+		"correct": 3,
+		"answers": [
+			"1. Hidrauliskais cilindrs ir ātrāks par pneimatisko cilindru",
+			"2. Pneimatiskais cilindrs ir skaļāks par hidraulisko cilindru",
+			"3. Hidrauliskais cilindrs ir spēcīgāks par pneimatisko cilindru",
+			"4. Pneimatiskais cilindrs attīsta lielāku spēku"
+		]
+	},
+	{
+		"id": "10.8",
+		"question": "Kurš no minētajiem raksturojumiem precīzi norāda hidrauliskās iekārtas priekšrocības, salīdzinājumā ar pneimatisko iekārtu?",
+		"correct": 1,
+		"answers": [
+			"1. Ar mazu laukumu iegūst lielu spēku",
+			"2. Vienkārši regulē ātrumu",
+			"3. Fluīda plūsmas ātrums lielāks nekā pneimatiskajā iekārtā",
+			"4. Standartizēti iekārtu mezgli"
+		]
+	},
+	{
+		"id": "10.9",
+		"question": "Kurš no uzskaitītajiem parametriem raksturo hidrauliskā šķidruma plūstamību?",
+		"correct": 2,
+		"answers": [
+			"1. Šķidruma saspiežamība",
+			"2. Šķidruma viskozitāte",
+			"3. Kavitācija",
+			"4. Plūsmas tips"
+		]
+	},
+	{
+		"id": "10.10",
+		"question": "Kāda ir attēlošanas secība, veidojot kinemātiskās shēmas hidraulikā vai pneimatikā?",
+		"correct": 1,
+		"answers": [
+			"1. Izpildmehānisms, vadība, enerģijas avots",
+			"2. Enerģijas avots, vadība, izpildmehānisms",
+			"3. Vadības elementi, izpildmehānisms, enerģijas avots",
+			"4. Enerģijas avots, izpildmehānisms, vadība"
+		]
+	},
+	{
+		"id": "10.11",
+		"question": "Kuru no minētajām funkcijām nodrošina pretplūsmas vārsts?",
+		"correct": 3,
+		"answers": [
+			"1. Uztur un regulē spiedienu hidrosistēmā;",
+			"2. Samazina cilindra ātrumu atkarībā no viskozitātes;",
+			"3. Bloķē plūsmu vienā virzienā un nodrošina brīvu plūsmu pretējā virzienā;",
+			"4. Pazemina un nodrošina nemainīgu spiedienu izplūdē, neatkarīgi no spiediena ieplūdē."
+		]
+	},
+	{
+		"id": "10.12",
+		"question": "Kāda pneimatiskā elementa grafiskais apzīmējums parādīts attēlā?",
+		"image": "https://cdn.lejupla.de/cpket/mt/10_12.png",
+		"correct": 4,
+		"answers": [
+			"1. Pneimatiskais kompresors",
+			"2. Plūsmdalis",
+			"3. Vienvirziena vārsts",
+			"4. Pneimocilindrs"
+		]
+	},
+	{
+		"id": "10.13",
+		"question": "Kāda pneimatiskā elementa grafiskais apzīmējums parādīts attēlā?",
+		"image": "https://cdn.lejupla.de/cpket/mt/10_13.png",
+		"correct": 1,
+		"answers": [
+			"1. Plūsmdalis",
+			"2. Redukcijas vārsts",
+			"3. Drosele",
+			"4. Hidrocilindrs"
+		]
+	},
+	{
+		"id": "10.14",
+		"question": "Kādu loģisko funkciju nodrošina attēlā parādītais pneimatiskā elementa grafiskais apzīmējums?",
+		"image": "https://cdn.lejupla.de/cpket/mt/10_14.png",
+		"correct": 3,
+		"answers": [
+			"1. UN",
+			"2. Noliegumu (NOT)",
+			"3. VAI",
+			"4. Laika funkciju (TIME)"
+		]
+	},
+	{
+		"id": "10.15",
+		"question": "Kurš no apgalvojumiem par šķidrumiem un gāzēm ir patiess?",
+		"correct": 1,
+		"answers": [
+			"1. Šķidrums ir praktiski nesaspiežams",
+			"2. Gaisu ir grūtāk saspiest nekā eļļu",
+			"3. Hidraulikā darba šķidrums visbiežāk ir ūdens",
+			"4. Gaiss ir praktiski nesaspiežams"
+		]
+	},
+	{
+		"id": "10.16",
+		"question": "Ko nozīmē pneimatiskais vai hidrauliskais apzīmējums 4/3?",
+		"correct": 4,
+		"answers": [
+			"1. Regulators ar četrām pieslēguma vietām",
+			"2. Trīs vienādi caurplūdes lielumi",
+			"3. Spiediena vārsts ar trīs izejām",
+			"4. Trīs pozīciju plūsmdalis"
+		]
+	},
+	{
+		"id": "10.17",
+		"question": "Kurš no elementiem ietilpst gaisa sagatavošanas modulī?",
+		"correct": 4,
+		"answers": [
+			"1. Pneimatisks motors",
+			"2. Pneimatisks cilindrs",
+			"3. Pneimatiskais pedālis",
+			"4. Redukcijas vārsts"
+		]
+	},
+	{
+		"id": "10.18",
+		"question": "Kurš vārsts novada sūkņa padoto eļļu rezervuārā, ja spiediens hidropiedziņā ir par lielu, t.i., avārijas gadījumā?",
+		"correct": 1,
+		"answers": [
+			"1. Drošības vārsts.",
+			"2. Pārplūdes vārsts.",
+			"3. Spiedienvārsts.",
+			"4. Pretspiediena vārsts."
+		]
+	},
+	{
+		"id": "10.19",
+		"question": "Kā sauc vārstu, kurš novada lieko eļļas plūsmu rezervuārā un automātiski uztur nemainīgu spiedienu pirms šī vārsta hidrosistēmas normālas darbības laikā, kā arī novērš avārijas?",
+		"correct": 2,
+		"answers": [
+			"1. Drošības vārsts.",
+			"2. Pārplūdes vārsts.",
+			"3. Spiedienvārsts.",
+			"4. Pretspiediena vārsts."
+		]
+	},
+	{
+		"id": "10.20",
+		"question": "Nemainīgu un paaugstinātu spiedienu sistēmā pirms šī vārsta nodrošina ...",
+		"correct": 3,
+		"answers": [
+			"1. Drošības vārsts.",
+			"2. Pārplūdes vārsts.",
+			"3. Spiedienvārsts.",
+			"4. Pretspiediena vārsts."
+		]
+	},
+	{
+		"id": "10.21",
+		"question": "Kurš vārsts izplūdes vadā novērš gaisa iekļūšanu hidrosistēmā, padara dzinēja kustību vienmērīgāku, uzņem nejaušas pretēji vērstas slodzes, uztur nelielu vadības un eļļošanas spiedienu, kad sūknis atslogots?",
+		"correct": 4,
+		"answers": [
+			"1. Drošības vārsts.",
+			"2. Pārplūdes vārsts.",
+			"3. Spiedienvārsts.",
+			"4. Pretspiediena vārsts."
+		]
+	},
+	{
+		"id": "10.22",
+		"question": "Kā sauc vārstu, kurš pazemina un uztur nemainīgu spiedienu aiz šī vārsta neatkarīgi no spiediena izmaiņām pirms vārsta?",
+		"correct": 4,
+		"answers": [
+			"1. Drošības vārsts.",
+			"2. Pārplūdes vārsts.",
+			"3. Spiedienvārsts.",
+			"4. Redukcijas vārsts."
 		]
 	}
 ]

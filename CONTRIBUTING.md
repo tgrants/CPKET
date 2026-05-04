@@ -70,7 +70,7 @@ Iespējams pievienot arī ārējos avotus.
 
 ### Jautājumu un atbilžu formāts
 
-```json
+```jsonc
 {
 	"id": "0.0.0", // Jautājuma identifikators, sastāv no skatļiem, kas atdalīti ar punktiem
 	"question": "Kas ir pirmais alfabēta burts?", // Jautājuma tekts
