@@ -43,11 +43,16 @@ document.querySelector("#btnNext").addEventListener("click", function() {
 // Check if answer is correct
 document.querySelector("#btnCheckAnswer").addEventListener("click", function() {
 	// Remove classes marking correct and incorrect answers
-	document.querySelectorAll(".ansLabel").className = "";
+	document.querySelectorAll(".ansLabel").forEach(label => {
+		label.classList.remove("correct-answer", "incorrect-answer");
+	});
 
+	// Show explanation
 	if (question.expl != null) {
 		document.querySelector("#explanation").style.display = "block";
 	}
+
+	// Mark correct and incorrect answers
 	document.querySelector("#ans" + question.correct + "Label").classList.add("correct-answer");
 	let selected = document.querySelector("input[type='radio']:checked")?.value;
 	if (question.correct == selected || isNaN(selected)) return;
@@ -104,10 +109,7 @@ function loadSource(src) {
 }
 
 // Load question by index
-function loadQuestion() {	
-	// Uncheck all radio inputs
-	document.querySelectorAll("input[type='radio']").forEach(input => input.checked = false);
-
+function loadQuestion() {
 	// Hide the "no answer" notice
 	document.querySelector("#noAnswerNotice").style.display = "none";
 
